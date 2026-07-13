@@ -1,0 +1,11 @@
+schema_version: 1
+date: "2026-07-13"
+phrase_id: tr-fistik-gibisin
+tried_by: hiroto
+target_relation: friend
+target_is_native: false
+delivery: verbal
+reaction: laughed
+would_use_again: situational
+note_ja: "発音がまだ怪しくて笑われたが、意味を説明したら盛り上がった。"
+private_ref: "2026-07-13-fistik.md"

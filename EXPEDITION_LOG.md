@@ -6,11 +6,15 @@
 
 - [ ] 10言語到達
 - [ ] 初の `native_confirmed`
-- [ ] 初の噂開封（`/uncover`）
+- [x] 初の噂開封（`/uncover`） — 2026-07-13, `lead-2026-07-13-es-01` → `es-sos-un-bombon`
 - [ ] 初の言語横断比喩ペア発見（`cross_language_equivalents`）
 - [ ] Kのオンボーディング完了
 
 ---
+
+## 2026-07-13（続報）: 開封の儀 通し稽古 — es-sos-un-bombon
+
+`/uncover` の動作確認として、リード `lead-2026-07-13-es-01`（"Sos un bombón" の噂）を開封。既存出典（magikitos.com）を再確認した上で、独立ドメインの第2出典（piropeando.com）を新たに発掘・fetch確認し、`cross_checked` へ昇格（Stage 1 完了）。両出典とも「食べ物＝魅力的な人」という比喩パターンで、トルコ語 "Fıstık gibisin" と同じ構造であることが早くも見えてきた（`metaphor_tags: [food, sweets]` / `[food, nut]`）。地図lite上の「今日の光」が「永続の灯」に変わる、最初の一往復。
 
 ## 2026-07-13: Phase 0 — 基盤の旅
 
