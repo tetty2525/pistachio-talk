@@ -1,0 +1,15 @@
+schema_version: 1
+id: lead-2026-01-01-tr-01
+date: "2026-01-01"
+scouted_by: tester-ai
+language: tr
+country_region: [TR]
+map_anchor: { lat: 39.0, lng: 35.0 }
+teaser_ja: "出典なしの噂"
+candidate:
+  phrase_original: "Test"
+  gloss_hint: "テスト"
+  sources: []
+status: fresh
+picked_for: "2026-01-01"
+resolution: null

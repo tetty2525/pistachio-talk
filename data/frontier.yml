@@ -1,0 +1,85 @@
+# カバレッジの分母。目標言語リスト（約50件）を地域でグルーピングした手動管理ファイル。
+# /dashboard がこれを分母に indexes/coverage.md・frontier.md を生成する。
+# map_anchor は地図lite上でのその言語圏のおおよその重心（代表都市・地域）。
+
+regions:
+  - id: europe
+    name_ja: ヨーロッパ
+    languages:
+      - { code: tr, name_ja: トルコ語, map_anchor: { lat: 39.0, lng: 35.0 } }
+      - { code: es, name_ja: スペイン語, map_anchor: { lat: 40.0, lng: -3.7 } }
+      - { code: fr, name_ja: フランス語, map_anchor: { lat: 46.6, lng: 2.2 } }
+      - { code: it, name_ja: イタリア語, map_anchor: { lat: 42.5, lng: 12.5 } }
+      - { code: pt, name_ja: ポルトガル語, map_anchor: { lat: 39.5, lng: -8.0 } }
+      - { code: de, name_ja: ドイツ語, map_anchor: { lat: 51.0, lng: 10.0 } }
+      - { code: el, name_ja: ギリシャ語, map_anchor: { lat: 39.0, lng: 22.0 } }
+      - { code: ru, name_ja: ロシア語, map_anchor: { lat: 55.75, lng: 37.6 } }
+      - { code: pl, name_ja: ポーランド語, map_anchor: { lat: 52.0, lng: 19.0 } }
+      - { code: sv, name_ja: スウェーデン語, map_anchor: { lat: 62.0, lng: 15.0 } }
+
+  - id: middle_east
+    name_ja: 中東・コーカサス
+    languages:
+      - { code: ar, name_ja: アラビア語, map_anchor: { lat: 26.0, lng: 30.0 } }
+      - { code: fa, name_ja: ペルシア語, map_anchor: { lat: 32.0, lng: 53.0 } }
+      - { code: he, name_ja: ヘブライ語, map_anchor: { lat: 31.0, lng: 35.0 } }
+      - { code: ku, name_ja: クルド語, map_anchor: { lat: 36.0, lng: 43.0 } }
+      - { code: az, name_ja: アゼルバイジャン語, map_anchor: { lat: 40.1, lng: 47.5 } }
+
+  - id: sub_saharan_africa
+    name_ja: サブサハラ・アフリカ
+    languages:
+      - { code: sw, name_ja: スワヒリ語, map_anchor: { lat: -6.0, lng: 35.0 } }
+      - { code: yo, name_ja: ヨルバ語, map_anchor: { lat: 7.5, lng: 4.0 } }
+      - { code: ha, name_ja: ハウサ語, map_anchor: { lat: 11.0, lng: 8.0 } }
+      - { code: zu, name_ja: ズールー語, map_anchor: { lat: -28.5, lng: 31.0 } }
+      - { code: am, name_ja: アムハラ語, map_anchor: { lat: 9.0, lng: 38.7 } }
+      - { code: wo, name_ja: ウォロフ語, map_anchor: { lat: 14.7, lng: -14.5 } }
+      - { code: ig, name_ja: イボ語, map_anchor: { lat: 6.0, lng: 7.4 } }
+      - { code: xh, name_ja: コーサ語, map_anchor: { lat: -32.0, lng: 26.0 } }
+
+  - id: south_asia
+    name_ja: 南アジア
+    languages:
+      - { code: hi, name_ja: ヒンディー語, map_anchor: { lat: 28.6, lng: 77.2 } }
+      - { code: bn, name_ja: ベンガル語, map_anchor: { lat: 23.8, lng: 90.4 } }
+      - { code: ta, name_ja: タミル語, map_anchor: { lat: 11.0, lng: 78.7 } }
+      - { code: ur, name_ja: ウルドゥー語, map_anchor: { lat: 31.5, lng: 74.3 } }
+      - { code: pa, name_ja: パンジャブ語, map_anchor: { lat: 31.0, lng: 75.0 } }
+      - { code: si, name_ja: シンハラ語, map_anchor: { lat: 7.9, lng: 80.7 } }
+
+  - id: east_asia
+    name_ja: 東アジア
+    languages:
+      - { code: ja, name_ja: 日本語, map_anchor: { lat: 36.0, lng: 138.0 } }
+      - { code: ko, name_ja: 韓国語, map_anchor: { lat: 37.5, lng: 127.8 } }
+      - { code: zh, name_ja: 中国語（普通話）, map_anchor: { lat: 39.9, lng: 116.4 } }
+      - { code: yue, name_ja: 広東語, map_anchor: { lat: 22.3, lng: 114.2 } }
+      - { code: mn, name_ja: モンゴル語, map_anchor: { lat: 46.9, lng: 103.8 } }
+
+  - id: southeast_asia
+    name_ja: 東南アジア
+    languages:
+      - { code: th, name_ja: タイ語, map_anchor: { lat: 13.7, lng: 100.5 } }
+      - { code: vi, name_ja: ベトナム語, map_anchor: { lat: 14.0, lng: 108.0 } }
+      - { code: id, name_ja: インドネシア語, map_anchor: { lat: -6.2, lng: 106.8 } }
+      - { code: tl, name_ja: タガログ語, map_anchor: { lat: 14.6, lng: 121.0 } }
+      - { code: km, name_ja: クメール語, map_anchor: { lat: 11.5, lng: 104.9 } }
+      - { code: my, name_ja: ビルマ語, map_anchor: { lat: 16.8, lng: 96.1 } }
+      - { code: lo, name_ja: ラオ語, map_anchor: { lat: 17.9, lng: 102.6 } }
+
+  - id: pacific
+    name_ja: 太平洋・オセアニア
+    languages:
+      - { code: sm, name_ja: サモア語, map_anchor: { lat: -13.8, lng: -171.8 } }
+      - { code: mi, name_ja: マオリ語, map_anchor: { lat: -41.3, lng: 174.8 } }
+      - { code: haw, name_ja: ハワイ語, map_anchor: { lat: 21.3, lng: -157.8 } }
+      - { code: fj, name_ja: フィジー語, map_anchor: { lat: -17.7, lng: 178.0 } }
+
+  - id: americas_indigenous
+    name_ja: 南北アメリカ（先住民・クレオール）
+    languages:
+      - { code: qu, name_ja: ケチュア語, map_anchor: { lat: -13.5, lng: -71.9 } }
+      - { code: nah, name_ja: ナワトル語, map_anchor: { lat: 19.4, lng: -99.1 } }
+      - { code: gn, name_ja: グアラニー語, map_anchor: { lat: -25.3, lng: -57.6 } }
+      - { code: ht, name_ja: ハイチ・クレオール語, map_anchor: { lat: 18.5, lng: -72.3 } }

@@ -1,0 +1,568 @@
+// npm run build:map で自動生成。手で編集しない。
+window.PISTACHIO_MAP_DATA = {
+  "generated_note": "npm run dashboard / npm run build:map で再生成される。手で編集しない。",
+  "width": 960,
+  "height": 480,
+  "frontierPoints": [
+    {
+      "code": "tr",
+      "name_ja": "トルコ語",
+      "region": "ヨーロッパ",
+      "lat": 39,
+      "lng": 35,
+      "phraseCount": 1,
+      "maxStatus": "single_source",
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "es",
+      "name_ja": "スペイン語",
+      "region": "ヨーロッパ",
+      "lat": 40,
+      "lng": -3.7,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": true,
+      "hasOpenLead": false
+    },
+    {
+      "code": "fr",
+      "name_ja": "フランス語",
+      "region": "ヨーロッパ",
+      "lat": 46.6,
+      "lng": 2.2,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "it",
+      "name_ja": "イタリア語",
+      "region": "ヨーロッパ",
+      "lat": 42.5,
+      "lng": 12.5,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "pt",
+      "name_ja": "ポルトガル語",
+      "region": "ヨーロッパ",
+      "lat": 39.5,
+      "lng": -8,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "de",
+      "name_ja": "ドイツ語",
+      "region": "ヨーロッパ",
+      "lat": 51,
+      "lng": 10,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "el",
+      "name_ja": "ギリシャ語",
+      "region": "ヨーロッパ",
+      "lat": 39,
+      "lng": 22,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "ru",
+      "name_ja": "ロシア語",
+      "region": "ヨーロッパ",
+      "lat": 55.75,
+      "lng": 37.6,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "pl",
+      "name_ja": "ポーランド語",
+      "region": "ヨーロッパ",
+      "lat": 52,
+      "lng": 19,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "sv",
+      "name_ja": "スウェーデン語",
+      "region": "ヨーロッパ",
+      "lat": 62,
+      "lng": 15,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "ar",
+      "name_ja": "アラビア語",
+      "region": "中東・コーカサス",
+      "lat": 26,
+      "lng": 30,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "fa",
+      "name_ja": "ペルシア語",
+      "region": "中東・コーカサス",
+      "lat": 32,
+      "lng": 53,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "he",
+      "name_ja": "ヘブライ語",
+      "region": "中東・コーカサス",
+      "lat": 31,
+      "lng": 35,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "ku",
+      "name_ja": "クルド語",
+      "region": "中東・コーカサス",
+      "lat": 36,
+      "lng": 43,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "az",
+      "name_ja": "アゼルバイジャン語",
+      "region": "中東・コーカサス",
+      "lat": 40.1,
+      "lng": 47.5,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "sw",
+      "name_ja": "スワヒリ語",
+      "region": "サブサハラ・アフリカ",
+      "lat": -6,
+      "lng": 35,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "yo",
+      "name_ja": "ヨルバ語",
+      "region": "サブサハラ・アフリカ",
+      "lat": 7.5,
+      "lng": 4,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "ha",
+      "name_ja": "ハウサ語",
+      "region": "サブサハラ・アフリカ",
+      "lat": 11,
+      "lng": 8,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "zu",
+      "name_ja": "ズールー語",
+      "region": "サブサハラ・アフリカ",
+      "lat": -28.5,
+      "lng": 31,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "am",
+      "name_ja": "アムハラ語",
+      "region": "サブサハラ・アフリカ",
+      "lat": 9,
+      "lng": 38.7,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "wo",
+      "name_ja": "ウォロフ語",
+      "region": "サブサハラ・アフリカ",
+      "lat": 14.7,
+      "lng": -14.5,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "ig",
+      "name_ja": "イボ語",
+      "region": "サブサハラ・アフリカ",
+      "lat": 6,
+      "lng": 7.4,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "xh",
+      "name_ja": "コーサ語",
+      "region": "サブサハラ・アフリカ",
+      "lat": -32,
+      "lng": 26,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "hi",
+      "name_ja": "ヒンディー語",
+      "region": "南アジア",
+      "lat": 28.6,
+      "lng": 77.2,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "bn",
+      "name_ja": "ベンガル語",
+      "region": "南アジア",
+      "lat": 23.8,
+      "lng": 90.4,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "ta",
+      "name_ja": "タミル語",
+      "region": "南アジア",
+      "lat": 11,
+      "lng": 78.7,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "ur",
+      "name_ja": "ウルドゥー語",
+      "region": "南アジア",
+      "lat": 31.5,
+      "lng": 74.3,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "pa",
+      "name_ja": "パンジャブ語",
+      "region": "南アジア",
+      "lat": 31,
+      "lng": 75,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "si",
+      "name_ja": "シンハラ語",
+      "region": "南アジア",
+      "lat": 7.9,
+      "lng": 80.7,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "ja",
+      "name_ja": "日本語",
+      "region": "東アジア",
+      "lat": 36,
+      "lng": 138,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "ko",
+      "name_ja": "韓国語",
+      "region": "東アジア",
+      "lat": 37.5,
+      "lng": 127.8,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "zh",
+      "name_ja": "中国語（普通話）",
+      "region": "東アジア",
+      "lat": 39.9,
+      "lng": 116.4,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "yue",
+      "name_ja": "広東語",
+      "region": "東アジア",
+      "lat": 22.3,
+      "lng": 114.2,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "mn",
+      "name_ja": "モンゴル語",
+      "region": "東アジア",
+      "lat": 46.9,
+      "lng": 103.8,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "th",
+      "name_ja": "タイ語",
+      "region": "東南アジア",
+      "lat": 13.7,
+      "lng": 100.5,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "vi",
+      "name_ja": "ベトナム語",
+      "region": "東南アジア",
+      "lat": 14,
+      "lng": 108,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "id",
+      "name_ja": "インドネシア語",
+      "region": "東南アジア",
+      "lat": -6.2,
+      "lng": 106.8,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "tl",
+      "name_ja": "タガログ語",
+      "region": "東南アジア",
+      "lat": 14.6,
+      "lng": 121,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "km",
+      "name_ja": "クメール語",
+      "region": "東南アジア",
+      "lat": 11.5,
+      "lng": 104.9,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "my",
+      "name_ja": "ビルマ語",
+      "region": "東南アジア",
+      "lat": 16.8,
+      "lng": 96.1,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "lo",
+      "name_ja": "ラオ語",
+      "region": "東南アジア",
+      "lat": 17.9,
+      "lng": 102.6,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "sm",
+      "name_ja": "サモア語",
+      "region": "太平洋・オセアニア",
+      "lat": -13.8,
+      "lng": -171.8,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "mi",
+      "name_ja": "マオリ語",
+      "region": "太平洋・オセアニア",
+      "lat": -41.3,
+      "lng": 174.8,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "haw",
+      "name_ja": "ハワイ語",
+      "region": "太平洋・オセアニア",
+      "lat": 21.3,
+      "lng": -157.8,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "fj",
+      "name_ja": "フィジー語",
+      "region": "太平洋・オセアニア",
+      "lat": -17.7,
+      "lng": 178,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "qu",
+      "name_ja": "ケチュア語",
+      "region": "南北アメリカ（先住民・クレオール）",
+      "lat": -13.5,
+      "lng": -71.9,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "nah",
+      "name_ja": "ナワトル語",
+      "region": "南北アメリカ（先住民・クレオール）",
+      "lat": 19.4,
+      "lng": -99.1,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "gn",
+      "name_ja": "グアラニー語",
+      "region": "南北アメリカ（先住民・クレオール）",
+      "lat": -25.3,
+      "lng": -57.6,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    },
+    {
+      "code": "ht",
+      "name_ja": "ハイチ・クレオール語",
+      "region": "南北アメリカ（先住民・クレオール）",
+      "lat": 18.5,
+      "lng": -72.3,
+      "phraseCount": 0,
+      "maxStatus": null,
+      "hasFreshToday": false,
+      "hasOpenLead": false
+    }
+  ],
+  "leadsFresh": [
+    {
+      "id": "lead-2026-07-13-es-01",
+      "lat": -34.9,
+      "lng": -56.2,
+      "teaser_ja": "南米のある国に、甘いお菓子にたとえて誰かを褒める言い回しの噂。親しい相手向けで、使う相手を選ぶタイプらしい。",
+      "intrigue_tags": [
+        "food",
+        "sweets"
+      ],
+      "date": "2026-07-13"
+    }
+  ],
+  "leadsOpen": [],
+  "totals": {
+    "languagesCovered": 1,
+    "languagesTotal": 49,
+    "phrases": 1,
+    "leadsFresh": 1,
+    "leadsOpen": 0
+  }
+};

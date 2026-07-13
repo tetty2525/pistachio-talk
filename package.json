@@ -1,0 +1,22 @@
+{
+  "name": "pistachio-talk",
+  "version": "0.1.0",
+  "private": true,
+  "description": "世界のナンパフレーズ辞典 — 実在するフレーズだけを、出典URL付きで集める共同データベース",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "test": "node scripts/validate.mjs --self-test",
+    "build:indexes": "node scripts/build-indexes.mjs",
+    "build:map": "node scripts/build-map-data.mjs",
+    "dashboard": "npm run build:indexes && npm run build:map",
+    "map": "npm run build:map && open map/index.html"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2",
+    "yaml": "^2.7.0"
+  }
+}

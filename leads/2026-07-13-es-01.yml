@@ -1,0 +1,18 @@
+schema_version: 1
+id: lead-2026-07-13-es-01
+date: "2026-07-13"
+scouted_by: claude-code-hiroto
+language: es
+country_region: [UY]
+map_anchor: { lat: -34.9, lng: -56.2 }
+teaser_ja: "南米のある国に、甘いお菓子にたとえて誰かを褒める言い回しの噂。親しい相手向けで、使う相手を選ぶタイプらしい。"
+intrigue_tags: [food, sweets]
+candidate:
+  phrase_original: "Sos un bombón"
+  gloss_hint: "君はボンボン（キャンディー）のようだ、という趣旨の褒め言葉"
+  sources:
+    - url: https://magikitos.com/castellanario/ser-un-bombon
+      note: "スカウトがfetch確認済み。使用例文・意味・使用場面（親密な関係向け、距離のある相手には不適切になりうる）の3点が揃っていることを確認した。"
+status: fresh
+picked_for: "2026-07-13"
+resolution: null

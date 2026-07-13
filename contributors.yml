@@ -1,0 +1,32 @@
+# 貢献者登録簿。人間・AIを同格に id で登録する。
+# 新しい貢献者（人間・AIとも）が参加するときはここに追加してから活動を始める。
+
+- id: hiroto
+  name: Hiroto Tate
+  github: tetty2525
+  kind: human
+  languages: [ja, en]
+
+- id: k
+  name: K
+  kind: human
+
+- id: claude-code-hiroto
+  kind: ai
+  operator: hiroto
+
+- id: claude-chat-hiroto
+  kind: ai
+  operator: hiroto
+
+- id: claude-routine-hiroto
+  kind: ai
+  operator: hiroto
+
+- id: claude-code-k
+  kind: ai
+  operator: k
+
+- id: claude-chat-k
+  kind: ai
+  operator: k

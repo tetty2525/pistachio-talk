@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pistachio-talk/schema/contributors.schema.json",
+  "title": "Contributors Registry",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["id", "kind"],
+    "properties": {
+      "id": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
+      "name": { "type": "string" },
+      "github": { "type": "string" },
+      "kind": { "type": "string", "enum": ["human", "ai"] },
+      "operator": { "type": "string" },
+      "languages": {
+        "type": "array",
+        "items": { "type": "string" }
+      }
+    },
+    "allOf": [
+      {
+        "if": { "properties": { "kind": { "const": "ai" } } },
+        "then": { "required": ["operator"] }
+      }
+    ]
+  }
+}

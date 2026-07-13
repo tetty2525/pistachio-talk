@@ -1,0 +1,11 @@
+schema_version: 1
+date: "YYYY-MM-DD"
+phrase_id: ""                     # 対象フレーズの id
+tried_by: ""                      # contributors.yml の id（人間）
+target_relation: friend           # friend | coworker | boss | romantic_interest | partner | family | stranger | native_consultant
+target_is_native: false
+delivery: verbal                  # verbal | text
+reaction: neutral                 # charmed | laughed | flattered | confused | neutral | cringed | offended
+would_use_again: situational      # yes | no | situational
+note_ja: ""                       # 自由記述はここのみ。個人特定情報は書かない（第5条）
+private_ref: ""                   # 任意: private/ 内のファイル名

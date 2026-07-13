@@ -1,0 +1,10 @@
+schema_version: 1
+date: "2026-01-02"
+phrase_id: es-eres-un-bombon
+tried_by: tester
+target_relation: friend
+target_is_native: false
+delivery: verbal
+reaction: laughed
+would_use_again: situational
+note_ja: テスト用フィクスチャ。

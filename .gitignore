@@ -1,0 +1,4 @@
+node_modules/
+private/*
+!private/README.md
+.DS_Store

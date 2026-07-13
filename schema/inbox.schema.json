@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pistachio-talk/schema/inbox.schema.json",
+  "title": "Inbox Draft (unverified submission)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "phrase_original", "language", "source_url", "submitted_by", "status"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "id": { "type": "string" },
+    "phrase_original": { "type": "string", "minLength": 1 },
+    "language": { "type": "string" },
+    "source_url": { "type": "string", "format": "uri" },
+    "meaning_hint": { "type": "string" },
+    "discovery_note": { "type": "string" },
+    "submitted_by": { "type": "string", "minLength": 1 },
+    "submitted_via": {
+      "type": "string",
+      "enum": ["github_issue", "inbox_file"]
+    },
+    "status": { "const": "unverified" },
+    "submitted_at": { "type": "string", "format": "date" }
+  }
+}

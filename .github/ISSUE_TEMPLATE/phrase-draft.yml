@@ -1,0 +1,50 @@
+name: フレーズ下書き（Claude Chat 等から）
+description: git操作ができない環境（Claude Chatなど）で見つけたフレーズ候補を投稿する
+title: "[draft] "
+labels: ["inbox"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Claude Chat との会話で見つけたフレーズをここに投稿してください。`/harvest-inbox` スキルが回収し、出典を検証した上で正式エントリ化します。
+  - type: input
+    id: phrase_original
+    attributes:
+      label: フレーズ原文
+      placeholder: "例: Fıstık gibisin"
+    validations:
+      required: true
+  - type: input
+    id: language
+    attributes:
+      label: 言語（ISO 639-1/639-3コード、分かる範囲でよい）
+      placeholder: "例: tr"
+    validations:
+      required: true
+  - type: input
+    id: source_url
+    attributes:
+      label: 出典URL（意味・使用例が書いてあるページ）
+      placeholder: "https://..."
+    validations:
+      required: true
+  - type: textarea
+    id: meaning_hint
+    attributes:
+      label: 意味の要約（分かる範囲でよい）
+    validations:
+      required: false
+  - type: textarea
+    id: discovery_note
+    attributes:
+      label: 発見の経緯
+      placeholder: どんな会話・調査でこのフレーズにたどり着いたか
+    validations:
+      required: false
+  - type: input
+    id: submitted_by
+    attributes:
+      label: あなたの contributors.yml 上の id
+      placeholder: "例: hiroto"
+    validations:
+      required: true

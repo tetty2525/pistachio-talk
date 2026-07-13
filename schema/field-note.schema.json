@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pistachio-talk/schema/field-note.schema.json",
+  "title": "Field Note (shared layer)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "date",
+    "phrase_id",
+    "tried_by",
+    "target_relation",
+    "target_is_native",
+    "delivery",
+    "reaction",
+    "would_use_again",
+    "note_ja"
+  ],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "date": { "type": "string", "format": "date" },
+    "phrase_id": { "type": "string", "pattern": "^[a-z]{2,3}-[a-z0-9-]+$" },
+    "tried_by": { "type": "string", "minLength": 1 },
+    "target_relation": {
+      "type": "string",
+      "enum": [
+        "friend",
+        "coworker",
+        "boss",
+        "romantic_interest",
+        "partner",
+        "family",
+        "stranger",
+        "native_consultant"
+      ]
+    },
+    "target_is_native": { "type": "boolean" },
+    "delivery": { "type": "string", "enum": ["verbal", "text"] },
+    "reaction": {
+      "type": "string",
+      "enum": ["charmed", "laughed", "flattered", "confused", "neutral", "cringed", "offended"]
+    },
+    "would_use_again": {
+      "type": "string",
+      "enum": ["yes", "no", "situational"]
+    },
+    "note_ja": { "type": "string", "minLength": 1 },
+    "private_ref": { "type": "string" }
+  }
+}

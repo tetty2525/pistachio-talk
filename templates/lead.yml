@@ -1,0 +1,18 @@
+schema_version: 1
+id: lead-YYYY-MM-DD-<lang>-<連番>
+date: "YYYY-MM-DD"
+scouted_by: ""                   # contributors.yml の id（AI）
+language: ""
+country_region: []
+map_anchor: { lat: 0.0, lng: 0.0 }   # 地域の重心
+teaser_ja: ""                    # フレーズ本体・直訳を含めない。性格や面白みの匂わせのみ
+intrigue_tags: []                 # 例: [food, retro]
+candidate:
+  phrase_original: ""             # 地図には出さない中身
+  gloss_hint: ""
+  sources:
+    - url: ""                     # 実際にfetchして存在確認したURL
+      note: ""
+status: fresh                     # fresh | open | collected | rejected
+picked_for: "YYYY-MM-DD"
+resolution: null                  # collected → { phrase_id: "..." } / rejected → { reason: "..." }

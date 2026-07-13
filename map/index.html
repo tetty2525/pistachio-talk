@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<title>pistachio-talk — 世界地図 (lite)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  :root {
+    color-scheme: dark;
+    --bg: #0b1220;
+    --ocean: #111a2e;
+    --land: #2a3550;
+    --land-stroke: #3c4a6e;
+    --text: #e8ecf5;
+    --muted: #8b96b3;
+    --panel-bg: #131c30;
+    --panel-border: #2a3550;
+    --amber: #f5b83d;
+    --orange: #ff8c42;
+    --pink: #ff5470;
+    --violet: #b48cff;
+    --dim: #4a5568;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif;
+    overflow-x: hidden;
+  }
+  header {
+    padding: 1rem 1.25rem 0.5rem;
+  }
+  header h1 {
+    font-size: 1.15rem;
+    margin: 0 0 0.2rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+  }
+  header p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+  .layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0.5rem 1.25rem 1.5rem;
+    align-items: flex-start;
+  }
+  .map-wrap {
+    flex: 1 1 600px;
+    min-width: 300px;
+    background: var(--ocean);
+    border-radius: 12px;
+    border: 1px solid var(--panel-border);
+    overflow: hidden;
+  }
+  svg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .land { fill: var(--land); stroke: var(--land-stroke); stroke-width: 0.5; }
+
+  .pt { cursor: pointer; }
+  .pt-dim { fill: var(--dim); opacity: 0.55; }
+  .pt-lead-ring { fill: none; stroke: var(--violet); stroke-width: 1; opacity: 0.6; }
+  .pt-covered-single { fill: var(--amber); }
+  .pt-covered-cross { fill: var(--orange); }
+  .pt-covered-native { fill: var(--pink); }
+  .pt-covered { filter: drop-shadow(0 0 4px currentColor); }
+
+  .pulse-fresh {
+    fill: var(--pink);
+    animation: pulse-fresh 1.6s ease-in-out infinite;
+    cursor: pointer;
+  }
+  .pulse-open {
+    fill: var(--violet);
+    opacity: 0.75;
+    animation: pulse-open 3.2s ease-in-out infinite;
+    cursor: pointer;
+  }
+  @keyframes pulse-fresh {
+    0%, 100% { r: 5; opacity: 1; }
+    50% { r: 9; opacity: 0.55; }
+  }
+  @keyframes pulse-open {
+    0%, 100% { r: 3.5; opacity: 0.75; }
+    50% { r: 6; opacity: 0.3; }
+  }
+
+  .panel {
+    flex: 0 0 300px;
+    min-width: 260px;
+    background: var(--panel-bg);
+    border: 1px solid var(--panel-border);
+    border-radius: 12px;
+    padding: 1rem 1.1rem;
+    font-size: 0.85rem;
+    line-height: 1.6;
+  }
+  .panel h2 {
+    font-size: 0.95rem;
+    margin: 0 0 0.6rem;
+  }
+  .panel .stat-row {
+    display: flex;
+    justify-content: space-between;
+    color: var(--muted);
+    margin-bottom: 0.3rem;
+  }
+  .panel .stat-row strong { color: var(--text); }
+  .legend {
+    margin-top: 0.9rem;
+    padding-top: 0.9rem;
+    border-top: 1px solid var(--panel-border);
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.4rem;
+    color: var(--muted);
+  }
+  .swatch { width: 10px; height: 10px; border-radius: 50%; flex: none; }
+  .detail {
+    margin-top: 0.9rem;
+    padding-top: 0.9rem;
+    border-top: 1px solid var(--panel-border);
+  }
+  .detail .tag {
+    display: inline-block;
+    background: #1e2942;
+    color: var(--muted);
+    border-radius: 999px;
+    padding: 0.1rem 0.6rem;
+    font-size: 0.72rem;
+    margin: 0.15rem 0.25rem 0 0;
+  }
+  .hint { color: var(--muted); font-size: 0.78rem; margin-top: 0.4rem; }
+  code {
+    background: #1e2942;
+    padding: 0.1rem 0.35rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>pistachio-talk — 世界地図 (lite)</h1>
+  <p>毎朝の光をクリックして開封する。<code>/uncover &lt;lead-id&gt;</code> で正体が明かされる。</p>
+</header>
+<div class="layout">
+  <div class="map-wrap">
+    <svg id="map" viewBox="0 0 960 480" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0" y="0" width="960" height="480" fill="#111a2e"></rect>
+      <path class="land" id="land-path" d=""></path>
+      <g id="points-layer"></g>
+    </svg>
+  </div>
+  <div class="panel" id="panel">
+    <h2>概況</h2>
+    <div id="overview"></div>
+    <div class="legend">
+      <div class="legend-item"><span class="swatch" style="background:var(--dim)"></span> 未踏の言語</div>
+      <div class="legend-item"><span class="swatch" style="background:var(--amber)"></span> 収録済み（single_source）</div>
+      <div class="legend-item"><span class="swatch" style="background:var(--orange)"></span> 収録済み（cross_checked）</div>
+      <div class="legend-item"><span class="swatch" style="background:var(--pink)"></span> 収録済み（native_confirmed）</div>
+      <div class="legend-item"><span class="swatch" style="background:var(--pink)"></span> 今日の光（脈打つ）</div>
+      <div class="legend-item"><span class="swatch" style="background:var(--violet)"></span> 残っている噂（脈打つ）</div>
+    </div>
+    <div class="detail" id="detail" style="display:none;"></div>
+  </div>
+</div>
+
+<script src="world-land.js"></script>
+<script src="map-data.js"></script>
+<script>
+(function () {
+  const DATA = window.PISTACHIO_MAP_DATA;
+  const LAND_PATH = window.PISTACHIO_WORLD_LAND_PATH;
+  const W = DATA.width, H = DATA.height;
+
+  document.getElementById("land-path").setAttribute("d", LAND_PATH || "");
+
+  function project(lat, lng) {
+    const x = (lng + 180) * (W / 360);
+    const y = (90 - lat) * (H / 180);
+    return [x, y];
+  }
+
+  const svgNS = "http://www.w3.org/2000/svg";
+  const layer = document.getElementById("points-layer");
+
+  function addCircle(cx, cy, r, className, onClick) {
+    const c = document.createElementNS(svgNS, "circle");
+    c.setAttribute("cx", cx);
+    c.setAttribute("cy", cy);
+    c.setAttribute("r", r);
+    c.setAttribute("class", className);
+    if (onClick) c.addEventListener("click", onClick);
+    layer.appendChild(c);
+    return c;
+  }
+
+  const statusClass = {
+    single_source: "pt-covered-single",
+    cross_checked: "pt-covered-cross",
+    native_confirmed: "pt-covered-native",
+  };
+
+  function showDetail(html) {
+    const d = document.getElementById("detail");
+    d.style.display = "block";
+    d.innerHTML = html;
+  }
+
+  // frontier言語（未踏〜収録済み）
+  for (const p of DATA.frontierPoints) {
+    const [x, y] = project(p.lat, p.lng);
+    if (p.phraseCount > 0) {
+      const cls = "pt pt-covered " + (statusClass[p.maxStatus] || "pt-covered-single");
+      const r = Math.min(10, 5 + p.phraseCount);
+      addCircle(x, y, r, cls, () => {
+        showDetail(
+          `<strong>${p.name_ja}</strong>（${p.code}）<br>` +
+          `地域: ${p.region}<br>` +
+          `収録フレーズ数: ${p.phraseCount}<br>` +
+          `最高検証段階: ${p.maxStatus}<br>` +
+          `<div class="hint">中身は紙の辞書UI（Phase 3）で読めるようになる予定。</div>`
+        );
+      });
+    } else {
+      addCircle(x, y, 3, "pt pt-dim", () => {
+        showDetail(`<strong>${p.name_ja}</strong>（${p.code}）<br>地域: ${p.region}<br>未踏の言語です。`);
+      });
+      if (p.hasOpenLead && !p.hasFreshToday) {
+        addCircle(x, y, 6, "pt-lead-ring");
+      }
+    }
+  }
+
+  // 今日の光
+  for (const l of DATA.leadsFresh) {
+    const [x, y] = project(l.lat, l.lng);
+    addCircle(x, y, 5, "pulse-fresh", () => {
+      showDetail(
+        `<strong>今日の光</strong><br>` +
+        `${l.teaser_ja}<br>` +
+        (l.intrigue_tags || []).map((t) => `<span class="tag">${t}</span>`).join("") +
+        `<div class="hint">開封するには: <code>/uncover ${l.id}</code></div>`
+      );
+    });
+  }
+
+  // 残っている噂
+  for (const l of DATA.leadsOpen) {
+    const [x, y] = project(l.lat, l.lng);
+    addCircle(x, y, 3.5, "pulse-open", () => {
+      showDetail(
+        `<strong>残っている噂</strong>（${l.date}）<br>` +
+        `${l.teaser_ja}<br>` +
+        (l.intrigue_tags || []).map((t) => `<span class="tag">${t}</span>`).join("") +
+        `<div class="hint">開封するには: <code>/uncover ${l.id}</code></div>`
+      );
+    });
+  }
+
+  document.getElementById("overview").innerHTML = `
+    <div class="stat-row"><span>言語カバー</span><strong>${DATA.totals.languagesCovered} / ${DATA.totals.languagesTotal}</strong></div>
+    <div class="stat-row"><span>総フレーズ数</span><strong>${DATA.totals.phrases}</strong></div>
+    <div class="stat-row"><span>今日の光</span><strong>${DATA.totals.leadsFresh}</strong></div>
+    <div class="stat-row"><span>残っている噂</span><strong>${DATA.totals.leadsOpen}</strong></div>
+  `;
+})();
+</script>
+</body>
+</html>

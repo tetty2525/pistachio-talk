@@ -1,0 +1,158 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pistachio-talk/schema/phrase.schema.json",
+  "title": "Phrase Entry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "phrase_original",
+    "language",
+    "script",
+    "country_region",
+    "romanization",
+    "pronunciation_ipa",
+    "literal_translation_ja",
+    "gloss_ja",
+    "pos_label",
+    "sort_key",
+    "register",
+    "origin_type",
+    "sources",
+    "verification",
+    "stage",
+    "found_by",
+    "created",
+    "updated"
+  ],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z]{2,3}-[a-z0-9-]+$"
+    },
+    "phrase_original": { "type": "string", "minLength": 1 },
+    "language": { "type": "string", "pattern": "^[a-z]{2,3}$" },
+    "language_name_ja": { "type": "string" },
+    "script": { "type": "string", "minLength": 1 },
+    "country_region": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^[A-Z]{2}$" },
+      "minItems": 1
+    },
+    "romanization": { "type": "string", "minLength": 1 },
+    "pronunciation_ipa": { "type": "string", "minLength": 1 },
+    "literal_translation_ja": { "type": "string", "minLength": 1 },
+    "gloss_ja": { "type": "string", "minLength": 1 },
+    "pos_label": { "type": "string", "minLength": 1 },
+    "sort_key": { "type": "string", "minLength": 1 },
+    "register": {
+      "type": "string",
+      "enum": ["formal", "casual", "slang", "vulgar"]
+    },
+    "register_warnings_ja": { "type": "string" },
+    "gender_direction": {
+      "type": "string",
+      "enum": ["m_to_f", "f_to_m", "m_to_m", "f_to_f", "any_to_any", "unknown"]
+    },
+    "harassment_context": { "type": "string" },
+    "origin_type": {
+      "type": "string",
+      "enum": ["folk", "literary", "media", "commercial", "unknown"]
+    },
+    "metaphor_tags": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^[a-z][a-z0-9_]*$" },
+      "uniqueItems": true
+    },
+    "usage_examples": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["original", "translation_ja"],
+        "properties": {
+          "original": { "type": "string", "minLength": 1 },
+          "translation_ja": { "type": "string", "minLength": 1 },
+          "context": { "type": "string" }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["url", "type", "covers", "accessed"],
+        "properties": {
+          "url": { "type": "string", "format": "uri" },
+          "title": { "type": "string" },
+          "site": { "type": "string" },
+          "author": { "type": "string" },
+          "author_is_native": {
+            "type": ["boolean", "string"],
+            "enum": [true, false, "unknown"]
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "dictionary_academic",
+              "language_media",
+              "native_personal",
+              "forum_ugc"
+            ]
+          },
+          "covers": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "enum": ["phrase", "meaning", "usage"]
+            },
+            "uniqueItems": true
+          },
+          "accessed": { "type": "string", "format": "date" }
+        }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status"],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["unverified", "single_source", "cross_checked", "native_confirmed"]
+        },
+        "evidence": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "stage": { "type": "integer", "minimum": 0, "maximum": 3 },
+    "found_by": { "type": "string", "minLength": 1 },
+    "researched_by": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "verified_by": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "related_phrases": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^[a-z]{2,3}-[a-z0-9-]+$" }
+    },
+    "cross_language_equivalents": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^[a-z]{2,3}-[a-z0-9-]+$" }
+    },
+    "no_known_equivalents": { "type": "boolean" },
+    "lead_id": { "type": "string" },
+    "created": { "type": "string", "format": "date" },
+    "updated": { "type": "string", "format": "date" }
+  }
+}

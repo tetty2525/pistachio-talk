@@ -1,0 +1,3 @@
+- id: tester-ai
+  kind: ai
+  operator: tester
