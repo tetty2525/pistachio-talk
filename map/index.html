@@ -19,6 +19,7 @@
     --orange: #ff8c42;
     --pink: #ff5470;
     --violet: #b48cff;
+    --mint: #7fe0c3;
     --dim: #4a5568;
   }
   * { box-sizing: border-box; }
@@ -92,6 +93,20 @@
   @keyframes pulse-open {
     0%, 100% { r: 3.5; opacity: 0.75; }
     50% { r: 6; opacity: 0.3; }
+  }
+
+  .essence {
+    fill: var(--mint);
+    opacity: 0.85;
+    cursor: pointer;
+    filter: drop-shadow(0 0 3px var(--mint));
+  }
+  .essence-new {
+    animation: shimmer 3.5s ease-in-out infinite;
+  }
+  @keyframes shimmer {
+    0%, 100% { opacity: 0.9; }
+    50% { opacity: 0.35; }
   }
 
   .panel {
@@ -174,6 +189,8 @@
       <div class="legend-item"><span class="swatch" style="background:var(--pink)"></span> 収録済み（native_confirmed）</div>
       <div class="legend-item"><span class="swatch" style="background:var(--pink)"></span> 今日の光（脈打つ）</div>
       <div class="legend-item"><span class="swatch" style="background:var(--violet)"></span> 残っている噂（脈打つ）</div>
+      <div class="legend-item"><span class="swatch" style="background:var(--mint); border-radius:2px; transform:rotate(45deg)"></span> 素材の香り（エッセンス・菱形）</div>
+      <div class="legend-item"><span class="swatch" style="background:var(--mint); border-radius:2px; transform:rotate(45deg); opacity:0.5"></span> 今日届いた素材（ゆっくり明滅）</div>
     </div>
     <div class="detail" id="detail" style="display:none;"></div>
   </div>
@@ -207,6 +224,19 @@
     if (onClick) c.addEventListener("click", onClick);
     layer.appendChild(c);
     return c;
+  }
+
+  function addDiamond(cx, cy, size, className, onClick) {
+    const rect = document.createElementNS(svgNS, "rect");
+    rect.setAttribute("x", cx - size / 2);
+    rect.setAttribute("y", cy - size / 2);
+    rect.setAttribute("width", size);
+    rect.setAttribute("height", size);
+    rect.setAttribute("transform", `rotate(45 ${cx} ${cy})`);
+    rect.setAttribute("class", className);
+    if (onClick) rect.addEventListener("click", onClick);
+    layer.appendChild(rect);
+    return rect;
   }
 
   const statusClass = {
@@ -259,6 +289,19 @@
     });
   }
 
+  // 素材の香り（エッセンス）
+  for (const e of DATA.essencePoints || []) {
+    const [x, y] = project(e.lat, e.lng);
+    addDiamond(x, y, 7, "essence" + (e.isNew ? " essence-new" : ""), () => {
+      showDetail(
+        `<strong>${e.name_ja}</strong>${e.isNew ? "（今日届いた素材）" : ""}<br>` +
+        `文化圏: ${e.culture_ja} / 分類: ${e.category}<br>` +
+        `${e.metaphor_potential_ja}<br>` +
+        `<div class="hint">この素材で調理するには: <code>npm run kitchen</code> で厨房へ（\`${e.id}\`）</div>`
+      );
+    });
+  }
+
   // 残っている噂
   for (const l of DATA.leadsOpen) {
     const [x, y] = project(l.lat, l.lng);
@@ -277,6 +320,7 @@
     <div class="stat-row"><span>総フレーズ数</span><strong>${DATA.totals.phrases}</strong></div>
     <div class="stat-row"><span>今日の光</span><strong>${DATA.totals.leadsFresh}</strong></div>
     <div class="stat-row"><span>残っている噂</span><strong>${DATA.totals.leadsOpen}</strong></div>
+    <div class="stat-row"><span>パントリーの素材</span><strong>${DATA.totals.essences ?? 0}</strong></div>
   `;
 })();
 </script>

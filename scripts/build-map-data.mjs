@@ -70,6 +70,12 @@ function loadLeads() {
     .filter(Boolean);
 }
 
+function loadEssences() {
+  return walk(path.join(ROOT, "essences"), [".md"])
+    .map((file) => loadYamlOrFrontmatter(file).data)
+    .filter(Boolean);
+}
+
 function buildMapData() {
   const frontier = loadFrontier();
   const phrases = loadPhrases();
@@ -129,6 +135,19 @@ function buildMapData() {
       date: l.date,
     }));
 
+  const essences = loadEssences();
+  const twoDaysAgo = new Date(Date.now() - 2 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+  const essencePoints = essences.map((e) => ({
+    id: e.id,
+    name_ja: e.name_ja,
+    category: e.category,
+    culture_ja: e.culture_ja,
+    metaphor_potential_ja: e.metaphor_potential_ja,
+    lat: e.map_anchor.lat,
+    lng: e.map_anchor.lng,
+    isNew: e.created >= twoDaysAgo,
+  }));
+
   return {
     generated_note: "npm run dashboard / npm run build:map で再生成される。手で編集しない。",
     width: WIDTH,
@@ -136,12 +155,15 @@ function buildMapData() {
     frontierPoints,
     leadsFresh,
     leadsOpen,
+    essencePoints,
     totals: {
       languagesCovered: frontierPoints.filter((p) => p.phraseCount > 0).length,
       languagesTotal: frontierPoints.length,
       phrases: phrases.length,
       leadsFresh: leadsFresh.length,
       leadsOpen: leadsOpen.length,
+      essences: essencePoints.length,
+      essencesNew: essencePoints.filter((e) => e.isNew).length,
     },
   };
 }
@@ -165,7 +187,7 @@ function main() {
   );
 
   console.log(
-    `地図データを再生成しました（言語カバー: ${mapData.totals.languagesCovered}/${mapData.totals.languagesTotal}、今日の光: ${mapData.totals.leadsFresh}、噂: ${mapData.totals.leadsOpen}）`
+    `地図データを再生成しました（言語カバー: ${mapData.totals.languagesCovered}/${mapData.totals.languagesTotal}、今日の光: ${mapData.totals.leadsFresh}、噂: ${mapData.totals.leadsOpen}、素材: ${mapData.totals.essences}）`
   );
 }
 

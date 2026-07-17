@@ -9,8 +9,10 @@
     "test": "node scripts/validate.mjs --self-test",
     "build:indexes": "node scripts/build-indexes.mjs",
     "build:map": "node scripts/build-map-data.mjs",
-    "dashboard": "npm run build:indexes && npm run build:map",
-    "map": "npm run build:map && open map/index.html"
+    "build:kitchen": "node scripts/build-kitchen-data.mjs",
+    "dashboard": "npm run build:indexes && npm run build:map && npm run build:kitchen",
+    "map": "npm run build:map && open map/index.html",
+    "kitchen": "npm run build:kitchen && open kitchen/index.html"
   },
   "devDependencies": {
     "ajv": "^8.17.1",

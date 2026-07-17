@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<title>pistachio-talk — 料理場 (Kitchen)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  :root {
+    color-scheme: light;
+    --paper: #faf3e7;
+    --card: #fffdf8;
+    --ink: #3d3026;
+    --muted: #8a7a66;
+    --terracotta: #c96f4a;
+    --amber: #d9962e;
+    --olive: #7a8450;
+    --mint: #2e9e7e;
+    --line: #e5d9c5;
+    --shadow: rgba(61, 48, 38, 0.08);
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif;
+  }
+  header {
+    padding: 1.2rem 1.5rem 0.8rem;
+    border-bottom: 2px solid var(--line);
+  }
+  header h1 { font-size: 1.2rem; margin: 0 0 0.25rem; letter-spacing: 0.03em; }
+  header p { margin: 0; color: var(--muted); font-size: 0.85rem; }
+  nav {
+    display: flex;
+    gap: 0.4rem;
+    padding: 0.8rem 1.5rem 0;
+    flex-wrap: wrap;
+  }
+  nav button {
+    border: 1px solid var(--line);
+    background: var(--card);
+    color: var(--ink);
+    border-radius: 999px 999px 0 0;
+    padding: 0.5rem 1.1rem;
+    font-size: 0.85rem;
+    cursor: pointer;
+  }
+  nav button.active {
+    background: var(--terracotta);
+    border-color: var(--terracotta);
+    color: #fff;
+    font-weight: 600;
+  }
+  main { padding: 1.2rem 1.5rem 3rem; }
+  section { display: none; }
+  section.active { display: block; }
+
+  .filters { display: flex; gap: 0.35rem; flex-wrap: wrap; margin-bottom: 1rem; }
+  .chip {
+    border: 1px solid var(--line);
+    background: var(--card);
+    border-radius: 999px;
+    padding: 0.2rem 0.75rem;
+    font-size: 0.78rem;
+    cursor: pointer;
+    color: var(--muted);
+  }
+  .chip.active { background: var(--olive); border-color: var(--olive); color: #fff; }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 0.8rem;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--mint);
+    border-radius: 10px;
+    padding: 0.8rem 0.95rem;
+    box-shadow: 0 2px 6px var(--shadow);
+    font-size: 0.84rem;
+    line-height: 1.55;
+  }
+  .card h3 { margin: 0 0 0.2rem; font-size: 0.95rem; }
+  .card .meta { color: var(--muted); font-size: 0.75rem; margin-bottom: 0.4rem; }
+  .card .pot { color: var(--ink); }
+  .card .tags { margin-top: 0.45rem; }
+  .tag {
+    display: inline-block;
+    background: #f0e6d4;
+    color: var(--muted);
+    border-radius: 999px;
+    padding: 0.08rem 0.55rem;
+    font-size: 0.7rem;
+    margin: 0.12rem 0.2rem 0 0;
+  }
+  .card .add-btn {
+    margin-top: 0.55rem;
+    border: 1px solid var(--terracotta);
+    color: var(--terracotta);
+    background: transparent;
+    border-radius: 6px;
+    padding: 0.28rem 0.7rem;
+    font-size: 0.78rem;
+    cursor: pointer;
+  }
+  .card .add-btn.added { background: var(--terracotta); color: #fff; }
+  .card.phrase-card { border-left-color: var(--amber); }
+  .card.recipe-card { border-left-color: var(--terracotta); }
+  .card.recipe-card .text { font-size: 1rem; font-weight: 600; margin-bottom: 0.3rem; }
+
+  .composer { max-width: 640px; }
+  .composer label { display: block; font-size: 0.82rem; color: var(--muted); margin: 0.8rem 0 0.25rem; }
+  .composer select, .composer input {
+    width: 100%;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: var(--card);
+    padding: 0.5rem 0.7rem;
+    font-size: 0.88rem;
+    color: var(--ink);
+  }
+  .basket {
+    background: var(--card);
+    border: 1px dashed var(--olive);
+    border-radius: 10px;
+    padding: 0.7rem 0.9rem;
+    min-height: 2.6rem;
+    font-size: 0.84rem;
+  }
+  .basket .empty { color: var(--muted); }
+  .basket .item {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: #eef2e3;
+    border-radius: 999px;
+    padding: 0.18rem 0.7rem;
+    margin: 0.15rem 0.25rem 0.15rem 0;
+    font-size: 0.78rem;
+  }
+  .basket .item button {
+    border: none; background: none; cursor: pointer; color: var(--muted); font-size: 0.85rem; padding: 0;
+  }
+  .order-box {
+    margin-top: 1rem;
+    background: #322921;
+    color: #f3e9d8;
+    border-radius: 10px;
+    padding: 0.9rem 1rem;
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-size: 0.8rem;
+    white-space: pre-wrap;
+    line-height: 1.6;
+  }
+  .copy-btn {
+    margin-top: 0.6rem;
+    background: var(--terracotta);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 0.55rem 1.3rem;
+    font-size: 0.88rem;
+    cursor: pointer;
+  }
+  .hint { color: var(--muted); font-size: 0.78rem; margin-top: 0.5rem; }
+  .empty-note { color: var(--muted); font-size: 0.85rem; padding: 1rem 0; }
+  code { background: #f0e6d4; padding: 0.08rem 0.35rem; border-radius: 4px; font-size: 0.8em; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🍳 料理場 — pistachio-talk Kitchen</h1>
+  <p>夜の地図で集めた素材を、昼の厨房で調理する。素材を籠に入れ、注文書を Claude Code に渡すと <code>/cook</code> が始まる。</p>
+</header>
+<nav>
+  <button data-tab="pantry" class="active">パントリー棚</button>
+  <button data-tab="shelf">比喩の棚</button>
+  <button data-tab="composer">レシピコンポーザー</button>
+  <button data-tab="recipes">レシピ帳</button>
+</nav>
+<main>
+  <section id="pantry" class="active">
+    <div class="filters" id="pantry-filters"></div>
+    <div class="grid" id="pantry-grid"></div>
+    <div class="empty-note" id="pantry-empty" style="display:none">
+      まだ素材がありません。<code>/forage &lt;テーマ&gt;</code> で採集するか、毎朝のスカウトの収穫を待ちましょう。
+    </div>
+  </section>
+  <section id="shelf">
+    <p class="hint" style="margin-bottom:1rem">世界はこう例えてきた — 収集済みの本物のキザなセリフたち。創作の着想元として籠に入れられる。</p>
+    <div class="grid" id="shelf-grid"></div>
+    <div class="empty-note" id="shelf-empty" style="display:none">まだ収集フレーズがありません。</div>
+  </section>
+  <section id="composer">
+    <div class="composer">
+      <label>籠の中身（パントリー棚・比喩の棚から追加）</label>
+      <div class="basket" id="basket"><span class="empty">まだ空です。棚から素材を選んでください。</span></div>
+      <label for="relation">相手</label>
+      <select id="relation">
+        <option value="romantic_interest">気になる人 (romantic_interest)</option>
+        <option value="partner">恋人・伴侶 (partner)</option>
+        <option value="friend">友達 (friend)</option>
+        <option value="coworker">同僚 (coworker)</option>
+        <option value="boss">上司 (boss)</option>
+        <option value="family">家族 (family)</option>
+        <option value="stranger">初対面 (stranger)</option>
+      </select>
+      <label for="scene">場面（自由入力）</label>
+      <input id="scene" placeholder="例: 月見の帰り道、送別会の乾杯前" />
+      <label for="tone">トーン</label>
+      <select id="tone">
+        <option value="poetic">詩的 (poetic)</option>
+        <option value="sweet">甘い (sweet)</option>
+        <option value="playful">遊び心 (playful)</option>
+        <option value="witty">機知 (witty)</option>
+        <option value="gentle">やわらか (gentle)</option>
+        <option value="bold">大胆 (bold)</option>
+      </select>
+      <label for="lang">言語</label>
+      <select id="lang">
+        <option value="ja">日本語 (ja)</option>
+        <option value="en">英語 (en)</option>
+        <option value="other">その他（注文書を編集）</option>
+      </select>
+      <div class="order-box" id="order-box"></div>
+      <button class="copy-btn" id="copy-btn">注文書をコピー</button>
+      <div class="hint">コピーした注文書を Claude Code に貼ると、<code>/cook</code> が素材を確かめて調理（下書き→推敲→保存）を始めます。</div>
+    </div>
+  </section>
+  <section id="recipes">
+    <div class="grid" id="recipes-grid"></div>
+    <div class="empty-note" id="recipes-empty" style="display:none">
+      まだ創作がありません。コンポーザーで注文書を作り、最初の一皿を仕込みましょう。
+    </div>
+  </section>
+</main>
+
+<script src="kitchen-data.js"></script>
+<script>
+(function () {
+  const DATA = window.PISTACHIO_KITCHEN_DATA || { essences: [], phrases: [], creations: [] };
+  const CATEGORY_LABELS = {
+    nature: "自然", flora: "草花", fauna: "動物", food: "食", celestial: "天体",
+    poetry: "詩歌", myth: "神話・物語", custom: "習慣・風習", craft: "工芸", place: "土地", language: "ことば",
+  };
+
+  const basket = new Map(); // id -> {id, label, kind}
+
+  // --- タブ切り替え ---
+  document.querySelectorAll("nav button").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll("nav button").forEach((b) => b.classList.remove("active"));
+      document.querySelectorAll("main section").forEach((s) => s.classList.remove("active"));
+      btn.classList.add("active");
+      document.getElementById(btn.dataset.tab).classList.add("active");
+    });
+  });
+
+  // --- パントリー棚 ---
+  let activeCategory = null;
+  function renderPantryFilters() {
+    const cats = [...new Set(DATA.essences.map((e) => e.category))];
+    const el = document.getElementById("pantry-filters");
+    el.innerHTML = "";
+    if (cats.length === 0) return;
+    const all = document.createElement("span");
+    all.className = "chip" + (activeCategory === null ? " active" : "");
+    all.textContent = "すべて";
+    all.onclick = () => { activeCategory = null; renderPantry(); };
+    el.appendChild(all);
+    for (const c of cats) {
+      const chip = document.createElement("span");
+      chip.className = "chip" + (activeCategory === c ? " active" : "");
+      chip.textContent = CATEGORY_LABELS[c] || c;
+      chip.onclick = () => { activeCategory = c; renderPantry(); };
+      el.appendChild(chip);
+    }
+  }
+  function renderPantry() {
+    renderPantryFilters();
+    const grid = document.getElementById("pantry-grid");
+    grid.innerHTML = "";
+    const list = DATA.essences.filter((e) => !activeCategory || e.category === activeCategory);
+    document.getElementById("pantry-empty").style.display = DATA.essences.length === 0 ? "block" : "none";
+    for (const e of list) {
+      const card = document.createElement("div");
+      card.className = "card";
+      card.innerHTML =
+        `<h3>${e.name_ja}</h3>` +
+        `<div class="meta">${e.culture_ja} ・ ${CATEGORY_LABELS[e.category] || e.category} ・ <code>${e.id}</code></div>` +
+        `<div>${e.summary_ja}</div>` +
+        `<div class="pot">🍯 ${e.metaphor_potential_ja}</div>` +
+        `<div class="tags">${e.tags.map((t) => `<span class="tag">${t}</span>`).join("")}</div>`;
+      const btn = document.createElement("button");
+      btn.className = "add-btn" + (basket.has(e.id) ? " added" : "");
+      btn.textContent = basket.has(e.id) ? "籠に入っています" : "籠に入れる";
+      btn.onclick = () => { toggleBasket(e.id, e.name_ja, "essence"); renderPantry(); };
+      card.appendChild(btn);
+      grid.appendChild(card);
+    }
+  }
+
+  // --- 比喩の棚 ---
+  function renderShelf() {
+    const grid = document.getElementById("shelf-grid");
+    grid.innerHTML = "";
+    document.getElementById("shelf-empty").style.display = DATA.phrases.length === 0 ? "block" : "none";
+    for (const p of DATA.phrases) {
+      const card = document.createElement("div");
+      card.className = "card phrase-card";
+      card.innerHTML =
+        `<h3>${p.phrase_original}</h3>` +
+        `<div class="meta">${p.language_name_ja} ・ <code>${p.id}</code></div>` +
+        `<div>${p.literal_translation_ja} → ${p.gloss_ja}</div>` +
+        `<div class="tags">${p.kiza_elements.map((t) => `<span class="tag">${t}</span>`).join("")}${p.metaphor_tags.map((t) => `<span class="tag">#${t}</span>`).join("")}</div>`;
+      const btn = document.createElement("button");
+      btn.className = "add-btn" + (basket.has(p.id) ? " added" : "");
+      btn.textContent = basket.has(p.id) ? "籠に入っています" : "着想元として籠に入れる";
+      btn.onclick = () => { toggleBasket(p.id, p.phrase_original, "phrase"); renderShelf(); };
+      card.appendChild(btn);
+      grid.appendChild(card);
+    }
+  }
+
+  // --- 籠と注文書 ---
+  function toggleBasket(id, label, kind) {
+    if (basket.has(id)) basket.delete(id);
+    else basket.set(id, { id, label, kind });
+    renderBasket();
+    renderOrder();
+  }
+  function renderBasket() {
+    const el = document.getElementById("basket");
+    el.innerHTML = "";
+    if (basket.size === 0) {
+      el.innerHTML = '<span class="empty">まだ空です。棚から素材を選んでください。</span>';
+      return;
+    }
+    for (const { id, label, kind } of basket.values()) {
+      const item = document.createElement("span");
+      item.className = "item";
+      item.innerHTML = `${kind === "essence" ? "🌿" : "💬"} ${label}`;
+      const rm = document.createElement("button");
+      rm.textContent = "✕";
+      rm.onclick = () => { basket.delete(id); renderBasket(); renderOrder(); renderPantry(); renderShelf(); };
+      item.appendChild(rm);
+      el.appendChild(item);
+    }
+  }
+  function renderOrder() {
+    const essences = [...basket.values()].filter((b) => b.kind === "essence").map((b) => b.id);
+    const phrases = [...basket.values()].filter((b) => b.kind === "phrase").map((b) => b.id);
+    const relation = document.getElementById("relation").value;
+    const scene = document.getElementById("scene").value || "（場面を入力）";
+    const tone = document.getElementById("tone").value;
+    const lang = document.getElementById("lang").value;
+    const text = [
+      "/cook 注文書",
+      `相手: ${relation} / 場面: ${scene} / トーン: ${tone} / 言語: ${lang === "other" ? "（言語コードを記入）" : lang}`,
+      `素材: ${essences.length ? essences.join(", ") : "（おまかせ — パントリーから選んで）"}`,
+      ...(phrases.length ? [`着想: ${phrases.join(", ")}`] : []),
+    ].join("\n");
+    document.getElementById("order-box").textContent = text;
+    return text;
+  }
+  ["relation", "scene", "tone", "lang"].forEach((id) =>
+    document.getElementById(id).addEventListener("input", renderOrder)
+  );
+  document.getElementById("copy-btn").addEventListener("click", async () => {
+    const text = renderOrder();
+    try {
+      await navigator.clipboard.writeText(text);
+      document.getElementById("copy-btn").textContent = "コピーしました ✓";
+    } catch {
+      // file:// では clipboard API が使えない場合がある
+      const ta = document.createElement("textarea");
+      ta.value = text;
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand("copy");
+      ta.remove();
+      document.getElementById("copy-btn").textContent = "コピーしました ✓";
+    }
+    setTimeout(() => (document.getElementById("copy-btn").textContent = "注文書をコピー"), 2000);
+  });
+
+  // --- レシピ帳 ---
+  function renderRecipes() {
+    const grid = document.getElementById("recipes-grid");
+    grid.innerHTML = "";
+    document.getElementById("recipes-empty").style.display = DATA.creations.length === 0 ? "block" : "none";
+    const essenceNames = new Map(DATA.essences.map((e) => [e.id, e.name_ja]));
+    const sorted = [...DATA.creations].sort((a, b) => (a.created < b.created ? 1 : -1));
+    for (const c of sorted) {
+      const card = document.createElement("div");
+      card.className = "card recipe-card";
+      const ess = (c.recipe?.essences || [])
+        .map((id) => `<span class="tag">🌿 ${essenceNames.get(id) || id}</span>`)
+        .join("");
+      card.innerHTML =
+        `<div class="text">${c.text_original}</div>` +
+        (c.translation_ja ? `<div class="meta">${c.translation_ja}</div>` : "") +
+        `<div class="meta">${c.language_name_ja} ・ ${c.situation?.target_relation} / ${c.situation?.scene_ja} / ${c.situation?.tone}</div>` +
+        `<div class="tags">${ess}</div>` +
+        (c.recipe?.notes_ja ? `<div class="pot">📝 ${c.recipe.notes_ja}</div>` : "") +
+        `<div class="meta" style="margin-top:0.4rem">作: ${c.created_by.join(", ")}（${c.created}）</div>`;
+      grid.appendChild(card);
+    }
+  }
+
+  renderPantry();
+  renderShelf();
+  renderBasket();
+  renderOrder();
+  renderRecipes();
+})();
+</script>
+</body>
+</html>

@@ -50,6 +50,7 @@ K参加前のソロ期間はセルフレビュー + CI通過でマージ可。�
 - [ ] 出典URLを実際に開き、原語表記・意味・使用例の3点が確認できた
 - [ ] `origin_type` は妥当（フィクション起源なら現実の流通を示す出典が別途あるか）
 - [ ] `verification.status` が出典の実態と一致している（過大申告なし）
+- [ ] `kiza_elements` の申告が本文（比喩の論理 等）の記述で裏付けられている（直接的な機能フレーズを比喩と強弁していない・第6条）
 - [ ] IPA・ローマ字転写・`gloss_ja` がある
 - [ ] 個人特定情報が含まれていない（第5条）
 - [ ] AI作成エントリの場合、出典URLの内容をAIが実際に取得・確認した記録がPR本文にある
@@ -64,18 +65,24 @@ K参加前のソロ期間はセルフレビュー + CI通過でマージ可。�
 
 | スキル | 用途 |
 |---|---|
-| `/scout` | 日次スカウト（クラウドroutineからも手動でも実行可） |
+| `/scout` | 日次スカウト: キザなセリフ候補+エッセンスの発見（routine/手動両対応） |
 | `/uncover <lead-id>` | リードを開封してエントリ化 |
-| `/expedition <地域/言語>` | 自由遠征でまとめて収集 |
+| `/expedition <地域/言語>` | 自由遠征でまとめて収集（フレーズ専門） |
+| `/forage <テーマ>` | エッセンスの集中採集（テーマ・文化圏特化） |
+| `/cook [注文書]` | 料理場での創作: 素材選び→下書き→推敲→creations/保存 |
 | `/add-phrase` | 単発追加（対話） |
 | `/deepen <phrase-id>` | Stage 2 化（語源・文化史の深掘り） |
 | `/verify-phrase <phrase-id>` | Stage 1 化（独立第2出典の発掘） |
-| `/field-note [phrase-id]` | 実践メモの記録 |
+| `/field-note [id]` | 実践メモの記録（phrase / creation 両対応） |
 | `/harvest-inbox` | Claude Chat 下書きの回収 |
-| `/dashboard` | indexes・地図データの再生成 |
+| `/dashboard` | indexes・地図・厨房データの再生成 |
+
+分業の目安: **scout** = 毎朝の自動巡回で広く薄く（フレーズのリード+エッセンス少量）/ **forage** = 人間が指名するテーマの集中採集 / **expedition** = フレーズ専門の腰を据えた遠征 / **cook** = 創作。
 
 ## 命名規則
 
 - 言語ディレクトリ: ISO 639-1（2文字）優先、なければ ISO 639-3（3文字）
 - ファイル名: ローマ字転写ベースの slug（小文字・ASCII・ハイフン区切り）
 - フレーズID: `<言語コード>-<slug>`（例: `tr-fistik-gibisin`）
+- エッセンスID: `ess-<slug>`（例: `ess-rose-and-nightingale`）
+- 創作ID: `cre-<言語コード>-<slug>`（例: `cre-ja-tsuki-no-nagori`）

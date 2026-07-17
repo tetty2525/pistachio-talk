@@ -558,11 +558,14 @@ window.PISTACHIO_MAP_DATA = {
     }
   ],
   "leadsOpen": [],
+  "essencePoints": [],
   "totals": {
     "languagesCovered": 1,
     "languagesTotal": 49,
     "phrases": 1,
     "leadsFresh": 1,
-    "leadsOpen": 0
+    "leadsOpen": 0,
+    "essences": 0,
+    "essencesNew": 0
   }
 };
