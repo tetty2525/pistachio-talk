@@ -1,0 +1,10 @@
+schema_version: 1
+date: "2026-01-03"
+creation_id: cre-ja-test-creation
+tried_by: tester
+target_relation: friend
+target_is_native: true
+delivery: text
+reaction: laughed
+would_use_again: "yes"
+note_ja: creation_id 型 field-note のテスト用フィクスチャ。

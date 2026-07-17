@@ -10,6 +10,7 @@ intrigue_tags: [food]
 candidate:
   phrase_original: "Tu es un régal"
   gloss_hint: "君はご馳走のようだ"
+  kiza_elements: [metaphor]
   sources:
     - url: https://example.com/fr/tu-es-un-regal
       note: スカウトがfetch確認済み

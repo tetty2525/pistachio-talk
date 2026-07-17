@@ -32,6 +32,8 @@ const validators = {
   inbox: ajv.compile(loadSchema("inbox")),
   fieldNote: ajv.compile(loadSchema("field-note")),
   contributors: ajv.compile(loadSchema("contributors")),
+  essence: ajv.compile(loadSchema("essence")),
+  creation: ajv.compile(loadSchema("creation")),
 };
 
 function ajvErrorsToStrings(validatorErrors) {
@@ -180,6 +182,11 @@ function validateAll(root) {
       }
     }
 
+    // --- 第6条: metaphor 宣言と横断索引の整合 ---
+    if ((data.kiza_elements || []).includes("metaphor") && (!data.metaphor_tags || data.metaphor_tags.length === 0)) {
+      addErr(file, `第6条: kiza_elements に metaphor を宣言していますが metaphor_tags が空です（横断索引に載らない比喩を作らない）`);
+    }
+
     // --- 貢献者 ID の実在確認 ---
     const contributorFields = [["found_by", data.found_by]];
     for (const f of data.researched_by || []) contributorFields.push(["researched_by", f]);
@@ -232,8 +239,109 @@ function validateAll(root) {
         addErr(file, `status "rejected" には resolution.reason が必要です`);
       }
     }
+    if (
+      (data.status === "fresh" || data.status === "open") &&
+      (!data.candidate || !data.candidate.kiza_elements || data.candidate.kiza_elements.length === 0)
+    ) {
+      addErr(file, `第6条違反: fresh/open のリードには candidate.kiza_elements（metaphor/wit/poetic_image/cultural_allusion）が最低1つ必要です`);
+    }
     if (data.scouted_by && contributorIds.size > 0 && !contributorIds.has(data.scouted_by)) {
       addErr(file, `scouted_by: "${data.scouted_by}" は contributors.yml に登録されていません`);
+    }
+  }
+
+  // essences/*.md
+  const essenceFiles = walk(path.join(root, "essences"), [".md"]);
+  const essencesById = new Map();
+  for (const file of essenceFiles) {
+    const { data, parseError } = loadYamlOrFrontmatter(file);
+    if (parseError) {
+      addErr(file, `frontmatter parse error: ${parseError}`);
+      continue;
+    }
+    if (!data) {
+      addErr(file, "frontmatter が見つかりません（--- で囲まれた YAML が必要）");
+      continue;
+    }
+    if (!validators.essence(data)) {
+      for (const m of ajvErrorsToStrings(validators.essence.errors)) addErr(file, `[schema] ${m}`);
+    }
+    if (data.id) {
+      const expectedId = `ess-${path.basename(file, ".md")}`;
+      if (data.id !== expectedId) {
+        addErr(file, `id "${data.id}" はファイル名から期待される id "${expectedId}" と一致しません`);
+      }
+      if (essencesById.has(data.id)) {
+        addErr(file, `essence id "${data.id}" が ${essencesById.get(data.id)} と重複しています`);
+      } else {
+        essencesById.set(data.id, path.relative(root, file));
+      }
+    }
+    if (data.found_by && contributorIds.size > 0 && !contributorIds.has(data.found_by)) {
+      addErr(file, `found_by: "${data.found_by}" は contributors.yml に登録されていません`);
+    }
+  }
+
+  // creations/<lang>/<slug>.md
+  const creationFiles = walk(path.join(root, "creations"), [".md"]);
+  const creationsById = new Map();
+  const creationEntries = [];
+  for (const file of creationFiles) {
+    const { data, parseError } = loadYamlOrFrontmatter(file);
+    if (parseError) {
+      addErr(file, `frontmatter parse error: ${parseError}`);
+      continue;
+    }
+    if (!data) {
+      addErr(file, "frontmatter が見つかりません（--- で囲まれた YAML が必要）");
+      continue;
+    }
+    if (!validators.creation(data)) {
+      for (const m of ajvErrorsToStrings(validators.creation.errors)) addErr(file, `[schema] ${m}`);
+    }
+    creationEntries.push({ file, data });
+    if (data.id) {
+      const rel = path.relative(path.join(root, "creations"), file);
+      const parts = rel.split(path.sep);
+      if (parts.length === 2) {
+        const expectedId = `cre-${parts[0]}-${parts[1].replace(/\.md$/, "")}`;
+        if (data.id !== expectedId) {
+          addErr(file, `id "${data.id}" はファイルパスから期待される id "${expectedId}" と一致しません`);
+        }
+        if (data.language && data.language !== parts[0]) {
+          addErr(file, `language "${data.language}" が配置ディレクトリ "${parts[0]}" と一致しません`);
+        }
+      } else {
+        addErr(file, `creations/<言語コード>/<slug>.md の形式に従っていません: ${rel}`);
+      }
+      if (creationsById.has(data.id)) {
+        addErr(file, `creation id "${data.id}" が重複しています`);
+      } else {
+        creationsById.set(data.id, path.relative(root, file));
+      }
+    }
+    if (data.language && data.language !== "ja" && !data.translation_ja) {
+      addErr(file, `language が ja 以外の創作には translation_ja が必要です`);
+    }
+    for (const cid of data.created_by || []) {
+      if (contributorIds.size > 0 && !contributorIds.has(cid)) {
+        addErr(file, `created_by: "${cid}" は contributors.yml に登録されていません`);
+      }
+    }
+  }
+
+  // 創作のレシピ参照解決（essences/phrases が全て読み込まれた後）
+  for (const { file, data } of creationEntries) {
+    if (!data.recipe) continue;
+    for (const eid of data.recipe.essences || []) {
+      if (!essencesById.has(eid)) {
+        addErr(file, `recipe.essences の "${eid}" が essences/ に見つかりません`);
+      }
+    }
+    for (const pid of data.recipe.inspired_phrases || []) {
+      if (!phrasesById.has(pid)) {
+        addErr(file, `recipe.inspired_phrases の "${pid}" が phrases/ に見つかりません`);
+      }
     }
   }
 
@@ -254,6 +362,9 @@ function validateAll(root) {
     }
     if (data.phrase_id && phrasesById.size > 0 && !phrasesById.has(data.phrase_id)) {
       addErr(file, `phrase_id "${data.phrase_id}" が phrases/ に見つかりません`);
+    }
+    if (data.creation_id && !creationsById.has(data.creation_id)) {
+      addErr(file, `creation_id "${data.creation_id}" が creations/ に見つかりません`);
     }
     if (data.tried_by && contributorIds.size > 0 && !contributorIds.has(data.tried_by)) {
       addErr(file, `tried_by: "${data.tried_by}" は contributors.yml に登録されていません`);
@@ -280,6 +391,8 @@ function validateAll(root) {
     counts: {
       phrases: phraseEntries.length,
       leads: leadFiles.length,
+      essences: essenceFiles.length,
+      creations: creationFiles.length,
       fieldNotes: fieldNoteFiles.length,
       inbox: inboxFiles.length,
     },
@@ -300,7 +413,7 @@ if (selfTest) {
   console.log("=== 自己テスト: fixtures/valid が CI を通過すること ===");
   const validResult = validateAll(validDir);
   if (validResult.errors.length === 0) {
-    console.log(`OK: valid fixtures はエラー0件（phrases:${validResult.counts.phrases} leads:${validResult.counts.leads} field-notes:${validResult.counts.fieldNotes}）`);
+    console.log(`OK: valid fixtures はエラー0件（phrases:${validResult.counts.phrases} leads:${validResult.counts.leads} essences:${validResult.counts.essences} creations:${validResult.counts.creations} field-notes:${validResult.counts.fieldNotes}）`);
   } else {
     failures++;
     console.log(`NG: valid fixtures であるにもかかわらず ${validResult.errors.length} 件のエラーが検出されました:`);
@@ -335,7 +448,7 @@ if (selfTest) {
   const result = validateAll(root);
   if (result.errors.length === 0) {
     console.log(
-      `検証OK — phrases:${result.counts.phrases} leads:${result.counts.leads} field-notes:${result.counts.fieldNotes} inbox:${result.counts.inbox}`
+      `検証OK — phrases:${result.counts.phrases} leads:${result.counts.leads} essences:${result.counts.essences} creations:${result.counts.creations} field-notes:${result.counts.fieldNotes} inbox:${result.counts.inbox}`
     );
     process.exit(0);
   } else {

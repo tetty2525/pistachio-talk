@@ -1,5 +1,5 @@
 ---
-schema_version: 1
+schema_version: 2
 id: tr-fistik-gibisin
 phrase_original: "Fıstık gibisin"
 language: tr
@@ -16,6 +16,7 @@ register: casual
 register_warnings_ja: "親しい間柄向けの軽い褒め言葉。職業的・フォーマルな場では避けるべき。"
 gender_direction: any_to_any
 origin_type: folk
+kiza_elements: [metaphor]
 metaphor_tags: [food, nut]
 usage_examples:
   - original: "Vay, bugün fıstık gibisin!"
@@ -47,7 +48,7 @@ related_phrases: []
 cross_language_equivalents: []
 no_known_equivalents: false
 created: "2026-07-13"
-updated: "2026-07-13"
+updated: "2026-07-18"
 ---
 
 ## 意味とニュアンス

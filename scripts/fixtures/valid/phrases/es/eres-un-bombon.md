@@ -1,5 +1,5 @@
 ---
-schema_version: 1
+schema_version: 2
 id: es-eres-un-bombon
 phrase_original: "Eres un bombón"
 language: es
@@ -16,6 +16,7 @@ register: casual
 register_warnings_ja: "親しい間柄向け。フォーマルな場では避ける。"
 gender_direction: any_to_any
 origin_type: folk
+kiza_elements: [metaphor]
 metaphor_tags: [food, sweets]
 usage_examples:
   - original: "¡Con ese vestido eres un bombón!"

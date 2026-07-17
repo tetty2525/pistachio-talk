@@ -1,5 +1,5 @@
 ---
-schema_version: 1
+schema_version: 2
 id: tr-covers-insufficient
 phrase_original: "Test"
 language: tr
@@ -13,6 +13,7 @@ pos_label: 決まり文句
 sort_key: "test"
 register: casual
 origin_type: folk
+kiza_elements: [wit]
 sources:
   - url: https://example.com/tr/test
     type: language_media
