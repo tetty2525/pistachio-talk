@@ -7,7 +7,6 @@
   "required": [
     "schema_version",
     "date",
-    "phrase_id",
     "tried_by",
     "target_relation",
     "target_is_native",
@@ -16,10 +15,15 @@
     "would_use_again",
     "note_ja"
   ],
+  "oneOf": [
+    { "required": ["phrase_id"] },
+    { "required": ["creation_id"] }
+  ],
   "properties": {
     "schema_version": { "const": 1 },
     "date": { "type": "string", "format": "date" },
     "phrase_id": { "type": "string", "pattern": "^[a-z]{2,3}-[a-z0-9-]+$" },
+    "creation_id": { "type": "string", "pattern": "^cre-[a-z]{2,3}-[a-z0-9-]+$" },
     "tried_by": { "type": "string", "minLength": 1 },
     "target_relation": {
       "type": "string",

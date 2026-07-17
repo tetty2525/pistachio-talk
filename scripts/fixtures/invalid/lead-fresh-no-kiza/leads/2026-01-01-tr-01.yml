@@ -5,12 +5,12 @@ scouted_by: tester-ai
 language: tr
 country_region: [TR]
 map_anchor: { lat: 39.0, lng: 35.0 }
-teaser_ja: "出典なしの噂"
+teaser_ja: "kiza_elements の無い fresh リード（第6条違反）"
 candidate:
   phrase_original: "Test"
   gloss_hint: "テスト"
-  kiza_elements: [wit]
-  sources: []
+  sources:
+    - url: https://example.com/tr/test
 status: fresh
 picked_for: "2026-01-01"
 resolution: null

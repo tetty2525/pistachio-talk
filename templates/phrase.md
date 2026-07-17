@@ -1,5 +1,5 @@
 ---
-schema_version: 1
+schema_version: 2
 id: <言語コード>-<slug>          # 例: tr-fistik-gibisin
 phrase_original: ""              # フレーズ原文（現地語表記）
 language: ""                     # ISO 639-1/639-3 コード（例: tr）
@@ -17,7 +17,8 @@ register_warnings_ja: ""         # 使用場面の注意
 gender_direction: unknown        # m_to_f | f_to_m | m_to_m | f_to_f | any_to_any | unknown
 harassment_context: ""           # 任意: ハラスメント文脈になり得るか
 origin_type: unknown             # folk | literary | media | commercial | unknown（第2条）
-metaphor_tags: []                # 例: [food, nut]
+kiza_elements: []                # 第6条: metaphor(比喩) | wit(機知) | poetic_image(詩的イメージ) | cultural_allusion(文化的暗喩) から1つ以上
+metaphor_tags: []                # 例: [food, nut]。metaphor を宣言したら必須
 usage_examples:
   - original: ""
     translation_ja: ""

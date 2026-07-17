@@ -1,0 +1,10 @@
+schema_version: 1
+date: "2026-01-01"
+creation_id: cre-ja-does-not-exist
+tried_by: tester
+target_relation: friend
+target_is_native: false
+delivery: verbal
+reaction: neutral
+would_use_again: "no"
+note_ja: 存在しない creation_id を参照する違反フィクスチャ。

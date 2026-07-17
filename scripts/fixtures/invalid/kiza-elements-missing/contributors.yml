@@ -1,0 +1,6 @@
+- id: tester
+  name: Test Human
+  kind: human
+- id: tester-ai
+  kind: ai
+  operator: tester

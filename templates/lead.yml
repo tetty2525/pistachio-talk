@@ -10,6 +10,7 @@ intrigue_tags: []                 # 例: [food, retro]
 candidate:
   phrase_original: ""             # 地図には出さない中身
   gloss_hint: ""
+  kiza_elements: []               # 第6条: metaphor | wit | poetic_image | cultural_allusion から1つ以上（fresh/openでは必須）
   sources:
     - url: ""                     # 実際にfetchして存在確認したURL
       note: ""

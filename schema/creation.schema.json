@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pistachio-talk/schema/creation.schema.json",
+  "title": "Creation (original line crafted in the Kitchen)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "text_original",
+    "language",
+    "situation",
+    "recipe",
+    "created_by",
+    "created",
+    "updated"
+  ],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "id": { "type": "string", "pattern": "^cre-[a-z]{2,3}-[a-z0-9-]+$" },
+    "text_original": { "type": "string", "minLength": 1 },
+    "language": { "type": "string", "pattern": "^[a-z]{2,3}$" },
+    "language_name_ja": { "type": "string" },
+    "translation_ja": { "type": "string" },
+    "romanization": { "type": "string" },
+    "situation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["target_relation", "scene_ja", "tone"],
+      "properties": {
+        "target_relation": {
+          "type": "string",
+          "enum": [
+            "friend",
+            "coworker",
+            "boss",
+            "romantic_interest",
+            "partner",
+            "family",
+            "stranger",
+            "native_consultant"
+          ]
+        },
+        "scene_ja": { "type": "string", "minLength": 1 },
+        "tone": {
+          "type": "string",
+          "enum": ["sweet", "playful", "poetic", "bold", "gentle", "witty"]
+        }
+      }
+    },
+    "recipe": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["essences"],
+      "properties": {
+        "essences": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "pattern": "^ess-[a-z0-9-]+$" }
+        },
+        "inspired_phrases": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "pattern": "^[a-z]{2,3}-[a-z0-9-]+$" }
+        },
+        "notes_ja": { "type": "string" }
+      }
+    },
+    "created_by": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string" }
+    },
+    "created": { "type": "string", "format": "date" },
+    "updated": { "type": "string", "format": "date" }
+  }
+}

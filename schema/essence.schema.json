@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pistachio-talk/schema/essence.schema.json",
+  "title": "Essence (cultural/historical/natural ingredient)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "name_ja",
+    "category",
+    "culture_ja",
+    "summary_ja",
+    "metaphor_potential_ja",
+    "map_anchor",
+    "sources",
+    "found_by",
+    "created",
+    "updated"
+  ],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "id": { "type": "string", "pattern": "^ess-[a-z0-9-]+$" },
+    "name_ja": { "type": "string", "minLength": 1 },
+    "name_original": { "type": "string" },
+    "category": {
+      "type": "string",
+      "enum": [
+        "nature",
+        "flora",
+        "fauna",
+        "food",
+        "celestial",
+        "poetry",
+        "myth",
+        "custom",
+        "craft",
+        "place",
+        "language"
+      ]
+    },
+    "culture_ja": { "type": "string", "minLength": 1 },
+    "country_region": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^[A-Z]{2}$" }
+    },
+    "summary_ja": { "type": "string", "minLength": 1 },
+    "metaphor_potential_ja": { "type": "string", "minLength": 1 },
+    "map_anchor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["lat", "lng"],
+      "properties": {
+        "lat": { "type": "number", "minimum": -90, "maximum": 90 },
+        "lng": { "type": "number", "minimum": -180, "maximum": 180 }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^[a-z][a-z0-9_]*$" },
+      "uniqueItems": true
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["url", "type", "accessed"],
+        "properties": {
+          "url": { "type": "string", "format": "uri" },
+          "title": { "type": "string" },
+          "site": { "type": "string" },
+          "type": {
+            "type": "string",
+            "enum": [
+              "dictionary_academic",
+              "language_media",
+              "native_personal",
+              "forum_ugc"
+            ]
+          },
+          "accessed": { "type": "string", "format": "date" }
+        }
+      }
+    },
+    "found_by": { "type": "string", "minLength": 1 },
+    "created": { "type": "string", "format": "date" },
+    "updated": { "type": "string", "format": "date" }
+  }
+}

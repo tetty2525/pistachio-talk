@@ -1,6 +1,7 @@
 schema_version: 1
 date: "YYYY-MM-DD"
-phrase_id: ""                     # 対象フレーズの id
+phrase_id: ""                     # 対象フレーズの id（creation_id と排他: どちらか一方のみ）
+# creation_id: ""                 # 創作セリフを試した場合はこちら（例: cre-ja-xxx）。phrase_id 行を消して使う
 tried_by: ""                      # contributors.yml の id（人間）
 target_relation: friend           # friend | coworker | boss | romantic_interest | partner | family | stranger | native_consultant
 target_is_native: false
