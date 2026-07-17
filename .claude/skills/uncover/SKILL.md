@@ -16,17 +16,19 @@ description: "リード（leads/の噂）を開封して正式なフレーズエ
 2. **正体を開示する**
    - `candidate.phrase_original` と `candidate.gloss_hint` をユーザーに提示する（ここで初めてフレーズ本体が明かされる）
 
-3. **本格検証（3点テスト）**
+3. **本格検証（3点テスト + キザ判定）**
    - `candidate.sources` の各URLを改めてfetchし、以下を確認する:
      - フレーズが原語で書かれているか（`phrase`）
      - 意味の説明があるか（`meaning`）
      - 使用例または使用場面の記述があるか（`usage`）
    - 3点が1つのURLで揃わない場合、追加のWeb検索で補完URLを探し、実際にfetchして確認する
+   - **第6条判定**: リードの `candidate.kiza_elements` を検証内容に照らして再確認する。開封してみたら実は直接的な機能フレーズだった場合は、エントリ化せず rejected（理由: 第6条）にする
    - 語源・文化的主張がある場合は、出典の質ティア（T1〜T4）を判定する
 
 4a. **検証成功 → エントリ化**
    - `templates/phrase.md` を雛形に `phrases/<lang>/<slug>.md` を作成
    - `sources[]` の `covers` を実際に確認した範囲で正確に埋める（過大申告しない）
+   - `kiza_elements` を確定させる（metaphor を含むなら metaphor_tags も必須）
    - `verification.status: single_source`、`stage: 0`
    - `lead_id: <このリードのid>` を記載
    - `found_by`: リードの `scouted_by`（発見はスカウトの功績）

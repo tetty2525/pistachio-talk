@@ -14,12 +14,14 @@ description: "自由遠征。特定の地域・言語を指定して、まとめ
    - `phrases/<lang>/` と `leads/*.yml` を見て、既存の収録・未処理の噂を確認する（`/uncover` で先に開封すべきリードがあれば案内する）
 
 2. **候補発掘**
-   - Web検索で対象言語のナンパフレーズ・キザな決まり文句を複数探す
+   - Web検索で対象言語のキザなセリフ・比喩の効いた口説き文句を複数探す
+   - **第6条判定を最初に行う**: キザ4要素（metaphor/wit/poetic_image/cultural_allusion）のどれに当たるか一言で言えない直接的な機能フレーズは破棄する
    - 各候補についてURLを実際にfetchし、3点テスト（原語表記・意味・使用例）を確認する
-   - 3点テストを満たさない候補は、その場でエントリ化せず `leads/`（`status: open`）として残す
+   - 3点テストを満たさない候補は、その場でエントリ化せず `leads/`（`status: open`、`candidate.kiza_elements` 必須）として残す
 
 3. **エントリ化**
    - 3点テストを満たした候補を `templates/phrase.md` を雛形に `phrases/<lang>/<slug>.md` として作成
+   - `kiza_elements` を記入（metaphor を含むなら metaphor_tags も必須）
    - `verification.status: single_source`、`stage: 0`
    - `found_by` / `researched_by` を実行者に応じて記録
 

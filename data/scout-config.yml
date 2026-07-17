@@ -1,5 +1,6 @@
 # /scout スキルの挙動設定。
 picks_per_day: 3            # 当日ピックされ地図で脈打つリード数
 max_candidates_per_run: 6   # 内部で検討する候補数の上限（採用は picks_per_day 件まで）
+essence_picks_per_day: 1    # 1回のスカウトで採集するエッセンス数の目安（ゼロでもよい）
 cooldown_days: 14           # 同じ言語を連続でスカウトしない最小間隔
 region_weighting: frontier_first   # frontier.yml のうち未踏・手薄な地域を優先
