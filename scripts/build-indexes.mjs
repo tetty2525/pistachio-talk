@@ -185,19 +185,112 @@ function buildRumors(leads) {
   return lines.join("\n") + "\n";
 }
 
+function loadEssences() {
+  return walk(path.join(ROOT, "essences"), [".md"])
+    .map((file) => ({ file, ...loadYamlOrFrontmatter(file) }))
+    .filter((e) => e.data);
+}
+
+function loadCreations() {
+  return walk(path.join(ROOT, "creations"), [".md"])
+    .map((file) => ({ file, ...loadYamlOrFrontmatter(file) }))
+    .filter((c) => c.data);
+}
+
+const CATEGORY_LABELS = {
+  nature: "自然",
+  flora: "草花",
+  fauna: "動物",
+  food: "食",
+  celestial: "天体",
+  poetry: "詩歌",
+  myth: "神話・物語",
+  custom: "習慣・風習",
+  craft: "工芸",
+  place: "土地",
+  language: "ことば",
+};
+
+function buildPantry(essences) {
+  const lines = [
+    "# パントリー（エッセンスの器）",
+    "",
+    "創作の素材となる歴史・文化・自然の要素。`npm run dashboard` で自動生成。厨房（`npm run kitchen`）でこの棚から素材を選んで調理する。",
+    "",
+  ];
+  const byCategory = new Map();
+  for (const { data } of essences) {
+    if (!byCategory.has(data.category)) byCategory.set(data.category, []);
+    byCategory.get(data.category).push(data);
+  }
+  const catCounts = [...byCategory.entries()]
+    .map(([c, arr]) => `${CATEGORY_LABELS[c] || c}:${arr.length}`)
+    .join(" / ");
+  lines.push(`総素材数: ${essences.length}${catCounts ? `（${catCounts}）` : ""}`);
+  lines.push("");
+  if (essences.length === 0) {
+    lines.push("（まだ素材がありません。`/forage <テーマ>` で採集するか、日次スカウトの収穫を待ちましょう）");
+  }
+  for (const [category, list] of [...byCategory.entries()].sort()) {
+    lines.push(`## ${CATEGORY_LABELS[category] || category}`);
+    lines.push("");
+    for (const d of list) {
+      lines.push(`- **${d.name_ja}**（${d.culture_ja}, \`${d.id}\`） — ${d.metaphor_potential_ja}`);
+    }
+    lines.push("");
+  }
+  return lines.join("\n") + "\n";
+}
+
+function buildRecipes(creations, essences) {
+  const essenceNames = new Map(essences.map(({ data }) => [data.id, data.name_ja]));
+  const lines = [
+    "# 厨房の記録（レシピ帳）",
+    "",
+    "料理場（Kitchen）で創作したセリフとそのレシピ。`npm run dashboard` で自動生成。",
+    "",
+  ];
+  if (creations.length === 0) {
+    lines.push("（まだ創作がありません。`npm run kitchen` で注文書を作り、`/cook` で調理を始めましょう）");
+  }
+  const sorted = [...creations].sort((a, b) => (a.data.created < b.data.created ? 1 : -1));
+  for (const { data } of sorted) {
+    lines.push(`## ${data.text_original}`);
+    lines.push("");
+    if (data.translation_ja) lines.push(`> ${data.translation_ja}`);
+    const s = data.situation || {};
+    lines.push(`- 場面: ${s.target_relation} / ${s.scene_ja} / トーン: ${s.tone}`);
+    const essList = (data.recipe?.essences || [])
+      .map((id) => `${essenceNames.get(id) || id}（\`${id}\`）`)
+      .join("、");
+    lines.push(`- 素材: ${essList}`);
+    if (data.recipe?.inspired_phrases?.length) {
+      lines.push(`- 着想元: ${data.recipe.inspired_phrases.map((p) => `\`${p}\``).join("、")}`);
+    }
+    if (data.recipe?.notes_ja) lines.push(`- 調理メモ: ${data.recipe.notes_ja}`);
+    lines.push(`- 作: ${(data.created_by || []).join(", ")}（${data.created}, \`${data.id}\`）`);
+    lines.push("");
+  }
+  return lines.join("\n") + "\n";
+}
+
 function main() {
   mkdirSync(INDEXES_DIR, { recursive: true });
   const phrases = loadPhrases();
   const leads = loadLeads();
   const frontier = loadFrontier();
+  const essences = loadEssences();
+  const creations = loadCreations();
 
   writeFileSync(path.join(INDEXES_DIR, "coverage.md"), buildCoverage(phrases, frontier));
   writeFileSync(path.join(INDEXES_DIR, "frontier.md"), buildFrontierDoc(phrases, frontier));
   writeFileSync(path.join(INDEXES_DIR, "metaphors.md"), buildMetaphors(phrases));
   writeFileSync(path.join(INDEXES_DIR, "rumors.md"), buildRumors(leads));
+  writeFileSync(path.join(INDEXES_DIR, "pantry.md"), buildPantry(essences));
+  writeFileSync(path.join(INDEXES_DIR, "recipes.md"), buildRecipes(creations, essences));
 
   console.log(
-    `indexes/ を再生成しました（phrases:${phrases.length} leads:${leads.length} field-notes:${loadFieldNotes().length}）`
+    `indexes/ を再生成しました（phrases:${phrases.length} leads:${leads.length} essences:${essences.length} creations:${creations.length} field-notes:${loadFieldNotes().length}）`
   );
 }
 
