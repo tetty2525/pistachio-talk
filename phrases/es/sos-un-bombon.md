@@ -1,5 +1,5 @@
 ---
-schema_version: 1
+schema_version: 2
 id: es-sos-un-bombon
 phrase_original: "Sos un bombón"
 language: es
@@ -16,6 +16,7 @@ register: casual
 register_warnings_ja: "親密な関係での使用が向く。距離のある相手に使うと軽薄に聞こえる可能性がある（出典: 'si no hay confianza puede sonar medio baboso'）。"
 gender_direction: any_to_any
 origin_type: folk
+kiza_elements: [metaphor]
 metaphor_tags: [food, sweets]
 usage_examples:
   - original: "Bo, tu primo nuevo es un bombón, entró al asado y hasta la abuela se acomodó el pelo..."
@@ -53,7 +54,7 @@ cross_language_equivalents: []
 no_known_equivalents: false
 lead_id: lead-2026-07-13-es-01
 created: "2026-07-13"
-updated: "2026-07-13"
+updated: "2026-07-18"
 ---
 
 ## 意味とニュアンス
