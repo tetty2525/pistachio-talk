@@ -4,9 +4,14 @@
 
 ## food
 
+- **Sos un bombón**（スペイン語（リオプラテンセ方言）, `es-sos-un-bombon`） — 君、最高に魅力的だね
 - **Fıstık gibisin**（トルコ語, `tr-fistik-gibisin`） — 君はすごく素敵だ・イケてる
 
 ## nut
 
 - **Fıstık gibisin**（トルコ語, `tr-fistik-gibisin`） — 君はすごく素敵だ・イケてる
+
+## sweets
+
+- **Sos un bombón**（スペイン語（リオプラテンセ方言）, `es-sos-un-bombon`） — 君、最高に魅力的だね
 

@@ -20,9 +20,9 @@
       "region": "ヨーロッパ",
       "lat": 40,
       "lng": -3.7,
-      "phraseCount": 0,
-      "maxStatus": null,
-      "hasFreshToday": true,
+      "phraseCount": 1,
+      "maxStatus": "cross_checked",
+      "hasFreshToday": false,
       "hasOpenLead": false
     },
     {
@@ -543,26 +543,14 @@
       "hasOpenLead": false
     }
   ],
-  "leadsFresh": [
-    {
-      "id": "lead-2026-07-13-es-01",
-      "lat": -34.9,
-      "lng": -56.2,
-      "teaser_ja": "南米のある国に、甘いお菓子にたとえて誰かを褒める言い回しの噂。親しい相手向けで、使う相手を選ぶタイプらしい。",
-      "intrigue_tags": [
-        "food",
-        "sweets"
-      ],
-      "date": "2026-07-13"
-    }
-  ],
+  "leadsFresh": [],
   "leadsOpen": [],
   "essencePoints": [],
   "totals": {
-    "languagesCovered": 1,
+    "languagesCovered": 2,
     "languagesTotal": 49,
-    "phrases": 1,
-    "leadsFresh": 1,
+    "phrases": 2,
+    "leadsFresh": 0,
     "leadsOpen": 0,
     "essences": 0,
     "essencesNew": 0
