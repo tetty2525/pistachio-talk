@@ -7,10 +7,15 @@
 - [ ] 10言語到達
 - [ ] 初の `native_confirmed`
 - [x] 初の噂開封（`/uncover`） — 2026-07-13, `lead-2026-07-13-es-01` → `es-sos-un-bombon`
+- [x] 初の創作（`/cook`） — 2026-07-18, `cre-ja-bara-yori-mo-utau`（素材: `ess-rose-and-nightingale`）
 - [ ] 初の言語横断比喩ペア発見（`cross_language_equivalents`）
 - [ ] Kのオンボーディング完了
 
 ---
+
+## 2026-07-18（続報）: 厨房開き — forage → cook 通し稽古
+
+パントリーと厨房の仕組みが揃ったところで、最初の一皿を仕込んだ。`/forage ペルシア詩` でハーフェズ以降のガザルに繰り返し現れる「薔薇と夜鶯（ゴル・オ・ボルボル）」の構図を、出典（petalesdhistoire.com）を実際にfetchして確認の上 `essences/rose-and-nightingale.md` として採集。続けて `/cook` でこの素材を使い、「この街のどんな薔薇より、僕は君に恋する夜鶯でいたい。」という一文を創作（`creations/ja/bara-yori-mo-utau.md`）。直訳調の初案を2度捨て、比較の形に変換することで説明くささを消した。試してみたところ好感触という field-note（`creation_id` 型、初の後方互換動作確認）も記録した。地図には初めてミント色の菱形の光が灯った。
 
 ## 2026-07-18: 基準純化 — 憲法第6条の制定と最初の収蔵取り下げ
 
