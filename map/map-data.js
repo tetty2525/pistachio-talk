@@ -555,7 +555,7 @@ window.PISTACHIO_MAP_DATA = {
       "metaphor_potential_ja": "「あなたは薔薇、私は鳴きやまぬ夜鶯」型の、焦がれる側と焦がれられる側が非対称な、静かで気高い片思いの構図を担える。相手を「近寄りがたいほど美しい」と讃えつつ、自分の想いの深さ・一途さを語るときの型として使える。宗教的な文脈では魂と神の合一への渇望の比喩にもなるが、創作では世俗の恋愛にそのまま転用しやすい。",
       "lat": 32.65,
       "lng": 51.68,
-      "isNew": true
+      "isNew": false
     }
   ],
   "totals": {
@@ -565,6 +565,6 @@ window.PISTACHIO_MAP_DATA = {
     "leadsFresh": 0,
     "leadsOpen": 0,
     "essences": 1,
-    "essencesNew": 1
+    "essencesNew": 0
   }
 };
