@@ -2,6 +2,28 @@
 window.PISTACHIO_KITCHEN_DATA = {
   "essences": [
     {
+      "id": "ess-kanga-cloth-messages",
+      "name_ja": "カンガ布のジナ（無言の伝言）",
+      "name_original": "kanga / jina",
+      "category": "craft",
+      "culture_ja": "東アフリカ・スワヒリ海岸の布文化",
+      "summary_ja": "東アフリカ沿岸部で女性が身につける鮮やかな一枚布「カンガ」の裾には、スワヒリ語のことわざや格言（ジナ）が印刷されている。着る人はその一枚を選ぶことで、言葉に出さずに夫や家族、友人へ愛情・皮肉・警告などのメッセージを伝えることができる、「布が語る」文化。",
+      "metaphor_potential_ja": "「言葉にせず、選ぶことで伝える」という間接的な愛情表現の型を担える。相手への想いを直接言わず、モノや品物の選択・贈り物に託して匂わせるセリフの構図に転用しやすい。また「二つで一組になって初めて意味をなすもの」（布と着る人、ことわざと状況）という比喩の担い手にもなる。",
+      "tags": [
+        "textile",
+        "indirect_message",
+        "proverb",
+        "swahili_coast",
+        "gift"
+      ],
+      "usage_hint": "「言葉ではなく、選んだもので伝える」という間接的な口説き・愛情表現の型に使える。たとえば贈り物やちょっとした品物の選択に、実は特定の意味を込めているという構図の比喩として転用できる。また、ことわざそのものが「二つの物が組み合わさって初めて完成する」型（布と着る人、ふたつでひとつの意味）を多く含むため、相性・一体感を語るセリフの土台にもなる。",
+      "source_urls": [
+        "https://www.glcom.com/hassan/kanga.html",
+        "https://artsandculture.google.com/story/kanga-a-cloth-that-unites-national-museums-of-kenya/UQXRRgiEQNcJLA?hl=en"
+      ],
+      "created": "2026-08-24"
+    },
+    {
       "id": "ess-rose-and-nightingale",
       "name_ja": "薔薇と夜鶯（ゴル・オ・ボルボル）",
       "name_original": "گل و بلبل",

@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-08-24-sw-01
+date: "2026-08-24"
+scouted_by: claude-routine-hiroto
+language: sw
+country_region: [TZ]
+map_anchor: { lat: -6.0, lng: 35.0 }
+teaser_ja: "東アフリカ沿岸部には「布が語る」と言われる装いの文化がある。身につける一枚に忍ばせた言い回しで、特定の相手にだけ届く合図があるらしい。二つの小さなものの、離れがたい組み合わせを引き合いに出す噂。"
+intrigue_tags: [textile, indirect_message]
+candidate:
+  phrase_original: "Mimi na wewe pete na kidole"
+  gloss_hint: "私とあなたは指輪と指のようだ、という趣旨で、離れがたい親密さをたとえる言い回し"
+  kiza_elements: [metaphor, cultural_allusion]
+  sources:
+    - url: https://www.glcom.com/hassan/kanga.html
+      note: "スカウトがfetch確認済み。カンガ(布)に印刷されることわざの一覧ページ(項目61番)に原語表記と英訳が掲載されている。ページ冒頭でカンガが恋人・家族へのメッセージ伝達に使われる装いの文化であることが説明されており、使用場面（親密な相手への贈り物・意思表示）も確認できた。"
+status: fresh
+picked_for: "2026-08-24"
+resolution: null

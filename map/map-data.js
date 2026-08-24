@@ -177,7 +177,7 @@ window.PISTACHIO_MAP_DATA = {
       "lng": 35,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -188,7 +188,7 @@ window.PISTACHIO_MAP_DATA = {
       "lng": 4,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -544,9 +544,42 @@ window.PISTACHIO_MAP_DATA = {
       "hasOpenLead": false
     }
   ],
-  "leadsFresh": [],
+  "leadsFresh": [
+    {
+      "id": "lead-2026-08-24-sw-01",
+      "lat": -6,
+      "lng": 35,
+      "teaser_ja": "東アフリカ沿岸部には「布が語る」と言われる装いの文化がある。身につける一枚に忍ばせた言い回しで、特定の相手にだけ届く合図があるらしい。二つの小さなものの、離れがたい組み合わせを引き合いに出す噂。",
+      "intrigue_tags": [
+        "textile",
+        "indirect_message"
+      ],
+      "date": "2026-08-24"
+    },
+    {
+      "id": "lead-2026-08-24-yo-01",
+      "lat": 7.5,
+      "lng": 4,
+      "teaser_ja": "星の数ほど多いものと、たった一つしかないものを対比させて、独り占めの想いを語る言い回しが伝わる西アフリカのある言語圏。夜空を見上げて誰かに贈られる、選ばれし者への宣言らしい。",
+      "intrigue_tags": [
+        "night_sky",
+        "exclusivity"
+      ],
+      "date": "2026-08-24"
+    }
+  ],
   "leadsOpen": [],
   "essencePoints": [
+    {
+      "id": "ess-kanga-cloth-messages",
+      "name_ja": "カンガ布のジナ（無言の伝言）",
+      "category": "craft",
+      "culture_ja": "東アフリカ・スワヒリ海岸の布文化",
+      "metaphor_potential_ja": "「言葉にせず、選ぶことで伝える」という間接的な愛情表現の型を担える。相手への想いを直接言わず、モノや品物の選択・贈り物に託して匂わせるセリフの構図に転用しやすい。また「二つで一組になって初めて意味をなすもの」（布と着る人、ことわざと状況）という比喩の担い手にもなる。",
+      "lat": -6.16,
+      "lng": 39.19,
+      "isNew": true
+    },
     {
       "id": "ess-rose-and-nightingale",
       "name_ja": "薔薇と夜鶯（ゴル・オ・ボルボル）",
@@ -562,9 +595,9 @@ window.PISTACHIO_MAP_DATA = {
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 0,
+    "leadsFresh": 2,
     "leadsOpen": 0,
-    "essences": 1,
-    "essencesNew": 0
+    "essences": 2,
+    "essencesNew": 1
   }
 };

@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-08-24-yo-01
+date: "2026-08-24"
+scouted_by: claude-routine-hiroto
+language: yo
+country_region: [NG]
+map_anchor: { lat: 7.5, lng: 4.0 }
+teaser_ja: "星の数ほど多いものと、たった一つしかないものを対比させて、独り占めの想いを語る言い回しが伝わる西アフリカのある言語圏。夜空を見上げて誰かに贈られる、選ばれし者への宣言らしい。"
+intrigue_tags: [night_sky, exclusivity]
+candidate:
+  phrase_original: "Bo ti wu, ki irawo poto, okan lo osupa. Iwo lo osupa timo ni, timo si tun ri boti wu, keniyan po to loju aye. Iwo lokan mife!"
+  gloss_hint: "空にどれだけ星があっても月はひとつだけ、あなたはその私だけの月だ、という趣旨で相手の唯一無二さをたたえる言い回し"
+  kiza_elements: [metaphor, poetic_image]
+  sources:
+    - url: https://limitlesso.com/yoruba-love-text-messages/
+      note: "スカウトがfetch確認済み。ヨルバ語原文・英訳が掲載されており(コレクション108番)、「Yoruba Love Text Messages from Her to Him」というカテゴリで、恋人への独占的な愛情表現として使われる旨の説明があることを確認した。"
+status: fresh
+picked_for: "2026-08-24"
+resolution: null
