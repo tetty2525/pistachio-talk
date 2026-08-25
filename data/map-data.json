@@ -396,7 +396,7 @@
       "lng": 108,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -565,6 +565,17 @@
         "exclusivity"
       ],
       "date": "2026-08-24"
+    },
+    {
+      "id": "lead-2026-08-25-vi-01",
+      "lat": 14,
+      "lng": 108,
+      "teaser_ja": "東南アジアのある言語圏には、恋人同士を衣服の小さな留め具の対や、空の雲と大地の山という決して離れない対比になぞらえる、対句仕立ての言い伝えがある。宮廷の書物ではなく、市井で歌い継がれてきた素朴な韻文らしい。",
+      "intrigue_tags": [
+        "folk_song",
+        "inseparability"
+      ],
+      "date": "2026-08-25"
     }
   ],
   "leadsOpen": [],
@@ -577,6 +588,16 @@
       "metaphor_potential_ja": "「言葉にせず、選ぶことで伝える」という間接的な愛情表現の型を担える。相手への想いを直接言わず、モノや品物の選択・贈り物に託して匂わせるセリフの構図に転用しやすい。また「二つで一組になって初めて意味をなすもの」（布と着る人、ことわざと状況）という比喩の担い手にもなる。",
       "lat": -6.16,
       "lng": 39.19,
+      "isNew": true
+    },
+    {
+      "id": "ess-may-va-nui-vietnam",
+      "name_ja": "雲と山（マイ・ヴァー・ヌイ）",
+      "category": "nature",
+      "culture_ja": "ベトナムの民謡・ことわざ（ca dao / tục ngữ）の伝統",
+      "metaphor_potential_ja": "立場や性質が異なる二人が、それでも離れがたく結びついている、という関係性の比喩に使える。「雲は空を、山は大地を離れないのに、なぜ私たちだけが離れられよう」といった、別れがたさ・引き離せなさを詩的に語るときの型として応用できる。",
+      "lat": 14,
+      "lng": 108,
       "isNew": true
     },
     {
@@ -594,9 +615,9 @@
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 2,
+    "leadsFresh": 3,
     "leadsOpen": 0,
-    "essences": 2,
-    "essencesNew": 1
+    "essences": 3,
+    "essencesNew": 2
   }
 }

@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-08-25-vi-01
+date: "2026-08-25"
+scouted_by: claude-routine-hiroto
+language: vi
+country_region: [VN]
+map_anchor: { lat: 14.0, lng: 108.0 }
+teaser_ja: "東南アジアのある言語圏には、恋人同士を衣服の小さな留め具の対や、空の雲と大地の山という決して離れない対比になぞらえる、対句仕立ての言い伝えがある。宮廷の書物ではなく、市井で歌い継がれてきた素朴な韻文らしい。"
+intrigue_tags: [folk_song, inseparability]
+candidate:
+  phrase_original: "Anh như nút, em như khuy / Như mây với núi, biệt ly không đành"
+  gloss_hint: "私はボタン、あなたはボタン穴。雲と山のように、離れ離れになるのは耐え難い、という趣旨の対句"
+  kiza_elements: [metaphor]
+  sources:
+    - url: https://quantrimang.com/cuoc-song/ca-dao-tuc-ngu-ve-tinh-yeu-185230
+      note: "スカウトがfetch確認済み。ベトナム語原文（該当の一節）が掲載されており、ボタンとボタン穴／雲と山という二重の比喩で恋人の離れがたさを表す民謡（ca dao）であること、こうした民謡が古くから求愛・恋愛表現の場で歌い継がれてきた口承文芸であることの説明が確認できた。"
+status: fresh
+picked_for: "2026-08-25"
+resolution: null
