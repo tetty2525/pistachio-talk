@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-08-26-ar-01
+date: "2026-08-26"
+scouted_by: claude-routine-hiroto
+language: ar
+country_region: [SY, LB, JO, PS]
+map_anchor: { lat: 33.5, lng: 36.3 }
+teaser_ja: "中東のある言語圏では、恋人を夜空にひとつだけ浮かぶ天体そのものと呼ぶ愛称が広く使われている。性別を問わず使え、暗闇を照らす光という含みがあるらしい。"
+intrigue_tags: [celestial, endearment, levant]
+candidate:
+  phrase_original: "يا قمر (ya amar / ya qamar)"
+  gloss_hint: "直訳は「ああ、月よ」。恋人や親しい相手を月にたとえる愛称"
+  kiza_elements: [metaphor, poetic_image]
+  sources:
+    - url: https://www.baytalfann.com/post/arabic-expression-of-love
+      note: "スカウトがfetch確認済み。「يا قمر（Ya Amar）」というアラビア語原文とその直訳『月』が掲載され、『暗い夜を照らす明るい光』になぞらえて恋人の美しさ・輝きを表す愛称であるという意味の説明、レバント地方（シリア・レバノン・ヨルダン・パレスチナ）で日常的に使われる愛称という使用文脈の記述が確認できた。"
+status: fresh
+picked_for: "2026-08-26"
+resolution: null

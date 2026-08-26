@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-08-26-el-01
+date: "2026-08-26"
+scouted_by: claude-routine-hiroto
+language: el
+country_region: [GR]
+map_anchor: { lat: 39.0, lng: 22.0 }
+teaser_ja: "地中海のある言語には、恋人を毎日空に昇る恒星そのもので呼ぶ、素朴だが力強い愛称がある。温もりと光を与える存在という含みが込められているという。"
+intrigue_tags: [celestial, endearment, warmth]
+candidate:
+  phrase_original: "Ήλιε μου (Ilie mou)"
+  gloss_hint: "直訳は「私の太陽よ」。恋人や親しい相手への呼びかけ・愛称"
+  kiza_elements: [metaphor, poetic_image]
+  sources:
+    - url: https://www.fluentin3months.com/greek-endearments/
+      note: "スカウトがfetch確認済み。「Ήλιε μου（Ilie mou）」というギリシャ語原文とその直訳『私の太陽』が掲載され、恋人・家族・親しい友人に向けたロマンチックな愛称の一覧表に含まれていること、『μου（mou = 私の）』が付くことで親密さを強める表現になるという説明が確認できた。"
+status: fresh
+picked_for: "2026-08-26"
+resolution: null

@@ -2,6 +2,27 @@
 window.PISTACHIO_KITCHEN_DATA = {
   "essences": [
     {
+      "id": "ess-hinemoa-and-tutanekai",
+      "name_ja": "ヒネモアとトゥーターネカイの湖渡り",
+      "name_original": "Hinemoa raua ko Tūtānekai",
+      "category": "myth",
+      "culture_ja": "マオリ（テ・アラワ族）の伝承",
+      "summary_ja": "ニュージーランドのロトルア湖にまつわるマオリの恋物語。身分違いゆえに引き離されていたヒネモアが、恋人トゥーターネカイが丘の上で吹く笛の音だけを頼りに、瓢箪の浮き袋を使って夜の湖を泳ぎ渡り、モコイア島で結ばれたという伝承。",
+      "metaphor_potential_ja": "「音だけを頼りに暗い水を渡る」「隔てる湖を自らの力で越える」という構図は、距離や障害を越えてでも相手のもとへ向かう決意・一途さの比喩として使える。笛の音を「導きの光」のように扱う言い換えもできる。",
+      "tags": [
+        "love_legend",
+        "water",
+        "music",
+        "devotion",
+        "maori"
+      ],
+      "usage_hint": "「音や気配だけを頼りに、隔てる何かを自力で越えて相手のもとへ向かう」という構図は、距離・立場の違い・時間といった障害を越える一途さや覚悟を語る比喩に転用しやすい。「笛の音ひとつを道標に夜の湖を渡った人がいる」といった導入から、相手への想いの強さを詩的に語る流れに向く。素朴で牧歌的なトーンにも、やや壮大でロマンチックなトーンにも寄せやすい。",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Hinemoa"
+      ],
+      "created": "2026-08-26"
+    },
+    {
       "id": "ess-kanga-cloth-messages",
       "name_ja": "カンガ布のジナ（無言の伝言）",
       "name_original": "kanga / jina",

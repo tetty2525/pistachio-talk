@@ -33,7 +33,7 @@
       "lng": 2.2,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -77,7 +77,7 @@
       "lng": 22,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -121,7 +121,7 @@
       "lng": 30,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -576,10 +576,56 @@
         "inseparability"
       ],
       "date": "2026-08-25"
+    },
+    {
+      "id": "lead-2026-08-26-ar-01",
+      "lat": 33.5,
+      "lng": 36.3,
+      "teaser_ja": "中東のある言語圏では、恋人を夜空にひとつだけ浮かぶ天体そのものと呼ぶ愛称が広く使われている。性別を問わず使え、暗闇を照らす光という含みがあるらしい。",
+      "intrigue_tags": [
+        "celestial",
+        "endearment",
+        "levant"
+      ],
+      "date": "2026-08-26"
+    },
+    {
+      "id": "lead-2026-08-26-el-01",
+      "lat": 39,
+      "lng": 22,
+      "teaser_ja": "地中海のある言語には、恋人を毎日空に昇る恒星そのもので呼ぶ、素朴だが力強い愛称がある。温もりと光を与える存在という含みが込められているという。",
+      "intrigue_tags": [
+        "celestial",
+        "endearment",
+        "warmth"
+      ],
+      "date": "2026-08-26"
+    },
+    {
+      "id": "lead-2026-08-26-fr-01",
+      "lat": 46.6,
+      "lng": 2.2,
+      "teaser_ja": "ヨーロッパのある言語には、恋に落ちる瞬間を空から不意打ちのように降ってくる自然現象になぞらえる古い言い回しがある。もとは17世紀、まったく別の不穏な意味で辞書に載っていたらしい。",
+      "intrigue_tags": [
+        "weather",
+        "sudden_love",
+        "etymology"
+      ],
+      "date": "2026-08-26"
     }
   ],
   "leadsOpen": [],
   "essencePoints": [
+    {
+      "id": "ess-hinemoa-and-tutanekai",
+      "name_ja": "ヒネモアとトゥーターネカイの湖渡り",
+      "category": "myth",
+      "culture_ja": "マオリ（テ・アラワ族）の伝承",
+      "metaphor_potential_ja": "「音だけを頼りに暗い水を渡る」「隔てる湖を自らの力で越える」という構図は、距離や障害を越えてでも相手のもとへ向かう決意・一途さの比喩として使える。笛の音を「導きの光」のように扱う言い換えもできる。",
+      "lat": -38.1,
+      "lng": 176.3,
+      "isNew": true
+    },
     {
       "id": "ess-kanga-cloth-messages",
       "name_ja": "カンガ布のジナ（無言の伝言）",
@@ -615,9 +661,9 @@
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 3,
+    "leadsFresh": 6,
     "leadsOpen": 0,
-    "essences": 3,
-    "essencesNew": 2
+    "essences": 4,
+    "essencesNew": 3
   }
 }

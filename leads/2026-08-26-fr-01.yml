@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-08-26-fr-01
+date: "2026-08-26"
+scouted_by: claude-routine-hiroto
+language: fr
+country_region: [FR]
+map_anchor: { lat: 46.6, lng: 2.2 }
+teaser_ja: "ヨーロッパのある言語には、恋に落ちる瞬間を空から不意打ちのように降ってくる自然現象になぞらえる古い言い回しがある。もとは17世紀、まったく別の不穏な意味で辞書に載っていたらしい。"
+intrigue_tags: [weather, sudden_love, etymology]
+candidate:
+  phrase_original: "coup de foudre"
+  gloss_hint: "直訳は「雷の一撃」。転じて「一目惚れ」「突然の恋」を意味する慣用句"
+  kiza_elements: [metaphor, poetic_image]
+  sources:
+    - url: https://www.expressio.fr/expressions/coup-de-foudre
+      note: "スカウトがfetch確認済み。「coup de foudre」というフランス語原文が掲載され、17世紀には『不意の災難』を指す言葉だったのが18世紀末に『突然の激しい恋の始まり』の意味に転じたという語源の説明、および『Je crois enfin au coup de foudre』『J'ai eu le coup de foudre pour vous』といった実際の使用例文が確認できた。"
+status: fresh
+picked_for: "2026-08-26"
+resolution: null
