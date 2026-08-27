@@ -85,6 +85,27 @@ window.PISTACHIO_KITCHEN_DATA = {
         "https://petalesdhistoire.com/en/rose-nightingale-isafahan-mystical-poetry/"
       ],
       "created": "2026-07-18"
+    },
+    {
+      "id": "ess-thinai-kurinji",
+      "name_ja": "クリンジ（山の情景）",
+      "name_original": "குறிஞ்சி (Kuṟiñci)",
+      "category": "poetry",
+      "culture_ja": "タミル・サンガム文学の「ティナイ」（恋の五情景）の伝統",
+      "summary_ja": "古代タミルの恋愛詩（サンガム文学）は、恋の局面ごとに対応する五つの風景「ティナイ」に分類される型を持つ。そのうち山岳地帯を舞台とする「クリンジ」は、涼しい気候・孔雀・象・滝・花々といった情景で特徴づけられ、恋人たちの秘めやかな逢瀬と幸福な結びつきの局面を象徴する。",
+      "metaphor_potential_ja": "「舞台となる風景そのものが、恋の局面を語る演者になる」という詩の型を担える。孔雀や滝、山の花といった具体的なモチーフを、忍び逢いの高揚感や幸福な結びつきを匂わせる比喩の材料として使える。また「風景で語り、直接の言葉を避ける」という婉曲的な口説き文句の構成にも応用できる。",
+      "tags": [
+        "classical_poetry",
+        "landscape",
+        "mountain",
+        "tamil",
+        "sangam"
+      ],
+      "usage_hint": "直接的な感情語を使わず、山・涼風・孔雀・滝といった風景描写を通して恋の高揚感や幸福な結びつきを匂わせるセリフの構成に使える。「言葉ではなく舞台で語る」という婉曲的な口説き文句の型として、静かで詩的なトーンの創作に向く。",
+      "source_urls": [
+        "https://swarajyamag.com/culture/love-and-landscapes-in-sangam-poetry"
+      ],
+      "created": "2026-08-27"
     }
   ],
   "phrases": [

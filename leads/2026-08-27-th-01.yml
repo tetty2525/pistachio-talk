@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-08-27-th-01
+date: "2026-08-27"
+scouted_by: claude-routine-hiroto
+language: th
+country_region: [TH]
+map_anchor: { lat: 13.7, lng: 100.5 }
+teaser_ja: "東南アジアのある言語には、恋人を『心にある天体』と呼ぶ古風な呼び方がある。日常のおしゃべりよりも、文学作品や歌、あらたまった愛の告白の場でよく使われる詩的な言葉らしい。"
+intrigue_tags: [celestial, endearment, literary]
+candidate:
+  phrase_original: "ดวงใจ (duang jai)"
+  gloss_hint: "直訳は「心の天体（オーブ）」。恋人・最愛の人を指す詩的な呼び方"
+  kiza_elements: [metaphor, poetic_image]
+  sources:
+    - url: https://jamkham.com/blog/thai-valentine-love-words/
+      note: "スカウトがfetch確認済み。「duang jai ดวงใจ orb of the heart — darling (poetic)」という原語表記と直訳が掲載され、ドゥアン(duang)が天体・運命を指す語であることの説明、そして『日常会話よりも文学作品・歌・正式な愛の告白でより多く使われる』という使用場面の記述が確認できた。"
+status: fresh
+picked_for: "2026-08-27"
+resolution: null

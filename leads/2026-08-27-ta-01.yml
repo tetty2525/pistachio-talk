@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-08-27-ta-01
+date: "2026-08-27"
+scouted_by: claude-routine-hiroto
+language: ta
+country_region: [IN]
+map_anchor: { lat: 11.0, lng: 78.7 }
+teaser_ja: "南インドの古典詩の伝統には、二千年以上前に詠まれたとされる一節が伝わる。血のつながりも面識もなかった二人の心が、ある自然現象の組み合わせのように混ざり合ったとたとえる詩で、今も詞華集で読み継がれているらしい。"
+intrigue_tags: [classical_poetry, nature, ancient]
+candidate:
+  phrase_original: "செம் புலப் பெயல் நீர் போல் அன்புடை நெஞ்சம் தாம் கலந்தனவே"
+  gloss_hint: "赤い土に降る雨のように、愛に満ちた心は混ざり合った、という趣旨の一節（サンガム文学『クルントーハイ』第40番）"
+  kiza_elements: [metaphor, poetic_image]
+  sources:
+    - url: https://oldtamilpoetry.com/2017/01/04/kurunthokai-40/
+      note: "スカウトがfetch確認済み。タミル語原文と英訳が掲載されており、血縁も面識もない男女が『赤い土に降る雨』のように心を通わせたという比喩の意味の説明、および恋人が別れを前に相手の不安を払拭するために語る場面という使用文脈の記述が確認できた。"
+status: fresh
+picked_for: "2026-08-27"
+resolution: null

@@ -286,7 +286,7 @@
       "lng": 78.7,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -385,7 +385,7 @@
       "lng": 100.5,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -506,7 +506,7 @@
       "lng": -71.9,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -612,6 +612,42 @@
         "etymology"
       ],
       "date": "2026-08-26"
+    },
+    {
+      "id": "lead-2026-08-27-qu-01",
+      "lat": -13.5,
+      "lng": -71.9,
+      "teaser_ja": "アンデス山中では1945年の民俗音楽コンテストで優勝したという舞踊歌が、今も定番曲として歌い継がれている。その歌詞には、ある小鳥と心臓を並べて呼びかける、繰り返しの言い回しが登場するらしい。",
+      "intrigue_tags": [
+        "folk_song",
+        "bird",
+        "andean"
+      ],
+      "date": "2026-08-27"
+    },
+    {
+      "id": "lead-2026-08-27-ta-01",
+      "lat": 11,
+      "lng": 78.7,
+      "teaser_ja": "南インドの古典詩の伝統には、二千年以上前に詠まれたとされる一節が伝わる。血のつながりも面識もなかった二人の心が、ある自然現象の組み合わせのように混ざり合ったとたとえる詩で、今も詞華集で読み継がれているらしい。",
+      "intrigue_tags": [
+        "classical_poetry",
+        "nature",
+        "ancient"
+      ],
+      "date": "2026-08-27"
+    },
+    {
+      "id": "lead-2026-08-27-th-01",
+      "lat": 13.7,
+      "lng": 100.5,
+      "teaser_ja": "東南アジアのある言語には、恋人を『心にある天体』と呼ぶ古風な呼び方がある。日常のおしゃべりよりも、文学作品や歌、あらたまった愛の告白の場でよく使われる詩的な言葉らしい。",
+      "intrigue_tags": [
+        "celestial",
+        "endearment",
+        "literary"
+      ],
+      "date": "2026-08-27"
     }
   ],
   "leadsOpen": [],
@@ -634,7 +670,7 @@
       "metaphor_potential_ja": "「言葉にせず、選ぶことで伝える」という間接的な愛情表現の型を担える。相手への想いを直接言わず、モノや品物の選択・贈り物に託して匂わせるセリフの構図に転用しやすい。また「二つで一組になって初めて意味をなすもの」（布と着る人、ことわざと状況）という比喩の担い手にもなる。",
       "lat": -6.16,
       "lng": 39.19,
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ess-may-va-nui-vietnam",
@@ -655,15 +691,25 @@
       "lat": 32.65,
       "lng": 51.68,
       "isNew": false
+    },
+    {
+      "id": "ess-thinai-kurinji",
+      "name_ja": "クリンジ（山の情景）",
+      "category": "poetry",
+      "culture_ja": "タミル・サンガム文学の「ティナイ」（恋の五情景）の伝統",
+      "metaphor_potential_ja": "「舞台となる風景そのものが、恋の局面を語る演者になる」という詩の型を担える。孔雀や滝、山の花といった具体的なモチーフを、忍び逢いの高揚感や幸福な結びつきを匂わせる比喩の材料として使える。また「風景で語り、直接の言葉を避ける」という婉曲的な口説き文句の構成にも応用できる。",
+      "lat": 11,
+      "lng": 78.7,
+      "isNew": true
     }
   ],
   "totals": {
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 6,
+    "leadsFresh": 9,
     "leadsOpen": 0,
-    "essences": 4,
+    "essences": 5,
     "essencesNew": 3
   }
 }

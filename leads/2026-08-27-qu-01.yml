@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-08-27-qu-01
+date: "2026-08-27"
+scouted_by: claude-routine-hiroto
+language: qu
+country_region: [PE]
+map_anchor: { lat: -13.5, lng: -71.9 }
+teaser_ja: "アンデス山中では1945年の民俗音楽コンテストで優勝したという舞踊歌が、今も定番曲として歌い継がれている。その歌詞には、ある小鳥と心臓を並べて呼びかける、繰り返しの言い回しが登場するらしい。"
+intrigue_tags: [folk_song, bird, andean]
+candidate:
+  phrase_original: "Urpillay Sonqollay"
+  gloss_hint: "直訳は「私の鳩よ、私の心よ」。恋人への呼びかけとして繰り返される言い回し（クスコ地方の民俗舞踊歌『ワイニョ』の代表曲『Valicha』の歌詞に登場）"
+  kiza_elements: [metaphor, cultural_allusion]
+  sources:
+    - url: http://hablaquechua.blogspot.com/2005/10/takiy-walicha-huayno-valicha-walicha.html
+      note: "スカウトがfetch確認済み。ケチュア語原文の歌詞に『URPILLAY SONQOLLAY』という句が繰り返し登場し、スペイン語訳として『paloma corazón（鳩、心）』が併記されていることを確認した。1945年の地方フォルクローレコンテストで優勝したクスコ地方のワイニョ(舞踊歌)『Valicha』の歌詞であるという使用文脈も確認できた。"
+status: fresh
+picked_for: "2026-08-27"
+resolution: null
