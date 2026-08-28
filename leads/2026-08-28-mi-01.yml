@@ -1,0 +1,21 @@
+schema_version: 1
+id: lead-2026-08-28-mi-01
+date: "2026-08-28"
+scouted_by: claude-routine-hiroto
+language: mi
+country_region: [NZ]
+map_anchor: { lat: -41.3, lng: 174.8 }
+teaser_ja: "太平洋のある言語には、単なる『宝物』ではなく、祖先や土地とのつながりまで背負う特別な一語で恋人を呼ぶ習わしがあるという噂。まだ地図に光の灯っていない地域からの初便り。"
+intrigue_tags: [treasure, ancestry, first_contact]
+candidate:
+  phrase_original: "taonga"
+  gloss_hint: "直訳は「宝物・大切なもの」。単なる物品ではなく、祖先や土地とのつながりを持つ価値あるものを指す語で、恋人への愛称としても転用される"
+  kiza_elements: [metaphor, cultural_allusion]
+  sources:
+    - url: https://talkpal.ai/vocabulary/romantic-nicknames-in-maori-language/
+      note: "スカウトがfetch確認済み。原語「taonga」の記載と、『大切にされ、かけがえのない存在であることを示すため恋人の愛称として使われる』という説明、用例文「You are my taonga, forever cherished.」を確認。"
+    - url: https://en.wikipedia.org/wiki/Taonga
+      note: "スカウトがfetch確認済み。taongaが単なる『宝物』の訳語に収まらず、マオリの人々と祖先・土地との系譜的つながり（whakapapa）を表す、有形・無形の大切なものを指す文化的概念であることの説明を確認。"
+status: fresh
+picked_for: "2026-08-28"
+resolution: null

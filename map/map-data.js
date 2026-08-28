@@ -100,7 +100,7 @@ window.PISTACHIO_MAP_DATA = {
       "lng": 19,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -221,7 +221,7 @@ window.PISTACHIO_MAP_DATA = {
       "lng": 38.7,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -474,7 +474,7 @@ window.PISTACHIO_MAP_DATA = {
       "lng": 174.8,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -649,6 +649,42 @@ window.PISTACHIO_MAP_DATA = {
         "literary"
       ],
       "date": "2026-08-27"
+    },
+    {
+      "id": "lead-2026-08-28-am-01",
+      "lat": 9,
+      "lng": 38.7,
+      "teaser_ja": "アフリカのある言語圏では、恋人を国の紋章にも描かれた百獣にたとえて呼ぶ習わしがあるらしい。その動物は、かつての皇帝の称号にも使われていたという噂。",
+      "intrigue_tags": [
+        "animal",
+        "royalty",
+        "cultural_allusion"
+      ],
+      "date": "2026-08-28"
+    },
+    {
+      "id": "lead-2026-08-28-mi-01",
+      "lat": -41.3,
+      "lng": 174.8,
+      "teaser_ja": "太平洋のある言語には、単なる『宝物』ではなく、祖先や土地とのつながりまで背負う特別な一語で恋人を呼ぶ習わしがあるという噂。まだ地図に光の灯っていない地域からの初便り。",
+      "intrigue_tags": [
+        "treasure",
+        "ancestry",
+        "first_contact"
+      ],
+      "date": "2026-08-28"
+    },
+    {
+      "id": "lead-2026-08-28-pl-01",
+      "lat": 52,
+      "lng": 19,
+      "teaser_ja": "ヨーロッパのある言語には、大切な人を『頭の中にある小さな眼』にたとえる古い言い回しがある。家族の間でよく使われるが、恋人同士にも転用されているらしい。",
+      "intrigue_tags": [
+        "body",
+        "endearment",
+        "classic"
+      ],
+      "date": "2026-08-28"
     }
   ],
   "leadsOpen": [],
@@ -674,6 +710,16 @@ window.PISTACHIO_MAP_DATA = {
       "isNew": false
     },
     {
+      "id": "ess-lion-of-judah",
+      "name_ja": "ユダのライオン（アンベッサ）",
+      "category": "myth",
+      "culture_ja": "エチオピア・ソロモン王朝の伝承と国家象徴",
+      "metaphor_potential_ja": "「動物にたとえる」だけで終わらせず、その動物が背負う王権・血統・不屈さという重みごと相手に贈る比喩として使える。「ただの百獣の王ではなく、一国の皇帝の称号を背負ってきた獣」という構図は、相手を讃える言葉に威厳・歴史の重みを足したいときの型になる。勇敢さ・誇り高さ・逆境での不屈さを讃える文脈と特に相性が良い。",
+      "lat": 9,
+      "lng": 38.7,
+      "isNew": true
+    },
+    {
       "id": "ess-may-va-nui-vietnam",
       "name_ja": "雲と山（マイ・ヴァー・ヌイ）",
       "category": "nature",
@@ -681,7 +727,7 @@ window.PISTACHIO_MAP_DATA = {
       "metaphor_potential_ja": "立場や性質が異なる二人が、それでも離れがたく結びついている、という関係性の比喩に使える。「雲は空を、山は大地を離れないのに、なぜ私たちだけが離れられよう」といった、別れがたさ・引き離せなさを詩的に語るときの型として応用できる。",
       "lat": 14,
       "lng": 108,
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ess-rose-and-nightingale",
@@ -708,9 +754,9 @@ window.PISTACHIO_MAP_DATA = {
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 9,
+    "leadsFresh": 12,
     "leadsOpen": 0,
-    "essences": 5,
+    "essences": 6,
     "essencesNew": 3
   }
 };

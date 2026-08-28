@@ -1,0 +1,21 @@
+schema_version: 1
+id: lead-2026-08-28-am-01
+date: "2026-08-28"
+scouted_by: claude-routine-hiroto
+language: am
+country_region: [ET]
+map_anchor: { lat: 9.0, lng: 38.7 }
+teaser_ja: "アフリカのある言語圏では、恋人を国の紋章にも描かれた百獣にたとえて呼ぶ習わしがあるらしい。その動物は、かつての皇帝の称号にも使われていたという噂。"
+intrigue_tags: [animal, royalty, cultural_allusion]
+candidate:
+  phrase_original: "የኔ አንበሳ (Yene anbessa)"
+  gloss_hint: "直訳は「私のライオン」。男性に向けた愛情表現として使われる呼びかけ語"
+  kiza_elements: [metaphor, cultural_allusion]
+  sources:
+    - url: https://ling-app.com/blog/i-love-you-in-amharic/
+      note: "スカウトがfetch確認済み。「Beautiful Amharic Love Vocabulary」の一覧に原語表記「Yene anbessa（የኔ አንበሳ）」と直訳「my lion」、男性向けの愛情表現である旨の記載を確認。"
+    - url: https://worldhistoryedu.com/lion-of-judah-origin-story-meaning-symbolism-and-significance/
+      note: "スカウトがfetch確認済み。アンベッサ（ライオン）がエチオピアでソロモン王朝・ハイレ・セラシエ皇帝の称号「ユダ族の征服するライオン」に結びつく王権・勇気の象徴であるという文化的背景を確認。"
+status: fresh
+picked_for: "2026-08-28"
+resolution: null

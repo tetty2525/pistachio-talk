@@ -1,0 +1,21 @@
+schema_version: 1
+id: lead-2026-08-28-pl-01
+date: "2026-08-28"
+scouted_by: claude-routine-hiroto
+language: pl
+country_region: [PL]
+map_anchor: { lat: 52.0, lng: 19.0 }
+teaser_ja: "ヨーロッパのある言語には、大切な人を『頭の中にある小さな眼』にたとえる古い言い回しがある。家族の間でよく使われるが、恋人同士にも転用されているらしい。"
+intrigue_tags: [body, endearment, classic]
+candidate:
+  phrase_original: "oczko w głowie"
+  gloss_hint: "直訳は「頭の中の（小さな）眼」。転じて『何より大切な人（瞳の中の瞳＝英語のapple of one's eyeに相当）』を意味する慣用句"
+  kiza_elements: [metaphor]
+  sources:
+    - url: https://en.wiktionary.org/wiki/oczko_w_g%C5%82owie
+      note: "スカウトがfetch確認済み。原語表記「oczko w głowie」、直訳「eye in the head」、比喩的意味「apple of someone's eye（深く大切にされている人）」の説明を確認。"
+    - url: https://glosbe.com/pl/en/oczko%20w%20g%C5%82owie
+      note: "スカウトがfetch確認済み。ポーランド語での定義「najważniejsza, droga, kochana komuś osoba lub zwierzę（その人にとって最も大切で、愛おしい人や動物）」と、大切にされている存在を指して使われる用例を確認。"
+status: fresh
+picked_for: "2026-08-28"
+resolution: null

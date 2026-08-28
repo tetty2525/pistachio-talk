@@ -45,6 +45,27 @@ window.PISTACHIO_KITCHEN_DATA = {
       "created": "2026-08-24"
     },
     {
+      "id": "ess-lion-of-judah",
+      "name_ja": "ユダのライオン（アンベッサ）",
+      "name_original": "አንበሳ (anbessa)",
+      "category": "myth",
+      "culture_ja": "エチオピア・ソロモン王朝の伝承と国家象徴",
+      "summary_ja": "エチオピアでライオンを指す「アンベッサ」は、単なる動物名にとどまらず、ソロモン王とシバの女王の子メネリク1世に始まるとされる王朝伝承（『ケブラ・ナガスト』）と結びつき、「ユダ族の征服するライオン」としてメネリク2世やハイレ・セラシエ1世ら歴代皇帝の称号・国章・国旗に用いられてきた、王権と勇気の象徴。",
+      "metaphor_potential_ja": "「動物にたとえる」だけで終わらせず、その動物が背負う王権・血統・不屈さという重みごと相手に贈る比喩として使える。「ただの百獣の王ではなく、一国の皇帝の称号を背負ってきた獣」という構図は、相手を讃える言葉に威厳・歴史の重みを足したいときの型になる。勇敢さ・誇り高さ・逆境での不屈さを讃える文脈と特に相性が良い。",
+      "tags": [
+        "royalty",
+        "courage",
+        "animal",
+        "national_symbol",
+        "ethiopia"
+      ],
+      "usage_hint": "相手を「ライオンのようだ」と讃める比喩は単純だが、この素材を使えば「その百獣の王が、実は一国の皇帝の称号そのものだった」という一段深い含みを足せる。「ただ強いだけでなく、逆境の中でも誇りを失わない」人を讃えたいとき、あるいは「気高さと血統・歴史の重みを併せ持つ相手」を讃えたいときの比喩の芯として使いやすい。",
+      "source_urls": [
+        "https://worldhistoryedu.com/lion-of-judah-origin-story-meaning-symbolism-and-significance/"
+      ],
+      "created": "2026-08-28"
+    },
+    {
       "id": "ess-may-va-nui-vietnam",
       "name_ja": "雲と山（マイ・ヴァー・ヌイ）",
       "name_original": "mây và núi",
