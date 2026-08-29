@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-08-29-fa-01
+date: "2026-08-29"
+scouted_by: claude-routine-hiroto
+language: fa
+country_region: [IR]
+map_anchor: { lat: 32.0, lng: 53.0 }
+teaser_ja: "中東のある言語圏では、恋人を体の内臓の一部になぞらえて呼ぶ、日本人には少々意外な愛称があるらしい。感情の宿る場所として、心臓よりも重んじられてきた部位だという噂。"
+intrigue_tags: [body, emotion, cultural_allusion]
+candidate:
+  phrase_original: "جیگرم (jigaram)"
+  gloss_hint: "直訳は「私の肝臓」。ペルシア文化で感情・勇気の宿る場所とされる肝臓を、恋人への最上級の愛称として使う表現"
+  kiza_elements: [metaphor, cultural_allusion]
+  sources:
+    - url: https://persianwithel.com/culture/persian-love-phrases-guide/
+      note: "スカウトがfetch確認済み。ペルシア語の愛称『جیگرم(jigaram)』の項目で、直訳が『my liver』であること、ペルシア文化において肝臓は英語圏の心臓に相当するがより強い『深い感情と勇気の宿る場所』とされること、恋人同士の間で使われる最も強い愛情表現の一つ（Deep romantic loveのカテゴリ）に分類されていることを確認した。"
+status: fresh
+picked_for: "2026-08-29"
+resolution: null

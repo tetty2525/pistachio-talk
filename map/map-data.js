@@ -67,7 +67,7 @@ window.PISTACHIO_MAP_DATA = {
       "lng": 10,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -133,7 +133,7 @@ window.PISTACHIO_MAP_DATA = {
       "lng": 53,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -298,7 +298,7 @@ window.PISTACHIO_MAP_DATA = {
       "lng": 74.3,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -685,6 +685,42 @@ window.PISTACHIO_MAP_DATA = {
         "classic"
       ],
       "date": "2026-08-28"
+    },
+    {
+      "id": "lead-2026-08-29-de-01",
+      "lat": 51,
+      "lng": 10,
+      "teaser_ja": "ヨーロッパのある言語圏では、恋人を天候の恵みにたとえて呼ぶ愛称が定番になっているらしい。むずかしい理屈より、部屋を明るくする効果で語られるという噂。",
+      "intrigue_tags": [
+        "weather",
+        "nature",
+        "affection"
+      ],
+      "date": "2026-08-29"
+    },
+    {
+      "id": "lead-2026-08-29-fa-01",
+      "lat": 32,
+      "lng": 53,
+      "teaser_ja": "中東のある言語圏では、恋人を体の内臓の一部になぞらえて呼ぶ、日本人には少々意外な愛称があるらしい。感情の宿る場所として、心臓よりも重んじられてきた部位だという噂。",
+      "intrigue_tags": [
+        "body",
+        "emotion",
+        "cultural_allusion"
+      ],
+      "date": "2026-08-29"
+    },
+    {
+      "id": "lead-2026-08-29-ur-01",
+      "lat": 31.5,
+      "lng": 74.3,
+      "teaser_ja": "南アジアのある言語圏の伝統詩には、夜に訪れた恋人の美しさのあまり天体そのものが嫉妬するという、定番の讃美の型があるらしい。ある詩人による一節が今も引用され続けているという噂。",
+      "intrigue_tags": [
+        "poetic_image",
+        "celestial",
+        "classical_poetry"
+      ],
+      "date": "2026-08-29"
     }
   ],
   "leadsOpen": [],
@@ -697,7 +733,7 @@ window.PISTACHIO_MAP_DATA = {
       "metaphor_potential_ja": "「音だけを頼りに暗い水を渡る」「隔てる湖を自らの力で越える」という構図は、距離や障害を越えてでも相手のもとへ向かう決意・一途さの比喩として使える。笛の音を「導きの光」のように扱う言い換えもできる。",
       "lat": -38.1,
       "lng": 176.3,
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ess-kanga-cloth-messages",
@@ -748,15 +784,25 @@ window.PISTACHIO_MAP_DATA = {
       "lat": 11,
       "lng": 78.7,
       "isNew": true
+    },
+    {
+      "id": "ess-waldeinsamkeit",
+      "name_ja": "森の孤独（ヴァルトアインザームカイト）",
+      "category": "nature",
+      "culture_ja": "ドイツ・ロマン主義の自然観",
+      "metaphor_potential_ja": "一人の時間や距離を、否定的な寂しさではなく心を静め満たしてくれるものとして描きたいときに使える比喩の担い手。「側にいなくても、あなたは森の静けさのように私を満たす」というような、依存ではなく穏やかな敬意を込めた距離感の表現に向く。",
+      "lat": 51,
+      "lng": 10,
+      "isNew": true
     }
   ],
   "totals": {
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 12,
+    "leadsFresh": 15,
     "leadsOpen": 0,
-    "essences": 6,
+    "essences": 7,
     "essencesNew": 3
   }
 };

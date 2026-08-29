@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-08-29-ur-01
+date: "2026-08-29"
+scouted_by: claude-routine-hiroto
+language: ur
+country_region: [PK]
+map_anchor: { lat: 31.5, lng: 74.3 }
+teaser_ja: "南アジアのある言語圏の伝統詩には、夜に訪れた恋人の美しさのあまり天体そのものが嫉妬するという、定番の讃美の型があるらしい。ある詩人による一節が今も引用され続けているという噂。"
+intrigue_tags: [poetic_image, celestial, classical_poetry]
+candidate:
+  phrase_original: "رَشْکِ قَمَر (rashk-e-qamar)"
+  gloss_hint: "直訳は「月の嫉妬」。あまりの美しさに月ですら嫉妬する、という古典ウルドゥー詩（ガザル）の定番讃美表現。美しい恋人を指す呼びかけとしても使われる"
+  kiza_elements: [poetic_image, cultural_allusion]
+  sources:
+    - url: https://www.rekhtadictionary.com/meaning-of-rashk-e-qamar
+      note: "スカウトがfetch確認済み。ウルドゥー語原文『رَشْکِ قَمَر』の表記と『月への嫉妬』を意味する詩的表現である旨、詩人アマーナト・ラクナヴィーの一節『ghar mere shab ko jo wo rashk-e-qamar aa nikla, ho gae partaw-e-ruKH se dar o diwar safed』（その月も羨む美しい人が夜に私の家を訪れると、その顔の輝きで戸口も壁も白く輝いた）という使用例（couplet）を確認した。古典ウルドゥー詩の伝統で天体イメージを用いて至上の美を讃える定番表現であるとの説明も確認した。"
+status: fresh
+picked_for: "2026-08-29"
+resolution: null

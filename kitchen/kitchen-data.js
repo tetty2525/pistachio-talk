@@ -127,6 +127,26 @@ window.PISTACHIO_KITCHEN_DATA = {
         "https://swarajyamag.com/culture/love-and-landscapes-in-sangam-poetry"
       ],
       "created": "2026-08-27"
+    },
+    {
+      "id": "ess-waldeinsamkeit",
+      "name_ja": "森の孤独（ヴァルトアインザームカイト）",
+      "name_original": "Waldeinsamkeit",
+      "category": "nature",
+      "culture_ja": "ドイツ・ロマン主義の自然観",
+      "summary_ja": "「森（Wald）」と「孤独（Einsamkeit）」を組み合わせた合成語で、一人で森を歩くときに感じる、寂しさというより静かな充足感を伴う瞑想的な感覚を指す。18世紀末、作家ルートヴィヒ・ティークの物語『金髪のエックベルト』での使用をきっかけに広まったとされる。",
+      "metaphor_potential_ja": "一人の時間や距離を、否定的な寂しさではなく心を静め満たしてくれるものとして描きたいときに使える比喩の担い手。「側にいなくても、あなたは森の静けさのように私を満たす」というような、依存ではなく穏やかな敬意を込めた距離感の表現に向く。",
+      "tags": [
+        "solitude",
+        "forest",
+        "romanticism",
+        "untranslatable_word"
+      ],
+      "usage_hint": "一人の時間・距離・余白を、寂しさではなく満ち足りたものとして語りたい場面に向く。「側にいなくても、あなたは森の静けさのように私を満たす」というような、依存ではなく穏やかな敬意を込めた距離の比喩として使いやすい。落ち着いた・内省的なトーンの創作と相性がよい。",
+      "source_urls": [
+        "https://www.thelocal.de/20210406/german-word-of-the-day-die-waldeinsamkeit"
+      ],
+      "created": "2026-08-29"
     }
   ],
   "phrases": [

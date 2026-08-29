@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-08-29-de-01
+date: "2026-08-29"
+scouted_by: claude-routine-hiroto
+language: de
+country_region: [DE]
+map_anchor: { lat: 51.0, lng: 10.0 }
+teaser_ja: "ヨーロッパのある言語圏では、恋人を天候の恵みにたとえて呼ぶ愛称が定番になっているらしい。むずかしい理屈より、部屋を明るくする効果で語られるという噂。"
+intrigue_tags: [weather, nature, affection]
+candidate:
+  phrase_original: "Du bist mein Sonnenschein, du erhellst jeden Raum."
+  gloss_hint: "直訳は「あなたは私の太陽の光、あなたはあらゆる部屋を明るくする」。相手を天候の恵み（陽光）にたとえた愛称由来の褒め言葉"
+  kiza_elements: [metaphor]
+  sources:
+    - url: https://tandem.net/blog/german-pet-names
+      note: "スカウトがfetch確認済み。ドイツ語の愛称『Sonnenschein（太陽の光）』の項目に例文『Du bist mein Sonnenschein, du erhellst jeden Raum.』（あなたは私の太陽の光、あらゆる部屋を明るくする）と、相手が人生に光と幸福をもたらす存在であることを示す愛称だという説明を確認した。"
+status: fresh
+picked_for: "2026-08-29"
+resolution: null
