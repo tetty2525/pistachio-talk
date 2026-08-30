@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-08-30-sv-01
+date: "2026-08-30"
+scouted_by: claude-routine-hiroto
+language: sv
+country_region: [SE]
+map_anchor: { lat: 62.0, lng: 15.0 }
+teaser_ja: "北欧のある言語圏では、恋人を『宝物』と呼ぶ愛称が定番らしい。ただの褒め言葉ではなく、かけがえのない財産にたとえる発想だという噂。"
+intrigue_tags: [treasure, affection, nordic]
+candidate:
+  phrase_original: "Du är min skatt."
+  gloss_hint: "直訳は「あなたは私の宝物（skatt）」。恋人を貴重で代わりのきかない財産にたとえる愛称・褒め言葉"
+  kiza_elements: [metaphor]
+  sources:
+    - url: https://travelwithlanguages.com/blog/swedish-terms-of-endearment.html
+      note: "スカウトがfetch確認済み。スウェーデン語の愛称『Skatten（宝物）』の項目で、恋人をかけがえのない貴重な存在にたとえる比喩表現として使われるという説明を確認した。"
+status: fresh
+picked_for: "2026-08-30"
+resolution: null

@@ -1,0 +1,21 @@
+schema_version: 1
+id: lead-2026-08-30-id-01
+date: "2026-08-30"
+scouted_by: claude-routine-hiroto
+language: id
+country_region: [ID]
+map_anchor: { lat: -6.2, lng: 106.8 }
+teaser_ja: "東南アジアのある言語圏では、恋人を天界の乙女にたとえて呼ぶ愛称が定番らしい。神話の存在にたとえて相手を持ち上げる、という発想に文化的な奥行きを感じるという噂。"
+intrigue_tags: [mythology, celestial, affection]
+candidate:
+  phrase_original: "Selamat pagi, bidadari ku."
+  gloss_hint: "直訳は「おはよう、私の天女」。『bidadari』はインドネシア神話に登場する天界の乙女（ニンフ）を指す語で、辞書上も『美しい女性』を指す比喩表現として登録されている。恋人を神話的存在にたとえて称える朝の挨拶"
+  kiza_elements: [cultural_allusion, metaphor]
+  sources:
+    - url: https://kbbi.web.id/bidadari
+      note: "スカウトがfetch確認済み。インドネシア語公式辞書KBBIで『bidadari』の語義として(1)天界の王女・女神、(2)比喩(ki)として『美しい女性』の意が登録されていることを確認した。"
+    - url: https://talkpal.ai/vocabulary/romantic-phrases-and-love-expressions-in-indonesian/
+      note: "スカウトがfetch確認済み。『bidadari』をインドネシア神話の天女・天使を指す語として恋人への呼びかけに使う説明と、使用例文『Selamat pagi, bidadari ku.』（おはよう、私の天女）を確認した。"
+status: fresh
+picked_for: "2026-08-30"
+resolution: null

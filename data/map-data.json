@@ -55,7 +55,7 @@
       "lng": -8,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -110,7 +110,7 @@
       "lng": 15,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -407,7 +407,7 @@
       "lng": 106.8,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -720,6 +720,42 @@
         "classical_poetry"
       ],
       "date": "2026-08-29"
+    },
+    {
+      "id": "lead-2026-08-30-id-01",
+      "lat": -6.2,
+      "lng": 106.8,
+      "teaser_ja": "東南アジアのある言語圏では、恋人を天界の乙女にたとえて呼ぶ愛称が定番らしい。神話の存在にたとえて相手を持ち上げる、という発想に文化的な奥行きを感じるという噂。",
+      "intrigue_tags": [
+        "mythology",
+        "celestial",
+        "affection"
+      ],
+      "date": "2026-08-30"
+    },
+    {
+      "id": "lead-2026-08-30-pt-01",
+      "lat": 39.5,
+      "lng": -8,
+      "teaser_ja": "ヨーロッパのある言語圏では、恋人を国を代表する特産の酒にたとえ、『歳を重ねるほど良くなる』と口説く言い回しがあるらしい。土地の誇りごと相手を褒める発想が面白いという噂。",
+      "intrigue_tags": [
+        "wine",
+        "aging",
+        "national_pride"
+      ],
+      "date": "2026-08-30"
+    },
+    {
+      "id": "lead-2026-08-30-sv-01",
+      "lat": 62,
+      "lng": 15,
+      "teaser_ja": "北欧のある言語圏では、恋人を『宝物』と呼ぶ愛称が定番らしい。ただの褒め言葉ではなく、かけがえのない財産にたとえる発想だという噂。",
+      "intrigue_tags": [
+        "treasure",
+        "affection",
+        "nordic"
+      ],
+      "date": "2026-08-30"
     }
   ],
   "leadsOpen": [],
@@ -775,6 +811,16 @@
       "isNew": false
     },
     {
+      "id": "ess-saudade-fado",
+      "name_ja": "サウダーデとファドの詩的伝統",
+      "category": "poetry",
+      "culture_ja": "ポルトガルのファド音楽と「サウダーデ」の情感",
+      "metaphor_potential_ja": "「側にいない/失われた」ことそのものを、悲哀だけでなく愛おしさを帯びた情感として描きたい場面に向く比喩の担い手。「ó」のような直接的な呼びかけの型や、-inho的な指小辞の「小さく、大切なもの」への慈しみのニュアンスは、切なさと愛情が同居する口説き文句・別れの言葉に応用できる。",
+      "lat": 38.7,
+      "lng": -9.14,
+      "isNew": true
+    },
+    {
       "id": "ess-thinai-kurinji",
       "name_ja": "クリンジ（山の情景）",
       "category": "poetry",
@@ -782,7 +828,7 @@
       "metaphor_potential_ja": "「舞台となる風景そのものが、恋の局面を語る演者になる」という詩の型を担える。孔雀や滝、山の花といった具体的なモチーフを、忍び逢いの高揚感や幸福な結びつきを匂わせる比喩の材料として使える。また「風景で語り、直接の言葉を避ける」という婉曲的な口説き文句の構成にも応用できる。",
       "lat": 11,
       "lng": 78.7,
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ess-waldeinsamkeit",
@@ -799,9 +845,9 @@
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 15,
+    "leadsFresh": 18,
     "leadsOpen": 0,
-    "essences": 7,
+    "essences": 8,
     "essencesNew": 3
   }
 }

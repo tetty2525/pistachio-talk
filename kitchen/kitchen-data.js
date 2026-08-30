@@ -108,6 +108,27 @@ window.PISTACHIO_KITCHEN_DATA = {
       "created": "2026-07-18"
     },
     {
+      "id": "ess-saudade-fado",
+      "name_ja": "サウダーデとファドの詩的伝統",
+      "name_original": "Saudade / Fado",
+      "category": "poetry",
+      "culture_ja": "ポルトガルのファド音楽と「サウダーデ」の情感",
+      "summary_ja": "19世紀のリスボンで生まれた歌謡ファドは、不在や喪失への郷愁「サウダーデ」を情感の核に据える。人・時・場所に直接呼びかける間投詞「ó（おお）」、失われた時間を突き放すように語る大過去形、「-inho/-inha」の指小辞による「傷つきやすく、愛おしい」ものへの慈しみの表現などを特徴とし、2011年にはユネスコ無形文化遺産に登録された。",
+      "metaphor_potential_ja": "「側にいない/失われた」ことそのものを、悲哀だけでなく愛おしさを帯びた情感として描きたい場面に向く比喩の担い手。「ó」のような直接的な呼びかけの型や、-inho的な指小辞の「小さく、大切なもの」への慈しみのニュアンスは、切なさと愛情が同居する口説き文句・別れの言葉に応用できる。",
+      "tags": [
+        "saudade",
+        "fado",
+        "longing",
+        "portugal",
+        "music_tradition"
+      ],
+      "usage_hint": "「もう側にいない」「もう戻らない」という状況を、単なる悲しみではなく愛おしさを帯びた情感として語りたいときの比喩の担い手になる。呼びかけの型（「ああ、〜よ」）や指小辞的な「小さく愛おしいもの」への視線は、切なさと愛情が同居する口説き文句や別れの言葉、遠距離の相手への言葉に応用しやすい。",
+      "source_urls": [
+        "https://elon.io/grammar/portuguese-portugal/texts/b1-fado-lyrics"
+      ],
+      "created": "2026-08-30"
+    },
+    {
       "id": "ess-thinai-kurinji",
       "name_ja": "クリンジ（山の情景）",
       "name_original": "குறிஞ்சி (Kuṟiñci)",

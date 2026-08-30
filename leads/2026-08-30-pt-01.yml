@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-08-30-pt-01
+date: "2026-08-30"
+scouted_by: claude-routine-hiroto
+language: pt
+country_region: [PT]
+map_anchor: { lat: 39.5, lng: -8.0 }
+teaser_ja: "ヨーロッパのある言語圏では、恋人を国を代表する特産の酒にたとえ、『歳を重ねるほど良くなる』と口説く言い回しがあるらしい。土地の誇りごと相手を褒める発想が面白いという噂。"
+intrigue_tags: [wine, aging, national_pride]
+candidate:
+  phrase_original: "És como o vinho do Porto, cada dia melhor."
+  gloss_hint: "直訳は「あなたはポートワインのよう、日ごとに良くなる」。ポルトガルの名産ポートワインに相手をたとえ、時間が経つほど魅力が増すと褒める口説き文句"
+  kiza_elements: [cultural_allusion, metaphor]
+  sources:
+    - url: https://talkpal.ai/vocabulary/pickup-lines-in-portuguese-language/
+      note: "スカウトがfetch確認済み。ポルトガル語の口説き文句の例として『És como o vinho do Porto, cada dia melhor.』（あなたはポートワインのよう、日ごとに良くなる）を、ポルトガルの名産ポートワインへの言及で『時間とともに洗練が増す』ことを示すヨーロッパ・ポルトガル語の口説き文句として説明する記述を確認した。"
+status: fresh
+picked_for: "2026-08-30"
+resolution: null
