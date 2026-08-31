@@ -2,6 +2,28 @@
 window.PISTACHIO_KITCHEN_DATA = {
   "essences": [
     {
+      "id": "ess-haenim-byeolnim",
+      "name_ja": "해님・별님（お日様・お星様の敬称）",
+      "name_original": "해님 / 별님",
+      "category": "celestial",
+      "culture_ja": "韓国語の敬称文化（-님）",
+      "summary_ja": "韓国語では、本来は目上の人物や神仏に対して用いる敬称接尾辞「-님(nim)」を太陽(해)や星(별)につけ、「해님(お日様)」「별님(お星様)」として、大切な人を照らし続ける光にたとえる愛称にする文化がある。",
+      "metaphor_potential_ja": "本来は目上に使う畏まった敬称を、あえて自然物や相手にかぶせることで「敬いながら親しむ」というねじれたニュアンスを演出できる。丁寧さとからかい混じりの甘さを同時ににじませたいセリフ、あるいは相手を「自分の日々を照らす光」にたとえる比喩の土台として使える。",
+      "tags": [
+        "celestial",
+        "honorific",
+        "wordplay",
+        "korean",
+        "nature"
+      ],
+      "usage_hint": "「相手を敬いながら、同時に甘くからかう」という一見矛盾したトーンを両立させたいセリフに向く。畏まった言葉遣いのはずが、対象が恋人や好きな人であることで急に親密でユーモラスに転じる、というギャップの演出に使える。また「日々を照らす光」「夜を照らす星」という自然物への賛美を人物評に転用する比喩の型としても使いやすい。",
+      "source_urls": [
+        "https://lingopie.com/blog/korean-terms-of-endearment-a-heartfelt-guide-to-expressing-love-and-affection/",
+        "https://teamgroupnames.com/korean-nicknames-for-boyfriend/"
+      ],
+      "created": "2026-08-31"
+    },
+    {
       "id": "ess-hinemoa-and-tutanekai",
       "name_ja": "ヒネモアとトゥーターネカイの湖渡り",
       "name_original": "Hinemoa raua ko Tūtānekai",

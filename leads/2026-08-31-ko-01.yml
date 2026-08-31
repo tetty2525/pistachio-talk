@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-08-31-ko-01
+date: "2026-08-31"
+scouted_by: claude-routine-hiroto
+language: ko
+country_region: [KR]
+map_anchor: { lat: 37.5, lng: 127.8 }
+teaser_ja: "東アジアのある言語圏には、大切な人のこれからの道のりを『花で敷き詰められた道』にたとえて祈る言い回しがある。K-POPの受賞スピーチをきっかけに広まったという噂も。"
+intrigue_tags: [flower, blessing, poetic_image]
+candidate:
+  phrase_original: "꽃길만 걷자"
+  gloss_hint: "直訳は「花の道だけを歩こう」。相手のこれからの人生行路を花で敷き詰められた道にたとえ、これから先は幸運と良いことだけが続くようにという祈りを込めた言い回し。"
+  kiza_elements: [poetic_image]
+  sources:
+    - url: https://monobility.com/5-flower-path-or-thorny-path-%EA%BD%83%EA%B8%B8-vs-%EA%B0%80%EC%8B%9C%EB%B0%AD%EA%B8%B8/
+      note: "スカウトがfetch確認済み。韓国語原文「꽃길만 걷자」の項目で、意味『a smooth life path full of good luck and fortunate events』と使用例『꽃길만 걷자 = Let's only walk on the flowery path!』を確認した。"
+status: fresh
+picked_for: "2026-08-31"
+resolution: null

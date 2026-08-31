@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-08-31-ru-01
+date: "2026-08-31"
+scouted_by: claude-routine-hiroto
+language: ru
+country_region: [RU]
+map_anchor: { lat: 55.75, lng: 37.6 }
+teaser_ja: "北方のある言語圏には、大切な人を『難攻不落の守り』にたとえる古い言い回しがあるらしい。要塞のような安心感を差し出す愛情表現だという噂。"
+intrigue_tags: [security, fortress, folk_idiom]
+candidate:
+  phrase_original: "Я за тобой как за каменной стеной."
+  gloss_hint: "直訳は「あなたと一緒にいると、まるで石の壁の後ろにいるように(安全だ)」。相手を、自分を完全に守ってくれる頑丈な壁にたとえる伝統的な言い回し。"
+  kiza_elements: [metaphor]
+  sources:
+    - url: https://phraseology.academic.ru/12382/%D0%9A%D0%B0%D0%BA_(%D1%81%D0%BB%D0%BE%D0%B2%D0%BD%D0%BE,_%D1%82%D0%BE%D1%87%D0%BD%D0%BE)_%D0%B7%D0%B0_%D0%BA%D0%B0%D0%BC%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9_%D1%81%D1%82%D0%B5%D0%BD%D0%BE%D0%B9
+      note: "スカウトがfetch確認済み。ロシア語原文「как(словно, точно) за каменной стеной」の項目で、意味「Под надёжным покровительством, защитой(信頼できる保護・庇護のもとで)」と、文学作品からの使用例「Да мы за тобой как за каменной стеной, была бы только ты здорова」を確認した。"
+status: fresh
+picked_for: "2026-08-31"
+resolution: null

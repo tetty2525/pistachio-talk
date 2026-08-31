@@ -88,7 +88,7 @@
       "lng": 37.6,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -143,7 +143,7 @@
       "lng": 35,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -341,7 +341,7 @@
       "lng": 127.8,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -756,10 +756,56 @@
         "nordic"
       ],
       "date": "2026-08-30"
+    },
+    {
+      "id": "lead-2026-08-31-he-01",
+      "lat": 31,
+      "lng": 35,
+      "teaser_ja": "中東のある言語圏には、宗教的な『贖罪』を意味する重い言葉が、モロッコ系移民の言語文化を経て、いつのまにか恋人への軽やかな愛称に転じたという噂。",
+      "intrigue_tags": [
+        "religious_origin",
+        "endearment",
+        "wordplay"
+      ],
+      "date": "2026-08-31"
+    },
+    {
+      "id": "lead-2026-08-31-ko-01",
+      "lat": 37.5,
+      "lng": 127.8,
+      "teaser_ja": "東アジアのある言語圏には、大切な人のこれからの道のりを『花で敷き詰められた道』にたとえて祈る言い回しがある。K-POPの受賞スピーチをきっかけに広まったという噂も。",
+      "intrigue_tags": [
+        "flower",
+        "blessing",
+        "poetic_image"
+      ],
+      "date": "2026-08-31"
+    },
+    {
+      "id": "lead-2026-08-31-ru-01",
+      "lat": 55.75,
+      "lng": 37.6,
+      "teaser_ja": "北方のある言語圏には、大切な人を『難攻不落の守り』にたとえる古い言い回しがあるらしい。要塞のような安心感を差し出す愛情表現だという噂。",
+      "intrigue_tags": [
+        "security",
+        "fortress",
+        "folk_idiom"
+      ],
+      "date": "2026-08-31"
     }
   ],
   "leadsOpen": [],
   "essencePoints": [
+    {
+      "id": "ess-haenim-byeolnim",
+      "name_ja": "해님・별님（お日様・お星様の敬称）",
+      "category": "celestial",
+      "culture_ja": "韓国語の敬称文化（-님）",
+      "metaphor_potential_ja": "本来は目上に使う畏まった敬称を、あえて自然物や相手にかぶせることで「敬いながら親しむ」というねじれたニュアンスを演出できる。丁寧さとからかい混じりの甘さを同時ににじませたいセリフ、あるいは相手を「自分の日々を照らす光」にたとえる比喩の土台として使える。",
+      "lat": 37.5,
+      "lng": 127.8,
+      "isNew": true
+    },
     {
       "id": "ess-hinemoa-and-tutanekai",
       "name_ja": "ヒネモアとトゥーターネカイの湖渡り",
@@ -788,7 +834,7 @@
       "metaphor_potential_ja": "「動物にたとえる」だけで終わらせず、その動物が背負う王権・血統・不屈さという重みごと相手に贈る比喩として使える。「ただの百獣の王ではなく、一国の皇帝の称号を背負ってきた獣」という構図は、相手を讃える言葉に威厳・歴史の重みを足したいときの型になる。勇敢さ・誇り高さ・逆境での不屈さを讃える文脈と特に相性が良い。",
       "lat": 9,
       "lng": 38.7,
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ess-may-va-nui-vietnam",
@@ -845,9 +891,9 @@
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 18,
+    "leadsFresh": 21,
     "leadsOpen": 0,
-    "essences": 8,
+    "essences": 9,
     "essencesNew": 3
   }
 }

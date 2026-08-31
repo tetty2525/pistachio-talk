@@ -1,0 +1,21 @@
+schema_version: 1
+id: lead-2026-08-31-he-01
+date: "2026-08-31"
+scouted_by: claude-routine-hiroto
+language: he
+country_region: [IL]
+map_anchor: { lat: 31.0, lng: 35.0 }
+teaser_ja: "中東のある言語圏には、宗教的な『贖罪』を意味する重い言葉が、モロッコ系移民の言語文化を経て、いつのまにか恋人への軽やかな愛称に転じたという噂。"
+intrigue_tags: [religious_origin, endearment, wordplay]
+candidate:
+  phrase_original: "כפרה עליך"
+  gloss_hint: "直訳は「あなたのための贖罪(を私が引き受ける)」。元は宗教用語として『罪の贖い・犠牲』を意味したが、モロッコ系ユダヤ人の言語文化を通じて『あなたのためなら自分を犠牲にしてもいい』という愛情の誇張表現に転じ、現代イスラエルでは『いとしい人』『あなた』に近い親しみを込めた呼びかけとして使われる。"
+  kiza_elements: [cultural_allusion]
+  sources:
+    - url: https://www.elongilad.com/en/etymology/%D7%9B%D7%A4%D7%A8%D7%94
+      note: "スカウトがfetch確認済み。ヘブライ語原文「כַּפָּרָה」の項目で、本来の意味『atonement(贖罪)』と、口語での転義『(colloquial) term of endearment: my darling, my dear』を確認した。"
+    - url: https://jewishdetroit.org/hebrew-word-of-the-month-kapara/
+      note: "スカウトがfetch確認済み。現代イスラエルでの使用例『Kapara, ta'azor li rega?(ねえ、ちょっと手伝ってくれる?)』と、モロッコ系ユダヤ・アラビア語由来の自己犠牲的な愛情表現としての由来説明を確認した。"
+status: fresh
+picked_for: "2026-08-31"
+resolution: null
