@@ -24,6 +24,28 @@ window.PISTACHIO_KITCHEN_DATA = {
       "created": "2026-08-31"
     },
     {
+      "id": "ess-harana-serenade",
+      "name_ja": "ハラナ（窓辺のセレナーデ求愛）",
+      "name_original": "harana",
+      "category": "custom",
+      "culture_ja": "フィリピンの伝統的求愛文化",
+      "summary_ja": "フィリピンの地方に伝わる伝統的な求愛の慣習。男性が夜、想いを寄せる女性の家の窓の下に立ち、ギターを伴って歌を捧げる。告知(panawagan)・告白(pagtatapat)・応答(panagutan)・別れ(pamaalam)という段階を踏み、歌詞では女性がしばしば天使や花にたとえられる。",
+      "metaphor_potential_ja": "「声・音だけを頼りに、姿の見えない相手に想いを届ける」という間接的な告白の構図に使える。また女性を花や天使にたとえる古風な言い回しの型、あるいは「告知→告白→応答→別れ」という儀式的な段階構成そのものを、口説きのセリフの起承転結の比喩として転用することもできる。",
+      "tags": [
+        "serenade",
+        "music",
+        "courtship_ritual",
+        "flower",
+        "filipino"
+      ],
+      "usage_hint": "「姿が見えない相手に、声と音楽だけで想いを届ける」という間接的な告白の型に使える。また、女性を花や天使にたとえる古風な賛美の言い回しの土台にもなる。告知→告白→応答→別れという儀式的な段取りそのものを、口説きのセリフやシーンの構成に転用してもよい。",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Harana_(serenade)",
+        "https://asianjournal.com/magazines/mdwk-magazine/remembering-harana-a-lost-filipino-tradition-of-courtship-through-song/"
+      ],
+      "created": "2026-09-01"
+    },
+    {
       "id": "ess-hinemoa-and-tutanekai",
       "name_ja": "ヒネモアとトゥーターネカイの湖渡り",
       "name_original": "Hinemoa raua ko Tūtānekai",

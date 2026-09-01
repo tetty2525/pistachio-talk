@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-01-bn-01
+date: "2026-09-01"
+scouted_by: claude-routine-hiroto
+language: bn
+country_region: [BD, IN]
+map_anchor: { lat: 23.8, lng: 90.4 }
+teaser_ja: "南アジアのある言語圏には、人生そのものを一輪の花に、愛をその蜜にたとえて語る詩的な言い回しが伝わっているという噂。恋の言葉を集めた現地の文集で見つかる型のひとつらしい。"
+intrigue_tags: [flower, poetic_image, life_metaphor]
+candidate:
+  phrase_original: "জীবন হল সেই ফুল যার জন্য ভালবাসা হল মধু"
+  gloss_hint: "直訳は「人生とは花であり、そのための愛は蜜である」。人生を花に、愛をその花に不可欠な蜜にたとえ、愛が人生を成り立たせる本質的なものだと語る比喩表現。"
+  kiza_elements: [metaphor]
+  sources:
+    - url: https://www.superprof.co.in/blog/best-love-quotes-in-bengali/
+      note: "スカウトがfetch確認済み。ベンガル語原文「জীবন হল সেই ফুল যার জন্য ভালবাসা হল মধু」の項目で、意味『人生は花であり、愛はその蜜』という訳と、恋の言葉を集めた記事内での使用（愛の言葉として紹介）を確認した。"
+status: fresh
+picked_for: "2026-09-01"
+resolution: null

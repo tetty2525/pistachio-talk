@@ -44,7 +44,7 @@
       "lng": 12.5,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -275,7 +275,7 @@
       "lng": 90.4,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -792,6 +792,30 @@
         "folk_idiom"
       ],
       "date": "2026-08-31"
+    },
+    {
+      "id": "lead-2026-09-01-bn-01",
+      "lat": 23.8,
+      "lng": 90.4,
+      "teaser_ja": "南アジアのある言語圏には、人生そのものを一輪の花に、愛をその蜜にたとえて語る詩的な言い回しが伝わっているという噂。恋の言葉を集めた現地の文集で見つかる型のひとつらしい。",
+      "intrigue_tags": [
+        "flower",
+        "poetic_image",
+        "life_metaphor"
+      ],
+      "date": "2026-09-01"
+    },
+    {
+      "id": "lead-2026-09-01-it-01",
+      "lat": 42.5,
+      "lng": 12.5,
+      "teaser_ja": "南欧のある言語圏には、相手そのものを『視界を成り立たせる光』にたとえて口説く古風な言い回しが伝わっているという噂。地中海沿岸の他言語にも似た型が見られるらしい。",
+      "intrigue_tags": [
+        "light",
+        "classic",
+        "mediterranean"
+      ],
+      "date": "2026-09-01"
     }
   ],
   "leadsOpen": [],
@@ -804,6 +828,16 @@
       "metaphor_potential_ja": "本来は目上に使う畏まった敬称を、あえて自然物や相手にかぶせることで「敬いながら親しむ」というねじれたニュアンスを演出できる。丁寧さとからかい混じりの甘さを同時ににじませたいセリフ、あるいは相手を「自分の日々を照らす光」にたとえる比喩の土台として使える。",
       "lat": 37.5,
       "lng": 127.8,
+      "isNew": true
+    },
+    {
+      "id": "ess-harana-serenade",
+      "name_ja": "ハラナ（窓辺のセレナーデ求愛）",
+      "category": "custom",
+      "culture_ja": "フィリピンの伝統的求愛文化",
+      "metaphor_potential_ja": "「声・音だけを頼りに、姿の見えない相手に想いを届ける」という間接的な告白の構図に使える。また女性を花や天使にたとえる古風な言い回しの型、あるいは「告知→告白→応答→別れ」という儀式的な段階構成そのものを、口説きのセリフの起承転結の比喩として転用することもできる。",
+      "lat": 14.6,
+      "lng": 121,
       "isNew": true
     },
     {
@@ -884,16 +918,16 @@
       "metaphor_potential_ja": "一人の時間や距離を、否定的な寂しさではなく心を静め満たしてくれるものとして描きたいときに使える比喩の担い手。「側にいなくても、あなたは森の静けさのように私を満たす」というような、依存ではなく穏やかな敬意を込めた距離感の表現に向く。",
       "lat": 51,
       "lng": 10,
-      "isNew": true
+      "isNew": false
     }
   ],
   "totals": {
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 21,
+    "leadsFresh": 23,
     "leadsOpen": 0,
-    "essences": 9,
+    "essences": 10,
     "essencesNew": 3
   }
 }

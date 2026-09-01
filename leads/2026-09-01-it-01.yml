@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-01-it-01
+date: "2026-09-01"
+scouted_by: claude-routine-hiroto
+language: it
+country_region: [IT]
+map_anchor: { lat: 42.5, lng: 12.5 }
+teaser_ja: "南欧のある言語圏には、相手そのものを『視界を成り立たせる光』にたとえて口説く古風な言い回しが伝わっているという噂。地中海沿岸の他言語にも似た型が見られるらしい。"
+intrigue_tags: [light, classic, mediterranean]
+candidate:
+  phrase_original: "Sei la luce dei miei occhi"
+  gloss_hint: "直訳は「あなたは私の目の光」。相手の存在を、自分がものを見るための光そのものにたとえる、恋愛の告白に使われる古典的な比喩表現。"
+  kiza_elements: [metaphor]
+  sources:
+    - url: https://www.vaia.com/en-us/explanations/italian/italian-vocabulary/italian-romantic-phrases/
+      note: "スカウトがfetch確認済み。イタリア語原文「Sei la luce dei miei occhi」の項目で、意味『あなたは私の目の光』という比喩の説明と、女性への恋愛の告白に適した表現として使用場面の記載を確認した。"
+status: fresh
+picked_for: "2026-09-01"
+resolution: null
