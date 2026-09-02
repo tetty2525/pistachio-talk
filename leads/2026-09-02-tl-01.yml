@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-02-tl-01
+date: "2026-09-02"
+scouted_by: claude-routine-hiroto
+language: tl
+country_region: [PH]
+map_anchor: { lat: 14.6, lng: 121.0 }
+teaser_ja: "東南アジアのある言語圏には、相手を熟成すればするほど美味しくなる郷土料理にたとえて口説く軽妙な言い回しが伝わっているという噂。『食の道を通れば心に届く』とよく言われる文化圏の一つらしい。"
+intrigue_tags: [food, wit, filipino]
+candidate:
+  phrase_original: "Para kang adobo, kasi habang tumatagal, lalong sumasarap."
+  gloss_hint: "直訳は「あなたはアドボみたい、だって時間が経つほど美味しくなるから」。フィリピンの国民的料理アドボ（時間を置くほど味が染みて美味しくなる煮込み料理）に相手をたとえ、『あなたは付き合うほど・時間が経つほど魅力が増す』とほのめかす口説き文句。"
+  kiza_elements: [metaphor, cultural_allusion]
+  sources:
+    - url: https://pickcupcraze.com/new-pick-up-lines-tagalog/
+      note: "スカウトがfetch確認済み。原語表記「Para kang adobo, kasi habang tumatagal, lalong sumasarap.」と英訳『You're like adobo, because as time goes by, you get better and better.』、『食はフィリピン人の心への道』という文化的説明とともに『Food-Inspired Tagalog Pick-Up Lines』の節に収録され、新しい相手への誠実な口説き文句として使用場面が示されていることを確認した。"
+status: fresh
+picked_for: "2026-09-02"
+resolution: null

@@ -265,7 +265,7 @@ window.PISTACHIO_MAP_DATA = {
       "lng": 77.2,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -309,7 +309,7 @@ window.PISTACHIO_MAP_DATA = {
       "lng": 75,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -419,7 +419,7 @@ window.PISTACHIO_MAP_DATA = {
       "lng": 121,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -817,6 +817,42 @@ window.PISTACHIO_MAP_DATA = {
         "mediterranean"
       ],
       "date": "2026-09-01"
+    },
+    {
+      "id": "lead-2026-09-02-hi-01",
+      "lat": 28.6,
+      "lng": 77.2,
+      "teaser_ja": "南アジアのある言語圏には、大切な人を夜空の欠片にたとえて讃える言い回しが伝わっているという噂。古典詩の一節にも同じたとえが残っているらしい。",
+      "intrigue_tags": [
+        "moon",
+        "classic",
+        "poetic_image"
+      ],
+      "date": "2026-09-02"
+    },
+    {
+      "id": "lead-2026-09-02-pa-01",
+      "lat": 31,
+      "lng": 75,
+      "teaser_ja": "南アジアのある言語圏には、相手を地元の悲恋物語の伝説的な女主人公になぞらえて口説く、韻を踏んだ軽口が伝わっているという噂。18世紀の詩人が綴った叙事詩に由来する名だという。",
+      "intrigue_tags": [
+        "cultural_allusion",
+        "rhyme",
+        "tragic_romance"
+      ],
+      "date": "2026-09-02"
+    },
+    {
+      "id": "lead-2026-09-02-tl-01",
+      "lat": 14.6,
+      "lng": 121,
+      "teaser_ja": "東南アジアのある言語圏には、相手を熟成すればするほど美味しくなる郷土料理にたとえて口説く軽妙な言い回しが伝わっているという噂。『食の道を通れば心に届く』とよく言われる文化圏の一つらしい。",
+      "intrigue_tags": [
+        "food",
+        "wit",
+        "filipino"
+      ],
+      "date": "2026-09-02"
     }
   ],
   "leadsOpen": [],
@@ -839,6 +875,16 @@ window.PISTACHIO_MAP_DATA = {
       "metaphor_potential_ja": "「声・音だけを頼りに、姿の見えない相手に想いを届ける」という間接的な告白の構図に使える。また女性を花や天使にたとえる古風な言い回しの型、あるいは「告知→告白→応答→別れ」という儀式的な段階構成そのものを、口説きのセリフの起承転結の比喩として転用することもできる。",
       "lat": 14.6,
       "lng": 121,
+      "isNew": true
+    },
+    {
+      "id": "ess-heer-ranjha",
+      "name_ja": "ヒール・ランジャー",
+      "category": "poetry",
+      "culture_ja": "パンジャーブ地方の四大悲恋叙事詩の一つ（詩人ワーリス・シャーによる1766年の版が最も著名）",
+      "metaphor_potential_ja": "相手を「ヒール」に、自らを「笛を吹く牧童ランジャー」になぞらえることで、身分違い・障害を越えてでも一途に想い続ける恋の型を担える。また「ヒールかフール（天女）か」のように地元の伝説の女主人公と天上の存在を並べて讃える軽妙な口説きの型としても使える。神への渇望の寓意という宗教的な奥行きも、創作では「どうしても手の届かない相手への一途さ」の比喩として転用しやすい。",
+      "lat": 31.27,
+      "lng": 72.32,
       "isNew": true
     },
     {
@@ -899,7 +945,7 @@ window.PISTACHIO_MAP_DATA = {
       "metaphor_potential_ja": "「側にいない/失われた」ことそのものを、悲哀だけでなく愛おしさを帯びた情感として描きたい場面に向く比喩の担い手。「ó」のような直接的な呼びかけの型や、-inho的な指小辞の「小さく、大切なもの」への慈しみのニュアンスは、切なさと愛情が同居する口説き文句・別れの言葉に応用できる。",
       "lat": 38.7,
       "lng": -9.14,
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ess-thinai-kurinji",
@@ -926,9 +972,9 @@ window.PISTACHIO_MAP_DATA = {
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 23,
+    "leadsFresh": 26,
     "leadsOpen": 0,
-    "essences": 10,
+    "essences": 11,
     "essencesNew": 3
   }
 };

@@ -1,0 +1,21 @@
+schema_version: 1
+id: lead-2026-09-02-pa-01
+date: "2026-09-02"
+scouted_by: claude-routine-hiroto
+language: pa
+country_region: [IN, PK]
+map_anchor: { lat: 31.0, lng: 75.0 }
+teaser_ja: "南アジアのある言語圏には、相手を地元の悲恋物語の伝説的な女主人公になぞらえて口説く、韻を踏んだ軽口が伝わっているという噂。18世紀の詩人が綴った叙事詩に由来する名だという。"
+intrigue_tags: [cultural_allusion, rhyme, tragic_romance]
+candidate:
+  phrase_original: "Akhan which laali, chehre te noor, tu das tenu ki kavaan, Heer ya hoor?"
+  gloss_hint: "直訳は「瞳に赤み、顔には輝き、教えてくれ、君を何と呼ぼう、ヒールか天女か？」。パンジャーブ地方に伝わる悲恋叙事詩『ヒール・ランジャー』の女主人公ヒールと、イスラーム文化圏で天国の乙女を指す『フール（天女）』を並べて相手の美しさをたたえる、韻を踏んだ軽妙な口説き文句。"
+  kiza_elements: [cultural_allusion, wit]
+  sources:
+    - url: https://feedingtrends.com/romantic-punjabi-shayari
+      note: "スカウトがfetch確認済み。原語表記「Akhan which laali, Chehre te noor, Tu das tenu ki kavan, Heer ya Hoooor?」と英訳『Your eyes have another sort of shine and face has another sort of glow. What should I call you my love, an angel, or my bae?』、および『a bit flirty』『男性が女性への褒め言葉として言う』という使用場面の説明を確認した。"
+    - url: https://en.wikipedia.org/wiki/Heer_Ranjha
+      note: "スカウトがfetch確認済み。上記フレーズに登場する『ヒール』がパンジャーブ地方の四大悲恋叙事詩の一つ『ヒール・ランジャー』（詩人Waris Shahが1766年に著した版が最も著名）の女主人公であることを確認し、cultural_allusion の裏付けとした。"
+status: fresh
+picked_for: "2026-09-02"
+resolution: null

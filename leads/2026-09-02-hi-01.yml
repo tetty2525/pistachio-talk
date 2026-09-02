@@ -1,0 +1,21 @@
+schema_version: 1
+id: lead-2026-09-02-hi-01
+date: "2026-09-02"
+scouted_by: claude-routine-hiroto
+language: hi
+country_region: [IN, PK]
+map_anchor: { lat: 28.6, lng: 77.2 }
+teaser_ja: "南アジアのある言語圏には、大切な人を夜空の欠片にたとえて讃える言い回しが伝わっているという噂。古典詩の一節にも同じたとえが残っているらしい。"
+intrigue_tags: [moon, classic, poetic_image]
+candidate:
+  phrase_original: "चाँद का टुकड़ा"
+  gloss_hint: "直訳は「月のかけら」。非常に美しい・愛らしい人（特に恋人や我が子）をたたえるヒンディー語・ウルドゥー語の慣用句。相手の存在そのものを夜空から欠け落ちた月の破片にたとえる。"
+  kiza_elements: [metaphor]
+  sources:
+    - url: https://rekhtadictionary.com/meaning-of-chaand-kaa-tukdaa?keyword=chand
+      note: "スカウトがfetch確認済み。原語表記「चाँद का टुकड़ा」（ウルドゥー表記も併記）、意味『非常に美しい人（多くは恋人や息子）』という説明、および Mustafa Shahab による古典ウルドゥー詩の一節（湖が月のかけらを迎えて佇む、という使用例）を確認した。"
+    - url: https://www.hindikriti.com/2025/03/chand-ka-tukda-hona-muhavare-ka-meaning-in-hindi.html
+      note: "スカウトがfetch確認済み。同じ慣用句「चाँद का टुकड़ा होना」の意味『この上なく美しい・魅力的である』という説明と、『母が我が子を抱いて“お前は本当に月のかけらだ”と言う』という具体的な使用例文を確認した。"
+status: fresh
+picked_for: "2026-09-02"
+resolution: null
