@@ -1,0 +1,21 @@
+schema_version: 1
+id: lead-2026-09-03-zh-01
+date: "2026-09-03"
+scouted_by: claude-routine-hiroto
+language: zh
+country_region: [CN]
+map_anchor: { lat: 39.9, lng: 116.4 }
+teaser_ja: "東アジアのある言語圏には、恋する者の目には相手がいつも伝説の美女のように映る、という言い伝えを踏まえた古い言い回しが伝わっているという噂。その美女は古代の悲恋物語にも登場する、実在したとも言われる人物らしい。"
+intrigue_tags: [beauty, legend, cultural_allusion]
+candidate:
+  phrase_original: "情人眼里出西施"
+  gloss_hint: "直訳は「恋人の目には西施が現れる」。西施は中国古代四大美人の一人とされる伝説的な美女で、恋をしていると相手の外見にかかわらず西施のように美しく見えてしまう、という意味の成句。転じて相手を暗に「西施のように美しい」とたたえる文脈でも引かれる。"
+  kiza_elements: [metaphor, cultural_allusion]
+  sources:
+    - url: https://language.chinadaily.com.cn/a/202002/14/WS5e465ebca310128217277a78.html
+      note: "スカウトがfetch確認済み。原語表記「情人眼里出西施」がタイトル・本文に明記され、『因为存在感情，不论对方外表如何，都会觉得对方是完美的』という意味説明、および恋人を美しいと感じる場面の使用例文2件を確認した。"
+    - url: https://www.purpleculture.net/dictionary-details/?word=%E6%83%85%E4%BA%BA%E7%9C%BC%E9%87%8C%E5%87%BA%E8%A5%BF%E6%96%BD
+      note: "スカウトがfetch確認済み。漢字表記（簡体字・繁体字）とピンイン「qíng rén yǎn lǐ chū xī shī」、直訳『恋人の目に西施が現れる』と比喩的意味『beauty is in the eye of the beholder』の説明、および5件の使用例文を確認した。"
+status: fresh
+picked_for: "2026-09-03"
+resolution: null

@@ -353,7 +353,7 @@ window.PISTACHIO_MAP_DATA = {
       "lng": 116.4,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -853,6 +853,18 @@ window.PISTACHIO_MAP_DATA = {
         "filipino"
       ],
       "date": "2026-09-02"
+    },
+    {
+      "id": "lead-2026-09-03-zh-01",
+      "lat": 39.9,
+      "lng": 116.4,
+      "teaser_ja": "東アジアのある言語圏には、恋する者の目には相手がいつも伝説の美女のように映る、という言い伝えを踏まえた古い言い回しが伝わっているという噂。その美女は古代の悲恋物語にも登場する、実在したとも言われる人物らしい。",
+      "intrigue_tags": [
+        "beauty",
+        "legend",
+        "cultural_allusion"
+      ],
+      "date": "2026-09-03"
     }
   ],
   "leadsOpen": [],
@@ -865,7 +877,7 @@ window.PISTACHIO_MAP_DATA = {
       "metaphor_potential_ja": "本来は目上に使う畏まった敬称を、あえて自然物や相手にかぶせることで「敬いながら親しむ」というねじれたニュアンスを演出できる。丁寧さとからかい混じりの甘さを同時ににじませたいセリフ、あるいは相手を「自分の日々を照らす光」にたとえる比喩の土台として使える。",
       "lat": 37.5,
       "lng": 127.8,
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ess-harana-serenade",
@@ -966,15 +978,25 @@ window.PISTACHIO_MAP_DATA = {
       "lat": 51,
       "lng": 10,
       "isNew": false
+    },
+    {
+      "id": "ess-xishi-sinking-fish",
+      "name_ja": "西施と沈魚（美貌に魚も見惚れて沈む）",
+      "category": "myth",
+      "culture_ja": "中国古代の伝説（春秋時代・四大美人伝承）",
+      "metaphor_potential_ja": "「あなたを前にすると魚さえ泳ぐのを忘れて沈んでしまう」といった、相手の美しさを自然物（魚・水面）が思わず動きを止めてしまうほどだと誇張して讃える型に使える。また「傾国」の物語性を踏まえ、相手の魅力が人（国）をも夢中にさせてしまう、という少し危険で甘い口説き文句のトーンにも転用できる。",
+      "lat": 39.9,
+      "lng": 116.4,
+      "isNew": true
     }
   ],
   "totals": {
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 26,
+    "leadsFresh": 27,
     "leadsOpen": 0,
-    "essences": 11,
+    "essences": 12,
     "essencesNew": 3
   }
 };
