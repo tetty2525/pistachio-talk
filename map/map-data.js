@@ -210,7 +210,7 @@ window.PISTACHIO_MAP_DATA = {
       "lng": 31,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -865,10 +865,32 @@ window.PISTACHIO_MAP_DATA = {
         "cultural_allusion"
       ],
       "date": "2026-09-03"
+    },
+    {
+      "id": "lead-2026-09-04-zu-01",
+      "lat": -28.5,
+      "lng": 31,
+      "teaser_ja": "南部アフリカのある言語圏には、恋文の代わりにビーズの首飾りに色で想いを託す伝統があり、川辺での出会いの場面で相手の美しさを海辺の砂の白さにたとえて讃える、古典的な口説き文句が伝わっているという噂。",
+      "intrigue_tags": [
+        "beauty",
+        "nature",
+        "courtship_custom"
+      ],
+      "date": "2026-09-04"
     }
   ],
   "leadsOpen": [],
   "essencePoints": [
+    {
+      "id": "ess-calabash-and-its-lid",
+      "name_ja": "ひょうたん椀とその蓋（ケル・ブ・ネ・アム・ナ・ンベロン）",
+      "category": "craft",
+      "culture_ja": "ウォロフ文化圏（セネガル・ガンビア）のことわざ伝統",
+      "metaphor_potential_ja": "「あなたは私にしか合わない蓋」「探していたのはこの椀だったのかもしれない」というように、唯一無二の適合・巡り合わせを語るセリフの型に転用できる。ひょうたん椀という日常の道具をモチーフにすることで、大げさになりすぎない、素朴で親しみやすい口説き文句や睦言を作れる。",
+      "lat": 14.7,
+      "lng": -14.5,
+      "isNew": true
+    },
     {
       "id": "ess-haenim-byeolnim",
       "name_ja": "해님・별님（お日様・お星様の敬称）",
@@ -887,7 +909,7 @@ window.PISTACHIO_MAP_DATA = {
       "metaphor_potential_ja": "「声・音だけを頼りに、姿の見えない相手に想いを届ける」という間接的な告白の構図に使える。また女性を花や天使にたとえる古風な言い回しの型、あるいは「告知→告白→応答→別れ」という儀式的な段階構成そのものを、口説きのセリフの起承転結の比喩として転用することもできる。",
       "lat": 14.6,
       "lng": 121,
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ess-heer-ranjha",
@@ -994,9 +1016,9 @@ window.PISTACHIO_MAP_DATA = {
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 27,
+    "leadsFresh": 28,
     "leadsOpen": 0,
-    "essences": 12,
+    "essences": 13,
     "essencesNew": 3
   }
 };

@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-04-zu-01
+date: "2026-09-04"
+scouted_by: claude-routine-hiroto
+language: zu
+country_region: [ZA]
+map_anchor: { lat: -28.5, lng: 31.0 }
+teaser_ja: "南部アフリカのある言語圏には、恋文の代わりにビーズの首飾りに色で想いを託す伝統があり、川辺での出会いの場面で相手の美しさを海辺の砂の白さにたとえて讃える、古典的な口説き文句が伝わっているという噂。"
+intrigue_tags: [beauty, nature, courtship_custom]
+candidate:
+  phrase_original: "Nkosazane Emhlophe Efana Nezihlabathi Zolwandle"
+  gloss_hint: "直訳は「海の砂のように白く美しいお嬢さん」。伝統的な求婚の場面（川辺などでの出会い）で、女性の美しさを海辺の白い砂にたとえて讃える古典的な口説き文句とされる。"
+  kiza_elements: [metaphor, poetic_image]
+  sources:
+    - url: https://emandulokingdom.wordpress.com/tag/praise-a-zulu-girl/
+      note: "スカウトがfetch確認済み。ズールー語原文「Nkosazane Emhlophe Efana Nezihlabathi Zolwandle」が英訳「Beautiful you are, as white and pure as the sands of the sea」とともに掲載され、伝統的な求愛の場面（川辺での出会い）で使われた古典的な口説き文句であるという使用場面の記述を確認した。同ページには他にも複数のズールー語口説き文句（原文・英訳付き）と、ビーズの首飾りで求愛の意思を伝える文化的背景の説明が確認できた。"
+status: fresh
+picked_for: "2026-09-04"
+resolution: null

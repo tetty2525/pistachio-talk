@@ -2,6 +2,27 @@
 window.PISTACHIO_KITCHEN_DATA = {
   "essences": [
     {
+      "id": "ess-calabash-and-its-lid",
+      "name_ja": "ひょうたん椀とその蓋（ケル・ブ・ネ・アム・ナ・ンベロン）",
+      "name_original": "Këll bu ne am na mberoom",
+      "category": "craft",
+      "culture_ja": "ウォロフ文化圏（セネガル・ガンビア）のことわざ伝統",
+      "summary_ja": "ウォロフ語のことわざ「Këll bu ne am na mberoom（どのひょうたん椀にも、それに合う蓋がある）」は、人には皆それぞれふさわしい相手がいるという趣旨で語られる愛にまつわる格言。ひょうたんを乾燥させて作る椀とその蓋はもともと一対のもので、他のものでは代用がきかないという生活実感が、運命の相手を語る比喩として使われている。",
+      "metaphor_potential_ja": "「あなたは私にしか合わない蓋」「探していたのはこの椀だったのかもしれない」というように、唯一無二の適合・巡り合わせを語るセリフの型に転用できる。ひょうたん椀という日常の道具をモチーフにすることで、大げさになりすぎない、素朴で親しみやすい口説き文句や睦言を作れる。",
+      "tags": [
+        "proverb",
+        "calabash",
+        "soulmate",
+        "craft",
+        "west_africa"
+      ],
+      "usage_hint": "出会えたことの必然性や、他の誰でもなくこの人だという実感を語るトーンに向く。仰々しい賛美ではなく、素朴な日用品にたとえることで、生活に根ざした落ち着いた愛情表現の型として使える。長い時間を経てようやく合う相手を見つけた、という時間の経過を伴う口説き文句にも転用しやすい。",
+      "source_urls": [
+        "https://www.lingalot.com/wolof-quotes/"
+      ],
+      "created": "2026-09-04"
+    },
+    {
       "id": "ess-haenim-byeolnim",
       "name_ja": "해님・별님（お日様・お星様の敬称）",
       "name_original": "해님 / 별님",
