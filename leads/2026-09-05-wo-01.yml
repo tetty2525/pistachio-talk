@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-05-wo-01
+date: "2026-09-05"
+scouted_by: claude-routine-hiroto
+language: wo
+country_region: [SN]
+map_anchor: { lat: 14.7, lng: -14.5 }
+teaser_ja: "西アフリカのある言語圏には、顔の美しさと心の美しさをわざと天秤にかけてみせる、機知に富んだことわざが伝わっているという噂。"
+intrigue_tags: [wit, inner_beauty]
+candidate:
+  phrase_original: "Taarub kanam taarub xol a ko gën"
+  gloss_hint: "直訳は「顔の美しさより心の美しさの方が勝る」。外見と内面の美しさをあえて対比させ、内面の美しさに軍配を上げる機知に富んだことわざとされる。"
+  kiza_elements: [metaphor, wit]
+  sources:
+    - url: https://www.lingalot.com/wolof-quotes/
+      note: "スカウトがfetch確認済み。ウォロフ語原文「Taarub kanam taarub xol a ko gën」が英訳「A beautiful heart is better than a beautiful face」とともに掲載され、外見より内面の美しさ・人格を重んじるウォロフの価値観を表すことわざであるという説明を確認した。"
+status: fresh
+picked_for: "2026-09-05"
+resolution: null

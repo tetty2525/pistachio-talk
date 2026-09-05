@@ -216,6 +216,27 @@ window.PISTACHIO_KITCHEN_DATA = {
       "created": "2026-08-30"
     },
     {
+      "id": "ess-shared-pirogue-senegal",
+      "name_ja": "同じ丸木舟（ピローグ）に乗る者たち",
+      "name_original": "same pirogue (Wolof proverb, French: pirogue)",
+      "category": "custom",
+      "culture_ja": "セネガル・ウォロフ語圏の沿岸漁労文化",
+      "summary_ja": "セネガル沿岸部で漁労を生業としてきたウォロフ文化に伝わることわざ「同じ丸木舟（ピローグ）に乗る者は、同じ志を持つ」。夫婦・パートナー関係において、価値観や目指す方向が一致していることの大切さを、生活に不可欠だった漁船に託して語る。",
+      "metaphor_potential_ja": "「同じ乗り物に乗る」ことを、価値観や人生の方向性が一致したパートナーシップの比喩として転用できる。ひとりでは漕ぎ進めない・息を合わせなければ転覆するという丸木舟の性質は、「一緒でなければ前に進めない」関係性を語るセリフの土台になる。",
+      "tags": [
+        "boat",
+        "unity",
+        "marriage_metaphor",
+        "senegal",
+        "proverb"
+      ],
+      "usage_hint": "「二人で同じ舟に乗る」という構図は、価値観の一致や運命共同体を語る口説き文句の骨格として使える。たとえば「君と同じ舟に乗りたい」「この舟は一人では進まない」といった言い回しに転用でき、単なる「一緒にいたい」よりも、力を合わせなければ前に進めないという協働のニュアンスを帯びた告白・求愛のセリフに仕立てられる。",
+      "source_urls": [
+        "https://afrolegends.com/2015/06/10/proverbe-wolof-sur-lamour-wolof-proverb-on-love/"
+      ],
+      "created": "2026-09-05"
+    },
+    {
       "id": "ess-thinai-kurinji",
       "name_ja": "クリンジ（山の情景）",
       "name_original": "குறிஞ்சி (Kuṟiñci)",

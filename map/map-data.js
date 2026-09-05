@@ -232,7 +232,7 @@ window.PISTACHIO_MAP_DATA = {
       "lng": -14.5,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -243,7 +243,7 @@ window.PISTACHIO_MAP_DATA = {
       "lng": 7.4,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -877,6 +877,28 @@ window.PISTACHIO_MAP_DATA = {
         "courtship_custom"
       ],
       "date": "2026-09-04"
+    },
+    {
+      "id": "lead-2026-09-05-ig-01",
+      "lat": 6,
+      "lng": 7.4,
+      "teaser_ja": "サブサハラ・アフリカのある言語圏には、恋人を小さく壊れやすいものにたとえて、守りたい気持ちを込めた呼びかけが伝わっているという噂。",
+      "intrigue_tags": [
+        "fragility",
+        "endearment"
+      ],
+      "date": "2026-09-05"
+    },
+    {
+      "id": "lead-2026-09-05-wo-01",
+      "lat": 14.7,
+      "lng": -14.5,
+      "teaser_ja": "西アフリカのある言語圏には、顔の美しさと心の美しさをわざと天秤にかけてみせる、機知に富んだことわざが伝わっているという噂。",
+      "intrigue_tags": [
+        "wit",
+        "inner_beauty"
+      ],
+      "date": "2026-09-05"
     }
   ],
   "leadsOpen": [],
@@ -919,7 +941,7 @@ window.PISTACHIO_MAP_DATA = {
       "metaphor_potential_ja": "相手を「ヒール」に、自らを「笛を吹く牧童ランジャー」になぞらえることで、身分違い・障害を越えてでも一途に想い続ける恋の型を担える。また「ヒールかフール（天女）か」のように地元の伝説の女主人公と天上の存在を並べて讃える軽妙な口説きの型としても使える。神への渇望の寓意という宗教的な奥行きも、創作では「どうしても手の届かない相手への一途さ」の比喩として転用しやすい。",
       "lat": 31.27,
       "lng": 72.32,
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ess-hinemoa-and-tutanekai",
@@ -982,6 +1004,16 @@ window.PISTACHIO_MAP_DATA = {
       "isNew": false
     },
     {
+      "id": "ess-shared-pirogue-senegal",
+      "name_ja": "同じ丸木舟（ピローグ）に乗る者たち",
+      "category": "custom",
+      "culture_ja": "セネガル・ウォロフ語圏の沿岸漁労文化",
+      "metaphor_potential_ja": "「同じ乗り物に乗る」ことを、価値観や人生の方向性が一致したパートナーシップの比喩として転用できる。ひとりでは漕ぎ進めない・息を合わせなければ転覆するという丸木舟の性質は、「一緒でなければ前に進めない」関係性を語るセリフの土台になる。",
+      "lat": 14.7,
+      "lng": -14.5,
+      "isNew": true
+    },
+    {
       "id": "ess-thinai-kurinji",
       "name_ja": "クリンジ（山の情景）",
       "category": "poetry",
@@ -1016,9 +1048,9 @@ window.PISTACHIO_MAP_DATA = {
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 28,
+    "leadsFresh": 30,
     "leadsOpen": 0,
-    "essences": 13,
+    "essences": 14,
     "essencesNew": 3
   }
 };

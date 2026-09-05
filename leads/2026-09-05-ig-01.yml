@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-05-ig-01
+date: "2026-09-05"
+scouted_by: claude-routine-hiroto
+language: ig
+country_region: [NG]
+map_anchor: { lat: 6.0, lng: 7.4 }
+teaser_ja: "サブサハラ・アフリカのある言語圏には、恋人を小さく壊れやすいものにたとえて、守りたい気持ちを込めた呼びかけが伝わっているという噂。"
+intrigue_tags: [fragility, endearment]
+candidate:
+  phrase_original: "Akwa m"
+  gloss_hint: "直訳は「私の卵」。イボ語で親密な相手への呼びかけとして使われる愛称で、卵の貴重さ・壊れやすさに相手の存在をたとえ、守りたいという気持ちを込めた比喩表現とされる。"
+  kiza_elements: [metaphor, cultural_allusion]
+  sources:
+    - url: https://mykingsgate.co.za/info/love-in-igbo-language-4832/
+      note: "スカウトがfetch確認済み。イボ語原文「Akwa m」が英訳「my egg」とともに掲載され、愛する者への呼びかけであり、卵の貴重さと脆さに相手の存在をたとえて保護欲と深い絆を示す比喩表現であるという文化的背景の説明を確認した。同ページには他のイボ語愛情表現（Ifunanya m、Ibu ihunanya ndu m など）も掲載されている。"
+status: fresh
+picked_for: "2026-09-05"
+resolution: null
