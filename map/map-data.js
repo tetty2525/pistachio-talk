@@ -155,7 +155,7 @@ window.PISTACHIO_MAP_DATA = {
       "lng": 43,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -899,6 +899,28 @@ window.PISTACHIO_MAP_DATA = {
         "inner_beauty"
       ],
       "date": "2026-09-05"
+    },
+    {
+      "id": "lead-2026-09-06-ku-01",
+      "lat": 36,
+      "lng": 43,
+      "teaser_ja": "中東・コーカサスのある言語圏には、恋人を昼と夜それぞれの天体になぞらえて讃える対句の伝統があるという噂。",
+      "intrigue_tags": [
+        "celestial",
+        "poetry"
+      ],
+      "date": "2026-09-06"
+    },
+    {
+      "id": "lead-2026-09-06-ku-02",
+      "lat": 36,
+      "lng": 43,
+      "teaser_ja": "同じ言語圏の別方言には、恋人を呼吸そのものにたとえ、生きる上で欠かせない存在だと伝える愛称があるという噂。",
+      "intrigue_tags": [
+        "breath",
+        "endearment"
+      ],
+      "date": "2026-09-06"
     }
   ],
   "leadsOpen": [],
@@ -911,6 +933,16 @@ window.PISTACHIO_MAP_DATA = {
       "metaphor_potential_ja": "「あなたは私にしか合わない蓋」「探していたのはこの椀だったのかもしれない」というように、唯一無二の適合・巡り合わせを語るセリフの型に転用できる。ひょうたん椀という日常の道具をモチーフにすることで、大げさになりすぎない、素朴で親しみやすい口説き文句や睦言を作れる。",
       "lat": 14.7,
       "lng": -14.5,
+      "isNew": true
+    },
+    {
+      "id": "ess-flower-and-song",
+      "name_ja": "花と歌（イン・ショチトル、イン・クイカトル）",
+      "category": "poetry",
+      "culture_ja": "ナワトル（アステカ）の詩的伝統",
+      "metaphor_potential_ja": "「花」は自然の具体的な美を、「歌」は人の営み・儚さへの内省を表し、両者を重ねることで「はかない今」と「歌によって残る美」という対比を描ける。相手への想いを一瞬の花の美しさと、歌として残る永続性の両面でたとえる表現の土台に使える。",
+      "lat": 19.4,
+      "lng": -99.1,
       "isNew": true
     },
     {
@@ -1041,16 +1073,16 @@ window.PISTACHIO_MAP_DATA = {
       "metaphor_potential_ja": "「あなたを前にすると魚さえ泳ぐのを忘れて沈んでしまう」といった、相手の美しさを自然物（魚・水面）が思わず動きを止めてしまうほどだと誇張して讃える型に使える。また「傾国」の物語性を踏まえ、相手の魅力が人（国）をも夢中にさせてしまう、という少し危険で甘い口説き文句のトーンにも転用できる。",
       "lat": 39.9,
       "lng": 116.4,
-      "isNew": true
+      "isNew": false
     }
   ],
   "totals": {
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 30,
+    "leadsFresh": 32,
     "leadsOpen": 0,
-    "essences": 14,
+    "essences": 15,
     "essencesNew": 3
   }
 };

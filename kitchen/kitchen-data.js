@@ -23,6 +23,27 @@ window.PISTACHIO_KITCHEN_DATA = {
       "created": "2026-09-04"
     },
     {
+      "id": "ess-flower-and-song",
+      "name_ja": "花と歌（イン・ショチトル、イン・クイカトル）",
+      "name_original": "In xochitl, in cuicatl",
+      "category": "poetry",
+      "culture_ja": "ナワトル（アステカ）の詩的伝統",
+      "summary_ja": "ナワトル語には「詩」を直接指す単語がなく、代わりに「花（xochitl）」と「歌（cuicatl）」を対にした慣用的な二詞一意（ディフラシスモ）表現で詩・芸術そのものを表した。ネツァワルコヨトルら詩人の作品に繰り返し現れる中心的な概念。",
+      "metaphor_potential_ja": "「花」は自然の具体的な美を、「歌」は人の営み・儚さへの内省を表し、両者を重ねることで「はかない今」と「歌によって残る美」という対比を描ける。相手への想いを一瞬の花の美しさと、歌として残る永続性の両面でたとえる表現の土台に使える。",
+      "tags": [
+        "poetry",
+        "flower",
+        "song",
+        "aztec",
+        "ephemerality"
+      ],
+      "usage_hint": "儚さと永続性を対比させたい場面に向く比喩の土台。「花」は今この瞬間の具体的な美しさ、「歌」はその美を語り継ぎ残す行為を表すため、「あなたは花のように今を彩り、歌のように残る」といった、一瞬の魅力と記憶に残る印象の両方を讃える表現に使いやすい。詩的・内省的なトーンの創作と相性がよい。",
+      "source_urls": [
+        "https://soprissun.com/flowers-and-songs-aztec-poetry/"
+      ],
+      "created": "2026-09-06"
+    },
+    {
       "id": "ess-haenim-byeolnim",
       "name_ja": "해님・별님（お日様・お星様の敬称）",
       "name_original": "해님 / 별님",

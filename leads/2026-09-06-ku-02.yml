@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-06-ku-02
+date: "2026-09-06"
+scouted_by: claude-routine-hiroto
+language: ku
+country_region: [IQ, IR]
+map_anchor: { lat: 36.0, lng: 43.0 }
+teaser_ja: "同じ言語圏の別方言には、恋人を呼吸そのものにたとえ、生きる上で欠かせない存在だと伝える愛称があるという噂。"
+intrigue_tags: [breath, endearment]
+candidate:
+  phrase_original: "Hanasa"
+  gloss_hint: "直訳は「私の酸素」「私の息」。クルド語（ソラニー方言）で恋人を呼ぶ最上級の愛称の一つとされ、相手を生存に不可欠な呼吸そのものにたとえる比喩表現。"
+  kiza_elements: [metaphor]
+  sources:
+    - url: https://themarkaz.org/tmrs-multilingual-lexicon-of-love-for-valentines-day/
+      note: "スカウトがfetch確認済み。クルド語（ソラニー方言）の「Hanasa」が英訳「My Oxygen」とともに掲載され、相手を生きるために不可欠な呼吸そのものにたとえる愛情表現であるという解説を確認した（世界各言語の愛の表現を集めた記事内での紹介）。"
+status: fresh
+picked_for: "2026-09-06"
+resolution: null

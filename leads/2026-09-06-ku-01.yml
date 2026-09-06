@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-06-ku-01
+date: "2026-09-06"
+scouted_by: claude-routine-hiroto
+language: ku
+country_region: [TR, IQ, IR, SY]
+map_anchor: { lat: 36.0, lng: 43.0 }
+teaser_ja: "中東・コーカサスのある言語圏には、恋人を昼と夜それぞれの天体になぞらえて讃える対句の伝統があるという噂。"
+intrigue_tags: [celestial, poetry]
+candidate:
+  phrase_original: "Tu rojî li ser rojan î, Tu heyvî li ser şevan î"
+  gloss_hint: "直訳は「あなたは太陽の中の太陽、あなたは夜の中の月」。クルド語（クルマンジー方言）の恋愛詩に登場する対句で、昼と夜それぞれを支配する天体に相手を重ね、生活のあらゆる瞬間に相手が中心にあることを示す詩的比喩とされる。"
+  kiza_elements: [metaphor, poetic_image]
+  sources:
+    - url: https://kurmanjischool.com/en/5-love-poems-in-kurdish-kurmanji/
+      note: "スカウトがfetch確認済み。クルマンジー・クルド語原文とともに、太陽と月の対句で昼夜を通じて相手が中心的存在であることを示す詩的比喩であるという解説を確認した。恋愛詩からの引用として掲載されている。"
+status: fresh
+picked_for: "2026-09-06"
+resolution: null
