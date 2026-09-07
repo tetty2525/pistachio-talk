@@ -153,6 +153,28 @@ window.PISTACHIO_KITCHEN_DATA = {
       "created": "2026-08-24"
     },
     {
+      "id": "ess-kaona-hidden-meaning",
+      "name_ja": "カオナ（隠された意味）",
+      "name_original": "kaona",
+      "category": "poetry",
+      "culture_ja": "ハワイの歌謡詩（メレ）の伝統",
+      "summary_ja": "ハワイの伝統的な歌謡詩「メレ」には、文字通りの意味（表の情景）と、人物や恋愛関係を暗示する「隠された意味＝カオナ」を二重に仕込む詩的技法がある。雨や花などの自然物の描写が、実は特定の相手への想いを語っているという構造。",
+      "metaphor_potential_ja": "表向きは自然の情景描写でありながら、実は特定の相手への恋心を語るという二重構造の比喩を作れる。例えば「赤い花が雨に濡れる」情景で、大切にされる恋人の姿を暗示するように、直接的な言葉を避けて奥ゆかしく、かつ聞く人によって解釈の深さが変わるような想いの伝え方を演出したい場面に向く。",
+      "tags": [
+        "poetry",
+        "hidden_meaning",
+        "flower",
+        "rain",
+        "hawaiian"
+      ],
+      "usage_hint": "直接的な愛の言葉を避け、自然の情景描写に見せかけて想いを忍ばせたい場面に向く。花・雨・光といった具体的なイメージを一つ選び、表面上はただの情景描写として語りながら、聞き手が意味に気づいた瞬間に印象が反転するような二段構えのセリフを作る土台に使える。詩的・奥ゆかしい・少し謎めいたトーンの創作と相性がよい。",
+      "source_urls": [
+        "https://www.hawaiinewsnow.com/story/36378410/hawaiian-word-of-the-day-kaona/",
+        "https://kaiwakiloumoku.ksbe.edu/article/mele-ka-lei-lehua-aloha"
+      ],
+      "created": "2026-09-07"
+    },
+    {
       "id": "ess-lion-of-judah",
       "name_ja": "ユダのライオン（アンベッサ）",
       "name_original": "አንበሳ (anbessa)",

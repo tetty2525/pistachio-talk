@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-07-haw-01
+date: "2026-09-07"
+scouted_by: claude-routine-hiroto
+language: haw
+country_region: [US]
+map_anchor: { lat: 21.3, lng: -157.8 }
+teaser_ja: "太平洋のある言語圏には、歌に「表の意味」と「隠れた意味」を二重に仕込む詩的伝統があり、雨に濡れる花の情景に、人知れず想い人の姿を重ねるという噂。"
+intrigue_tags: [flower, hidden_meaning, nature]
+candidate:
+  phrase_original: "'O ia pua 'ula huluhulu / Pulupē i ka ua 'Āpuakea"
+  gloss_hint: "直訳は「これは美しい赤いふさふさとした花、アプアケアの雨に濡れている」。ハワイの伝統的な歌謡詩（メレ）の様式で2005年に作られた一節で、赤いレフアの花を想い人に重ね、雨に濡れる情景で慈しみ・愛情の深さを表す。ハワイには文字通りの意味と「カオナ」と呼ばれる隠された意味を二重に持たせる詩的技法があり、この一節もその例として紹介されている。"
+  kiza_elements: [metaphor, poetic_image, cultural_allusion]
+  sources:
+    - url: https://kaiwakiloumoku.ksbe.edu/article/mele-ka-lei-lehua-aloha
+      note: "スカウトがfetch確認済み。ハワイ語原文「'O ia pua 'ula huluhulu / Pulupē i ka ua 'Āpuakea」と英訳を確認。作曲者が実在の女性への想いを込めてレフアの花に重ねて詠んだ、ハワイの伝統的メレ作曲様式（haku mele）の一節であることの解説を確認した。運営はカメハメハ・スクールズのハワイ文化センター。"
+status: fresh
+picked_for: "2026-09-07"
+resolution: null

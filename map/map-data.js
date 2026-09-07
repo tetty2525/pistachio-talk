@@ -254,7 +254,7 @@ window.PISTACHIO_MAP_DATA = {
       "lng": 26,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -485,7 +485,7 @@ window.PISTACHIO_MAP_DATA = {
       "lng": -157.8,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -921,6 +921,30 @@ window.PISTACHIO_MAP_DATA = {
         "endearment"
       ],
       "date": "2026-09-06"
+    },
+    {
+      "id": "lead-2026-09-07-haw-01",
+      "lat": 21.3,
+      "lng": -157.8,
+      "teaser_ja": "太平洋のある言語圏には、歌に「表の意味」と「隠れた意味」を二重に仕込む詩的伝統があり、雨に濡れる花の情景に、人知れず想い人の姿を重ねるという噂。",
+      "intrigue_tags": [
+        "flower",
+        "hidden_meaning",
+        "nature"
+      ],
+      "date": "2026-09-07"
+    },
+    {
+      "id": "lead-2026-09-07-xh-01",
+      "lat": -32,
+      "lng": 26,
+      "teaser_ja": "南部アフリカのある言語圏には、木々や海、月さえいつか尽きると認めた上で、それでも色褪せないと誓ってみせる愛の言い回しが伝わっているという噂。",
+      "intrigue_tags": [
+        "nature",
+        "eternity",
+        "vow"
+      ],
+      "date": "2026-09-07"
     }
   ],
   "leadsOpen": [],
@@ -933,7 +957,7 @@ window.PISTACHIO_MAP_DATA = {
       "metaphor_potential_ja": "「あなたは私にしか合わない蓋」「探していたのはこの椀だったのかもしれない」というように、唯一無二の適合・巡り合わせを語るセリフの型に転用できる。ひょうたん椀という日常の道具をモチーフにすることで、大げさになりすぎない、素朴で親しみやすい口説き文句や睦言を作れる。",
       "lat": 14.7,
       "lng": -14.5,
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ess-flower-and-song",
@@ -994,6 +1018,16 @@ window.PISTACHIO_MAP_DATA = {
       "lat": -6.16,
       "lng": 39.19,
       "isNew": false
+    },
+    {
+      "id": "ess-kaona-hidden-meaning",
+      "name_ja": "カオナ（隠された意味）",
+      "category": "poetry",
+      "culture_ja": "ハワイの歌謡詩（メレ）の伝統",
+      "metaphor_potential_ja": "表向きは自然の情景描写でありながら、実は特定の相手への恋心を語るという二重構造の比喩を作れる。例えば「赤い花が雨に濡れる」情景で、大切にされる恋人の姿を暗示するように、直接的な言葉を避けて奥ゆかしく、かつ聞く人によって解釈の深さが変わるような想いの伝え方を演出したい場面に向く。",
+      "lat": 21.3,
+      "lng": -157.8,
+      "isNew": true
     },
     {
       "id": "ess-lion-of-judah",
@@ -1080,9 +1114,9 @@ window.PISTACHIO_MAP_DATA = {
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 32,
+    "leadsFresh": 34,
     "leadsOpen": 0,
-    "essences": 15,
+    "essences": 16,
     "essencesNew": 3
   }
 };

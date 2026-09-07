@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-07-xh-01
+date: "2026-09-07"
+scouted_by: claude-routine-hiroto
+language: xh
+country_region: [ZA]
+map_anchor: { lat: -32.0, lng: 26.0 }
+teaser_ja: "南部アフリカのある言語圏には、木々や海、月さえいつか尽きると認めた上で、それでも色褪せないと誓ってみせる愛の言い回しが伝わっているという噂。"
+intrigue_tags: [nature, eternity, vow]
+candidate:
+  phrase_original: "Amandla emithi, ulwandle nenyanga, zode ziphele ndisakuthanda"
+  gloss_hint: "直訳は「木々の力、海、月は尽きるだろう、それでも私はまだあなたを愛している」。自然界で最も永続的と思われるもの（樹木・海・月）でさえいつか終わるという前提をあえて置いた上で、それでも色褪せない愛を強調する誓いの言い回しとされる。"
+  kiza_elements: [metaphor, poetic_image]
+  sources:
+    - url: https://snugfam.com/top-50-beautiful-love-quotes-in-xhosa-with-english-translations/
+      note: "スカウトがfetch確認済み。コサ語原文「Amandla emithi, ulwandle nenyanga, zode ziphele ndisakuthanda」が英訳「The power of trees, the sea, and the moon will fade, but I will still love you」とともに掲載され、永遠の愛を誓う際に使われる表現であるという解説を確認した。"
+status: fresh
+picked_for: "2026-09-07"
+resolution: null
