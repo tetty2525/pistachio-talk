@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-08-az-01
+date: "2026-09-08"
+scouted_by: claude-routine-hiroto
+language: az
+country_region: [AZ]
+map_anchor: { lat: 40.1, lng: 47.5 }
+teaser_ja: "ヨーロッパ・コーカサスの境にあるある言語圏には、恋人を国花になぞらえて季節の始まりごと讃えるニックネームの伝統があるという噂。"
+intrigue_tags: [flower, nickname]
+candidate:
+  phrase_original: "Laləm, sən mənim həyatımın baharısan"
+  gloss_hint: "直訳は「私のチューリップ、あなたは私の人生の春」。「Laləm（私のチューリップ）」はアゼルバイジャン文化で美と愛の象徴とされる花をあだ名に使う表現で、そこに「あなたは人生の春」という季節の比喩を重ねている。"
+  kiza_elements: [metaphor, cultural_allusion]
+  sources:
+    - url: https://talkpal.ai/vocabulary/romantic-nicknames-in-azerbaijani-language/
+      note: "スカウトがfetch確認済み。原文とともに、チューリップがアゼルバイジャン文化で美と愛の象徴とされる花であるという解説、および実際の使用例文を確認した。"
+status: fresh
+picked_for: "2026-09-08"
+resolution: null

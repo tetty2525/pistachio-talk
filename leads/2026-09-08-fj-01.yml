@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-08-fj-01
+date: "2026-09-08"
+scouted_by: claude-routine-hiroto
+language: fj
+country_region: [FJ]
+map_anchor: { lat: -17.7, lng: 178.0 }
+teaser_ja: "太平洋のある島嶼言語圏には、恋に落ちた男を「脚を払われる」と表現する、いたずらっぽい言い回しが伝わっているという噂。"
+intrigue_tags: [idiom, wit]
+candidate:
+  phrase_original: "Sa na siri na duamu"
+  gloss_hint: "直訳は「お前の脚は払われるだろう」。男性が誰かに強く惹かれ、抗いようもなく恋に落ちてしまう様子をからかい半分に表す慣用句とされる。"
+  kiza_elements: [metaphor, wit]
+  sources:
+    - url: https://veramujoseph.blogspot.com/2018/12/fijian-idioms-and-proverbs.html
+      note: "スカウトがfetch確認済み。フィジー語原文とともに、男性が恋に落ちて抗えなくなる様子をからかう慣用句であるという解説を確認した。"
+status: fresh
+picked_for: "2026-09-08"
+resolution: null

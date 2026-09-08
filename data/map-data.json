@@ -165,7 +165,7 @@
       "lng": 47.5,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -495,7 +495,7 @@
       "lng": 178,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -944,6 +944,28 @@
         "vow"
       ],
       "date": "2026-09-07"
+    },
+    {
+      "id": "lead-2026-09-08-az-01",
+      "lat": 40.1,
+      "lng": 47.5,
+      "teaser_ja": "ヨーロッパ・コーカサスの境にあるある言語圏には、恋人を国花になぞらえて季節の始まりごと讃えるニックネームの伝統があるという噂。",
+      "intrigue_tags": [
+        "flower",
+        "nickname"
+      ],
+      "date": "2026-09-08"
+    },
+    {
+      "id": "lead-2026-09-08-fj-01",
+      "lat": -17.7,
+      "lng": 178,
+      "teaser_ja": "太平洋のある島嶼言語圏には、恋に落ちた男を「脚を払われる」と表現する、いたずらっぽい言い回しが伝わっているという噂。",
+      "intrigue_tags": [
+        "idiom",
+        "wit"
+      ],
+      "date": "2026-09-08"
     }
   ],
   "leadsOpen": [],
@@ -1076,7 +1098,7 @@
       "metaphor_potential_ja": "「同じ乗り物に乗る」ことを、価値観や人生の方向性が一致したパートナーシップの比喩として転用できる。ひとりでは漕ぎ進めない・息を合わせなければ転覆するという丸木舟の性質は、「一緒でなければ前に進めない」関係性を語るセリフの土台になる。",
       "lat": 14.7,
       "lng": -14.5,
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ess-thinai-kurinji",
@@ -1087,6 +1109,16 @@
       "lat": 11,
       "lng": 78.7,
       "isNew": false
+    },
+    {
+      "id": "ess-ti-zwazo-choucoune",
+      "name_ja": "小さな鳥（ティ・ズワゾ）— 「シュクーヌ」の鳥のモチーフ",
+      "category": "poetry",
+      "culture_ja": "ハイチ・クレオール詩の伝統",
+      "metaphor_potential_ja": "自由に飛び去ってしまう小鳥に、手の届かない・つなぎとめられない恋心を重ねる比喩として使える。「あなたは私の窓に舞い降りた鳥」のように、束縛せず見守るような愛情表現や、去っていった相手への未練を語るせりふの型に転用しやすい。",
+      "lat": 18.5,
+      "lng": -72.3,
+      "isNew": true
     },
     {
       "id": "ess-waldeinsamkeit",
@@ -1113,9 +1145,9 @@
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 34,
+    "leadsFresh": 36,
     "leadsOpen": 0,
-    "essences": 16,
+    "essences": 17,
     "essencesNew": 3
   }
 }

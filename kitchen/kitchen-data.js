@@ -301,6 +301,26 @@ window.PISTACHIO_KITCHEN_DATA = {
       "created": "2026-08-27"
     },
     {
+      "id": "ess-ti-zwazo-choucoune",
+      "name_ja": "小さな鳥（ティ・ズワゾ）— 「シュクーヌ」の鳥のモチーフ",
+      "name_original": "ti zwazo",
+      "category": "poetry",
+      "culture_ja": "ハイチ・クレオール詩の伝統",
+      "summary_ja": "1883年、ハイチの詩人オズワルド・デュランが獄中で綴った詩「Choucoune（シュクーヌ）」は、実在した恋人シュクーヌへの想いを、獄窓に舞い降りた小鳥（ti zwazo）に託して歌う。のちにミシェル・モロー=モントンが曲を付けて民謡となり、国際的には「Yellow Bird」としても知られるに至った。",
+      "metaphor_potential_ja": "自由に飛び去ってしまう小鳥に、手の届かない・つなぎとめられない恋心を重ねる比喩として使える。「あなたは私の窓に舞い降りた鳥」のように、束縛せず見守るような愛情表現や、去っていった相手への未練を語るせりふの型に転用しやすい。",
+      "tags": [
+        "bird",
+        "poem",
+        "love_allegory",
+        "folk_song"
+      ],
+      "usage_hint": "引き止められない、あるいは静かに見守るしかない恋心を語るトーンに向く。鳥という飛び去っていく存在をモチーフにすることで、束縛のない愛情表現や、去っていった相手を思う切なさを込めたセリフに転用しやすい。",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Choucoune_(poem)"
+      ],
+      "created": "2026-09-08"
+    },
+    {
       "id": "ess-waldeinsamkeit",
       "name_ja": "森の孤独（ヴァルトアインザームカイト）",
       "name_original": "Waldeinsamkeit",
