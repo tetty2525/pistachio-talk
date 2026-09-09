@@ -462,7 +462,7 @@
       "lng": -171.8,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -966,6 +966,18 @@
         "wit"
       ],
       "date": "2026-09-08"
+    },
+    {
+      "id": "lead-2026-09-09-sm-01",
+      "lat": -13.8,
+      "lng": -171.8,
+      "teaser_ja": "太平洋のある言語圏には、離れ離れになった大切な人々を鳥の群れになぞらえて、いつか再会することを寿ぐことわざの伝統があるという噂。",
+      "intrigue_tags": [
+        "pacific",
+        "bird",
+        "reunion"
+      ],
+      "date": "2026-09-09"
     }
   ],
   "leadsOpen": [],
@@ -988,7 +1000,7 @@
       "metaphor_potential_ja": "「花」は自然の具体的な美を、「歌」は人の営み・儚さへの内省を表し、両者を重ねることで「はかない今」と「歌によって残る美」という対比を描ける。相手への想いを一瞬の花の美しさと、歌として残る永続性の両面でたとえる表現の土台に使える。",
       "lat": 19.4,
       "lng": -99.1,
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ess-haenim-byeolnim",
@@ -1029,6 +1041,16 @@
       "lat": -38.1,
       "lng": 176.3,
       "isNew": false
+    },
+    {
+      "id": "ess-jasy-jatere",
+      "name_ja": "ハシ・ジャテレ（月のかけら）",
+      "category": "myth",
+      "culture_ja": "グアラニー（パラグアイ）神話",
+      "metaphor_potential_ja": "「月のかけら」という名の由来そのものが、大切な相手を夜空の一部が地上に降りてきた存在になぞらえる比喩の種になる。畏怖と親しみ、いたずらっぽさが同居するキャラクター性なので、単なる美辞麗句ではなく神秘性やちょっとした危うさを帯びた褒め言葉のモチーフとして使いやすい。",
+      "lat": -25.3,
+      "lng": -57.6,
+      "isNew": true
     },
     {
       "id": "ess-kanga-cloth-messages",
@@ -1145,9 +1167,9 @@
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 36,
+    "leadsFresh": 37,
     "leadsOpen": 0,
-    "essences": 17,
+    "essences": 18,
     "essencesNew": 3
   }
 }

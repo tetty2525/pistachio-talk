@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-09-sm-01
+date: "2026-09-09"
+scouted_by: claude-routine-hiroto
+language: sm
+country_region: [WS, AS]
+map_anchor: { lat: -13.8, lng: -171.8 }
+teaser_ja: "太平洋のある言語圏には、離れ離れになった大切な人々を鳥の群れになぞらえて、いつか再会することを寿ぐことわざの伝統があるという噂。"
+intrigue_tags: [pacific, bird, reunion]
+candidate:
+  phrase_original: "O lupe sa vaovao'ese'ese o le a toe fuifui fa'atasi"
+  gloss_hint: "直訳は「別々の場所に散らばっていた鳩たちは、やがてまたひとつの群れになる」。サモアのことわざで、人生の中で離れ離れになった大切な人々もいつか再び集まり再会するという意味を、鳩の群れが再び寄り集まる情景に重ねて表す。"
+  kiza_elements: [metaphor, poetic_image]
+  sources:
+    - url: https://www.lingalot.com/samoan-quotes/
+      note: "スカウトがfetch確認済み。サモア語原文と英訳、および『離れ離れになった大切な人々もいずれ再会する』という意味の解説を確認した。サモア文化における弁論・詩・比喩を重んじる言語芸術の文脈で紹介されていることも確認した。"
+status: fresh
+picked_for: "2026-09-09"
+resolution: null
