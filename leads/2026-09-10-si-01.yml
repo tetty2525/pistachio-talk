@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-10-si-01
+date: "2026-09-10"
+scouted_by: claude-routine-hiroto
+language: si
+country_region: [LK]
+map_anchor: { lat: 7.9, lng: 80.7 }
+teaser_ja: "南アジアのある島国には、恋人を月や星になぞらえる歌の一節が、日常の口説き文句のようにも親しまれているという噂。"
+intrigue_tags: [moon, stars, song]
+candidate:
+  phrase_original: "සඳ සඳ වගේ තරු තරු වගේ"
+  gloss_hint: "直訳は「月のように、星のように」。シンハラ語の恋愛ソング『Sanda Sanda Wage』（歌手Kasun Kalhara）の冒頭部分で、恋人同士が互いを月・星・花にたとえながら『自分たちも同じようだ』と重ねていく一節。恋愛的な文脈で広く歌われ親しまれている表現。"
+  kiza_elements: [metaphor, poetic_image]
+  sources:
+    - url: https://www.chordssrilanka.com/2014/06/sanda-sanda-wage.html
+      note: "スカウトがfetch確認済み。シンハラ語原文『සඳ සඳ වගේ තරු තරු වගේ』(月のように、星のように)とその意味、シンハラのロマンティックソングの歌詞として歌われている使用文脈を確認した。"
+status: fresh
+picked_for: "2026-09-10"
+resolution: null

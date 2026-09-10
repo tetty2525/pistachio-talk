@@ -198,7 +198,7 @@
       "lng": 8,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -319,7 +319,7 @@
       "lng": 80.7,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -374,7 +374,7 @@
       "lng": 103.8,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -978,6 +978,42 @@
         "reunion"
       ],
       "date": "2026-09-09"
+    },
+    {
+      "id": "lead-2026-09-10-ha-01",
+      "lat": 11,
+      "lng": 8,
+      "teaser_ja": "西アフリカの言語圏には、月明かりや活けられた花に相手の美しさを重ねる恋の言い回しを集めたネット記事があるという噂。燃えるように熱いお茶に恋心をたとえる言い方も同じ記事に並んでいた。",
+      "intrigue_tags": [
+        "africa",
+        "moonlight",
+        "flower"
+      ],
+      "date": "2026-09-10"
+    },
+    {
+      "id": "lead-2026-09-10-mn-01",
+      "lat": 46.9,
+      "lng": 103.8,
+      "teaser_ja": "モンゴル語圏には、二人の間柄を夜空にまたたく星の対にたとえて語る口説き文句があるという噂。",
+      "intrigue_tags": [
+        "sky",
+        "stars",
+        "mongolia"
+      ],
+      "date": "2026-09-10"
+    },
+    {
+      "id": "lead-2026-09-10-si-01",
+      "lat": 7.9,
+      "lng": 80.7,
+      "teaser_ja": "南アジアのある島国には、恋人を月や星になぞらえる歌の一節が、日常の口説き文句のようにも親しまれているという噂。",
+      "intrigue_tags": [
+        "moon",
+        "stars",
+        "song"
+      ],
+      "date": "2026-09-10"
     }
   ],
   "leadsOpen": [],
@@ -1070,7 +1106,7 @@
       "metaphor_potential_ja": "表向きは自然の情景描写でありながら、実は特定の相手への恋心を語るという二重構造の比喩を作れる。例えば「赤い花が雨に濡れる」情景で、大切にされる恋人の姿を暗示するように、直接的な言葉を避けて奥ゆかしく、かつ聞く人によって解釈の深さが変わるような想いの伝え方を演出したい場面に向く。",
       "lat": 21.3,
       "lng": -157.8,
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ess-lion-of-judah",
@@ -1091,6 +1127,16 @@
       "lat": 14,
       "lng": 108,
       "isNew": false
+    },
+    {
+      "id": "ess-morin-khuur-flying-horse",
+      "name_ja": "馬頭琴の飛ぶ馬（ナムジルと空飛ぶ馬の伝説）",
+      "category": "myth",
+      "culture_ja": "モンゴルの伝承・音楽文化",
+      "metaphor_potential_ja": "「夜ごと会いに行くための翼」「失っても、その存在を音や道具に昇華させて奏で続ける」という、逢瀬・喪失・追悼を芸術に変える語りの型として使える。遠く離れた相手のもとへ特別な乗り物で通う一途さや、失われた関係を美しい形で語り直す比喩の土台になる。",
+      "lat": 46.9,
+      "lng": 103.8,
+      "isNew": true
     },
     {
       "id": "ess-rose-and-nightingale",
@@ -1167,9 +1213,9 @@
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 37,
+    "leadsFresh": 40,
     "leadsOpen": 0,
-    "essences": 18,
+    "essences": 19,
     "essencesNew": 3
   }
 }

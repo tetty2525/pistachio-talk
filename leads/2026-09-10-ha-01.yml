@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-10-ha-01
+date: "2026-09-10"
+scouted_by: claude-routine-hiroto
+language: ha
+country_region: [NG, NE]
+map_anchor: { lat: 11.0, lng: 8.0 }
+teaser_ja: "西アフリカの言語圏には、月明かりや活けられた花に相手の美しさを重ねる恋の言い回しを集めたネット記事があるという噂。燃えるように熱いお茶に恋心をたとえる言い方も同じ記事に並んでいた。"
+intrigue_tags: [africa, moonlight, flower]
+candidate:
+  phrase_original: "Haskenki tamkar hasken farin watane mai haskaka sararin samaniya"
+  gloss_hint: "直訳は「あなたの美しさは、空を照らす満月の光のよう」。ハウサ語の恋愛フレーズ集を紹介するブログ記事に載っている口説き文句で、相手の美しさを夜空を照らす月光にたとえる比喩。同じ記事には相手を美しく活けられた花にたとえる言い回しや、恋を熱いお茶にたとえる表現も並んでいた。"
+  kiza_elements: [metaphor, poetic_image]
+  sources:
+    - url: https://www.haskenews.com.ng/2022/07/kalaman-soyayya-masu-saka-kwalla.html
+      note: "スカウトがfetch確認済み。ハウサ語原文『Haskenki tamkar hasken farin watane mai haskaka sararin samaniya』(あなたの美しさは満月の光のよう)を含む恋愛フレーズと、その意味の説明、恋人に向けた言葉として紹介されている使用文脈を確認した。"
+status: fresh
+picked_for: "2026-09-10"
+resolution: null

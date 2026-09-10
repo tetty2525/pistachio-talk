@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-10-mn-01
+date: "2026-09-10"
+scouted_by: claude-routine-hiroto
+language: mn
+country_region: [MN]
+map_anchor: { lat: 46.9, lng: 103.8 }
+teaser_ja: "モンゴル語圏には、二人の間柄を夜空にまたたく星の対にたとえて語る口説き文句があるという噂。"
+intrigue_tags: [sky, stars, mongolia]
+candidate:
+  phrase_original: "Чи бид хоёр яг л тэнгэрийн хоёр од шиг"
+  gloss_hint: "直訳は「あなたと私は、まるで空に浮かぶ二つの星のよう」。モンゴル語の口説き文句・恋愛表現を紹介する語学ブログに載っているフレーズで、二人の結びつきを夜空に並ぶ二つの星にたとえる比喩。"
+  kiza_elements: [metaphor, poetic_image]
+  sources:
+    - url: https://ling-app.com/blog/mongolian-flirting-phrases/
+      note: "スカウトがfetch確認済み。モンゴル語原文『Чи бид хоёр яг л тэнгэрийн хоёр од шиг』(あなたと私はまるで空の二つの星のよう)とその意味、恋愛的な口説き文句として紹介されている文脈を確認した。"
+status: fresh
+picked_for: "2026-09-10"
+resolution: null
