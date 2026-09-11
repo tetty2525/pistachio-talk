@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-11-lo-01
+date: "2026-09-11"
+scouted_by: claude-routine-hiroto
+language: lo
+country_region: [LA]
+map_anchor: { lat: 17.9, lng: 102.6 }
+teaser_ja: "東南アジアのある言語では、『愛する』と『壊れる』を指す単語がほとんど同じ音で、声調ひとつしか違わないという噂。その近さについて、詩的な問いを投げかける文章が見つかった。"
+intrigue_tags: [wordplay, tone, vulnerability]
+candidate:
+  phrase_original: "ຮັກ / ຫັກ"
+  gloss_hint: "ラオ語で「愛する」を意味する ຮັກ（huk）と「壊れる・折れる」を意味する ຫັກ（huk）は、綴りの一文字と声調だけが異なるほぼ同音異義語。あるラオ語文化サイトの記事は、この近さを『愛と壊れやすさはほんのわずかな違いしか隔てていないのかもしれない』という詩的な問いかけとして紹介している。直接の口説き文句ではないが、愛を語る際にこの音の近さそのものを気の利いた一言として引用できる。"
+  kiza_elements: [wit, poetic_image]
+  sources:
+    - url: https://www.legaciesofwar.org/post/lao-language-love-%E0%BA%AE-%E0%BA%81-and-heart-%E0%BB%83%E0%BA%88
+      note: "スカウトがfetch確認済み。原語表記「ຮັກ（huk, love）」と「ຫັກ（huk, broken）」、一文字・声調のみの違いであることの説明文『The difference is a single letter... resulting in a tonal change』、および詩的な考察『Perhaps love and brokenness are never far apart, sometimes separated by only the smallest shift』という使用文脈を確認した。"
+status: fresh
+picked_for: "2026-09-11"
+resolution: null

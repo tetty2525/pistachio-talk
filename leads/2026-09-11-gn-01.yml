@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-11-gn-01
+date: "2026-09-11"
+scouted_by: claude-routine-hiroto
+language: gn
+country_region: [PY]
+map_anchor: { lat: -25.3, lng: -57.6 }
+teaser_ja: "南米のある先住民言語には、相手の瞳そのものを花にたとえる愛の言い回しがあるという噂。現地の言語学者が『最も心に残る言葉』の一つとして挙げたらしい。"
+intrigue_tags: [flower, eyes, linguist_pick]
+candidate:
+  phrase_original: "Nde ningo che resa yvoty"
+  gloss_hint: "直訳は「あなたは私の目の花」。グアラニー語（パラグアイの公用語の一つ）の表現で、相手を花（yvoty）にたとえる愛の言い回し。パラグアイの言語学者ズルマ・トリニダー氏が『グアラニー語で最も心に残る優しい言葉』の一つとして挙げたもの。"
+  kiza_elements: [metaphor, poetic_image]
+  sources:
+    - url: https://paraguayologia.com/las-palabras-mas-tiernas-y-mas-buscadas-en-el-idioma-guarani/
+      note: "スカウトがfetch確認済み。原語表記「Nde ningo che resa yvoty」とスペイン語訳『You are the flower of my eyes』（記事内はスペイン語圏向けだが該当訳を確認）、言語学者ズルマ・トリニダー氏による選出という使用文脈を確認した。"
+status: fresh
+picked_for: "2026-09-11"
+resolution: null

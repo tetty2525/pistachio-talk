@@ -1,0 +1,21 @@
+schema_version: 1
+id: lead-2026-09-11-yue-01
+date: "2026-09-11"
+scouted_by: claude-routine-hiroto
+language: yue
+country_region: [HK]
+map_anchor: { lat: 22.3, lng: 114.2 }
+teaser_ja: "東アジアのある言語圏の俗語には、ただ水を飲むだけでも心は満たされる、という愛の言い回しが伝わっているという噂。ある映画の題名にもなったが、由来は映画よりずっと古いらしい。"
+intrigue_tags: [water, poverty, folk_saying]
+candidate:
+  phrase_original: "有情飲水飽"
+  gloss_hint: "直訳は「情があれば水を飲むだけでも満腹になる」。広東語の俚諺で、本当に愛し合っていれば経済的に貧しくても水を飲むだけで幸せに満たされる、という意味。対句「無情金屋寒（情がなければ黄金の家でも寒い）」と対で語られることもある。1998年の同名映画（王晶監督）の題名にもなったが、映画由来ではなく民間に伝わる古い俚諺が先にあるとされる。"
+  kiza_elements: [metaphor, poetic_image]
+  sources:
+    - url: https://zh.wikipedia.org/zh-hant/%E6%9C%89%E6%83%85%E9%A5%AE%E6%B0%B4%E9%A5%B1
+      note: "スカウトがfetch確認済み。原語表記「有情飲水飽」、映画題名の由来が「源自粵語的一句經典俚語」（広東語の古い俚諺に由来）と明記され、映画発案ではなく民間伝承の俚諺であることを確認した。意味説明『只要兩個人真心相愛，即使是家庭經濟環境不好，也可以過得開心快樂』も確認。"
+    - url: https://www.163.com/dy/article/G6TE807I0528SHH7.html
+      note: "スカウトがfetch確認済み。原語表記「有情饮水饱」と直訳『With affection, drinking water alone satisfies hunger』、恋愛の理想を語る際に引かれる慣用句としての使用文脈（記事全体が本句を軸に恋愛観を論じている）を確認した。"
+status: fresh
+picked_for: "2026-09-11"
+resolution: null

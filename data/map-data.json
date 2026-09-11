@@ -363,7 +363,7 @@
       "lng": 114.2,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -451,7 +451,7 @@
       "lng": 102.6,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -528,7 +528,7 @@
       "lng": -57.6,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -1014,6 +1014,42 @@
         "song"
       ],
       "date": "2026-09-10"
+    },
+    {
+      "id": "lead-2026-09-11-gn-01",
+      "lat": -25.3,
+      "lng": -57.6,
+      "teaser_ja": "南米のある先住民言語には、相手の瞳そのものを花にたとえる愛の言い回しがあるという噂。現地の言語学者が『最も心に残る言葉』の一つとして挙げたらしい。",
+      "intrigue_tags": [
+        "flower",
+        "eyes",
+        "linguist_pick"
+      ],
+      "date": "2026-09-11"
+    },
+    {
+      "id": "lead-2026-09-11-lo-01",
+      "lat": 17.9,
+      "lng": 102.6,
+      "teaser_ja": "東南アジアのある言語では、『愛する』と『壊れる』を指す単語がほとんど同じ音で、声調ひとつしか違わないという噂。その近さについて、詩的な問いを投げかける文章が見つかった。",
+      "intrigue_tags": [
+        "wordplay",
+        "tone",
+        "vulnerability"
+      ],
+      "date": "2026-09-11"
+    },
+    {
+      "id": "lead-2026-09-11-yue-01",
+      "lat": 22.3,
+      "lng": 114.2,
+      "teaser_ja": "東アジアのある言語圏の俗語には、ただ水を飲むだけでも心は満たされる、という愛の言い回しが伝わっているという噂。ある映画の題名にもなったが、由来は映画よりずっと古いらしい。",
+      "intrigue_tags": [
+        "water",
+        "poverty",
+        "folk_saying"
+      ],
+      "date": "2026-09-11"
     }
   ],
   "leadsOpen": [],
@@ -1186,6 +1222,16 @@
       "metaphor_potential_ja": "自由に飛び去ってしまう小鳥に、手の届かない・つなぎとめられない恋心を重ねる比喩として使える。「あなたは私の窓に舞い降りた鳥」のように、束縛せず見守るような愛情表現や、去っていった相手への未練を語るせりふの型に転用しやすい。",
       "lat": 18.5,
       "lng": -72.3,
+      "isNew": false
+    },
+    {
+      "id": "ess-tum-teav",
+      "name_ja": "トゥム・テアウ",
+      "category": "poetry",
+      "culture_ja": "クメール（カンボジア）古典文学の悲恋叙事詩",
+      "metaphor_potential_ja": "「声（歌・詩の詠唱）で相手の心を射止める」という型の比喩の土台として使える。トゥムは容姿ではなく歌声と詩で愛を得た人物であり、「あなたの言葉（声）に射抜かれた」「経を唱えるように、あなたの名を唱える」といった、語り・声そのものを口説きの手段として讃える表現に展開しやすい。悲恋という重さも、一途さの強調に転用できる。",
+      "lat": 11.5,
+      "lng": 104.9,
       "isNew": true
     },
     {
@@ -1213,9 +1259,9 @@
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 40,
+    "leadsFresh": 43,
     "leadsOpen": 0,
-    "essences": 19,
+    "essences": 20,
     "essencesNew": 3
   }
 }
