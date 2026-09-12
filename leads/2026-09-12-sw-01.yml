@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-12-sw-01
+date: "2026-09-12"
+scouted_by: claude-routine-hiroto
+language: sw
+country_region: [TZ, KE]
+map_anchor: { lat: -6.0, lng: 35.0 }
+teaser_ja: "東アフリカのある言語には、大切な人を『太陽の光』にたとえて讃える愛の言い回しがあるらしい。恋愛フレーズ集のバレンタイン特集で紹介されていたという噂。"
+intrigue_tags: [sunlight, valentine, east_africa]
+candidate:
+  phrase_original: "Wewe ni mwanga wangu, upendo wangu"
+  gloss_hint: "直訳は「あなたは私の光、私の愛」。スワヒリ語で、恋人を光・太陽の光にたとえて讃える表現。バレンタインデー向けの恋愛フレーズ集に掲載されており、相手が自分の人生にもたらす明るさ・温もりを讃える日常的な愛の言い回しとして紹介されている。"
+  kiza_elements: [metaphor]
+  sources:
+    - url: https://www.swahilipod101.com/swahili-vocabulary-lists/15-love-phrases-for-valentines-day
+      note: "スカウトがfetch確認済み。原語表記「Wewe ni mwanga wangu, upendo wangu」と英訳『You are my sunshine, my love』を確認。相手を陽光にたとえ、人生を明るく照らす存在として讃える、恋愛表現として使われるという説明を確認した。"
+status: fresh
+picked_for: "2026-09-12"
+resolution: null

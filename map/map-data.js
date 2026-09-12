@@ -1051,10 +1051,56 @@ window.PISTACHIO_MAP_DATA = {
         "folk_saying"
       ],
       "date": "2026-09-11"
+    },
+    {
+      "id": "lead-2026-09-12-ar-01",
+      "lat": 33.5,
+      "lng": 36,
+      "teaser_ja": "中東のある言語には、恋人だけでなく我が子や大切な人にまで使う、夜空に浮かぶ光り物にたとえた呼びかけがあるという噂。レヴァント地方の方言で特によく使われ、相手の輝き・清らかさを重ねる伝統があるらしい。",
+      "intrigue_tags": [
+        "celestial",
+        "endearment",
+        "levant"
+      ],
+      "date": "2026-09-12"
+    },
+    {
+      "id": "lead-2026-09-12-el-01",
+      "lat": 39,
+      "lng": 22,
+      "teaser_ja": "ヨーロッパのある言語には、愛する人や誇りに思う相手を夜空の瞬きにたとえて呼ぶ、昔からの愛称表現があるらしい。恋愛の場面だけでなく、相手を励ます場面でも使われることがあるという噂。",
+      "intrigue_tags": [
+        "celestial",
+        "endearment",
+        "encouragement"
+      ],
+      "date": "2026-09-12"
+    },
+    {
+      "id": "lead-2026-09-12-sw-01",
+      "lat": -6,
+      "lng": 35,
+      "teaser_ja": "東アフリカのある言語には、大切な人を『太陽の光』にたとえて讃える愛の言い回しがあるらしい。恋愛フレーズ集のバレンタイン特集で紹介されていたという噂。",
+      "intrigue_tags": [
+        "sunlight",
+        "valentine",
+        "east_africa"
+      ],
+      "date": "2026-09-12"
     }
   ],
   "leadsOpen": [],
   "essencePoints": [
+    {
+      "id": "ess-badr-full-moon",
+      "name_ja": "満月の美（バドル）",
+      "category": "poetry",
+      "culture_ja": "アラブ古典詩・イスラーム文化における月の美の伝統",
+      "metaphor_potential_ja": "「あなたの顔は欠けることのない満月のよう」というように、完全さ・清らかさ・揺るぎない輝きを讃える比喩の型として使える。俗な「お月様みたい」という軽さではなく、崇敬・清浄さのニュアンスを重ねられるため、格式ばった場面や、静かで真摯な口説き文句を演出したいときに向く。",
+      "lat": 26,
+      "lng": 30,
+      "isNew": true
+    },
     {
       "id": "ess-calabash-and-its-lid",
       "name_ja": "ひょうたん椀とその蓋（ケル・ブ・ネ・アム・ナ・ンベロン）",
@@ -1123,7 +1169,7 @@ window.PISTACHIO_MAP_DATA = {
       "metaphor_potential_ja": "「月のかけら」という名の由来そのものが、大切な相手を夜空の一部が地上に降りてきた存在になぞらえる比喩の種になる。畏怖と親しみ、いたずらっぽさが同居するキャラクター性なので、単なる美辞麗句ではなく神秘性やちょっとした危うさを帯びた褒め言葉のモチーフとして使いやすい。",
       "lat": -25.3,
       "lng": -57.6,
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ess-kanga-cloth-messages",
@@ -1260,9 +1306,9 @@ window.PISTACHIO_MAP_DATA = {
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 43,
+    "leadsFresh": 46,
     "leadsOpen": 0,
-    "essences": 20,
+    "essences": 21,
     "essencesNew": 3
   }
 };

@@ -1,0 +1,21 @@
+schema_version: 1
+id: lead-2026-09-12-ar-01
+date: "2026-09-12"
+scouted_by: claude-routine-hiroto
+language: ar
+country_region: [SY, LB, PS, JO]
+map_anchor: { lat: 33.5, lng: 36.0 }
+teaser_ja: "中東のある言語には、恋人だけでなく我が子や大切な人にまで使う、夜空に浮かぶ光り物にたとえた呼びかけがあるという噂。レヴァント地方の方言で特によく使われ、相手の輝き・清らかさを重ねる伝統があるらしい。"
+intrigue_tags: [celestial, endearment, levant]
+candidate:
+  phrase_original: "يا قمر (ya qamar)"
+  gloss_hint: "直訳は「おお、月よ」。アラビア語（特にレヴァント方言＝シリア・レバノン・パレスチナ）で、恋人・パートナー・我が子など大切な人への呼びかけとして使われる愛称表現。月の美しさ・輝き・清らかさを相手に重ねる伝統的な言い回しで、古典詩では「満月のような顔」という定型比喩としても使われてきた。"
+  kiza_elements: [metaphor, poetic_image]
+  sources:
+    - url: https://studioarabiya.com/arabic-terms-of-endearment-savory-phrases/
+      note: "スカウトがfetch確認済み。原語表記「يا قمر」・transliteration「Ya qamar (or ya amar)」・意味『O Moon』を確認。レヴァント方言（シリア・レバノン・パレスチナ）で特によく使われ、恋人・我が子・大切な人への愛情表現として用いられるという使用文脈の記述あり。"
+    - url: https://www.thenationalnews.com/weekend/2022/09/09/qamar-arabic-for-moon-invokes-beauty-and-the-impossible/
+      note: "スカウトがfetch確認済み。「mitl al qamar（月のように）」が『非常に美しい』を意味する（やや古風な）褒め言葉であるとの記述、月がアラブの美の象徴である文化的背景、詩人マフムード・ダルウィーシュの月をめぐる詩への言及を確認した。"
+status: fresh
+picked_for: "2026-09-12"
+resolution: null
