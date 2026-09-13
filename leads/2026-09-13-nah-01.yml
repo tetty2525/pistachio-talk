@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-13-nah-01
+date: "2026-09-13"
+scouted_by: claude-routine-hiroto
+language: nah
+country_region: [MX]
+map_anchor: { lat: 19.4, lng: -99.1 }
+teaser_ja: "『花』と『歌』、2つの言葉を対にして唱えて初めて一つの美の概念を指す、対句の詩的言語文化がある。花と詩を司る神への捧げものとしても使われていたらしい。"
+intrigue_tags: [pair_metaphor, poetry, mythology]
+candidate:
+  phrase_original: "In xōchitl, in cuīcatl"
+  gloss_hint: "直訳は「花、歌」。ナワトル語（古代アステカの言語）の対句表現（ディフラシスモ）で、『花と歌』の2つを並べることで一つの概念＝『詩・詩的創作』を表す。古代ナワ族の宗教祭礼や、統治者・貴族・戦士・神官らの集いで詠まれ、花と詩と歌を司る神シュチピリに捧げられた詩的伝統に連なる表現とされる。"
+  kiza_elements: [metaphor, poetic_image, cultural_allusion]
+  sources:
+    - url: https://www.mexicodesconocido.com.mx/flor-y-canto-nahuatl.html
+      note: "スカウトがfetch確認済み。原語表記「In xóchitl, in cuícatl」（花と歌）の直訳、比喩として『詩的創作』を表すという意味の説明、古代ナワ族の宗教祭礼・統治者や戦士・神官の集いで用いられ、花の神シュチピリに捧げられていたという使用・文化的文脈の記述を確認した。"
+status: fresh
+picked_for: "2026-09-13"
+resolution: null

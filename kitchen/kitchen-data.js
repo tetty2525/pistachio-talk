@@ -447,6 +447,27 @@ window.PISTACHIO_KITCHEN_DATA = {
         "https://en.wikipedia.org/wiki/Xi_Shi"
       ],
       "created": "2026-09-03"
+    },
+    {
+      "id": "ess-xochipilli",
+      "name_ja": "ショチピリ（花の王子）",
+      "name_original": "Xōchipilli",
+      "category": "myth",
+      "culture_ja": "アステカ神話",
+      "summary_ja": "「花の王子」を意味する、アステカ神話における花・詩・歌・快楽・舞踏を司る神。蝶や楽器（ガラガラ）と結びつけられ、陽気に歌い楽器を鳴らす姿で表される。",
+      "metaphor_potential_ja": "相手の魅力を「花」「歌」「陽気さ」といった芸術・快楽のモチーフで讃える比喩の下敷きにできる。花や歌を持ち出すことで、単なる褒め言葉を「祝祭的で芸術性のある賛辞」のトーンに引き上げられる。",
+      "tags": [
+        "flower",
+        "poetry",
+        "joy",
+        "aztec",
+        "deity"
+      ],
+      "usage_hint": "花・歌・舞踏・陽気さといった祝祭的なモチーフを通して、相手を「芸術と快楽の化身」のように讃える比喩に使える。単純な美辞麗句よりも、歌い踊る神の陽気さを重ねることで、洒落た軽やかさとほんの少しの神話的スケール感を同時に持たせたセリフを作れる。",
+      "source_urls": [
+        "https://www.worldhistory.org/Xochipilli/"
+      ],
+      "created": "2026-09-13"
     }
   ],
   "phrases": [

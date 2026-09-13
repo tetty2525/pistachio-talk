@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-13-ja-01
+date: "2026-09-13"
+scouted_by: claude-routine-hiroto
+language: ja
+country_region: [JP]
+map_anchor: { lat: 36.0, lng: 138.0 }
+teaser_ja: "夜空を見上げるという行為そのものが、愛の告白の代わりになるという婉曲文化を持つ言語圏。文豪にまつわる真偽不明の逸話まで絡んでいるらしい。"
+intrigue_tags: [nature, indirectness, literary_legend]
+candidate:
+  phrase_original: "月が綺麗ですね"
+  gloss_hint: "直訳は「月が綺麗ですね」というだけの言葉だが、日本語では「愛している」を婉曲に伝える告白の決まり文句として使われる。文豪・夏目漱石が英語の『I love you』の訳語として生徒に教えたという逸話（真偽は不確か）が由来とされ、実際にデート中などで夜空・月を見ながら告白する場面で使われる。"
+  kiza_elements: [cultural_allusion, poetic_image]
+  sources:
+    - url: https://oggi.jp/6698440
+      note: "スカウトがfetch確認済み。原文表記「月が綺麗ですね」、夏目漱石の逸話に由来する『I love you』の婉曲訳という意味の説明、デートで月を眺めながら告白する場面や、OK/NG時の返答例（「死んでもいいわ」等）という使用文脈の記述を確認した。"
+status: fresh
+picked_for: "2026-09-13"
+resolution: null

@@ -11,7 +11,7 @@
       "lng": 35,
       "phraseCount": 1,
       "maxStatus": "single_source",
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -330,7 +330,7 @@
       "lng": 138,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -517,7 +517,7 @@
       "lng": -99.1,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -1086,6 +1086,42 @@
         "east_africa"
       ],
       "date": "2026-09-12"
+    },
+    {
+      "id": "lead-2026-09-13-ja-01",
+      "lat": 36,
+      "lng": 138,
+      "teaser_ja": "夜空を見上げるという行為そのものが、愛の告白の代わりになるという婉曲文化を持つ言語圏。文豪にまつわる真偽不明の逸話まで絡んでいるらしい。",
+      "intrigue_tags": [
+        "nature",
+        "indirectness",
+        "literary_legend"
+      ],
+      "date": "2026-09-13"
+    },
+    {
+      "id": "lead-2026-09-13-nah-01",
+      "lat": 19.4,
+      "lng": -99.1,
+      "teaser_ja": "『花』と『歌』、2つの言葉を対にして唱えて初めて一つの美の概念を指す、対句の詩的言語文化がある。花と詩を司る神への捧げものとしても使われていたらしい。",
+      "intrigue_tags": [
+        "pair_metaphor",
+        "poetry",
+        "mythology"
+      ],
+      "date": "2026-09-13"
+    },
+    {
+      "id": "lead-2026-09-13-tr-01",
+      "lat": 39,
+      "lng": 35,
+      "teaser_ja": "瞳の奥に映る小さな自分の姿を、そのまま大切な人の呼び名にしてしまう言語圏があるらしい。体の一部を愛称に転用する発想がユニークだという噂。",
+      "intrigue_tags": [
+        "body",
+        "endearment",
+        "precious"
+      ],
+      "date": "2026-09-13"
     }
   ],
   "leadsOpen": [],
@@ -1218,7 +1254,7 @@
       "metaphor_potential_ja": "「夜ごと会いに行くための翼」「失っても、その存在を音や道具に昇華させて奏で続ける」という、逢瀬・喪失・追悼を芸術に変える語りの型として使える。遠く離れた相手のもとへ特別な乗り物で通う一途さや、失われた関係を美しい形で語り直す比喩の土台になる。",
       "lat": 46.9,
       "lng": 103.8,
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ess-rose-and-nightingale",
@@ -1299,15 +1335,25 @@
       "lat": 39.9,
       "lng": 116.4,
       "isNew": false
+    },
+    {
+      "id": "ess-xochipilli",
+      "name_ja": "ショチピリ（花の王子）",
+      "category": "myth",
+      "culture_ja": "アステカ神話",
+      "metaphor_potential_ja": "相手の魅力を「花」「歌」「陽気さ」といった芸術・快楽のモチーフで讃える比喩の下敷きにできる。花や歌を持ち出すことで、単なる褒め言葉を「祝祭的で芸術性のある賛辞」のトーンに引き上げられる。",
+      "lat": 19.4,
+      "lng": -99.1,
+      "isNew": true
     }
   ],
   "totals": {
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 46,
+    "leadsFresh": 49,
     "leadsOpen": 0,
-    "essences": 21,
+    "essences": 22,
     "essencesNew": 3
   }
 }

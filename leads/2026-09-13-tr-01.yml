@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-13-tr-01
+date: "2026-09-13"
+scouted_by: claude-routine-hiroto
+language: tr
+country_region: [TR]
+map_anchor: { lat: 39.0, lng: 35.0 }
+teaser_ja: "瞳の奥に映る小さな自分の姿を、そのまま大切な人の呼び名にしてしまう言語圏があるらしい。体の一部を愛称に転用する発想がユニークだという噂。"
+intrigue_tags: [body, endearment, precious]
+candidate:
+  phrase_original: "Göz bebeğim"
+  gloss_hint: "直訳は「私の瞳（瞳孔）」。トルコ語の愛称表現で、瞳の中央にある瞳孔＝最も大切な部分になぞらえて、恋人や我が子など「かけがえのない存在」を指して使われる。"
+  kiza_elements: [metaphor]
+  sources:
+    - url: https://lingopie.com/blog/turkish-terms-of-endearment/
+      note: "スカウトがfetch確認済み。「Göz bebeğim」の綴りと「My pupil/My precious one」の訳、直訳が「my pupil」であること、瞳の中心＝かけがえのない存在という比喩の説明、恋人または子供に対して使われる愛称であるという使用場面の記述を確認した。"
+status: fresh
+picked_for: "2026-09-13"
+resolution: null
