@@ -430,7 +430,7 @@ window.PISTACHIO_MAP_DATA = {
       "lng": 104.9,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -540,7 +540,7 @@ window.PISTACHIO_MAP_DATA = {
       "lng": -72.3,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     }
   ],
@@ -1123,6 +1123,30 @@ window.PISTACHIO_MAP_DATA = {
         "precious"
       ],
       "date": "2026-09-13"
+    },
+    {
+      "id": "lead-2026-09-14-ht-01",
+      "lat": 18.5,
+      "lng": -72.3,
+      "teaser_ja": "1883年、投獄中の詩人が独房の窓にとまった鳥に語りかける形で綴った、ある実在の女性への賛美の詩がある。のちに国民的な唄となり、さらに全く別の歌詞の英語版として世界的ヒットにもなったといういわく付き。その詩の中に、恋人の美貌を身近な果実や灯りになぞらえた一節が残る。",
+      "intrigue_tags": [
+        "poetry",
+        "folk_song",
+        "history"
+      ],
+      "date": "2026-09-14"
+    },
+    {
+      "id": "lead-2026-09-14-km-01",
+      "lat": 11.5,
+      "lng": 104.9,
+      "teaser_ja": "女性の名前に『月』を織り込む命名文化があるという噂。輝き・気品を月に重ねる、サンスクリットにまで遡る詩的な伝統が背景にあるらしい。",
+      "intrigue_tags": [
+        "celestial",
+        "naming",
+        "beauty_ideal"
+      ],
+      "date": "2026-09-14"
     }
   ],
   "leadsOpen": [],
@@ -1146,6 +1170,16 @@ window.PISTACHIO_MAP_DATA = {
       "lat": 14.7,
       "lng": -14.5,
       "isNew": false
+    },
+    {
+      "id": "ess-champa-frangipani-battambang",
+      "name_ja": "チャンパ（プルメリア）— バッタンバンの想い出の花",
+      "category": "flora",
+      "culture_ja": "クメール（カンボジア）音楽の伝統",
+      "metaphor_potential_ja": "花そのものの美しさよりも、「遠く離れた土地・戻れない過去への想い」を託す比喩として使える。目の前の相手を花に喩えるだけでなく、「あなたを想うとバッタンバンのチャンパの香りを思い出す」のように、望郷・郷愁とロマンスを重ねるせりふの型に向く。",
+      "lat": 13.0957,
+      "lng": 103.2022,
+      "isNew": true
     },
     {
       "id": "ess-flower-and-song",
@@ -1315,7 +1349,7 @@ window.PISTACHIO_MAP_DATA = {
       "metaphor_potential_ja": "「声（歌・詩の詠唱）で相手の心を射止める」という型の比喩の土台として使える。トゥムは容姿ではなく歌声と詩で愛を得た人物であり、「あなたの言葉（声）に射抜かれた」「経を唱えるように、あなたの名を唱える」といった、語り・声そのものを口説きの手段として讃える表現に展開しやすい。悲恋という重さも、一途さの強調に転用できる。",
       "lat": 11.5,
       "lng": 104.9,
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ess-waldeinsamkeit",
@@ -1352,9 +1386,9 @@ window.PISTACHIO_MAP_DATA = {
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 49,
+    "leadsFresh": 51,
     "leadsOpen": 0,
-    "essences": 22,
+    "essences": 23,
     "essencesNew": 3
   }
 };

@@ -1,0 +1,21 @@
+schema_version: 1
+id: lead-2026-09-14-km-01
+date: "2026-09-14"
+scouted_by: claude-routine-hiroto
+language: km
+country_region: [KH]
+map_anchor: { lat: 11.5, lng: 104.9 }
+teaser_ja: "女性の名前に『月』を織り込む命名文化があるという噂。輝き・気品を月に重ねる、サンスクリットにまで遡る詩的な伝統が背景にあるらしい。"
+intrigue_tags: [celestial, naming, beauty_ideal]
+candidate:
+  phrase_original: "ចន្ទនារី (Channary)"
+  gloss_hint: "直訳は「月のような顔の女性」。クメール語「ចន្ទ(chan、月)」と「នារី(neari、女性)」の合成で、サンスクリット語の「candra(月)」「nārī(女性)」に遡るとされる。同様に月を織り込んだ女性名は他にも多数あり（ចន្ទលីនា Chanlina=月光、ចន្ទមុនី Chanmony=ダイヤのように輝く月光、ចន្ទធាវី Chanthavy=美しい月の少女・月の天使、など）、クメール文化において月は女性の美しさ・気品を語る比喩として名付けに用いられてきた。"
+  kiza_elements: [metaphor, poetic_image, cultural_allusion]
+  sources:
+    - url: https://www.behindthename.com/name/channary
+      note: "スカウトがfetch確認済み。原語表記「ចន្ទនារី/Channary」の意味が「chan(ចន្ទ、月)」+「neari(នារី、女性)」=『月のような顔の女性』であるという説明、サンスクリット語candra(月)+nārī(女性)に由来するという語源の記述を確認した。"
+    - url: https://preahnin.khmerican.com/post/1565442282/common-khmer-names-and-their-meanings
+      note: "スカウトがfetch確認済み。Channary=『月のような顔の少女』のほか、Chanlina(月光)、Chanmony(ダイヤのように輝く月光)、Chanthavy(美しい月の少女・月の天使)等、月にまつわる女性名の一覧と、クメール文化で月が美しさ・輝きの比喩として女性の名に用いられる慣習の記述を確認した。"
+status: fresh
+picked_for: "2026-09-14"
+resolution: null

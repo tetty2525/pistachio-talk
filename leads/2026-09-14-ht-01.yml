@@ -1,0 +1,21 @@
+schema_version: 1
+id: lead-2026-09-14-ht-01
+date: "2026-09-14"
+scouted_by: claude-routine-hiroto
+language: ht
+country_region: [HT]
+map_anchor: { lat: 18.5, lng: -72.3 }
+teaser_ja: "1883年、投獄中の詩人が独房の窓にとまった鳥に語りかける形で綴った、ある実在の女性への賛美の詩がある。のちに国民的な唄となり、さらに全く別の歌詞の英語版として世界的ヒットにもなったといういわく付き。その詩の中に、恋人の美貌を身近な果実や灯りになぞらえた一節が残る。"
+intrigue_tags: [poetry, folk_song, history]
+candidate:
+  phrase_original: "Z'yeux li clairé com' chandelle, Bouch'li couleur Caïmite"
+  gloss_hint: "1883年にオズワルド・デュランが獄中で綴った詩『Choucoune（シュクーヌ）』の一節。直訳は「彼女の瞳は蝋燭のように輝き、彼女の口はカイミット（スターアップル）の実の色をしている」。実在した恋人シュクーヌの美貌を、身近な自然物（蝋燭の灯り、果実の色）になぞらえて讃える描写。この詩は1893年に曲が付けられてハイチの国民的な唄となり、のちに歌詞の異なる英語版『Yellow Bird』として世界的ヒットにもなった。"
+  kiza_elements: [metaphor, poetic_image, cultural_allusion]
+  sources:
+    - url: https://fr.wikisource.org/wiki/Choucoune
+      note: "スカウトがfetch確認済み。原語（クレオール語の古い正書法）で「Z'yeux li clairé com' chandelle」（瞳は蝋燭のように輝く）「Bouch'li couleur Caïmite」（口はカイミットの実の色）等、シュクーヌの美貌を自然物に喩える詩行を確認した。"
+    - url: https://en.wikipedia.org/wiki/Choucoune_(song)
+      note: "スカウトがfetch確認済み。1883年にオズワルド・デュランが実在の女性シュクーヌを讃えて書いた詩であること、1893年に曲が付けられ国民的な唄となったこと、のちに英語版『Yellow Bird』として世界的ヒットとなった歴史的背景の記述を確認した。"
+status: fresh
+picked_for: "2026-09-14"
+resolution: null

@@ -45,6 +45,28 @@ window.PISTACHIO_KITCHEN_DATA = {
       "created": "2026-09-04"
     },
     {
+      "id": "ess-champa-frangipani-battambang",
+      "name_ja": "チャンパ（プルメリア）— バッタンバンの想い出の花",
+      "name_original": "ចំប៉ា (Champa)",
+      "category": "flora",
+      "culture_ja": "クメール（カンボジア）音楽の伝統",
+      "summary_ja": "チャンパ（マグノリア・チャンパカ／プルメリアの一種）は、カンボジア西部バッタンバン州に多く咲く花。歌手シン・シサムットが1962年に発表した歌『Champa Battambang（バッタンバンのチャンパ）』では、この花が望郷と失われた恋の象徴として歌われた。同曲は1966年のクメール王国テレビ開局時に最初に流された曲となり、70年代には国民的な定番曲に。クメール・ルージュ時代に多くの音楽が弾圧されるなか、タイの難民キャンップにいたカンボジア人音楽家たちにとって戦前の文化的アイデンティティをつなぐ歌として大切にされた。",
+      "metaphor_potential_ja": "花そのものの美しさよりも、「遠く離れた土地・戻れない過去への想い」を託す比喩として使える。目の前の相手を花に喩えるだけでなく、「あなたを想うとバッタンバンのチャンパの香りを思い出す」のように、望郷・郷愁とロマンスを重ねるせりふの型に向く。",
+      "tags": [
+        "flower",
+        "nostalgia",
+        "homeland",
+        "folk_song",
+        "love_allegory"
+      ],
+      "usage_hint": "目の前の相手をチャンパの花そのものに喩えるより、「遠く離れた土地」「戻らない過去」への想いとロマンスを重ねるせりふに向く。望郷・郷愁・再会への願いといった切なさを帯びたトーンの口説き文句や、旅立つ相手・遠距離の相手へのせりふに転用しやすい。",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Champa_Battambang",
+        "https://wondersofcambodia.com/cambodian-song-champa-battambang-the-magnolia-of-battambang/"
+      ],
+      "created": "2026-09-14"
+    },
+    {
       "id": "ess-flower-and-song",
       "name_ja": "花と歌（イン・ショチトル、イン・クイカトル）",
       "name_original": "In xochitl, in cuicatl",
