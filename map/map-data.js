@@ -441,7 +441,7 @@ window.PISTACHIO_MAP_DATA = {
       "lng": 96.1,
       "phraseCount": 0,
       "maxStatus": null,
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -1147,6 +1147,30 @@ window.PISTACHIO_MAP_DATA = {
         "beauty_ideal"
       ],
       "date": "2026-09-14"
+    },
+    {
+      "id": "lead-2026-09-15-my-01",
+      "lat": 16.8,
+      "lng": 96.1,
+      "teaser_ja": "東南アジアのある言語圏には、夫婦の関係を口の中で常に隣り合う身体の一部同士にたとえる言い回しが伝わっているという噂。仲が良いからこそ時にぶつかる、という含みもあるらしい。",
+      "intrigue_tags": [
+        "marriage",
+        "body_metaphor",
+        "proverb"
+      ],
+      "date": "2026-09-15"
+    },
+    {
+      "id": "lead-2026-09-15-ta-01",
+      "lat": 11,
+      "lng": 78.7,
+      "teaser_ja": "古代の恋愛詩の伝統には、待ちわびる女性の心情を、庭の花々がまるで嘲笑うように描き出す一節があるという噂。相手を褒める定番の比喩を、まったく逆向きに使う技巧派の実例らしい。",
+      "intrigue_tags": [
+        "classical_poetry",
+        "jasmine",
+        "irony"
+      ],
+      "date": "2026-09-15"
     }
   ],
   "leadsOpen": [],
@@ -1159,7 +1183,7 @@ window.PISTACHIO_MAP_DATA = {
       "metaphor_potential_ja": "「あなたの顔は欠けることのない満月のよう」というように、完全さ・清らかさ・揺るぎない輝きを讃える比喩の型として使える。俗な「お月様みたい」という軽さではなく、崇敬・清浄さのニュアンスを重ねられるため、格式ばった場面や、静かで真摯な口説き文句を演出したいときに向く。",
       "lat": 26,
       "lng": 30,
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ess-calabash-and-its-lid",
@@ -1292,6 +1316,16 @@ window.PISTACHIO_MAP_DATA = {
       "isNew": false
     },
     {
+      "id": "ess-nerunji-sun-flower",
+      "name_ja": "ネルンジ（太陽を追う花）",
+      "category": "flora",
+      "culture_ja": "タミル・サンガム文学の恋愛詩の伝統",
+      "metaphor_potential_ja": "「太陽を追い続ける花」という性質を、離れていても変わらぬ忠誠・待機・献身の比喩として使える。「あなたは私の太陽、私はあなたを追うネルンジ」のような遠距離の相手への口説き文句や、再会を待つ手紙・セリフの比喩の核に向く。",
+      "lat": 11,
+      "lng": 78.7,
+      "isNew": true
+    },
+    {
       "id": "ess-rose-and-nightingale",
       "name_ja": "薔薇と夜鶯（ゴル・オ・ボルボル）",
       "category": "poetry",
@@ -1386,9 +1420,9 @@ window.PISTACHIO_MAP_DATA = {
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 51,
+    "leadsFresh": 53,
     "leadsOpen": 0,
-    "essences": 23,
+    "essences": 24,
     "essencesNew": 3
   }
 };

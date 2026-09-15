@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-15-my-01
+date: "2026-09-15"
+scouted_by: claude-routine-hiroto
+language: my
+country_region: [MM]
+map_anchor: { lat: 16.8, lng: 96.1 }
+teaser_ja: "東南アジアのある言語圏には、夫婦の関係を口の中で常に隣り合う身体の一部同士にたとえる言い回しが伝わっているという噂。仲が良いからこそ時にぶつかる、という含みもあるらしい。"
+intrigue_tags: [marriage, body_metaphor, proverb]
+candidate:
+  phrase_original: "လင်နှင့်မယား လျှာနှင့်သွား"
+  gloss_hint: "ローマ字表記は「lin2 hnin1 ma1-ya3, sha2 hnin1 thwa3」。直訳は「夫と妻は、舌と歯のようだ」。舌と歯は口の中で常に隣り合い密接に共存しながらも、時に触れ合って痛みを生む間柄であることから、夫婦の親密さと、そこから生まれる時折の衝突（口論）を同時に言い表すビルマ語のことわざ。"
+  kiza_elements: [metaphor]
+  sources:
+    - url: https://www.asiapearltravels.com/language/lesson35_script.php
+      note: "スカウトがfetch確認済み。原語表記「လင်နှင့်မယား လျှာနှင့်သွား」とローマ字発音「lin2 hnin1 ma1-ya3, sha2 hnin1 thwa3」、英語での意味説明『Husband and wife are indeed, like tongue and teeth』、および『夫婦間の時折の口論を指す』という使用場面の説明を確認した（ビルマのことわざ集ページの項目110番）。"
+status: fresh
+picked_for: "2026-09-15"
+resolution: null

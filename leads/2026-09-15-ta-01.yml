@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-15-ta-01
+date: "2026-09-15"
+scouted_by: claude-routine-hiroto
+language: ta
+country_region: [IN, LK]
+map_anchor: { lat: 11.0, lng: 78.7 }
+teaser_ja: "古代の恋愛詩の伝統には、待ちわびる女性の心情を、庭の花々がまるで嘲笑うように描き出す一節があるという噂。相手を褒める定番の比喩を、まったく逆向きに使う技巧派の実例らしい。"
+intrigue_tags: [classical_poetry, jasmine, irony]
+candidate:
+  phrase_original: "தொகுமுகை யிலங்கெயி றாக"
+  gloss_hint: "サンガム文学『クルンドガイ』126番の一節。直訳は「連なる蕾が、輝く歯のように」。富を求めて去った恋人の帰りを待つ女性が友人に語る詩の中で、雨に育まれたジャスミンの蔓の連なる蕾が、まるで歯のようにきらめいて自分を嘲笑っている、という一節に登場する。通常タミル恋愛詩では『歯のように白いジャスミンの蕾』と相手（女性）を褒める定番の比喩型があるが、この詩ではその型を反転させ、花が人を嘲笑う側に使っている。"
+  kiza_elements: [metaphor, poetic_image]
+  sources:
+    - url: https://oldtamilpoetry.com/2025/02/07/kurunthokai-126/
+      note: "スカウトがfetch確認済み。タミル語原文（ローマ字表記全文）と英訳『fragrant jasmine creepers...laugh at me with their row of buds as sparkling teeth』、恋人の帰りを待つ女性が友人に語るという使用場面、およびこの比喩が通常の『歯のようなジャスミンの蕾』の型を反転させた技巧であるという解説を確認した。"
+status: fresh
+picked_for: "2026-09-15"
+resolution: null
