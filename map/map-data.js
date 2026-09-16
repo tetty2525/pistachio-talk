@@ -1171,6 +1171,42 @@ window.PISTACHIO_MAP_DATA = {
         "irony"
       ],
       "date": "2026-09-15"
+    },
+    {
+      "id": "lead-2026-09-16-fr-01",
+      "lat": 46.6,
+      "lng": 2.2,
+      "teaser_ja": "ヨーロッパのある言語圏には、恋人を台所の一品にたとえて呼ぶ習慣があるという噂。甘くて稀少な食べ物を指す言葉の系譜に連なる愛称らしい。",
+      "intrigue_tags": [
+        "food",
+        "endearment",
+        "everyday_language"
+      ],
+      "date": "2026-09-16"
+    },
+    {
+      "id": "lead-2026-09-16-th-01",
+      "lat": 13.7,
+      "lng": 100.5,
+      "teaser_ja": "東南アジアのある言語圏には、月を望む夜行性の小動物にたとえて、身分違いの恋心をやんわり皮肉る言い回しが伝わっているという噂。届かない相手への憧れを、月にまつわる言い伝えに重ねているらしい。",
+      "intrigue_tags": [
+        "moon_folklore",
+        "wit",
+        "unrequited_love"
+      ],
+      "date": "2026-09-16"
+    },
+    {
+      "id": "lead-2026-09-16-vi-01",
+      "lat": 14,
+      "lng": 108,
+      "teaser_ja": "東南アジアのある言語圏に伝わる恋の民謡には、糸を紡ぐ虫の戸惑いに、酒に酔う男と恋に酔う女の姿を重ねる一節があるという噂。虫のふるまいがそのまま人の感情の比喩になっているらしい。",
+      "intrigue_tags": [
+        "folk_song",
+        "insect_metaphor",
+        "romance"
+      ],
+      "date": "2026-09-16"
     }
   ],
   "leadsOpen": [],
@@ -1413,6 +1449,16 @@ window.PISTACHIO_MAP_DATA = {
       "metaphor_potential_ja": "相手の魅力を「花」「歌」「陽気さ」といった芸術・快楽のモチーフで讃える比喩の下敷きにできる。花や歌を持ち出すことで、単なる褒め言葉を「祝祭的で芸術性のある賛辞」のトーンに引き上げられる。",
       "lat": 19.4,
       "lng": -99.1,
+      "isNew": false
+    },
+    {
+      "id": "ess-yoruba-oriki-praise-poetry",
+      "name_ja": "オリキ（ヨルバの讃え歌）",
+      "category": "poetry",
+      "culture_ja": "ヨルバの口承讃え歌の伝統",
+      "metaphor_potential_ja": "相手を月並みな形容詞で誉めるのではなく、水や大地など土地に根ざしたイメージ、あるいは家系・歴史に連なる「讃え名」として言祝ぐ語り口を借りられる。その人だけに向けて即興で贈る固有の詩的称号、という創作の型として使える。",
+      "lat": 7.5,
+      "lng": 4,
       "isNew": true
     }
   ],
@@ -1420,9 +1466,9 @@ window.PISTACHIO_MAP_DATA = {
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 53,
+    "leadsFresh": 56,
     "leadsOpen": 0,
-    "essences": 24,
+    "essences": 25,
     "essencesNew": 3
   }
 };

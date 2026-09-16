@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-16-fr-01
+date: "2026-09-16"
+scouted_by: claude-routine-hiroto
+language: fr
+country_region: [FR]
+map_anchor: { lat: 46.6, lng: 2.2 }
+teaser_ja: "ヨーロッパのある言語圏には、恋人を台所の一品にたとえて呼ぶ習慣があるという噂。甘くて稀少な食べ物を指す言葉の系譜に連なる愛称らしい。"
+intrigue_tags: [food, endearment, everyday_language]
+candidate:
+  phrase_original: "mon petit chou"
+  gloss_hint: "直訳は「私の小さなキャベツ」。フランス語で恋人や大切な人に呼びかける代表的な愛称の一つ。甘い食べ物を指す語彙から生まれた愛情表現の系譜に属するとされ、キャベツもまた『稀少で望ましく、喜びをもたらすもの』の象徴として選ばれたと説明される。恋人同士が親密さや心地よさを伝え合う際に使われる。"
+  kiza_elements: [metaphor, cultural_allusion]
+  sources:
+    - url: https://alcuinfonds.be/blog/doudou-petit-chou/
+      note: "スカウトがfetch確認済み。『petit chou』という愛称、『多くの愛情表現は甘い食べ物の語彙から生まれている』『これらの言葉は稀で望ましい食物、喜びをもたらすものを指す』という由来の説明、および『doudou petit chou』が『快適さと優しさをもたらす人』を指し恋人同士の愛情表現として使われるという使用場面の説明を確認した。"
+status: fresh
+picked_for: "2026-09-16"
+resolution: null

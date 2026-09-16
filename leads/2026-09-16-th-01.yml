@@ -1,0 +1,21 @@
+schema_version: 1
+id: lead-2026-09-16-th-01
+date: "2026-09-16"
+scouted_by: claude-routine-hiroto
+language: th
+country_region: [TH]
+map_anchor: { lat: 13.7, lng: 100.5 }
+teaser_ja: "東南アジアのある言語圏には、月を望む夜行性の小動物にたとえて、身分違いの恋心をやんわり皮肉る言い回しが伝わっているという噂。届かない相手への憧れを、月にまつわる言い伝えに重ねているらしい。"
+intrigue_tags: [moon_folklore, wit, unrequited_love]
+candidate:
+  phrase_original: "กระต่ายหมายจันทร์"
+  gloss_hint: "ローマ字表記は kratai mai chan（grà-dtàai mǎi jan）。直訳は「月を望む兎」。身分や地位が釣り合わない相手に思いを寄せる男性を指す慣用句で、兎が月に手を伸ばしても届かないという不可能性になぞらえ、届かぬ恋を戒めや軽い皮肉として表す言い回し。"
+  kiza_elements: [metaphor, cultural_allusion]
+  sources:
+    - url: https://en.wikipedia.org/wiki/List_of_Thai_language_idioms
+      note: "スカウトがfetch確認済み。タイ語原文「กระต่ายหมายจันทร์」、直訳『hare wishing for the moon』、慣用的意味『a man interested in a woman of higher status』を確認した。"
+    - url: https://grokipedia.com/page/List_of_Thai_language_idioms
+      note: "スカウトがfetch確認済み。ローマ字表記『grà-dtàai mǎi jan』、意味『pursuing an unattainable dream』、および月にまつわる民俗伝承に根ざし、実現困難な望みへの戒め・忠告として用いられるという使用場面の説明を確認した。"
+status: fresh
+picked_for: "2026-09-16"
+resolution: null

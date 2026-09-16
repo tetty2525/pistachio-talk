@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-16-vi-01
+date: "2026-09-16"
+scouted_by: claude-routine-hiroto
+language: vi
+country_region: [VN]
+map_anchor: { lat: 14.0, lng: 108.0 }
+teaser_ja: "東南アジアのある言語圏に伝わる恋の民謡には、糸を紡ぐ虫の戸惑いに、酒に酔う男と恋に酔う女の姿を重ねる一節があるという噂。虫のふるまいがそのまま人の感情の比喩になっているらしい。"
+intrigue_tags: [folk_song, insect_metaphor, romance]
+candidate:
+  phrase_original: "Con tằm bối rối vì tơ / Anh say vì rượu, em ngẩn ngơ vì tình"
+  gloss_hint: "直訳は「蚕は糸に戸惑い、彼（男性）は酒に酔い、彼女（女性）は恋にぼうっとなる」。ベトナムの伝統的な恋愛民謡（ca dao）の一節。蚕が自らの吐き出す糸に絡まり戸惑う様子を、酒に酔う男性と恋に酔いしれる女性の状態と並べることで、恋愛による心の混乱・陶酔を表現する比喩。"
+  kiza_elements: [metaphor, poetic_image]
+  sources:
+    - url: https://quantrimang.com/cuoc-song/ca-dao-tuc-ngu-ve-tinh-yeu-185230
+      note: "スカウトがfetch確認済み。ベトナム語原文「Con tằm bối rối vì tơ / Anh say vì rượu, em ngẩn ngơ vì tình」、意味説明（蚕が糸に困惑する様子に例えて、男性は酒に酔い、女性は恋に夢中になっている状態を表現）、および『恋愛で心が揺らいでいる状況を描写する際に用いられる』という使用場面の説明を確認した（ベトナムの恋愛ことわざ・民謡のまとめ記事）。"
+status: fresh
+picked_for: "2026-09-16"
+resolution: null
