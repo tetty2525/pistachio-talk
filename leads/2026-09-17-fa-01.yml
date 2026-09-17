@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-17-fa-01
+date: "2026-09-17"
+scouted_by: claude-routine-hiroto
+language: fa
+country_region: [IR]
+map_anchor: { lat: 32.0, lng: 53.0 }
+teaser_ja: "心臓ではなくある内臓を『いとしい人』の代わりに呼ぶ、ペルシア語の愛称文化があるという噂。感情と勇気の宿る場所についての、独特な身体観が背景にあるらしい。"
+intrigue_tags: [body_metaphor, cultural_allusion, endearment]
+candidate:
+  phrase_original: "جیگرم (jigaram)"
+  gloss_hint: "直訳は『私の肝臓』。ペルシア語で『jigar（肝臓）』に一人称所有語尾『-am』が付いた愛称で、恋人や家族への親密な呼びかけとして使われる。西洋文化で心臓が愛情の座とされるのに対し、ペルシア文化では肝臓が『深い情熱と勇気の宿る場所』とされてきたとされ、誰かを『私の肝臓』と呼ぶことは、その人が自分の感情の最も深い部分であるという意味を持つという。単独の『jigar』は『魅力的な人・物』を指す語としても使われ、『Che jigari!（なんて魅力的な！）』という感嘆表現もあるという。"
+  kiza_elements: [metaphor, cultural_allusion]
+  sources:
+    - url: https://persianwithel.com/learning-guides/persian-terms-of-endearment/
+      note: "スカウトがfetch確認済み。原語表記『جیگرم（Jigaram）』、『the liver. not the heart. is the seat of deep passion and courage』という文化的背景の説明、夫婦間の親密な場面での使用例『ghorboonet beram, bemiram barat, jigare mani』、および単独の『jigar』が魅力的な人・物を指し『Che jigari!』という感嘆表現でも使われるという使用場面の記述を確認した。"
+status: fresh
+picked_for: "2026-09-17"
+resolution: null

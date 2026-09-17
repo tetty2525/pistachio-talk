@@ -1207,6 +1207,42 @@ window.PISTACHIO_MAP_DATA = {
         "romance"
       ],
       "date": "2026-09-16"
+    },
+    {
+      "id": "lead-2026-09-17-fa-01",
+      "lat": 32,
+      "lng": 53,
+      "teaser_ja": "心臓ではなくある内臓を『いとしい人』の代わりに呼ぶ、ペルシア語の愛称文化があるという噂。感情と勇気の宿る場所についての、独特な身体観が背景にあるらしい。",
+      "intrigue_tags": [
+        "body_metaphor",
+        "cultural_allusion",
+        "endearment"
+      ],
+      "date": "2026-09-17"
+    },
+    {
+      "id": "lead-2026-09-17-hi-01",
+      "lat": 28.6,
+      "lng": 77.2,
+      "teaser_ja": "誰かをこの上なく美しい存在にたとえるとき、天体の欠片になぞらえる言い回しがあるという噂。生まれたばかりの子や花嫁への賛辞として使われるらしく、詩の伝統ともつながりが深いようだ。",
+      "intrigue_tags": [
+        "celestial",
+        "poetic_image",
+        "beauty_ideal"
+      ],
+      "date": "2026-09-17"
+    },
+    {
+      "id": "lead-2026-09-17-ko-01",
+      "lat": 37.5,
+      "lng": 127.8,
+      "teaser_ja": "誰かの顔立ちを『天才』にたとえて褒める、韓国発の言い回しがあるという噂。知性と美貌を結びつける、ちょっとひねった機知が効いているらしい。",
+      "intrigue_tags": [
+        "wit",
+        "beauty_ideal",
+        "pop_culture"
+      ],
+      "date": "2026-09-17"
     }
   ],
   "leadsOpen": [],
@@ -1220,6 +1256,16 @@ window.PISTACHIO_MAP_DATA = {
       "lat": 26,
       "lng": 30,
       "isNew": false
+    },
+    {
+      "id": "ess-bagai-bulan-dipagari-bintang",
+      "name_ja": "星々に囲まれた月（バガイ・ブラン・ディパガリ・ビンタン）",
+      "category": "celestial",
+      "culture_ja": "マレー語（ムラユ語）圏の古典的ことわざ（peribahasa）の伝統",
+      "metaphor_potential_ja": "「まわりに美しい人がいくらいても、あなたはその中心で輝く月だ」というように、比較・競演の中での卓越を讃える比喩として使える。単に「月のように美しい」で終わらせず、「星々（=他の人々）に囲まれてなお際立つ」という構図を加えることで、賛辞に引き立て役・群像という奥行きを持たせられる。",
+      "lat": 4.2,
+      "lng": 101.9,
+      "isNew": true
     },
     {
       "id": "ess-calabash-and-its-lid",
@@ -1239,7 +1285,7 @@ window.PISTACHIO_MAP_DATA = {
       "metaphor_potential_ja": "花そのものの美しさよりも、「遠く離れた土地・戻れない過去への想い」を託す比喩として使える。目の前の相手を花に喩えるだけでなく、「あなたを想うとバッタンバンのチャンパの香りを思い出す」のように、望郷・郷愁とロマンスを重ねるせりふの型に向く。",
       "lat": 13.0957,
       "lng": 103.2022,
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ess-flower-and-song",
@@ -1466,9 +1512,9 @@ window.PISTACHIO_MAP_DATA = {
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 56,
+    "leadsFresh": 59,
     "leadsOpen": 0,
-    "essences": 25,
+    "essences": 26,
     "essencesNew": 3
   }
 };

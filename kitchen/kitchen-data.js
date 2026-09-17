@@ -24,6 +24,26 @@ window.PISTACHIO_KITCHEN_DATA = {
       "created": "2026-09-12"
     },
     {
+      "id": "ess-bagai-bulan-dipagari-bintang",
+      "name_ja": "星々に囲まれた月（バガイ・ブラン・ディパガリ・ビンタン）",
+      "name_original": "bagai bulan dipagari bintang",
+      "category": "celestial",
+      "culture_ja": "マレー語（ムラユ語）圏の古典的ことわざ（peribahasa）の伝統",
+      "summary_ja": "マレー語の古典的なことわざ「bagai bulan dipagari bintang（星々に囲まれた月のよう）」は、大勢の美しい女性たちに囲まれてなお比類なく美しい女性を讃える定型表現。",
+      "metaphor_potential_ja": "「まわりに美しい人がいくらいても、あなたはその中心で輝く月だ」というように、比較・競演の中での卓越を讃える比喩として使える。単に「月のように美しい」で終わらせず、「星々（=他の人々）に囲まれてなお際立つ」という構図を加えることで、賛辞に引き立て役・群像という奥行きを持たせられる。",
+      "tags": [
+        "moon",
+        "beauty",
+        "proverb",
+        "comparison"
+      ],
+      "usage_hint": "「大勢の中でも」「誰と並んでも」という比較の文脈を持ち込みたいセリフに向く。単独の相手を月にたとえるだけでなく、周囲の存在（星々）をあえて引き合いに出すことで、「その他大勢との比較の末に選ばれる圧倒的な存在感」というニュアンスを込められる。パーティーや集合写真など、複数人が並ぶ場面での賛辞に転用しやすい。",
+      "source_urls": [
+        "https://maksudperibahasa.com/bagai-bulan-dipagari-bintang/"
+      ],
+      "created": "2026-09-17"
+    },
+    {
       "id": "ess-calabash-and-its-lid",
       "name_ja": "ひょうたん椀とその蓋（ケル・ブ・ネ・アム・ナ・ンベロン）",
       "name_original": "Këll bu ne am na mberoom",

@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-17-ko-01
+date: "2026-09-17"
+scouted_by: claude-routine-hiroto
+language: ko
+country_region: [KR]
+map_anchor: { lat: 37.5, lng: 127.8 }
+teaser_ja: "誰かの顔立ちを『天才』にたとえて褒める、韓国発の言い回しがあるという噂。知性と美貌を結びつける、ちょっとひねった機知が効いているらしい。"
+intrigue_tags: [wit, beauty_ideal, pop_culture]
+candidate:
+  phrase_original: "얼굴 천재 (eolgul cheonjae)"
+  gloss_hint: "直訳は「顔 天才」。整った顔立ち・美形の人を指す現代韓国語の言い回しで、国立国語院の公開辞書『우리말샘』に見出し語として収録されている。『容姿の良さ』を学業やスポーツの『天才』になぞらえることで、賞賛を軽妙な誇張とユーモアで際立たせる。芸能ニュース記事で特定の俳優・アイドルの横顔や輪郭を形容する実例が複数確認できる。"
+  kiza_elements: [wit, metaphor]
+  sources:
+    - url: https://opendict.korean.go.kr/dictionary/view?sense_no=1373250
+      note: "スカウトがfetch確認済み。見出し語『얼굴 천재』、語釈『얼굴이 예쁘거나 잘생긴 사람을 비유적으로 이르는 말』（顔が美しい・整った人を比喩的にいう語）という意味の説明、および『조각 같은 느낌이 돋보이는 옆모습으로 독보적인 '얼굴 천재' 비주얼을 뽐냈다』（뉴스엔、2016年10月）など複数の実際の使用例（芸能記事での用例）を確認した。"
+status: fresh
+picked_for: "2026-09-17"
+resolution: null

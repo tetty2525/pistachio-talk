@@ -1,0 +1,21 @@
+schema_version: 1
+id: lead-2026-09-17-hi-01
+date: "2026-09-17"
+scouted_by: claude-routine-hiroto
+language: hi
+country_region: [IN, PK]
+map_anchor: { lat: 28.6, lng: 77.2 }
+teaser_ja: "誰かをこの上なく美しい存在にたとえるとき、天体の欠片になぞらえる言い回しがあるという噂。生まれたばかりの子や花嫁への賛辞として使われるらしく、詩の伝統ともつながりが深いようだ。"
+intrigue_tags: [celestial, poetic_image, beauty_ideal]
+candidate:
+  phrase_original: "चाँद का टुकड़ा (chāṅd kā ṭukṛā)"
+  gloss_hint: "直訳は「月のかけら」。ヒンディー語・ウルドゥー語に共通する慣用句で、非常に美しい人（多くは赤ん坊・花嫁・思い人）を形容する。ウルドゥー詩には恋人の美しさを月にたとえる伝統があり、辞書には『ye āb-dīda Thahar jaa.e jhiil kī sūrat, ki ek chāñd kā TukḌā nahānā chāhtā hai（この涙をたたえた湖面は、月のかけらが水浴びをしたがっているかのようだ）』という詩句が実例として収録されている。日常語としては、母親が我が子を『本当に月のかけらのようだ』と愛おしむ場面などで使われる。"
+  kiza_elements: [metaphor, poetic_image]
+  sources:
+    - url: https://www.hindikriti.com/2025/03/chand-ka-tukda-hona-muhavare-ka-meaning-in-hindi.html
+      note: "スカウトがfetch確認済み。見出し表現『चाँद का टुकड़ा होना』、語義『अत्यंत खूबसूरत होना／आकर्षक होना／रूपवान होना』（この上なく美しい・魅力的・容姿端麗であること）という意味の説明、および母親が我が子を『मेरा बेटा तो सच में चाँद का टुकड़ा है！』と呼ぶ使用例文を確認した。"
+    - url: https://www.rekhtadictionary.com/meaning-of-chaand-kaa-tukdaa
+      note: "スカウトがfetch確認済み。原語表記『चाँद का टुकड़ा／چاند کا ٹکڑا』の意味『Lovely, beautiful』（きわめて美しい人を指し、恋人や息子に対して最もよく使われる）という説明、およびMustafa Shahabの詩句を使用例として確認した。"
+status: fresh
+picked_for: "2026-09-17"
+resolution: null
