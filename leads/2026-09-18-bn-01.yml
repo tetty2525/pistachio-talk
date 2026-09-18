@@ -1,0 +1,21 @@
+schema_version: 1
+id: lead-2026-09-18-bn-01
+date: "2026-09-18"
+scouted_by: claude-routine-hiroto
+language: bn
+country_region: [BD, IN]
+map_anchor: { lat: 23.8, lng: 90.4 }
+teaser_ja: "南アジアのある言語圏には、月そのものを顔にたとえて相手の美しさを讃える古典的な複合語があるという噂。中世の宗教詩の伝統の中で育まれた言い回しで、今も辞書に文語表現として残っているらしい。"
+intrigue_tags: [celestial, poetic_image, classical_poetry]
+candidate:
+  phrase_original: "চাঁদমুখ (chãdmukh)"
+  gloss_hint: "直訳は「月の顔」。ベンガル語辞典によれば『চন্দ্রের ন্যায় সুন্দর মুখ』（月のように美しい顔）を意味する名詞で、文法的には「মুখ চাঁদের ন্যায়（顔は月のごとし）」という直喩を凝縮した複合語（উপমিত কর্মধারয় সমাস）。中世ベンガルのヴァイシュナヴァ詩（বৈঃ পঃ）の用例として『চাঁদ বদনী ধনী নাচত দেখি』（月のような顔の姫君が舞うのを見て）という一節が辞典に収録されている。"
+  kiza_elements: [metaphor, poetic_image, cultural_allusion]
+  sources:
+    - url: https://www.english-bangla.com/bntobn/index/%E0%A6%9A%E0%A6%BE%E0%A6%81%E0%A6%A6%E0%A6%AC%E0%A6%A6%E0%A6%A8,%20%E0%A6%9A%E0%A6%BE%E0%A6%81%E0%A6%A6%E0%A6%AE%E0%A7%81%E0%A6%96
+      note: "スカウトがfetch確認済み。ベンガル語辞典サイトで『চাঁদমুখ』の語義として『চন্দ্রের ন্যায় সুন্দর মুখ』（月のように美しい顔）という説明、および中世ヴァイシュナヴァ詩からの引用『চাঁদ বদনী ধনী নাচত দেখি』を使用例として確認した。"
+    - url: https://en.wikipedia.org/wiki/Vaishnava_Padavali
+      note: "スカウトがfetch確認済み。この用例の背景にある中世ベンガルの宗教詩の伝統『Vaishnava Padavali』（15〜17世紀、ラーダー・クリシュナの神聖な恋愛を題材とする詩の系譜）についての文化的文脈を確認した。"
+status: fresh
+picked_for: "2026-09-18"
+resolution: null

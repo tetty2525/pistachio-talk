@@ -1242,6 +1242,42 @@
         "pop_culture"
       ],
       "date": "2026-09-17"
+    },
+    {
+      "id": "lead-2026-09-18-bn-01",
+      "lat": 23.8,
+      "lng": 90.4,
+      "teaser_ja": "南アジアのある言語圏には、月そのものを顔にたとえて相手の美しさを讃える古典的な複合語があるという噂。中世の宗教詩の伝統の中で育まれた言い回しで、今も辞書に文語表現として残っているらしい。",
+      "intrigue_tags": [
+        "celestial",
+        "poetic_image",
+        "classical_poetry"
+      ],
+      "date": "2026-09-18"
+    },
+    {
+      "id": "lead-2026-09-18-id-01",
+      "lat": -6.2,
+      "lng": 106.8,
+      "teaser_ja": "ある言語圏では、最愛の子供や恋人を「心臓になった果実」にたとえて呼ぶ表現が広く使われているという噂。公式の国語辞典にも収録された定番の愛称らしい。",
+      "intrigue_tags": [
+        "food",
+        "body_metaphor",
+        "family"
+      ],
+      "date": "2026-09-18"
+    },
+    {
+      "id": "lead-2026-09-18-pt-01",
+      "lat": 39.5,
+      "lng": -8,
+      "teaser_ja": "ある言語圏には、瞳の中心を「小さな娘」と呼ぶ古い習慣から生まれた愛称表現があるという噂。目に映る自分の姿がまるで小さな人形のように見えることに由来するらしく、大切な人をそう呼ぶ文化は隣国の言語にも共通するとか。",
+      "intrigue_tags": [
+        "body_metaphor",
+        "folk_etymology",
+        "cross_border"
+      ],
+      "date": "2026-09-18"
     }
   ],
   "leadsOpen": [],
@@ -1404,7 +1440,7 @@
       "metaphor_potential_ja": "「太陽を追い続ける花」という性質を、離れていても変わらぬ忠誠・待機・献身の比喩として使える。「あなたは私の太陽、私はあなたを追うネルンジ」のような遠距離の相手への口説き文句や、再会を待つ手紙・セリフの比喩の核に向く。",
       "lat": 11,
       "lng": 78.7,
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ess-rose-and-nightingale",
@@ -1467,6 +1503,16 @@
       "isNew": false
     },
     {
+      "id": "ess-vaishnava-padavali",
+      "name_ja": "ヴァイシュナヴァ・パダーヴァリ（ラーダー・クリシュナの恋愛詩）",
+      "category": "poetry",
+      "culture_ja": "中世ベンガルのヴァイシュナヴァ（ヴィシュヌ派）信愛詩の伝統（15〜17世紀）",
+      "metaphor_potential_ja": "「クリシュナの笛の音に引き寄せられる」「ヤムナー川のほとりでの逢瀬」「離れていても消えない焦がれ」といった、人間の恋を神話的な恋物語に重ねる語り口を担える。男性詩人が女性（ラーダーや侍女）の視点で恋心を語る伝統があるため、性別を超えて「待つ側」「焦がれる側」の心情を代弁させる創作にも向く。切なさと神聖さが同居する、格調高いラブレター的トーンに合う。",
+      "lat": 23.8,
+      "lng": 90.4,
+      "isNew": true
+    },
+    {
       "id": "ess-waldeinsamkeit",
       "name_ja": "森の孤独（ヴァルトアインザームカイト）",
       "category": "nature",
@@ -1511,9 +1557,9 @@
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 59,
+    "leadsFresh": 62,
     "leadsOpen": 0,
-    "essences": 26,
+    "essences": 27,
     "essencesNew": 3
   }
 }

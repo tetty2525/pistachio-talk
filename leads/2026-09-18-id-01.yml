@@ -1,0 +1,21 @@
+schema_version: 1
+id: lead-2026-09-18-id-01
+date: "2026-09-18"
+scouted_by: claude-routine-hiroto
+language: id
+country_region: [ID]
+map_anchor: { lat: -6.2, lng: 106.8 }
+teaser_ja: "ある言語圏では、最愛の子供や恋人を「心臓になった果実」にたとえて呼ぶ表現が広く使われているという噂。公式の国語辞典にも収録された定番の愛称らしい。"
+intrigue_tags: [food, body_metaphor, family]
+candidate:
+  phrase_original: "buah hati"
+  gloss_hint: "直訳は「心臓（心）の果実」。インドネシア語公式辞典KBBIにも収録された慣用句で、(1)『jantung hati』（心臓、転じて掛け替えのない存在）、(2)『kekasih yang tercinta』（最愛の恋人）という意味を持つ。我が子や恋人など、自分にとって最も大切な存在を果実にたとえて呼ぶ表現。"
+  kiza_elements: [metaphor]
+  sources:
+    - url: https://kbbi.web.id/buah
+      note: "スカウトがfetch確認済み。インドネシア語公式辞典KBBIの『buah』項目内、複合語『buah hati』の語義として『jantung hati』『kekasih yang tercinta』の2つの意味が登録されていることを確認した。"
+    - url: https://jembatanbahasa.com/indonesian-idioms/
+      note: "スカウトがfetch確認済み。イディオム『buah hati』の意味を『beloved children（愛しい我が子）』と説明し、使用例文『Mereka terlihat lebih bahagia setelah kehadiran buah hati.』（buah hati＝我が子の誕生後、二人はより幸せそうに見える）を確認した。"
+status: fresh
+picked_for: "2026-09-18"
+resolution: null

@@ -1,0 +1,21 @@
+schema_version: 1
+id: lead-2026-09-18-pt-01
+date: "2026-09-18"
+scouted_by: claude-routine-hiroto
+language: pt
+country_region: [PT, BR]
+map_anchor: { lat: 39.5, lng: -8.0 }
+teaser_ja: "ある言語圏には、瞳の中心を「小さな娘」と呼ぶ古い習慣から生まれた愛称表現があるという噂。目に映る自分の姿がまるで小さな人形のように見えることに由来するらしく、大切な人をそう呼ぶ文化は隣国の言語にも共通するとか。"
+intrigue_tags: [body_metaphor, folk_etymology, cross_border]
+candidate:
+  phrase_original: "(a) menina dos olhos"
+  gloss_hint: "直訳は「目の（中の）娘」。瞳孔を指す民間語源的な呼び名『menina do olho』から広がった慣用句で、誰かにとって最も大切にされている人・物を指す。瞳孔に映り込む自分の姿が小さな人形のように見えることから『menina（女の子・人形）』と呼ばれるようになったという語源解説があり、スペイン語の『niñas de los ojos』にも同じ発想の表現があると指摘されている。"
+  kiza_elements: [metaphor, cultural_allusion]
+  sources:
+    - url: https://www.dicio.com.br/menina-dos-olhos/
+      note: "スカウトがfetch確認済み。原語表現『menina dos olhos』の語義として『algo ou alguém que é preferido; favorito, predileto』（最も好まれ大切にされている人・物）という説明、および実際の新聞記事（Folha de S.Paulo）からの使用例『que já foi a menina dos olhos do setor portuário brasileiro』（かつてブラジル港湾セクターの寵児だった）を確認した。"
+    - url: https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/menina-do-olho/2509
+      note: "スカウトがfetch確認済み。言語相談コーナー（ISCTE-IUL大学付属）にて、瞳孔が『その視覚における極めて重要な役割ゆえに人々によってこの名で呼ばれるようになった』という語源解説、および『瞳のように誰かを愛する』という言い回しでの使用、さらにスペイン語『niñas de los ojos』にも同じ発想が共有されているという指摘を確認した。"
+status: fresh
+picked_for: "2026-09-18"
+resolution: null
