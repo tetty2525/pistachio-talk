@@ -2,6 +2,27 @@
 window.PISTACHIO_KITCHEN_DATA = {
   "essences": [
     {
+      "id": "ess-aristophanes-split-sphere",
+      "name_ja": "球形人間と引き裂かれた片割れ（アリストパネスの神話）",
+      "name_original": "El Banquete / Symposium — discurso de Aristófanes",
+      "category": "myth",
+      "culture_ja": "古代ギリシア哲学（プラトン『饗宴』）",
+      "summary_ja": "プラトンの対話篇『饗宴』でアリストパネスが語る起源神話。かつて人間は球形で四本の手足と二つの顔を持つ完全な存在だったが、神々への傲慢さゆえにゼウスの怒りを買い、真っ二つに引き裂かれた。以来、人はみな失われたもう半分を探し求め続けている、とされる。",
+      "metaphor_potential_ja": "「運命の相手」を単なる感傷ではなく、かつて一つだった存在が引き裂かれ、埋め合わせようのない欠落感を抱えて彷徨っている——という神話的な必然性として語れる。相手を「探していた片割れ」「元は一つだった半分」になぞらえることで、出会いを偶然ではなく古い罰・宿命の成就として描ける。",
+      "tags": [
+        "greek_mythology",
+        "philosophy",
+        "soulmate",
+        "origin_myth"
+      ],
+      "usage_hint": "「あなたは私の運命の人」という常套句を、球体から引き裂かれた片割れ同士の再会という神話的スケールに置き換えて語れる。単なる相性の良さではなく「かつて一つだった」という欠落と必然性を強調することで、出会いに宿命的な重みを持たせる比喩として使える。オレンジや球体など「元は丸ごと一つだった」ものを引き合いに出す言い回しとも相性がよい。",
+      "source_urls": [
+        "https://www.elespanol.com/curiosidades/lenguaje/cual-origen-expresion-encontrar-media-naranja-significado/658934240_0.html",
+        "https://es.wikipedia.org/wiki/Media_naranja"
+      ],
+      "created": "2026-09-19"
+    },
+    {
       "id": "ess-badr-full-moon",
       "name_ja": "満月の美（バドル）",
       "name_original": "بدر (badr)",

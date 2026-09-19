@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-19-it-01
+date: "2026-09-19"
+scouted_by: claude-routine-hiroto
+language: it
+country_region: [IT]
+map_anchor: { lat: 42.5, lng: 12.5 }
+teaser_ja: "ホメロスの叙事詩に登場する、歌声で船乗りを惑わせたという神話上の生き物の名が、今でも「危険なほど魅力的な人」への賛辞として使われ続けている言語圏の噂。"
+intrigue_tags: [mythology, sea, cultural_allusion]
+candidate:
+  phrase_original: "Sei una sirena"
+  gloss_hint: "直訳は「君はセイレーンだ」。『sirena』はホメロス『オデュッセイア』に由来するギリシア神話の海の魔物で、美しい歌声で船乗りを惑わせたとされる存在。イタリア語辞典Treccaniによれば、比喩的には『donna dotata di un fascino pericoloso, capace di allettare, sedurre, ammaliare（危険な魅力を備え、誘惑し、魅了する女性）』を指す語として定着しており、『è proprio una sirena（まさにセイレーンだ）』という実際の言い回しも収録されている。神話上の存在の名をそのまま、抗いがたい魅力を持つ相手への賛辞として転用している点が特徴。"
+  kiza_elements: [metaphor, cultural_allusion]
+  sources:
+    - url: https://www.treccani.it/vocabolario/sirena1/
+      note: "スカウトがfetch確認済み。イタリア語辞典Treccaniにて、原語『sirena』の見出し語のもと、比喩的語義『donna dotata di un fascino pericoloso, capace di allettare, sedurre, ammaliare』の説明、および使用例『è proprio una s.（まさにセイレーンだ）』『voce di s.』『canto di sirena』を確認した。"
+status: fresh
+picked_for: "2026-09-19"
+resolution: null

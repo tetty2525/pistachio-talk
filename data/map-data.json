@@ -22,7 +22,7 @@
       "lng": -3.7,
       "phraseCount": 1,
       "maxStatus": "cross_checked",
-      "hasFreshToday": false,
+      "hasFreshToday": true,
       "hasOpenLead": false
     },
     {
@@ -1278,10 +1278,56 @@
         "cross_border"
       ],
       "date": "2026-09-18"
+    },
+    {
+      "id": "lead-2026-09-19-es-01",
+      "lat": 40,
+      "lng": -3.7,
+      "teaser_ja": "古代ギリシアの哲学対話に由来するという噂。まんまるだった人間が神罰で真っ二つに引き裂かれ、互いの片割れを探し求めるようになった——という神話が、いまも日常の口説き文句に溶け込んでいる言語圏があるらしい。",
+      "intrigue_tags": [
+        "mythology",
+        "philosophy",
+        "cultural_allusion"
+      ],
+      "date": "2026-09-19"
+    },
+    {
+      "id": "lead-2026-09-19-it-01",
+      "lat": 42.5,
+      "lng": 12.5,
+      "teaser_ja": "ホメロスの叙事詩に登場する、歌声で船乗りを惑わせたという神話上の生き物の名が、今でも「危険なほど魅力的な人」への賛辞として使われ続けている言語圏の噂。",
+      "intrigue_tags": [
+        "mythology",
+        "sea",
+        "cultural_allusion"
+      ],
+      "date": "2026-09-19"
+    },
+    {
+      "id": "lead-2026-09-19-yo-01",
+      "lat": 7.5,
+      "lng": 4,
+      "teaser_ja": "王だけが被ることを許された頭飾りになぞらえ、大切な人を「自分の王冠」と呼ぶ習わしがあるという言語圏の噂。相手を自分の頭上に戴く、という発想の逆転が興味深い。",
+      "intrigue_tags": [
+        "royalty",
+        "body_metaphor",
+        "cultural_allusion"
+      ],
+      "date": "2026-09-19"
     }
   ],
   "leadsOpen": [],
   "essencePoints": [
+    {
+      "id": "ess-aristophanes-split-sphere",
+      "name_ja": "球形人間と引き裂かれた片割れ（アリストパネスの神話）",
+      "category": "myth",
+      "culture_ja": "古代ギリシア哲学（プラトン『饗宴』）",
+      "metaphor_potential_ja": "「運命の相手」を単なる感傷ではなく、かつて一つだった存在が引き裂かれ、埋め合わせようのない欠落感を抱えて彷徨っている——という神話的な必然性として語れる。相手を「探していた片割れ」「元は一つだった半分」になぞらえることで、出会いを偶然ではなく古い罰・宿命の成就として描ける。",
+      "lat": 37.9,
+      "lng": 23.7,
+      "isNew": true
+    },
     {
       "id": "ess-badr-full-moon",
       "name_ja": "満月の美（バドル）",
@@ -1550,16 +1596,16 @@
       "metaphor_potential_ja": "相手を月並みな形容詞で誉めるのではなく、水や大地など土地に根ざしたイメージ、あるいは家系・歴史に連なる「讃え名」として言祝ぐ語り口を借りられる。その人だけに向けて即興で贈る固有の詩的称号、という創作の型として使える。",
       "lat": 7.5,
       "lng": 4,
-      "isNew": true
+      "isNew": false
     }
   ],
   "totals": {
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 62,
+    "leadsFresh": 65,
     "leadsOpen": 0,
-    "essences": 27,
+    "essences": 28,
     "essencesNew": 3
   }
 }

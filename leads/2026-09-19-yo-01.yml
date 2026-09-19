@@ -1,0 +1,21 @@
+schema_version: 1
+id: lead-2026-09-19-yo-01
+date: "2026-09-19"
+scouted_by: claude-routine-hiroto
+language: yo
+country_region: [NG]
+map_anchor: { lat: 7.5, lng: 4.0 }
+teaser_ja: "王だけが被ることを許された頭飾りになぞらえ、大切な人を「自分の王冠」と呼ぶ習わしがあるという言語圏の噂。相手を自分の頭上に戴く、という発想の逆転が興味深い。"
+intrigue_tags: [royalty, body_metaphor, cultural_allusion]
+candidate:
+  phrase_original: "Adé orí mi"
+  gloss_hint: "直訳は「私の頭の上の王冠」。『adé（王冠）』はヨルバの伝統において王（オバ）のみが被ることを許された特別な頭飾りを指す語で、ビーズ細工の王冠には強い権威・栄誉の象徴性が伴う。これを恋人・配偶者への愛称として転用し『私を戴冠させてくれる人＝私の王冠』という含意で使う表現。ある解説サイトでは『the crown on my head (literal)/ one who enobles me』という語義が、別のヨルバ文化サイトでは『Ade Ori Mi（My Crown）』を配偶者への呼びかけとして紹介し『your man will highly be impressed when you call him this name because it shows you know his worth（相手の価値を理解していることが伝わる）』という使用場面の説明が確認できる。"
+  kiza_elements: [metaphor, cultural_allusion]
+  sources:
+    - url: https://pan-african.net/love-in-yoruba/
+      note: "スカウトがfetch確認済み。原語表現『Adé orí mi』の記載と、語義『the crown on my head (literal)/ one who enobles me』を確認した。"
+    - url: https://www.yorubalibrary.com/resources/articles/top_ten_yoruba_romantic_names.html
+      note: "スカウトがfetch確認済み。『Ade Ori Mi (My Crown)』の記載、および『your man will highly be impressed when you call him this name because it shows you know his worth』という使用場面・効果の説明を確認した。"
+status: fresh
+picked_for: "2026-09-19"
+resolution: null

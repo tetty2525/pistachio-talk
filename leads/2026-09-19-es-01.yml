@@ -1,0 +1,23 @@
+schema_version: 1
+id: lead-2026-09-19-es-01
+date: "2026-09-19"
+scouted_by: claude-routine-hiroto
+language: es
+country_region: [ES, AR, MX]
+map_anchor: { lat: 40.0, lng: -3.7 }
+teaser_ja: "古代ギリシアの哲学対話に由来するという噂。まんまるだった人間が神罰で真っ二つに引き裂かれ、互いの片割れを探し求めるようになった——という神話が、いまも日常の口説き文句に溶け込んでいる言語圏があるらしい。"
+intrigue_tags: [mythology, philosophy, cultural_allusion]
+candidate:
+  phrase_original: "Eres mi media naranja"
+  gloss_hint: "直訳は「君は私の半分のオレンジだ」。慣用句『media naranja（半分のオレンジ）』はプラトンの対話篇『饗宴』でアリストパネスが語る神話に由来するとされる——元々は球形で四本の手足と二つの顔を持っていた人間が、神々への傲慢さゆえにゼウスに真っ二つに裂かれ、それ以来自分のもう半分（他人）を探し求めるようになった、という起源譚。現代スペイン語では「運命の相手・ぴったりの伴侶」を指す日常語として定着しており、辞書サイトには『Pedro ya tiene su media naranja（ペドロにはもう彼のmedia naranjaがいる）』という使用例も確認できる。"
+  kiza_elements: [metaphor, cultural_allusion]
+  sources:
+    - url: https://www.elespanol.com/curiosidades/lenguaje/cual-origen-expresion-encontrar-media-naranja-significado/658934240_0.html
+      note: "スカウトがfetch確認済み。『la expresión aparece por primera vez en una obra de Platón, llamada El Banquete...que trata sobre la búsqueda del amor』とあり、アリストパネスが人間を球形の存在として語り、ゼウスが傲慢の罰として彼らを二つに裂いたという神話の起源説明を確認した。"
+    - url: https://www.significadode.org/ser%20la%20media%20naranja.htm
+      note: "スカウトがfetch確認済み。『La media naranja es una persona que sentimentalmente es el complemento de otra』という語義説明と、『Pedro ya tiene su media naranja』という実際の使用例文を確認した。"
+    - url: https://es.wikipedia.org/wiki/Media_naranja
+      note: "スカウトがfetch確認済み。『Media naranja es una expresión cuyo origen se debe a Aristófanes y se encuentra en el diálogo platónico llamado El banquete』という由来の記述、および『alma gemela』（運命の相手）としての現代的な語義を確認した。"
+status: fresh
+picked_for: "2026-09-19"
+resolution: null
