@@ -1,0 +1,21 @@
+schema_version: 1
+id: lead-2026-09-20-he-01
+date: "2026-09-20"
+scouted_by: claude-routine-hiroto
+language: he
+country_region: [IL]
+map_anchor: { lat: 31.0, lng: 35.0 }
+teaser_ja: "強い恋心を、まるで病にかかったかのように語る言い回しがあるという言語圏の噂。「参ってしまった」を通り越して、ほとんど診断書レベルの深刻さで愛を訴えるらしい。"
+intrigue_tags: [illness_metaphor, hyperbole, wit]
+candidate:
+  phrase_original: "אני ממש חולה עלייך"
+  gloss_hint: "直訳は「私は本当にあなたの上で病気だ」。『חולה（choleh）』は本来『病気の』を意味する形容詞だが、これを恋愛感情の強さを表す慣用的な誇張表現として転用し『あなたに(病気になるほど)夢中だ』という意味で使う。ある語学サイトでは『אני חולה עליך（Ani kholeh/kholah alayikh/alekha）』を『I'm crazy about you』と訳し、恋愛感情が深まった段階で使う強い表現として紹介している。別のサイトでは『מהרגע שפגשנו, אני ממש חולה עלייך（出会った瞬間から、私は本当にあなたに参っている）』という実際の使用例文とともに『I'm totally crazy about you』という訳を確認できる。"
+  kiza_elements: [metaphor, wit]
+  sources:
+    - url: https://www.hebrewpod101.com/blog/2021/08/26/hebrew-love-phrases/
+      note: "スカウトがfetch確認済み。『אני חולה עליך (Ani kholeh/kholah alayikh/alekha) — I'm crazy about you』という原語表記・音訳・訳を確認した。文字通りには病気を意味する動詞を使う慣用表現であることの説明あり。"
+    - url: https://talkpal.ai/vocabulary/romantic-and-affectionate-phrases-in-hebrew/
+      note: "スカウトがfetch確認済み。『ממש חולה עלייך (Mamash choleh alayich/aleyha) — I'm totally crazy about you』という訳、および『מהרגע שפגשנו, אני ממש חולה עלייך（Since we met, I'm totally crazy about you）』という実際の使用例文を確認した。"
+status: fresh
+picked_for: "2026-09-20"
+resolution: null

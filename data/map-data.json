@@ -1314,6 +1314,42 @@
         "cultural_allusion"
       ],
       "date": "2026-09-19"
+    },
+    {
+      "id": "lead-2026-09-20-he-01",
+      "lat": 31,
+      "lng": 35,
+      "teaser_ja": "強い恋心を、まるで病にかかったかのように語る言い回しがあるという言語圏の噂。「参ってしまった」を通り越して、ほとんど診断書レベルの深刻さで愛を訴えるらしい。",
+      "intrigue_tags": [
+        "illness_metaphor",
+        "hyperbole",
+        "wit"
+      ],
+      "date": "2026-09-20"
+    },
+    {
+      "id": "lead-2026-09-20-qu-01",
+      "lat": -13.5,
+      "lng": -71.9,
+      "teaser_ja": "アンデスの民謡において、想い人を鳥になぞらえて呼びかける伝統があるという噂。望郷と哀切が混じったその呼び名には、つがいを見失った鳥のような切なさが漂うらしい。",
+      "intrigue_tags": [
+        "bird_metaphor",
+        "folk_song",
+        "cultural_allusion"
+      ],
+      "date": "2026-09-20"
+    },
+    {
+      "id": "lead-2026-09-20-ru-01",
+      "lat": 55.75,
+      "lng": 37.6,
+      "teaser_ja": "愛する人を、陸に上がれない水中の生き物になぞらえて呼ぶ習わしがあるという噂。愛称の発想としてはかなり大胆な飛躍だが、この言語圏では至って一般的らしい。",
+      "intrigue_tags": [
+        "animal_metaphor",
+        "whimsy",
+        "endearment"
+      ],
+      "date": "2026-09-20"
     }
   ],
   "leadsOpen": [],
@@ -1346,7 +1382,7 @@
       "metaphor_potential_ja": "「まわりに美しい人がいくらいても、あなたはその中心で輝く月だ」というように、比較・競演の中での卓越を讃える比喩として使える。単に「月のように美しい」で終わらせず、「星々（=他の人々）に囲まれてなお際立つ」という構図を加えることで、賛辞に引き立て役・群像という奥行きを持たせられる。",
       "lat": 4.2,
       "lng": 101.9,
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ess-calabash-and-its-lid",
@@ -1519,6 +1555,16 @@
       "isNew": false
     },
     {
+      "id": "ess-song-of-songs-dove-and-garden",
+      "name_ja": "雅歌の鳩と庭園のイメージ（シル・ハシリーム）",
+      "category": "poetry",
+      "culture_ja": "ヘブライ聖書の詩的伝統（雅歌）",
+      "metaphor_potential_ja": "「あなたの目は鳩のようだ」のように、身体的特徴を動物や自然物へ喩える手法として使える。鳩の忠実さ（一度つがいを見つけると離れない）という含意を借りれば、単なる可愛らしさの比喩ではなく「一途さ・専心」を語る比喩に発展させられる。庭園・塔・果実など、雅歌に頻出する自然/建築イメージ群も、相手を賞美する比喩の語彙として応用できる。",
+      "lat": 31,
+      "lng": 35,
+      "isNew": true
+    },
+    {
       "id": "ess-thinai-kurinji",
       "name_ja": "クリンジ（山の情景）",
       "category": "poetry",
@@ -1603,9 +1649,9 @@
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 65,
+    "leadsFresh": 68,
     "leadsOpen": 0,
-    "essences": 28,
+    "essences": 29,
     "essencesNew": 3
   }
 }

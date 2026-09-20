@@ -1,0 +1,21 @@
+schema_version: 1
+id: lead-2026-09-20-qu-01
+date: "2026-09-20"
+scouted_by: claude-routine-hiroto
+language: qu
+country_region: [PE, BO]
+map_anchor: { lat: -13.5, lng: -71.9 }
+teaser_ja: "アンデスの民謡において、想い人を鳥になぞらえて呼びかける伝統があるという噂。望郷と哀切が混じったその呼び名には、つがいを見失った鳥のような切なさが漂うらしい。"
+intrigue_tags: [bird_metaphor, folk_song, cultural_allusion]
+candidate:
+  phrase_original: "Yuyariway, urpi"
+  gloss_hint: "直訳は「私を思い出して、鳩よ」。『urpi』はケチュア語で鳩（伝書鳩・野生の鳩など）を指す語だが、アンデスの詩的・民謡的伝統（huayno）では想い人を指す愛称として定着している。ロス・カルカス(Los Kjarkas)の楽曲『Yuyariway Urpi』の題名がまさにこの呼びかけで、解説サイトでは『Recuérdame, paloma（私を思い出して、鳩よ）』という訳と共に『un tono de súplica y nostalgia（哀願と望郷の情のこもった調子）』で恋人へ呼びかける語として説明されている。別の辞書サイトでは『Sumaq yuraq urpi, Linda paloma blanca（美しい白い鳩）』という実際の例文も確認でき、urpiが人を賞美する呼びかけ語として使われることが裏付けられる。"
+  kiza_elements: [metaphor, poetic_image, cultural_allusion]
+  sources:
+    - url: https://www.letras.com/kjarkas/yuyariway-urpi/significado.html
+      note: "スカウトがfetch確認済み。曲名『Yuyariway Urpi』の訳が『Recuérdame, paloma（私を思い出して、鳩よ）』であること、urpiが想い人への愛称として機能すること、『un tono de súplica y nostalgia（哀願と望郷の情）』という使用場面の説明を確認した。"
+    - url: https://www.significadode.org/quechua/urpi.htm
+      note: "スカウトがfetch確認済み。『URPI, en el idioma quechua significa PALOMA』という語義説明と、『Sumaq yuraq urpi, Linda paloma blanca』という実際の使用例文（美しい白い鳩、と人を賞美する言い回し）を確認した。"
+status: fresh
+picked_for: "2026-09-20"
+resolution: null

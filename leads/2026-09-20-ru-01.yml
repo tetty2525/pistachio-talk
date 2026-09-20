@@ -1,0 +1,21 @@
+schema_version: 1
+id: lead-2026-09-20-ru-01
+date: "2026-09-20"
+scouted_by: claude-routine-hiroto
+language: ru
+country_region: [RU]
+map_anchor: { lat: 55.75, lng: 37.6 }
+teaser_ja: "愛する人を、陸に上がれない水中の生き物になぞらえて呼ぶ習わしがあるという噂。愛称の発想としてはかなり大胆な飛躍だが、この言語圏では至って一般的らしい。"
+intrigue_tags: [animal_metaphor, whimsy, endearment]
+candidate:
+  phrase_original: "Рыбка моя"
+  gloss_hint: "直訳は「私の小さな魚」。『рыбка（rybka）』は『рыба（魚）』の指小愛称形で、パートナーや子どもなど親しい相手への呼びかけ語として使われる。辞書系サイトでは『Russian words that used with partners, children and other loved ones』という文脈でこの語が紹介されており、恋人・子ども双方に向けた愛称であることが確認できる。実際の使用例としては『Вот и рыбка моя приплыла!（さあ、私の小さな魚が泳いで来たぞ！）』『Людмилка, рыбка моя единственная!（リュドミルカ、私の唯一の小さな魚よ！）』といった文学作品由来の呼びかけ文が確認できる。"
+  kiza_elements: [metaphor, wit]
+  sources:
+    - url: https://www.omniglot.com/language/endearment/russian.htm
+      note: "スカウトがfetch確認済み。『рыбка = little fish』という原語表記と訳、および『Russian words that used with partners, children and other loved ones』という使用場面の説明を確認した。"
+    - url: https://kartaslov.ru/%D0%BF%D1%80%D0%B5%D0%B4%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F-%D1%81%D0%BE-%D1%81%D0%BB%D0%BE%D0%B2%D0%BE%D1%81%D0%BE%D1%87%D0%B5%D1%82%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC/%D1%80%D1%8B%D0%B1%D0%BA%D0%B0+%D0%BC%D0%BE%D1%8F
+      note: "スカウトがfetch確認済み。『Вот и рыбка моя приплыла!』『Людмилка, рыбка моя единственная!』など、文学作品からの実際の使用例文を複数確認した。"
+status: fresh
+picked_for: "2026-09-20"
+resolution: null
