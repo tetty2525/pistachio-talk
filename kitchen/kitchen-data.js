@@ -281,6 +281,27 @@ window.PISTACHIO_KITCHEN_DATA = {
       "created": "2026-09-07"
     },
     {
+      "id": "ess-kotuku-rare-heron",
+      "name_ja": "コトゥク（一度きりの飛来の白鷺）",
+      "name_original": "Kōtuku",
+      "category": "fauna",
+      "culture_ja": "マオリ文化",
+      "summary_ja": "ニュージーランド西海岸のごく限られた場所にしか繁殖に飛来しない稀少な白鷺。首の独特の曲がりと純白の羽を持ち、「kōtuku rerenga tahi（一度きりの飛来の白鷺）」という言い回しは、滅多に訪れない大切な客人・出来事を指す比喩として使われる。",
+      "metaphor_potential_ja": "「いつでも会える相手」ではなく「一生に一度きりの飛来」というレアさそのものを相手への賛辞にできる。日常への到来を出会いの奇跡として語る比喩や、「あなたに会えたのは、あの白鷺が舞い降りたようなものだ」という一期一会の語り口に使える。頭に飾る羽飾り（piki kōtuku）としての用法もあり、「戴くもの・掲げるもの」としての敬意の比喩にも転用できる。",
+      "tags": [
+        "rare_visitor",
+        "bird",
+        "prestige",
+        "once_in_a_lifetime"
+      ],
+      "usage_hint": "「毎日会える」ことの安心ではなく、「今この瞬間に出会えたことそのものが稀少である」という角度から相手を讃える語り口に使える。一期一会の出会いを寿ぐセリフ、あるいは「あなたを戴く（大切に掲げる）」という敬意を込めた比喩の担い手として活用できる。",
+      "source_urls": [
+        "https://maoridictionary.co.nz/search?keywords=kotuku",
+        "https://maoridictionary.co.nz/search?keywords=darling"
+      ],
+      "created": "2026-09-21"
+    },
+    {
       "id": "ess-lion-of-judah",
       "name_ja": "ユダのライオン（アンベッサ）",
       "name_original": "አንበሳ (anbessa)",

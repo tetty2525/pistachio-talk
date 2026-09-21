@@ -1,0 +1,21 @@
+schema_version: 1
+id: lead-2026-09-21-sv-01
+date: "2026-09-21"
+scouted_by: claude-routine-hiroto
+language: sv
+country_region: [SE]
+map_anchor: { lat: 62.0, lng: 15.0 }
+teaser_ja: "大切な人を、宝物庫にしまうような貴重な財貨になぞらえて呼ぶ愛称があるという噂。男女どちらの相手にも使える、という懐の広さも面白い。"
+intrigue_tags: [treasure_metaphor, endearment, gender_neutral]
+candidate:
+  phrase_original: "Skatten"
+  gloss_hint: "『skatt（財宝・宝物）』の定形（後置冠詞形）。恋人やパートナーを『財宝』になぞらえて呼ぶ愛称で、ある解説サイトでは『in a relationship with a Swede』という文脈で紹介される『cutesy nicknames for a significant other』の一つとして挙げられ、相手に直接呼びかける際は定形接尾辞『-en』を付ける、という文法的な使い方の説明も確認できる。別のスウェーデン語ネイティブ向けサイトの『男の子向け』『女の子向け』双方の愛称リストにも『skatt』が挙がっており、性別を問わずパートナーへの愛称として使われることが確認できる。"
+  kiza_elements: [metaphor]
+  sources:
+    - url: https://travelwithlanguages.com/blog/swedish-terms-of-endearment.html
+      note: "スカウトがfetch確認済み。原語『Skatten』の記載、『treasure』という語義、および『compares a romantic partner to something precious』『cutesy nicknames for a significant other』という使用場面の説明を確認した。"
+    - url: https://hennesvag.se/livet/gulliga-smeknamn/
+      note: "スカウトがfetch確認済み。彼氏向け・彼女向け双方の愛称リストに『skatt』が掲載されていることを確認し、性別を問わずパートナーへの愛称として使われる裏付けを得た。"
+status: fresh
+picked_for: "2026-09-21"
+resolution: null

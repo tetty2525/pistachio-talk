@@ -1350,6 +1350,42 @@
         "endearment"
       ],
       "date": "2026-09-20"
+    },
+    {
+      "id": "lead-2026-09-21-mi-01",
+      "lat": -41.3,
+      "lng": 174.8,
+      "teaser_ja": "一生に一度出会えるかどうかという稀少な白い渡り鳥の羽飾りになぞらえて、大切な相手を呼ぶ言葉があるという噂。『滅多に来ない客人』を讃える古い言い回しと同じ語源を持つらしい。",
+      "intrigue_tags": [
+        "rare_bird",
+        "cultural_allusion",
+        "prestige"
+      ],
+      "date": "2026-09-21"
+    },
+    {
+      "id": "lead-2026-09-21-sv-01",
+      "lat": 62,
+      "lng": 15,
+      "teaser_ja": "大切な人を、宝物庫にしまうような貴重な財貨になぞらえて呼ぶ愛称があるという噂。男女どちらの相手にも使える、という懐の広さも面白い。",
+      "intrigue_tags": [
+        "treasure_metaphor",
+        "endearment",
+        "gender_neutral"
+      ],
+      "date": "2026-09-21"
+    },
+    {
+      "id": "lead-2026-09-21-wo-01",
+      "lat": 14.7,
+      "lng": -14.5,
+      "teaser_ja": "瓢箪の器とその蓋のたとえで、運命の相手について語ることわざがあるという噂。台所道具の組み合わせで縁を語る発想が渋い。",
+      "intrigue_tags": [
+        "proverb",
+        "everyday_object_metaphor",
+        "fate"
+      ],
+      "date": "2026-09-21"
     }
   ],
   "leadsOpen": [],
@@ -1485,6 +1521,16 @@
       "isNew": false
     },
     {
+      "id": "ess-kotuku-rare-heron",
+      "name_ja": "コトゥク（一度きりの飛来の白鷺）",
+      "category": "fauna",
+      "culture_ja": "マオリ文化",
+      "metaphor_potential_ja": "「いつでも会える相手」ではなく「一生に一度きりの飛来」というレアさそのものを相手への賛辞にできる。日常への到来を出会いの奇跡として語る比喩や、「あなたに会えたのは、あの白鷺が舞い降りたようなものだ」という一期一会の語り口に使える。頭に飾る羽飾り（piki kōtuku）としての用法もあり、「戴くもの・掲げるもの」としての敬意の比喩にも転用できる。",
+      "lat": -41.3,
+      "lng": 174.8,
+      "isNew": true
+    },
+    {
       "id": "ess-lion-of-judah",
       "name_ja": "ユダのライオン（アンベッサ）",
       "category": "myth",
@@ -1602,7 +1648,7 @@
       "metaphor_potential_ja": "「クリシュナの笛の音に引き寄せられる」「ヤムナー川のほとりでの逢瀬」「離れていても消えない焦がれ」といった、人間の恋を神話的な恋物語に重ねる語り口を担える。男性詩人が女性（ラーダーや侍女）の視点で恋心を語る伝統があるため、性別を超えて「待つ側」「焦がれる側」の心情を代弁させる創作にも向く。切なさと神聖さが同居する、格調高いラブレター的トーンに合う。",
       "lat": 23.8,
       "lng": 90.4,
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ess-waldeinsamkeit",
@@ -1649,9 +1695,9 @@
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 68,
+    "leadsFresh": 71,
     "leadsOpen": 0,
-    "essences": 29,
+    "essences": 30,
     "essencesNew": 3
   }
 }

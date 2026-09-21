@@ -1,0 +1,21 @@
+schema_version: 1
+id: lead-2026-09-21-mi-01
+date: "2026-09-21"
+scouted_by: claude-routine-hiroto
+language: mi
+country_region: [NZ]
+map_anchor: { lat: -41.3, lng: 174.8 }
+teaser_ja: "一生に一度出会えるかどうかという稀少な白い渡り鳥の羽飾りになぞらえて、大切な相手を呼ぶ言葉があるという噂。『滅多に来ない客人』を讃える古い言い回しと同じ語源を持つらしい。"
+intrigue_tags: [rare_bird, cultural_allusion, prestige]
+candidate:
+  phrase_original: "Piki kōtuku"
+  gloss_hint: "『kōtuku（コトゥク＝シラサギ）』は年に一度、限られた場所にしか飛来しない稀少な白鷺で、『kōtuku rerenga tahi（一度きりの飛来の白鷺）』という言い回しは『滅多に訪れない、大切な客人』を指す比喩として使われる。『piki kōtuku』はその羽飾りを意味し、権威ある人物の頭に飾られたことから転じて『darling, treasure, symbol of prestige and uniqueness（愛しい人・宝・気高さと唯一無二であることの象徴）』という語義を持つ。マオリ語の権威辞書サイトの見出し語『darling』のページに、この語と用例『hei piki kōtuku ki ō rātau māhunga（彼らの頭への羽飾りとして）』が掲載されているのを確認し、さらに『kōtuku』の見出しページでもこの語と稀少な鳥としての文化的背景の説明を確認した。"
+  kiza_elements: [metaphor, cultural_allusion]
+  sources:
+    - url: https://maoridictionary.co.nz/search?keywords=darling
+      note: "スカウトがfetch確認済み。原語『piki kōtuku』とその語義『darling, treasure, symbol of prestige and uniqueness』、用例『hei piki kōtuku ki ō rātau māhunga』を確認した。"
+    - url: https://maoridictionary.co.nz/search?keywords=kotuku
+      note: "スカウトがfetch確認済み。『kōtuku』が年一度しか飛来しない稀少な白鷺であること、『kōtuku rerenga tahi』が『滅多に来ない大切な客人』を指す比喩として使われること、および『piki kōtuku』への言及を確認した。"
+status: fresh
+picked_for: "2026-09-21"
+resolution: null

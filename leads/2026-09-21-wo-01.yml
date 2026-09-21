@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-21-wo-01
+date: "2026-09-21"
+scouted_by: claude-routine-hiroto
+language: wo
+country_region: [SN]
+map_anchor: { lat: 14.7, lng: -14.5 }
+teaser_ja: "瓢箪の器とその蓋のたとえで、運命の相手について語ることわざがあるという噂。台所道具の組み合わせで縁を語る発想が渋い。"
+intrigue_tags: [proverb, everyday_object_metaphor, fate]
+candidate:
+  phrase_original: "Këll bu ne am na mberoom"
+  gloss_hint: "直訳は『どの瓢箪の器にも、それ専用の蓋がある』。『këll（瓢箪を加工した器・ボウル）』と『mber（蓋）』を使い、あらゆる人にふさわしい伴侶が定まっているという含意で語られることわざ。恋人・伴侶の組み合わせを、器とその蓋がぴったり合うことになぞらえている。出典サイトではウォロフのことわざ集の中で『恋愛・結婚』の文脈のことわざとして紹介されている。"
+  kiza_elements: [metaphor, cultural_allusion]
+  sources:
+    - url: https://www.lingalot.com/wolof-quotes/
+      note: "スカウトがfetch確認済み。原語『Këll bu ne am na mberoom』の記載、『Every calabash bowl has its lid』という訳、および『suggests that every person has a suitable romantic match』という意味の説明を確認した。"
+status: fresh
+picked_for: "2026-09-21"
+resolution: null
