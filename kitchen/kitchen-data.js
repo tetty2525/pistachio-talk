@@ -534,6 +534,28 @@ window.PISTACHIO_KITCHEN_DATA = {
       "created": "2026-09-11"
     },
     {
+      "id": "ess-uhlanga-reed-of-creation",
+      "name_ja": "起源の葦原（ウフランガ）",
+      "name_original": "uHlanga",
+      "category": "myth",
+      "culture_ja": "ズールー（南部アフリカ）の創世神話",
+      "summary_ja": "ズールーの創世神話で、人類の祖ウンクルンクル（Unkulunkulu）をはじめ最初の人々が生まれ出たとされる葦の原「ウフランガ」。この語は単なる神話上の地名にとどまらず、「社会的慣習・掟」を指す言葉としても用いられ、起源とアイデンティティ・共同体の規範を結びつける概念になっている。",
+      "metaphor_potential_ja": "「あなたは私の運命の人」を、単なる感覚ではなく「同じ起源の葦原から生まれ出た者同士」という神話的な必然性として語れる比喩の芯。血縁や偶然の出会いを超えた「そもそも同じ場所から生まれてきた」という結びつきの深さを讃えたいとき、あるいは相手の存在に歴史・共同体の重みを添えて讃えたいときの型になる。",
+      "tags": [
+        "origin_myth",
+        "creation",
+        "reed",
+        "ancestry",
+        "soulmate"
+      ],
+      "usage_hint": "「運命の相手」「あなたと出会うべくして出会った」という言い回しに、単なる感傷ではなく神話的な必然性の重みを足したいときの素材になる。「同じ葦原から生まれ出た者同士」という構図は、偶然の出会いを超えた深い結びつきを讃える比喩や、相手の存在に「起源」「共同体」「受け継がれてきたもの」という歴史的厚みを添えたい場面と相性が良い。",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Uhlanga",
+        "https://talkpal.ai/culture/what-are-the-most-romantic-zulu-phrases/"
+      ],
+      "created": "2026-09-22"
+    },
+    {
       "id": "ess-vaishnava-padavali",
       "name_ja": "ヴァイシュナヴァ・パダーヴァリ（ラーダー・クリシュナの恋愛詩）",
       "name_original": "বৈষ্ণব পদাবলী",

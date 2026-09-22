@@ -1,0 +1,21 @@
+schema_version: 1
+id: lead-2026-09-22-zu-01
+date: "2026-09-22"
+scouted_by: claude-routine-hiroto
+language: zu
+country_region: [ZA]
+map_anchor: { lat: -28.5, lng: 31.0 }
+teaser_ja: "南部アフリカのある言語圏では、恋人を「運命の相手」と呼ぶ際、単なる比喩ではなく、その民族が生まれ出たとされる神話の場そのものの名を使う習わしがあるらしい。"
+intrigue_tags: [myth, origin, soulmate, cultural_allusion]
+candidate:
+  phrase_original: "Uhlanga lwami"
+  gloss_hint: "直訳に近いのは「私のウフランガ（葦原・起源）」。転じて「私の運命の人・ソウルメイト」を意味する呼びかけ語。「ウフランガ」はズールー創世神話で人類が生まれ出たとされる葦の原（起源の地）を指す語で、単なる比喩表現ではなく民族の起源譚そのものを踏まえた言葉だとされる。"
+  kiza_elements: [metaphor, cultural_allusion]
+  sources:
+    - url: https://talkpal.ai/culture/what-are-the-most-romantic-zulu-phrases/
+      note: "スカウトがfetch確認済み。「Uhlanga lwami」の項目に、直訳「my soulmate」相当の意味と、'uhlanga' がズールー宇宙観における深い意味（起源・運命的な結びつき）を持つ語であるという解説を確認した。"
+    - url: https://en.wikipedia.org/wiki/Uhlanga
+      note: "スカウトがfetch確認済み。'Uhlanga'（葦・葦原）がズールー創世神話で人類（Unkulunkulu）が生まれ出たとされる起源の地であり、同時に「社会的慣習・掟」を指す語としても使われる、起源とアイデンティティを結びつける概念であるという解説を確認した。"
+status: fresh
+picked_for: "2026-09-22"
+resolution: null

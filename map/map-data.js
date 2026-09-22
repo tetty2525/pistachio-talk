@@ -1387,6 +1387,43 @@ window.PISTACHIO_MAP_DATA = {
         "fate"
       ],
       "date": "2026-09-21"
+    },
+    {
+      "id": "lead-2026-09-22-pl-01",
+      "lat": 52,
+      "lng": 19,
+      "teaser_ja": "ヨーロッパのある言語圏では、決して見た目の良さで選ばれるとは言えないはずの水辺の小さな生き物が、なぜか恋人への愛称として定番化しているという噂。見た目より、その意外性そのものが愛情表現の型になっているらしい。",
+      "intrigue_tags": [
+        "animal",
+        "humor",
+        "affection"
+      ],
+      "date": "2026-09-22"
+    },
+    {
+      "id": "lead-2026-09-22-tl-01",
+      "lat": 14.6,
+      "lng": 121,
+      "teaser_ja": "東南アジアのある言語圏では、恋人を呼ぶ言葉の一つが、遠い異国の言語から渡ってきた「真珠」を意味する語に由来し、今でも美人コンテストの称号にまで使われているという噂。",
+      "intrigue_tags": [
+        "jewel",
+        "etymology",
+        "cultural_allusion"
+      ],
+      "date": "2026-09-22"
+    },
+    {
+      "id": "lead-2026-09-22-zu-01",
+      "lat": -28.5,
+      "lng": 31,
+      "teaser_ja": "南部アフリカのある言語圏では、恋人を「運命の相手」と呼ぶ際、単なる比喩ではなく、その民族が生まれ出たとされる神話の場そのものの名を使う習わしがあるらしい。",
+      "intrigue_tags": [
+        "myth",
+        "origin",
+        "soulmate",
+        "cultural_allusion"
+      ],
+      "date": "2026-09-22"
     }
   ],
   "leadsOpen": [],
@@ -1399,7 +1436,7 @@ window.PISTACHIO_MAP_DATA = {
       "metaphor_potential_ja": "「運命の相手」を単なる感傷ではなく、かつて一つだった存在が引き裂かれ、埋め合わせようのない欠落感を抱えて彷徨っている——という神話的な必然性として語れる。相手を「探していた片割れ」「元は一つだった半分」になぞらえることで、出会いを偶然ではなく古い罰・宿命の成就として描ける。",
       "lat": 37.9,
       "lng": 23.7,
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ess-badr-full-moon",
@@ -1642,6 +1679,16 @@ window.PISTACHIO_MAP_DATA = {
       "isNew": false
     },
     {
+      "id": "ess-uhlanga-reed-of-creation",
+      "name_ja": "起源の葦原（ウフランガ）",
+      "category": "myth",
+      "culture_ja": "ズールー（南部アフリカ）の創世神話",
+      "metaphor_potential_ja": "「あなたは私の運命の人」を、単なる感覚ではなく「同じ起源の葦原から生まれ出た者同士」という神話的な必然性として語れる比喩の芯。血縁や偶然の出会いを超えた「そもそも同じ場所から生まれてきた」という結びつきの深さを讃えたいとき、あるいは相手の存在に歴史・共同体の重みを添えて讃えたいときの型になる。",
+      "lat": -28.5,
+      "lng": 31,
+      "isNew": true
+    },
+    {
       "id": "ess-vaishnava-padavali",
       "name_ja": "ヴァイシュナヴァ・パダーヴァリ（ラーダー・クリシュナの恋愛詩）",
       "category": "poetry",
@@ -1696,9 +1743,9 @@ window.PISTACHIO_MAP_DATA = {
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 71,
+    "leadsFresh": 74,
     "leadsOpen": 0,
-    "essences": 30,
+    "essences": 31,
     "essencesNew": 3
   }
 };

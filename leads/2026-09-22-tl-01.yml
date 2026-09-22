@@ -1,0 +1,21 @@
+schema_version: 1
+id: lead-2026-09-22-tl-01
+date: "2026-09-22"
+scouted_by: claude-routine-hiroto
+language: tl
+country_region: [PH]
+map_anchor: { lat: 14.6, lng: 121.0 }
+teaser_ja: "東南アジアのある言語圏では、恋人を呼ぶ言葉の一つが、遠い異国の言語から渡ってきた「真珠」を意味する語に由来し、今でも美人コンテストの称号にまで使われているという噂。"
+intrigue_tags: [jewel, etymology, cultural_allusion]
+candidate:
+  phrase_original: "mutya"
+  gloss_hint: "サンスクリット語で「真珠」を意味する語に由来するとされるタガログ語。原義は「宝石・護符・真珠」で、そこから転じて「最愛の人・いとしい人」を指す比喩的な愛称としても使われる。フィリピンの美人コンテストの称号（例: Mutya ng Pilipinas）にも用いられ、「貴重で守るべきもの」という含みを今なお帯びている。"
+  kiza_elements: [metaphor, cultural_allusion]
+  sources:
+    - url: https://tagalog.pinoydictionary.com/word/mutya/
+      note: "スカウトがfetch確認済み。辞書項目「mutya n. 1. amulet; charm; 2. pearl; 3. jewel; darling [fig.]」を確認し、「darling」が比喩的用法[fig.]と明記され、貴重な宝物と愛しい人を重ねる比喩として使われる語であることを確認した。"
+    - url: https://en.wiktionary.org/wiki/mutya
+      note: "スカウトがfetch確認済み。語源がサンスクリット語 मुत्य（mutya、「真珠」の意）からの借用語であること、意味として「preciousness」「darling; beloved」「talisman; amulet」が記載されていることを確認した。"
+status: fresh
+picked_for: "2026-09-22"
+resolution: null

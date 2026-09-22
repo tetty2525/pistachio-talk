@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-22-pl-01
+date: "2026-09-22"
+scouted_by: claude-routine-hiroto
+language: pl
+country_region: [PL]
+map_anchor: { lat: 52.0, lng: 19.0 }
+teaser_ja: "ヨーロッパのある言語圏では、決して見た目の良さで選ばれるとは言えないはずの水辺の小さな生き物が、なぜか恋人への愛称として定番化しているという噂。見た目より、その意外性そのものが愛情表現の型になっているらしい。"
+intrigue_tags: [animal, humor, affection]
+candidate:
+  phrase_original: "Moja ty żabko!"
+  gloss_hint: "直訳は「私のかわいいカエルちゃん！」。'żabko' は 'żaba'（カエル）の指小形。カエルは一般に魅力的な見た目とはされない生き物だが、指小接尾辞をつけることで恋人・パートナーへの定番の愛称の一つになっているという、意外性を伴うユーモラスな愛情表現。"
+  kiza_elements: [wit]
+  sources:
+    - url: https://blogs.transparent.com/polish/moja-ty-zabko-moja-myszko-it-looks-like-polish-couples-love-animals/
+      note: "スカウトがfetch確認済み。例文「Moja ty żabko!」（私の小さなカエルちゃん！）と、ポーランドでは動物由来の愛称（カエル・ネズミ・虎など）がカップル間でごく普通に使われ、見た目の可愛らしさより温かみ・親密さを表す文化的慣習だという解説を確認した。"
+status: fresh
+picked_for: "2026-09-22"
+resolution: null
