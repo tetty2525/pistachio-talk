@@ -1,0 +1,21 @@
+schema_version: 1
+id: lead-2026-09-23-ur-01
+date: "2026-09-23"
+scouted_by: claude-routine-hiroto
+language: ur
+country_region: [PK, IN]
+map_anchor: { lat: 31.5, lng: 74.3 }
+teaser_ja: "南アジアのある詩の伝統では、夜空に浮かぶあの天体でさえ、相手の顔の前では見劣りすると詠う言い回しが定番らしい。単なる「きれい」ではなく、天体をライバル視する語り口が面白い。"
+intrigue_tags: [celestial, poetic_image, beauty, classical_poetry]
+candidate:
+  phrase_original: "چاند سا چہرہ (chāñd sā chehra)"
+  gloss_hint: "直訳は「月のような顔」。ウルドゥー語・ヒンディー語の古典詩（シャーヤリー）で伝統的に使われる、比類ない美しさを讃える比喩表現。月を美・純粋さの象徴として相手の顔にたとえるだけでなく、詩の伝統ではしばしば「満月でさえあなたの顔の輝きの前では見劣りする」という具合に、月を引き合いに出してその美をさらに上回ると詠む発展形が好まれる。"
+  kiza_elements: [metaphor, poetic_image]
+  sources:
+    - url: https://www.rekhtadictionary.com/meaning-of-chaand-saa-chehra
+      note: "スカウトがfetch確認済み。原語表記（ウルドゥー語 چانْد سا چِہْرَہْ・ヒンディー語 चाँद सा चेहरा）と、「非常に美しい顔」を意味する定型的な美辞であるという説明を確認した。"
+    - url: https://www.rekhta.org/top-20/chaand-shayari
+      note: "スカウトがfetch確認済み。月を相手の顔の美しさにたとえ、時にその美が満月をも上回ると詠む古典ウルドゥー詩の一群（例: Iftikhar Naseemの一節「us ke chehre kī chamak ke sāmne saada lagā / āsmāñ pe chāñd puurā thā magar aadhā lagā」）を確認し、ロマンティックな文脈での実際の使用場面を確認した。"
+status: fresh
+picked_for: "2026-09-23"
+resolution: null

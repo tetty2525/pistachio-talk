@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-23-de-01
+date: "2026-09-23"
+scouted_by: claude-routine-hiroto
+language: de
+country_region: [DE]
+map_anchor: { lat: 51.0, lng: 10.0 }
+teaser_ja: "ヨーロッパのある言語圏では、恋人を「植物の最も内側にある、最も繊細な一枚」を意味する古い園芸用語で呼ぶ習わしが18世紀から続いているらしい。"
+intrigue_tags: [nature, botany, endearment, metaphor]
+candidate:
+  phrase_original: "Du bist mein Herzblatt"
+  gloss_hint: "「Herzblatt（ヘルツブラット）」は「Herz（心臓・心）」と「Blatt（葉）」の複合語。もともとは17世紀から使われた園芸用語で「植物の最も内側にある、最も繊細で柔らかい葉」を指す語だったが、18世紀以降、愛しい人を呼ぶ親愛称（Kosename）として転用されるようになった。「Du bist mein Herzblatt」で「あなたは私の（植物の芯のように大切な）人」という意味の呼びかけになる。"
+  kiza_elements: [metaphor]
+  sources:
+    - url: https://www.dwds.de/wb/Herzblatt
+      note: "スカウトがfetch確認済み。原語表記「Herzblatt」、17世紀の植物の内側の葉という原義から18世紀に愛称へ転用されたという語源解説、および実際の使用例文「Das war doch aber früher, mein Herzblatt, das geht alles weg wie die Zähne」（呼びかけとしての用例）を確認した。"
+status: fresh
+picked_for: "2026-09-23"
+resolution: null

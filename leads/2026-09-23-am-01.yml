@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-23-am-01
+date: "2026-09-23"
+scouted_by: claude-routine-hiroto
+language: am
+country_region: [ET]
+map_anchor: { lat: 9.0, lng: 38.7 }
+teaser_ja: "アフリカ高原のある言語圏では、大切な相手を百獣の王そのものの名で呼びかける習わしがあるという噂。呼びかけ一つに「強さ」と「誇り」を同時に込める文化らしい。"
+intrigue_tags: [animal, strength, endearment, metaphor]
+candidate:
+  phrase_original: "የኔ አንበሳ (Yene anbessa)"
+  gloss_hint: "直訳は「私のライオン」。アムハラ語で男性の相手に対して使われる、動物の比喩を用いた詩的な親愛表現で、力強さと敬意・誇りを同時に伝える呼びかけ語とされる。同系統の表現として「私の女王（Yene nigist）」「私の王（Yene nigus）」なども存在し、王族・自然界の比喩で相手を讃える言い回しの一群をなす。"
+  kiza_elements: [metaphor]
+  sources:
+    - url: https://ling-app.com/blog/i-love-you-in-amharic/
+      note: "スカウトがfetch確認済み。原語表記「Yene anbessa（የኔ አንበሳ）」、「私のライオン」という意味と、男性への呼びかけとして力強さ・敬意を伝える詩的な親愛表現だという使用文脈の説明を確認した。"
+status: fresh
+picked_for: "2026-09-23"
+resolution: null

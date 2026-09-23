@@ -1424,6 +1424,45 @@ window.PISTACHIO_MAP_DATA = {
         "cultural_allusion"
       ],
       "date": "2026-09-22"
+    },
+    {
+      "id": "lead-2026-09-23-am-01",
+      "lat": 9,
+      "lng": 38.7,
+      "teaser_ja": "アフリカ高原のある言語圏では、大切な相手を百獣の王そのものの名で呼びかける習わしがあるという噂。呼びかけ一つに「強さ」と「誇り」を同時に込める文化らしい。",
+      "intrigue_tags": [
+        "animal",
+        "strength",
+        "endearment",
+        "metaphor"
+      ],
+      "date": "2026-09-23"
+    },
+    {
+      "id": "lead-2026-09-23-de-01",
+      "lat": 51,
+      "lng": 10,
+      "teaser_ja": "ヨーロッパのある言語圏では、恋人を「植物の最も内側にある、最も繊細な一枚」を意味する古い園芸用語で呼ぶ習わしが18世紀から続いているらしい。",
+      "intrigue_tags": [
+        "nature",
+        "botany",
+        "endearment",
+        "metaphor"
+      ],
+      "date": "2026-09-23"
+    },
+    {
+      "id": "lead-2026-09-23-ur-01",
+      "lat": 31.5,
+      "lng": 74.3,
+      "teaser_ja": "南アジアのある詩の伝統では、夜空に浮かぶあの天体でさえ、相手の顔の前では見劣りすると詠う言い回しが定番らしい。単なる「きれい」ではなく、天体をライバル視する語り口が面白い。",
+      "intrigue_tags": [
+        "celestial",
+        "poetic_image",
+        "beauty",
+        "classical_poetry"
+      ],
+      "date": "2026-09-23"
     }
   ],
   "leadsOpen": [],
@@ -1629,6 +1668,16 @@ window.PISTACHIO_MAP_DATA = {
       "isNew": false
     },
     {
+      "id": "ess-sem-ena-werq-wax-and-gold",
+      "name_ja": "蝋と金（セムナ・ウェルク）",
+      "category": "poetry",
+      "culture_ja": "エチオピア正教会の詩歌伝統（ケネ）",
+      "metaphor_potential_ja": "「一見何気ない言葉の奥に、本当の想いを隠して届ける」という語り口の設計図そのものとして使える。表向きは日常的な世間話や軽口（蝋の意味）に見せかけて、聞き手だけが気づける形で愛情や賛辞（金の意味）を忍ばせるセリフを組み立てる技法として応用できる。「型を残して中身だけを黄金に置き換える」という工程自体を、「あなたへの想いは、この言葉の型の奥にだけ流し込んである」という比喩にも転用できる。",
+      "lat": 9,
+      "lng": 38.7,
+      "isNew": true
+    },
+    {
       "id": "ess-shared-pirogue-senegal",
       "name_ja": "同じ丸木舟（ピローグ）に乗る者たち",
       "category": "custom",
@@ -1646,7 +1695,7 @@ window.PISTACHIO_MAP_DATA = {
       "metaphor_potential_ja": "「あなたの目は鳩のようだ」のように、身体的特徴を動物や自然物へ喩える手法として使える。鳩の忠実さ（一度つがいを見つけると離れない）という含意を借りれば、単なる可愛らしさの比喩ではなく「一途さ・専心」を語る比喩に発展させられる。庭園・塔・果実など、雅歌に頻出する自然/建築イメージ群も、相手を賞美する比喩の語彙として応用できる。",
       "lat": 31,
       "lng": 35,
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ess-thinai-kurinji",
@@ -1743,9 +1792,9 @@ window.PISTACHIO_MAP_DATA = {
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 74,
+    "leadsFresh": 77,
     "leadsOpen": 0,
-    "essences": 31,
+    "essences": 32,
     "essencesNew": 3
   }
 };
