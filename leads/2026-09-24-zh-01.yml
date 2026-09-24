@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-24-zh-01
+date: "2026-09-24"
+scouted_by: claude-routine-hiroto
+language: zh
+country_region: [CN]
+map_anchor: { lat: 39.9, lng: 116.4 }
+teaser_ja: "東アジアのある言語圏には、遠く離れた二つの心が、伝説上のある動物の体を貫く一筋の糸のように、言葉なしで通じ合うと語る成句があるという噂。唐代の詩に由来するらしい。"
+intrigue_tags: [legend, tang_poetry, cultural_allusion]
+candidate:
+  phrase_original: "心有灵犀一点通 (xīn yǒu líng xī yī diǎn tōng)"
+  gloss_hint: "直訳に近い意味は「心には霊犀（れいさい、霊力を持つとされるサイの角）の一点が通じている」。恋する男女の心が言葉を交わさずとも通じ合っている様子のたとえとして使われる成語で、唐代の詩人・李商隠の詩「無題」の一節「身無彩鳳雙飛翼、心有靈犀一點通」に由来する。"
+  kiza_elements: [cultural_allusion, metaphor]
+  sources:
+    - url: https://cy.chacd.com/24705/
+      note: "スカウトがfetch確認済み。ピンイン表記、「比喩恋愛着的男女双方心心相印」という意味説明、出典が李商隠の詩「無題」であるという由来、および文章中での実際の用例（秦牧の随筆からの引用）を確認した。"
+status: fresh
+picked_for: "2026-09-24"
+resolution: null

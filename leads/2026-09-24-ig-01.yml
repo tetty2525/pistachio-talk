@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-24-ig-01
+date: "2026-09-24"
+scouted_by: claude-routine-hiroto
+language: ig
+country_region: [NG]
+map_anchor: { lat: 6.0, lng: 7.4 }
+teaser_ja: "サブサハラ・アフリカのある言語圏には、恋しい相手を、果実の中にひっそり眠る小さな命の粒にたとえて心臓の奥に植えるような呼びかけが伝わっているという噂。"
+intrigue_tags: [seed, heart, endearment, metaphor]
+candidate:
+  phrase_original: "Mkpulu obi m"
+  gloss_hint: "直訳は「私の心の種」。イボ語で恋人・大切な人を指す優しい呼びかけとされ、心の最も奥にある命の芯を、果実などに宿る小さな種にたとえた表現とされる。"
+  kiza_elements: [metaphor, poetic_image]
+  sources:
+    - url: https://honeydropsblog.com/sweet-igbo-names-to-call-your-boyfriend/
+      note: "スカウトがfetch確認済み。イボ語原文「Mkpulu obi m」とその英訳「the seed of my heart」を確認し、恋人を優しく呼ぶ愛称の一つとして紹介されている使用文脈の説明を確認した。"
+status: fresh
+picked_for: "2026-09-24"
+resolution: null

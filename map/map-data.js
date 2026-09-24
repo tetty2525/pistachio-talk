@@ -1463,6 +1463,43 @@ window.PISTACHIO_MAP_DATA = {
         "classical_poetry"
       ],
       "date": "2026-09-23"
+    },
+    {
+      "id": "lead-2026-09-24-ig-01",
+      "lat": 6,
+      "lng": 7.4,
+      "teaser_ja": "サブサハラ・アフリカのある言語圏には、恋しい相手を、果実の中にひっそり眠る小さな命の粒にたとえて心臓の奥に植えるような呼びかけが伝わっているという噂。",
+      "intrigue_tags": [
+        "seed",
+        "heart",
+        "endearment",
+        "metaphor"
+      ],
+      "date": "2026-09-24"
+    },
+    {
+      "id": "lead-2026-09-24-pa-01",
+      "lat": 31,
+      "lng": 75,
+      "teaser_ja": "南アジアのある言語圏では、愛しい相手を「隣にいる人」ではなく「自分の胸の内側に住んでいる人」として語る言い回しが伝わっているという噂。",
+      "intrigue_tags": [
+        "heart",
+        "dwelling",
+        "poetic_image"
+      ],
+      "date": "2026-09-24"
+    },
+    {
+      "id": "lead-2026-09-24-zh-01",
+      "lat": 39.9,
+      "lng": 116.4,
+      "teaser_ja": "東アジアのある言語圏には、遠く離れた二つの心が、伝説上のある動物の体を貫く一筋の糸のように、言葉なしで通じ合うと語る成句があるという噂。唐代の詩に由来するらしい。",
+      "intrigue_tags": [
+        "legend",
+        "tang_poetry",
+        "cultural_allusion"
+      ],
+      "date": "2026-09-24"
     }
   ],
   "leadsOpen": [],
@@ -1568,6 +1605,16 @@ window.PISTACHIO_MAP_DATA = {
       "isNew": false
     },
     {
+      "id": "ess-ijele-masquerade",
+      "name_ja": "イジェレ仮面（仮面王）",
+      "category": "custom",
+      "culture_ja": "イボ族（ナイジェリア）の仮面舞踏（マスカレード）の伝統",
+      "metaphor_potential_ja": "一人の存在に「あらゆる面（表情・役割・物語）」を同時に背負わせて讃えたいとき、あるいは「その場に現れるだけで空間の中心になる」圧倒的な存在感を語りたいときの比喩の芯になる。「大勢の手と長い時間をかけてようやく完成する」という成り立ちは、一人の人間の魅力が一朝一夕ではなく積み重ねの果てにあるものだと讃える言い回しにも転用できる。",
+      "lat": 6,
+      "lng": 7.4,
+      "isNew": true
+    },
+    {
       "id": "ess-jasy-jatere",
       "name_ja": "ハシ・ジャテレ（月のかけら）",
       "category": "myth",
@@ -1605,7 +1652,7 @@ window.PISTACHIO_MAP_DATA = {
       "metaphor_potential_ja": "「いつでも会える相手」ではなく「一生に一度きりの飛来」というレアさそのものを相手への賛辞にできる。日常への到来を出会いの奇跡として語る比喩や、「あなたに会えたのは、あの白鷺が舞い降りたようなものだ」という一期一会の語り口に使える。頭に飾る羽飾り（piki kōtuku）としての用法もあり、「戴くもの・掲げるもの」としての敬意の比喩にも転用できる。",
       "lat": -41.3,
       "lng": 174.8,
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ess-lion-of-judah",
@@ -1792,9 +1839,9 @@ window.PISTACHIO_MAP_DATA = {
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 77,
+    "leadsFresh": 80,
     "leadsOpen": 0,
-    "essences": 32,
+    "essences": 33,
     "essencesNew": 3
   }
 };

@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-24-pa-01
+date: "2026-09-24"
+scouted_by: claude-routine-hiroto
+language: pa
+country_region: [IN]
+map_anchor: { lat: 31.0, lng: 75.0 }
+teaser_ja: "南アジアのある言語圏では、愛しい相手を「隣にいる人」ではなく「自分の胸の内側に住んでいる人」として語る言い回しが伝わっているという噂。"
+intrigue_tags: [heart, dwelling, poetic_image]
+candidate:
+  phrase_original: "ਤੁਸੀਂ ਮੇਰੇ ਦਿਲ ਵਿੱਚ ਵੱਸਦੇ ਹੋ (tusīṁ mere dil vich vasde ho)"
+  gloss_hint: "直訳は「あなたは私の心の中に住んでいる（棲みついている）」。パンジャーブ語で親しい相手・大切な人に向けて使われる表現で、「愛している」をそのまま言う代わりに、相手が自分の心臓の内側にずっと居を構えているという情景で愛情の深さを伝える言い回しとされる。"
+  kiza_elements: [poetic_image]
+  sources:
+    - url: https://preply.com/en/blog/compliments-in-punjabi/
+      note: "スカウトがfetch確認済み。パンジャーブ語原文（グルムキー文字）とローマ字表記、英訳「You dwell in my heart」を確認し、親密な関係において自然に使われる、優しく情感的な表現であるという使用文脈の説明を確認した。"
+status: fresh
+picked_for: "2026-09-24"
+resolution: null
