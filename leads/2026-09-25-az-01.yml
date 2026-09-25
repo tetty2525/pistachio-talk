@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-25-az-01
+date: "2026-09-25"
+scouted_by: claude-routine-hiroto
+language: az
+country_region: [AZ]
+map_anchor: { lat: 40.1, lng: 47.5 }
+teaser_ja: "花の名で恋人を呼びかける習わしを持つ言語圏の噂。呼ばれた相手は、季節がひとつ巡ってきたことにまでなぞらえられるらしい。"
+intrigue_tags: [flower, nickname, poetic_image]
+candidate:
+  phrase_original: "Laləm, sən mənim həyatımın baharısan."
+  gloss_hint: "直訳は「私のチューリップよ、あなたは私の人生の春だ」。『laləm（私のチューリップ）』はアゼルバイジャン語で恋人への愛称として使われる語で、チューリップは同語圏の詩的な伝統において美しさや愛の象徴とされる自然のイメージ。相手を花にたとえた上で、さらに『人生の春』という季節の比喩まで重ねる口説き文句。"
+  kiza_elements: [metaphor, poetic_image]
+  sources:
+    - url: https://talkpal.ai/vocabulary/romantic-nicknames-in-azerbaijani-language/
+      note: "スカウトがfetch確認済み。アゼルバイジャン語原文『Laləm, sən mənim həyatımın baharısan.』とその英訳例文、『laləm（私のチューリップ）』がアゼルバイジャン文化において美と愛を象徴する自然由来の愛称であるという解説を確認した。"
+status: fresh
+picked_for: "2026-09-25"
+resolution: null

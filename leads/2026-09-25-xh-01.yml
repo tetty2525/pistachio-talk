@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-25-xh-01
+date: "2026-09-25"
+scouted_by: claude-routine-hiroto
+language: xh
+country_region: [ZA]
+map_anchor: { lat: -32.0, lng: 26.0 }
+teaser_ja: "美しさを、花でも宝石でもなく、名も知られぬ植物の小さな種になぞらえて讃える言い回しを持つ言語圏の噂。"
+intrigue_tags: [nature, beauty, metaphor]
+candidate:
+  phrase_original: "Lukozo lomya"
+  gloss_hint: "直訳は「それはウムヤの種だ」。『umya』は黒く艶やかな小さな豆状の種を持つ植物とされ、この言い回しは非常に美しいと評される人や物に対して使われる比喩表現として紹介されている。"
+  kiza_elements: [metaphor, poetic_image]
+  sources:
+    - url: https://alluringcreations.co.za/wp/unique-african-xhosa-idioms-proverbs/
+      note: "スカウトがfetch確認済み。コサ語原文『Lukozo lomya』とその直訳『It is the seed of the umya』、『非常に美しいと評される人や物に対して使われる』という用例解説を確認した。"
+status: fresh
+picked_for: "2026-09-25"
+resolution: null

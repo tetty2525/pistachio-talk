@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-25-haw-01
+date: "2026-09-25"
+scouted_by: claude-routine-hiroto
+language: haw
+country_region: [US]
+map_anchor: { lat: 21.3, lng: -157.8 }
+teaser_ja: "愛というものを、地中から自然に湧き出る水にたとえる伝統的な格言を持つ言語圏の噂。強いて得るものではなく、おのずと湧くものだという教えが込められているらしい。"
+intrigue_tags: [nature, proverb, water]
+candidate:
+  phrase_original: "He pūnāwai kahe wale ke aloha"
+  gloss_hint: "直訳は「愛は自由に湧き流れる泉である」。ハワイの伝統的な格言（ʻōlelo noʻeau）とされ、愛は強制されるものではなく、地下から湧き出る新鮮な水のように自然に、豊かに流れ出るものだという教えを表す。"
+  kiza_elements: [metaphor, poetic_image]
+  sources:
+    - url: https://gearcouple.com/blogs/quotes/hawaiian-quotes-about-love
+      note: "スカウトがfetch確認済み。ハワイ語原文『He pūnāwai kahe wale ke aloha』とその英訳『Love is a spring that flows freely』、愛は強制でなく自然に湧き出るものだという伝統的な格言としての解説を確認した。"
+status: fresh
+picked_for: "2026-09-25"
+resolution: null

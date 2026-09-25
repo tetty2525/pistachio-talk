@@ -1500,6 +1500,42 @@ window.PISTACHIO_MAP_DATA = {
         "cultural_allusion"
       ],
       "date": "2026-09-24"
+    },
+    {
+      "id": "lead-2026-09-25-az-01",
+      "lat": 40.1,
+      "lng": 47.5,
+      "teaser_ja": "花の名で恋人を呼びかける習わしを持つ言語圏の噂。呼ばれた相手は、季節がひとつ巡ってきたことにまでなぞらえられるらしい。",
+      "intrigue_tags": [
+        "flower",
+        "nickname",
+        "poetic_image"
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "id": "lead-2026-09-25-haw-01",
+      "lat": 21.3,
+      "lng": -157.8,
+      "teaser_ja": "愛というものを、地中から自然に湧き出る水にたとえる伝統的な格言を持つ言語圏の噂。強いて得るものではなく、おのずと湧くものだという教えが込められているらしい。",
+      "intrigue_tags": [
+        "nature",
+        "proverb",
+        "water"
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "id": "lead-2026-09-25-xh-01",
+      "lat": -32,
+      "lng": 26,
+      "teaser_ja": "美しさを、花でも宝石でもなく、名も知られぬ植物の小さな種になぞらえて讃える言い回しを持つ言語圏の噂。",
+      "intrigue_tags": [
+        "nature",
+        "beauty",
+        "metaphor"
+      ],
+      "date": "2026-09-25"
     }
   ],
   "leadsOpen": [],
@@ -1655,6 +1691,16 @@ window.PISTACHIO_MAP_DATA = {
       "isNew": false
     },
     {
+      "id": "ess-lale-heart-scorched-by-love",
+      "name_ja": "恋に焦がれた心（チューリップ・ラーレ）",
+      "category": "flora",
+      "culture_ja": "ペルシア・ウルドゥー詩の伝統",
+      "metaphor_potential_ja": "「あなたに焦がれて心が焼け焦げた」という情熱の告白を、赤い花弁と黒い花芯を持つ一輪のチューリップの姿そのものに語らせることができる。単に「花のように美しい」ではなく、「愛に焼かれてなお咲き続ける」という自己犠牲的・殉教的な強度を帯びた口説き文句の比喩として使える。",
+      "lat": 32,
+      "lng": 53,
+      "isNew": true
+    },
+    {
       "id": "ess-lion-of-judah",
       "name_ja": "ユダのライオン（アンベッサ）",
       "category": "myth",
@@ -1782,7 +1828,7 @@ window.PISTACHIO_MAP_DATA = {
       "metaphor_potential_ja": "「あなたは私の運命の人」を、単なる感覚ではなく「同じ起源の葦原から生まれ出た者同士」という神話的な必然性として語れる比喩の芯。血縁や偶然の出会いを超えた「そもそも同じ場所から生まれてきた」という結びつきの深さを讃えたいとき、あるいは相手の存在に歴史・共同体の重みを添えて讃えたいときの型になる。",
       "lat": -28.5,
       "lng": 31,
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ess-vaishnava-padavali",
@@ -1839,9 +1885,9 @@ window.PISTACHIO_MAP_DATA = {
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 80,
+    "leadsFresh": 83,
     "leadsOpen": 0,
-    "essences": 33,
+    "essences": 34,
     "essencesNew": 3
   }
 };

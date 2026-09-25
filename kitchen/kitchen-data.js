@@ -323,6 +323,27 @@ window.PISTACHIO_KITCHEN_DATA = {
       "created": "2026-09-21"
     },
     {
+      "id": "ess-lale-heart-scorched-by-love",
+      "name_ja": "恋に焦がれた心（チューリップ・ラーレ）",
+      "name_original": "لاله (lāle)",
+      "category": "flora",
+      "culture_ja": "ペルシア・ウルドゥー詩の伝統",
+      "summary_ja": "10世紀に遡るペルシア・ウルドゥー詩の伝統において、赤いチューリップ（ラーレ）は情熱的な恋の象徴とされてきた。花弁の赤は燃えるような愛を、中心の黒い部分は恋の情熱に焼き尽くされ灰となった恋人の心を表すとされる。ムガル帝国の庭園にはこの花を集めた「ラール・ザール」と呼ばれる場所があり、カシュミール語では恋人を指す慣用句としても使われた。",
+      "metaphor_potential_ja": "「あなたに焦がれて心が焼け焦げた」という情熱の告白を、赤い花弁と黒い花芯を持つ一輪のチューリップの姿そのものに語らせることができる。単に「花のように美しい」ではなく、「愛に焼かれてなお咲き続ける」という自己犠牲的・殉教的な強度を帯びた口説き文句の比喩として使える。",
+      "tags": [
+        "flower",
+        "burning_love",
+        "martyrdom",
+        "persian_poetry"
+      ],
+      "usage_hint": "「あなたに恋焦がれている」という常套句を、赤く燃える花弁と黒く焼け焦げた花芯を持つ一輪のチューリップの姿に重ねて語れる。単なる美しさの比喩ではなく、「愛の炎に焼かれてなお咲き続ける」という殉教的・自己犠牲的な強度を持つ口説き文句に仕立てられる。相手への想いの激しさや、報われるかどうかにかかわらず燃え続ける情熱を語りたい場面と相性がよい。",
+      "source_urls": [
+        "https://sacredmattersmagazine.com/lale-to-me-tulip-to-you/",
+        "https://qalam.global/en/articles/tulips-en"
+      ],
+      "created": "2026-09-25"
+    },
+    {
       "id": "ess-lion-of-judah",
       "name_ja": "ユダのライオン（アンベッサ）",
       "name_original": "አንበሳ (anbessa)",
