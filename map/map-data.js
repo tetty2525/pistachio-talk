@@ -1536,6 +1536,43 @@ window.PISTACHIO_MAP_DATA = {
         "metaphor"
       ],
       "date": "2026-09-25"
+    },
+    {
+      "id": "lead-2026-09-26-fj-01",
+      "lat": -17.7,
+      "lng": 178,
+      "teaser_ja": "禁じられた恋に泣いた娘の涙が、一年に一度しか咲かない花になったという伝説を持つ言葉の噂。国の紙幣にも描かれているらしい。",
+      "intrigue_tags": [
+        "flower",
+        "tears",
+        "legend",
+        "cultural_allusion"
+      ],
+      "date": "2026-09-26"
+    },
+    {
+      "id": "lead-2026-09-26-gn-01",
+      "lat": -25.3,
+      "lng": -57.6,
+      "teaser_ja": "人前で愛を語ることを許されなかった二人が、二人だけに通じる合図の言葉を生み出したという伝説を持つ、一語の噂。",
+      "intrigue_tags": [
+        "secret_language",
+        "legend",
+        "cultural_allusion"
+      ],
+      "date": "2026-09-26"
+    },
+    {
+      "id": "lead-2026-09-26-mn-01",
+      "lat": 46.9,
+      "lng": 103.8,
+      "teaser_ja": "夜空の天体に自分と相手をなぞらえる、遊牧の民の言い回しの噂。数字の『二』に何か意味が込められているらしい。",
+      "intrigue_tags": [
+        "stars",
+        "sky",
+        "poetic_image"
+      ],
+      "date": "2026-09-26"
     }
   ],
   "leadsOpen": [],
@@ -1711,6 +1748,16 @@ window.PISTACHIO_MAP_DATA = {
       "isNew": false
     },
     {
+      "id": "ess-mariposami-fleeting-love",
+      "name_ja": "稲妻のように現れて消える恋の蝶（マリポサミー）",
+      "category": "poetry",
+      "culture_ja": "パラグアイのグアラニア（グアラニー音楽）の伝統",
+      "metaphor_potential_ja": "一瞬だけ現れて心を奪い、すぐに手の届かないところへ消えていく恋を「蝶」になぞらえる比喩として使える。相手を美しくも捉えどころのない存在として讃える口説き文句や、過ぎ去った恋を振り返る切ない台詞の両方に向く。「稲妻のように」という速さの比喩と組み合わせれば、儚さの強度をさらに上げられる。",
+      "lat": -25.3,
+      "lng": -57.6,
+      "isNew": true
+    },
+    {
       "id": "ess-may-va-nui-vietnam",
       "name_ja": "雲と山（マイ・ヴァー・ヌイ）",
       "category": "nature",
@@ -1768,7 +1815,7 @@ window.PISTACHIO_MAP_DATA = {
       "metaphor_potential_ja": "「一見何気ない言葉の奥に、本当の想いを隠して届ける」という語り口の設計図そのものとして使える。表向きは日常的な世間話や軽口（蝋の意味）に見せかけて、聞き手だけが気づける形で愛情や賛辞（金の意味）を忍ばせるセリフを組み立てる技法として応用できる。「型を残して中身だけを黄金に置き換える」という工程自体を、「あなたへの想いは、この言葉の型の奥にだけ流し込んである」という比喩にも転用できる。",
       "lat": 9,
       "lng": 38.7,
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ess-shared-pirogue-senegal",
@@ -1885,9 +1932,9 @@ window.PISTACHIO_MAP_DATA = {
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 83,
+    "leadsFresh": 86,
     "leadsOpen": 0,
-    "essences": 34,
+    "essences": 35,
     "essencesNew": 3
   }
 };

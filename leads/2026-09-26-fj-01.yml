@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-26-fj-01
+date: "2026-09-26"
+scouted_by: claude-routine-hiroto
+language: fj
+country_region: [FJ]
+map_anchor: { lat: -17.7, lng: 178.0 }
+teaser_ja: "禁じられた恋に泣いた娘の涙が、一年に一度しか咲かない花になったという伝説を持つ言葉の噂。国の紙幣にも描かれているらしい。"
+intrigue_tags: [flower, tears, legend, cultural_allusion]
+candidate:
+  phrase_original: "tagimoucia（語源: tagi me uci 'ea）"
+  gloss_hint: "『彼女のように泣け』を意味する語句から名付けられたとされる、フィジーの国花タギモウシアの名。族長の娘が禁じられた恋に涙した、その涙から生まれたという伝説を持ち、一年に一度しか咲かない希少な花として民謡にも歌われる。相手を『一年に一度だけ咲く花』になぞらえる文化的暗喩として使いうる。"
+  kiza_elements: [cultural_allusion, poetic_image]
+  sources:
+    - url: https://en.wikipedia.org/wiki/Medinilla_waterhousei
+      note: "スカウトがfetch確認済み。原語由来『tagi me uci 'ea』(cry to be like her)の記載、族長の娘が禁じられた恋に泣いた涙から花が生まれたという伝説の説明、フィジー国花・50ドル紙幣への図案採用・民謡『Tagimoucia ga』での使用という文化的位置づけの記述を確認した。"
+status: fresh
+picked_for: "2026-09-26"
+resolution: null

@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-26-mn-01
+date: "2026-09-26"
+scouted_by: claude-routine-hiroto
+language: mn
+country_region: [MN]
+map_anchor: { lat: 46.9, lng: 103.8 }
+teaser_ja: "夜空の天体に自分と相手をなぞらえる、遊牧の民の言い回しの噂。数字の『二』に何か意味が込められているらしい。"
+intrigue_tags: [stars, sky, poetic_image]
+candidate:
+  phrase_original: "Чи бид хоёр яг л тэнгэрийн хоёр од шиг."
+  gloss_hint: "直訳は「君と私はまるで空にある二つの星のようだ」。夜空にきらめく二つの星に自分と相手を重ね合わせる比喩表現。"
+  kiza_elements: [metaphor, poetic_image]
+  sources:
+    - url: https://ling-app.com/blog/mongolian-flirting-phrases/
+      note: "スカウトがfetch確認済み。モンゴル語原文『Чи бид хоёр яг л тэнгэрийн хоёр од шиг』とローマ字表記(Chi bid khoyor yag l tengeriin khoyor od shig)、英訳『You and I are like two stars in the sky』、口説き・フラートのフレーズ集として掲載されている使用場面の記述を確認した。"
+status: fresh
+picked_for: "2026-09-26"
+resolution: null

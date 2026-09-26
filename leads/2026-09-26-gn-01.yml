@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-26-gn-01
+date: "2026-09-26"
+scouted_by: claude-routine-hiroto
+language: gn
+country_region: [PY]
+map_anchor: { lat: -25.3, lng: -57.6 }
+teaser_ja: "人前で愛を語ることを許されなかった二人が、二人だけに通じる合図の言葉を生み出したという伝説を持つ、一語の噂。"
+intrigue_tags: [secret_language, legend, cultural_allusion]
+candidate:
+  phrase_original: "Rojaijú"
+  gloss_hint: "グアラニー語で『あなたを愛している』を意味する語。伝説では、身分の違いなどで人前で愛を語れなかった恋人たちが、互いにだけ通じる合図としてこの言葉を生み出したとされ、単なる告白の語ではなく秘密の符号としての文化的重みを帯びている。"
+  kiza_elements: [cultural_allusion]
+  sources:
+    - url: https://www.lifeder.com/rojaiju/
+      note: "スカウトがfetch確認済み。グアラニー語原語『Rojaijú』の表記、『te quiero/te amo』に相当する意味の説明、人前で愛を表現できなかった恋人たちが密かな合図として使ったという伝説的な由来・使用場面の記述を確認した。"
+status: fresh
+picked_for: "2026-09-26"
+resolution: null

@@ -365,6 +365,27 @@ window.PISTACHIO_KITCHEN_DATA = {
       "created": "2026-08-28"
     },
     {
+      "id": "ess-mariposami-fleeting-love",
+      "name_ja": "稲妻のように現れて消える恋の蝶（マリポサミー）",
+      "name_original": "Mariposami (Mariposa Paraí)",
+      "category": "poetry",
+      "culture_ja": "パラグアイのグアラニア（グアラニー音楽）の伝統",
+      "summary_ja": "1920年代パラグアイの詩人アンドレス・ラモン・ペレイラが、病床で目にした蝶に着想を得て書いた詩に、作曲家フェリックス・ペレス・カルドーソが曲を付けたグアラニア（パラグアイの民衆歌謡）の名曲「Mariposami（私だけの蝶）」。恋を、稲妻のように現れて消え、癒えない傷だけを残す蝶になぞらえる詩情が特徴。",
+      "metaphor_potential_ja": "一瞬だけ現れて心を奪い、すぐに手の届かないところへ消えていく恋を「蝶」になぞらえる比喩として使える。相手を美しくも捉えどころのない存在として讃える口説き文句や、過ぎ去った恋を振り返る切ない台詞の両方に向く。「稲妻のように」という速さの比喩と組み合わせれば、儚さの強度をさらに上げられる。",
+      "tags": [
+        "butterfly",
+        "guarania",
+        "paraguay",
+        "love_song",
+        "fleeting_love"
+      ],
+      "usage_hint": "出会った瞬間の眩しさと、いつか失うかもしれない予感を同時に匂わせたい場面で使える。「あなたは蝶のようだ」という比喩に、稲妻のような速さ・一瞬の閃光というイメージを重ねれば、褒め言葉でありながらどこか切なさを帯びた台詞になる。長く続く愛ではなく「今この瞬間の美しさ」を強調したいキザなセリフに向く素材。",
+      "source_urls": [
+        "https://www.portalguarani.com/2187_andres_ramon_pereira__/15385_mariposami__letra_andres_r_pereira__musica_felix_perez_cardozo.html"
+      ],
+      "created": "2026-09-26"
+    },
+    {
       "id": "ess-may-va-nui-vietnam",
       "name_ja": "雲と山（マイ・ヴァー・ヌイ）",
       "name_original": "mây và núi",
