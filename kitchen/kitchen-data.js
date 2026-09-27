@@ -280,6 +280,27 @@ window.PISTACHIO_KITCHEN_DATA = {
       "created": "2026-08-24"
     },
     {
+      "id": "ess-kanga-jina-proverb-cloth",
+      "name_ja": "カンガ布の言葉（ジナ）",
+      "name_original": "kanga / jina (Swahili)",
+      "category": "craft",
+      "culture_ja": "東アフリカ（ザンジバル・スワヒリ海岸）の女性の布文化",
+      "summary_ja": "東アフリカ沿岸部で女性が身にまとう色鮮やかな一枚布「カンガ」には、中央の意匠（ムジ）と縁飾り（ピンド）に加えて、ことわざや格言（ジナ）が文字として刷り込まれている。20世紀初頭に商人が図案を差別化するために文言を添えたことから広まった。",
+      "metaphor_potential_ja": "直接言葉にしにくい本心（恋心・皮肉・警告・和解の意志）を、身にまとう布の文言に託して間接的に伝えるという発想は、そのまま口説き文句の演出装置に転用できる。「この柄に込めた言葉の意味、わかる？」のように、贈り物や衣に忍ばせたメッセージとして愛の言葉を語らせる筋書きの土台になる。",
+      "tags": [
+        "textile",
+        "proverb",
+        "indirect_message",
+        "swahili",
+        "zanzibar"
+      ],
+      "usage_hint": "「言葉を直接口にせず、身にまとう布の柄や文言に想いを託す」という構図は、口説き文句そのものよりも、口説きの“演出”として使える。例えば贈った品や身につけているものの模様・色に「本当は言いたかったこと」を忍ばせ、相手に気づかせるような語り口の土台になる。直接的な愛の言葉よりも、遠回しに真意を匂わせる駆け引きのニュアンスを持つセリフに向く。",
+      "source_urls": [
+        "https://www.aramcoworld.com/articles/2017/kangas-woven-voices"
+      ],
+      "created": "2026-09-27"
+    },
+    {
       "id": "ess-kaona-hidden-meaning",
       "name_ja": "カオナ（隠された意味）",
       "name_original": "kaona",

@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-27-yue-01
+date: "2026-09-27"
+scouted_by: claude-routine-hiroto
+language: yue
+country_region: [HK, CN]
+map_anchor: { lat: 22.3, lng: 114.2 }
+teaser_ja: "東アジアのある言語圏には、恋人をまるごと体の内臓の名前で呼んでしまう愛称表現があるという噂。心臓と肝臓をつなぐ部分にたとえるとは、日本語話者にはやや意外な発想かもしれない。"
+intrigue_tags: [body, endearment, organ_metaphor]
+candidate:
+  phrase_original: "心肝椗"
+  gloss_hint: "広東語で「サムゴンディン（sam1 gon1 ding3）」と読む。文字通りには「心臓と肝臓をつなぐ茎（へた）」を意味し、最も大切で愛おしい相手を呼ぶ愛称として使われる。辞書の用例には「心肝椗，蜜糖埕（親愛なるあなた、蜜のように甘い人）」という組み合わせが挙げられており、恋人同士の親密な呼びかけとして機能する。"
+  kiza_elements: [metaphor, poetic_image]
+  sources:
+    - url: https://words.hk/zidin/%E5%BF%83%E8%82%9D%E6%A4%97
+      note: "スカウトがfetch確認済み。広東語原文「心肝椗」とその発音（sam1 gon1 ding3）、「心臓と肝臓の茎（へた）」という直訳、および「最も大切で愛おしい人」という意味の解説、用例文「心肝椗，蜜糖埕」を確認した。"
+status: fresh
+picked_for: "2026-09-27"
+resolution: null

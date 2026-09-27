@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-27-el-01
+date: "2026-09-27"
+scouted_by: claude-routine-hiroto
+language: el
+country_region: [GR, CY]
+map_anchor: { lat: 39.0, lng: 22.0 }
+teaser_ja: "ヨーロッパのある言語には、恋人を天体そのものの名で呼んでしまう愛称の系譜があるという噂。星や小さな花にまでたとえる語もあるらしい。"
+intrigue_tags: [light, celestial, endearment]
+candidate:
+  phrase_original: "φως μου"
+  gloss_hint: "ギリシャ語で「フォス・ム（fos mou）」と読み、直訳は「私の光」。恋人や大切な人への愛称として使われ、詩的で優しい響きを持つとされる。同系統の愛称には「アステリ・ム（astéri mou、私の星）」などもあり、恋人同士のメッセージで日常的に用いられると説明されている。"
+  kiza_elements: [metaphor, poetic_image]
+  sources:
+    - url: https://preply.com/en/blog/greek-terms-of-endearment/
+      note: "スカウトがfetch確認済み。ギリシャ語原文「φως μου」とその読み（fos mou）、「私の光」という直訳、および『詩的で優しく、恋人へのメッセージでよく使われる』という使用文脈の説明を確認した。"
+status: fresh
+picked_for: "2026-09-27"
+resolution: null

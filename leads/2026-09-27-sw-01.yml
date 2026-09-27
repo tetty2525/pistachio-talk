@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-27-sw-01
+date: "2026-09-27"
+scouted_by: claude-routine-hiroto
+language: sw
+country_region: [TZ, KE]
+map_anchor: { lat: -6.0, lng: 35.0 }
+teaser_ja: "アフリカのある言語圏に伝わることわざは、『心の中の手紙』が言葉を使わずとも顔の上で読まれてしまう、と語るらしいという噂。"
+intrigue_tags: [face, heart, proverb]
+candidate:
+  phrase_original: "Barua ya moyo husomwa juu ya panda la uso"
+  gloss_hint: "直訳は「心の手紙は、顔の上で読まれる」。どれほど言葉を尽くさなくとも、本心（恋心を含む感情）は表情に滲み出てしまうという意味のスワヒリのことわざ。「moyo（心）」を「barua（手紙）」に見立て、顔をその手紙が読まれる場所にたとえている。"
+  kiza_elements: [metaphor, poetic_image]
+  sources:
+    - url: https://mhariri.com/kamusi/learn-swahili/proverbs-in-swahili-and-their-translations-and-meanings/
+      note: "スカウトがfetch確認済み。スワヒリ語原文「Barua ya moyo husomwa juu ya panda la uso」、直訳「心の手紙は顔の上で読まれる」、および『本心は言葉によらず表情に表れる』という意味の解説を確認した。"
+status: fresh
+picked_for: "2026-09-27"
+resolution: null

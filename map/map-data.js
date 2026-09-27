@@ -1573,6 +1573,42 @@ window.PISTACHIO_MAP_DATA = {
         "poetic_image"
       ],
       "date": "2026-09-26"
+    },
+    {
+      "id": "lead-2026-09-27-el-01",
+      "lat": 39,
+      "lng": 22,
+      "teaser_ja": "ヨーロッパのある言語には、恋人を天体そのものの名で呼んでしまう愛称の系譜があるという噂。星や小さな花にまでたとえる語もあるらしい。",
+      "intrigue_tags": [
+        "light",
+        "celestial",
+        "endearment"
+      ],
+      "date": "2026-09-27"
+    },
+    {
+      "id": "lead-2026-09-27-sw-01",
+      "lat": -6,
+      "lng": 35,
+      "teaser_ja": "アフリカのある言語圏に伝わることわざは、『心の中の手紙』が言葉を使わずとも顔の上で読まれてしまう、と語るらしいという噂。",
+      "intrigue_tags": [
+        "face",
+        "heart",
+        "proverb"
+      ],
+      "date": "2026-09-27"
+    },
+    {
+      "id": "lead-2026-09-27-yue-01",
+      "lat": 22.3,
+      "lng": 114.2,
+      "teaser_ja": "東アジアのある言語圏には、恋人をまるごと体の内臓の名前で呼んでしまう愛称表現があるという噂。心臓と肝臓をつなぐ部分にたとえるとは、日本語話者にはやや意外な発想かもしれない。",
+      "intrigue_tags": [
+        "body",
+        "endearment",
+        "organ_metaphor"
+      ],
+      "date": "2026-09-27"
     }
   ],
   "leadsOpen": [],
@@ -1685,7 +1721,7 @@ window.PISTACHIO_MAP_DATA = {
       "metaphor_potential_ja": "一人の存在に「あらゆる面（表情・役割・物語）」を同時に背負わせて讃えたいとき、あるいは「その場に現れるだけで空間の中心になる」圧倒的な存在感を語りたいときの比喩の芯になる。「大勢の手と長い時間をかけてようやく完成する」という成り立ちは、一人の人間の魅力が一朝一夕ではなく積み重ねの果てにあるものだと讃える言い回しにも転用できる。",
       "lat": 6,
       "lng": 7.4,
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ess-jasy-jatere",
@@ -1706,6 +1742,16 @@ window.PISTACHIO_MAP_DATA = {
       "lat": -6.16,
       "lng": 39.19,
       "isNew": false
+    },
+    {
+      "id": "ess-kanga-jina-proverb-cloth",
+      "name_ja": "カンガ布の言葉（ジナ）",
+      "category": "craft",
+      "culture_ja": "東アフリカ（ザンジバル・スワヒリ海岸）の女性の布文化",
+      "metaphor_potential_ja": "直接言葉にしにくい本心（恋心・皮肉・警告・和解の意志）を、身にまとう布の文言に託して間接的に伝えるという発想は、そのまま口説き文句の演出装置に転用できる。「この柄に込めた言葉の意味、わかる？」のように、贈り物や衣に忍ばせたメッセージとして愛の言葉を語らせる筋書きの土台になる。",
+      "lat": -6.16,
+      "lng": 39.2,
+      "isNew": true
     },
     {
       "id": "ess-kaona-hidden-meaning",
@@ -1932,9 +1978,9 @@ window.PISTACHIO_MAP_DATA = {
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 86,
+    "leadsFresh": 89,
     "leadsOpen": 0,
-    "essences": 35,
+    "essences": 36,
     "essencesNew": 3
   }
 };
