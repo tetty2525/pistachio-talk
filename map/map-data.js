@@ -1609,6 +1609,18 @@ window.PISTACHIO_MAP_DATA = {
         "organ_metaphor"
       ],
       "date": "2026-09-27"
+    },
+    {
+      "id": "lead-2026-09-28-ja-01",
+      "lat": 36,
+      "lng": 138,
+      "teaser_ja": "東アジアの言語圏には、いつか結ばれる相手と目に見えない糸でつながっているという伝説がある。唐の時代の不思議な老人の逸話に由来し、小指に結びつける風習にまで発展したという噂。",
+      "intrigue_tags": [
+        "thread",
+        "fate",
+        "legend"
+      ],
+      "date": "2026-09-28"
     }
   ],
   "leadsOpen": [],
@@ -1622,6 +1634,16 @@ window.PISTACHIO_MAP_DATA = {
       "lat": 37.9,
       "lng": 23.7,
       "isNew": false
+    },
+    {
+      "id": "ess-ask-atesi-fire-of-love",
+      "name_ja": "愛の火（アシュク・アテシ）",
+      "category": "poetry",
+      "culture_ja": "トルコ・スーフィー詩の伝統（ユヌス・エムレ）",
+      "metaphor_potential_ja": "「あなたへの想いに焼き尽くされている」という情熱の告白を、山さえ灰に変える炎という壮大なスケールの比喩で語れる。単に「熱い想い」と言うのではなく、理性や自制心を焼き尽くしてしまうほどの圧倒的で制御不能な恋心を表現したい場面、またはスーフィー詩特有の「愛による自己の消尽・変容」という神秘的なニュアンスを添えたい口説き文句に使える。",
+      "lat": 39,
+      "lng": 35,
+      "isNew": true
     },
     {
       "id": "ess-badr-full-moon",
@@ -1781,7 +1803,7 @@ window.PISTACHIO_MAP_DATA = {
       "metaphor_potential_ja": "「あなたに焦がれて心が焼け焦げた」という情熱の告白を、赤い花弁と黒い花芯を持つ一輪のチューリップの姿そのものに語らせることができる。単に「花のように美しい」ではなく、「愛に焼かれてなお咲き続ける」という自己犠牲的・殉教的な強度を帯びた口説き文句の比喩として使える。",
       "lat": 32,
       "lng": 53,
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ess-lion-of-judah",
@@ -1978,9 +2000,9 @@ window.PISTACHIO_MAP_DATA = {
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 89,
+    "leadsFresh": 90,
     "leadsOpen": 0,
-    "essences": 36,
+    "essences": 37,
     "essencesNew": 3
   }
 };

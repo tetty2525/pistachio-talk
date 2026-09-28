@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-28-ja-01
+date: "2026-09-28"
+scouted_by: claude-routine-hiroto
+language: ja
+country_region: [JP]
+map_anchor: { lat: 36.0, lng: 138.0 }
+teaser_ja: "東アジアの言語圏には、いつか結ばれる相手と目に見えない糸でつながっているという伝説がある。唐の時代の不思議な老人の逸話に由来し、小指に結びつける風習にまで発展したという噂。"
+intrigue_tags: [thread, fate, legend]
+candidate:
+  phrase_original: "運命の赤い糸でつながってるんだよ"
+  gloss_hint: "直訳は「運命の赤い糸でつながっているんだよ」。中国・唐代の説話（冥界を司る老人が男女の足首を決して切れない赤い縄で結ぶという逸話）に由来し、東アジアに広く伝わる『運命の赤い糸』の伝説を踏まえた言い回し。いつか結ばれる運命にある相手同士を、目に見えない赤い糸が結んでいるという意味で、恋人や意中の相手との関係を語る際に使われる。"
+  kiza_elements: [cultural_allusion, poetic_image]
+  sources:
+    - url: https://www.weblio.jp/content/%E9%81%8B%E5%91%BD%E3%81%AE%E8%B5%A4%E3%81%84%E7%B3%B8
+      note: "スカウトがfetch確認済み。「運命の赤い糸」の意味『やがて結ばれるであろう男女をつないでいる、と信じられている糸。目には見えず、決して切れない』という説明、使用例文『運命の赤い糸でつながってるんだよ。』を確認した。"
+status: fresh
+picked_for: "2026-09-28"
+resolution: null
