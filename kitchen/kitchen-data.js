@@ -215,6 +215,27 @@ window.PISTACHIO_KITCHEN_DATA = {
       "created": "2026-09-02"
     },
     {
+      "id": "ess-hinaren-ru-pomegranate-face",
+      "name_ja": "ザクロの顔（ヒナレン・ルー）",
+      "name_original": "hinarên rû",
+      "category": "flora",
+      "culture_ja": "クルド詩の伝統",
+      "summary_ja": "クルド詩の伝統において、ザクロの実は恋する相手の胸元や頬をたとえる比喩として長く用いられてきた。17世紀のクルド叙事詩『メムとジン』（アフメド・ハニー作）では、ボタン地方の庭で見たザクロの実が乙女の胸にたとえられ、北クルディスタン（トルコ南東部）では頬そのものが「ザクロの顔（hinarên rû）」と呼ばれ、輝きと生気の象徴とされる。",
+      "metaphor_potential_ja": "頬や肌の艶やかさ・張りを、割れ目からルビー色の粒がこぼれるザクロの実の姿に重ねて語れる比喩。単なる「頬が赤い」ではなく、内側に無数の粒（情熱・生命力）を秘めた果実として相手を讃える、格式高く叙事詩的なトーンの口説き文句に仕立てられる。",
+      "tags": [
+        "pomegranate",
+        "cheek",
+        "epic_poetry",
+        "mem_u_zin",
+        "fruit"
+      ],
+      "usage_hint": "頬や肌の艶を「ザクロの顔」にたとえることで、単なる血色の良さではなく、内側に無数の粒（情熱・生命力）を秘めた果実としての奥行きを持たせた褒め言葉になる。叙事詩『メムとジン』のように、庭で果実を見つけた驚きから相手への想いに転じる語りの構成とも相性がよく、格調高く物語的なトーンの口説き文句の土台に使える。",
+      "source_urls": [
+        "https://kurdistanchronicle.com/babat/2859"
+      ],
+      "created": "2026-09-29"
+    },
+    {
       "id": "ess-hinemoa-and-tutanekai",
       "name_ja": "ヒネモアとトゥーターネカイの湖渡り",
       "name_original": "Hinemoa raua ko Tūtānekai",

@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-29-tr-01
+date: "2026-09-29"
+scouted_by: claude-routine-hiroto
+language: tr
+country_region: [TR]
+map_anchor: { lat: 39.0, lng: 35.0 }
+teaser_ja: "羊飼いの外套にまつわる民話が由来とされる言い回しの噂。誰かに夢中になった状態を、着ている衣を燃やす仕草にたとえるという。"
+intrigue_tags: [fire, folk_story, garment]
+candidate:
+  phrase_original: "Ona abayı yakmış."
+  gloss_hint: "直訳は「彼/彼女に（自分の）アバ（羊毛の外套）を燃やしてしまった」。「abayı yakmak」は、気づかぬうちに誰かに夢中になり心を奪われることを、羊飼いが着ている厚手の外套（aba）を燃やす仕草にたとえた慣用句。片思いの若者が想い人への燃えるような気持ちを抑えきれず、着ていたアバに火をつけてしまったという民話に由来するとされる。「あの人に(すっかり)夢中になった／首ったけだ」という意味で、誰かに恋している状態を語る際に使われる。"
+  kiza_elements: [metaphor, cultural_allusion]
+  sources:
+    - url: https://www.hurriyet.com.tr/egitim/abayi-yakmak-ne-demek-abayi-yakmak-deyiminin-anlami-ve-cumle-icinde-ornek-kullanimi-tdk-41763732
+      note: "スカウトがfetch確認済み。原語表記「Abayı yakmak」、意味『farkında olmadan birini severek ona tutulmak sürekli onu düşünmek demektir（気づかぬうちに誰かを愛し夢中になり、常にその人を思うこと）』、使用例文『Ayşe her an Ali hakkında konuşuyor abayı yakmış.』『Güler resim sergisinin açılışında Orhana hayran hayran bakıyordu abayı yaktığı oradan belliydi.』、および aba（羊飼いの羊毛外套）を燃やす仕草に由来する民話的語源の記述を確認した。"
+status: fresh
+picked_for: "2026-09-29"
+resolution: null

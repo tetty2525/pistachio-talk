@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-29-ht-01
+date: "2026-09-29"
+scouted_by: claude-routine-hiroto
+language: ht
+country_region: [HT]
+map_anchor: { lat: 18.5, lng: -72.3 }
+teaser_ja: "1980〜90年代のコンパ（ハイチのダンス音楽）の恋歌に、花にとまる蝶の羽ばたきで胸の高鳴りを語る一節があるという噂。"
+intrigue_tags: [butterfly, flower, konpa_song]
+candidate:
+  phrase_original: "Ou fèm sote, ou fè-m vole, menm jan ak papiyon sou flè."
+  gloss_hint: "直訳は「あなたは私をどきっとさせ、私を飛ばせる、花の上の蝶のように」。ハイチのコンパ歌手ジャック・ソーヴール・ジャン（Jacques Sauveur Jean）の楽曲『Infideli-T』（1980〜90年代のコンパ全盛期）の一節。相手のそばにいるときの胸の高鳴りと浮遊感を、花にとまる蝶の羽ばたきにたとえている。恋人への想いの高揚を語る口説き文句・愛の言葉として使われる。"
+  kiza_elements: [metaphor, poetic_image]
+  sources:
+    - url: https://kreyolicious.net/20-most-romantic-haitian-music-love-songs-to-serenade-your-lady/
+      note: "スカウトがfetch確認済み。原語歌詞『Ou fèm sote, ou fè-m vole, menm jan ak papiyon sou flè』、英訳『You make me jolt, you make me fly / Like some butterfly on flower buds』、楽曲名『Infideli-T』・歌手ジャック・ソーヴール・ジャンおよび1980〜90年代コンパ期の恋歌としての使用文脈の記述を確認した。"
+status: fresh
+picked_for: "2026-09-29"
+resolution: null

@@ -1621,6 +1621,30 @@ window.PISTACHIO_MAP_DATA = {
         "legend"
       ],
       "date": "2026-09-28"
+    },
+    {
+      "id": "lead-2026-09-29-ht-01",
+      "lat": 18.5,
+      "lng": -72.3,
+      "teaser_ja": "1980〜90年代のコンパ（ハイチのダンス音楽）の恋歌に、花にとまる蝶の羽ばたきで胸の高鳴りを語る一節があるという噂。",
+      "intrigue_tags": [
+        "butterfly",
+        "flower",
+        "konpa_song"
+      ],
+      "date": "2026-09-29"
+    },
+    {
+      "id": "lead-2026-09-29-tr-01",
+      "lat": 39,
+      "lng": 35,
+      "teaser_ja": "羊飼いの外套にまつわる民話が由来とされる言い回しの噂。誰かに夢中になった状態を、着ている衣を燃やす仕草にたとえるという。",
+      "intrigue_tags": [
+        "fire",
+        "folk_story",
+        "garment"
+      ],
+      "date": "2026-09-29"
     }
   ],
   "leadsOpen": [],
@@ -1726,6 +1750,16 @@ window.PISTACHIO_MAP_DATA = {
       "isNew": false
     },
     {
+      "id": "ess-hinaren-ru-pomegranate-face",
+      "name_ja": "ザクロの顔（ヒナレン・ルー）",
+      "category": "flora",
+      "culture_ja": "クルド詩の伝統",
+      "metaphor_potential_ja": "頬や肌の艶やかさ・張りを、割れ目からルビー色の粒がこぼれるザクロの実の姿に重ねて語れる比喩。単なる「頬が赤い」ではなく、内側に無数の粒（情熱・生命力）を秘めた果実として相手を讃える、格式高く叙事詩的なトーンの口説き文句に仕立てられる。",
+      "lat": 36,
+      "lng": 43,
+      "isNew": true
+    },
+    {
       "id": "ess-hinemoa-and-tutanekai",
       "name_ja": "ヒネモアとトゥーターネカイの湖渡り",
       "category": "myth",
@@ -1823,7 +1857,7 @@ window.PISTACHIO_MAP_DATA = {
       "metaphor_potential_ja": "一瞬だけ現れて心を奪い、すぐに手の届かないところへ消えていく恋を「蝶」になぞらえる比喩として使える。相手を美しくも捉えどころのない存在として讃える口説き文句や、過ぎ去った恋を振り返る切ない台詞の両方に向く。「稲妻のように」という速さの比喩と組み合わせれば、儚さの強度をさらに上げられる。",
       "lat": -25.3,
       "lng": -57.6,
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ess-may-va-nui-vietnam",
@@ -2000,9 +2034,9 @@ window.PISTACHIO_MAP_DATA = {
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 90,
+    "leadsFresh": 92,
     "leadsOpen": 0,
-    "essences": 37,
+    "essences": 38,
     "essencesNew": 3
   }
 };
