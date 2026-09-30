@@ -149,6 +149,28 @@ window.PISTACHIO_KITCHEN_DATA = {
       "created": "2026-09-06"
     },
     {
+      "id": "ess-ghazal-gazelle-cry",
+      "name_ja": "ガゼルの鳴き声と恋歌（ガザル）",
+      "name_original": "غزل (ghazal)",
+      "category": "poetry",
+      "culture_ja": "古典アラビア詩（ガザル）の伝統",
+      "summary_ja": "アラビア語の恋愛詩の一形式「ガザル（غزل）」は、狩に追い詰められ死を悟った瞬間のガゼルの鳴き声を語源に持つとも言われる語。古典アラビア詩では、大きな瞳やしなやかな首、跳ねるような身のこなしを持つガゼルが、美しい恋人の姿を讃える中心的な比喩として繰り返し用いられ、多くのガザル(恋愛詩)は報われぬ恋の痛みを歌う。",
+      "metaphor_potential_ja": "相手の瞳や身のこなしの美しさを「ガゼルのような」と讃える古典的な型として使える。単なる動物の比喩に留めず、「追い詰められた獣の断末魔の叫びがこの詩形の起源」という切迫感を重ねれば、狂おしいほどの恋慕や報われない想いを表す重厚な比喩にも展開できる。",
+      "tags": [
+        "gazelle",
+        "poetry_tradition",
+        "love_metaphor",
+        "arabic",
+        "unrequited_love"
+      ],
+      "usage_hint": "「瞳がガゼルのように美しい」という古典的な讃辞の型に加えて、「追い詰められた獣の最期の叫びがこの詩形の起源」という由来を重ねれば、恋の甘さだけでなく、狂おしさ・切迫感・報われない想いのひりつきを込めた重厚な口説き文句に展開できる。優雅さと痛切さを同時に讃えたい場面に向く。",
+      "source_urls": [
+        "https://www.tweetspeakpoetry.com/2013/10/16/ghazal-for-a-gazelle-how-to-write-a-ghazal-infographic/",
+        "https://dippingintolight.com/ghazal-poetry/"
+      ],
+      "created": "2026-09-30"
+    },
+    {
       "id": "ess-haenim-byeolnim",
       "name_ja": "해님・별님（お日様・お星様の敬称）",
       "name_original": "해님 / 별님",

@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-30-km-01
+date: "2026-09-30"
+scouted_by: claude-routine-hiroto
+language: km
+country_region: [KH]
+map_anchor: { lat: 11.5, lng: 104.9 }
+teaser_ja: "東南アジアのある言語には、失われた恋の余韻を『幽霊』にたとえて表す、切なくも詩的な言葉があるという噂。"
+intrigue_tags: [longing, melancholy, poetic_image]
+candidate:
+  phrase_original: "ខ្មោចស្នេហ៍"
+  gloss_hint: "「クマオチ・スナエ（khmaoch snaeh）」と読み、直訳は「愛の幽霊」。失われた、あるいは報われなかった恋の余韻が心に残り続ける、ほろ苦く忘れがたい感情を捉えた詩的な語として紹介されている。"
+  kiza_elements: [poetic_image, cultural_allusion]
+  sources:
+    - url: https://talkpal.ai/culture/what-are-some-untranslatable-khmer-words-that-describe-specific-emotions/
+      note: "スカウトがfetch確認済み。クメール語原文「ខ្មោចស្នេហ៍」の表記と「ghost of love（愛の幽霊）」という直訳を確認。『失われたが忘れられていない恋の、ほろ苦く心に残り続ける感情を捉えた語』という使用文脈の説明を確認した。"
+status: fresh
+picked_for: "2026-09-30"
+resolution: null

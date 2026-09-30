@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-30-ar-01
+date: "2026-09-30"
+scouted_by: claude-routine-hiroto
+language: ar
+country_region: [SA, EG, LB, SY]
+map_anchor: { lat: 26.0, lng: 30.0 }
+teaser_ja: "ある言語には、夜空に浮かぶ天体そのものを使って相手を讃える、詩的なロマンチック表現の系譜があるという噂。"
+intrigue_tags: [celestial, night, poetic]
+candidate:
+  phrase_original: "أنت القمر في ليلي"
+  gloss_hint: "「アンタ・アルカマル・フィー・ライリー（Anta al-qamar fi layli）」と読み、直訳は「あなたは私の夜の中の月」。詩的なアラビア語の愛の表現（Poetic Arabic Love Expressions）に分類され、恋人など親しい相手への感情の深さを伝える美しい言葉として紹介されている。"
+  kiza_elements: [metaphor, poetic_image]
+  sources:
+    - url: https://meaningofarabic.com/arabic-romantic-phrases-with-meaning/
+      note: "スカウトがfetch確認済み。アラビア語原文「أنت القمر في ليلي」、読み「Anta al-qamar fi layli」、直訳「あなたは私の夜の月」を確認。ページの『詩的なアラビア愛の表現』セクションに分類され、深い感情的な繋がりを表現する際に恋人へ使う詩的な言葉と説明されている。"
+status: fresh
+picked_for: "2026-09-30"
+resolution: null

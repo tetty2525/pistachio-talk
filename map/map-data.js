@@ -1645,6 +1645,43 @@ window.PISTACHIO_MAP_DATA = {
         "garment"
       ],
       "date": "2026-09-29"
+    },
+    {
+      "id": "lead-2026-09-30-ar-01",
+      "lat": 26,
+      "lng": 30,
+      "teaser_ja": "ある言語には、夜空に浮かぶ天体そのものを使って相手を讃える、詩的なロマンチック表現の系譜があるという噂。",
+      "intrigue_tags": [
+        "celestial",
+        "night",
+        "poetic"
+      ],
+      "date": "2026-09-30"
+    },
+    {
+      "id": "lead-2026-09-30-km-01",
+      "lat": 11.5,
+      "lng": 104.9,
+      "teaser_ja": "東南アジアのある言語には、失われた恋の余韻を『幽霊』にたとえて表す、切なくも詩的な言葉があるという噂。",
+      "intrigue_tags": [
+        "longing",
+        "melancholy",
+        "poetic_image"
+      ],
+      "date": "2026-09-30"
+    },
+    {
+      "id": "lead-2026-09-30-sm-01",
+      "lat": -13.8,
+      "lng": -171.8,
+      "teaser_ja": "太平洋のある言語には、どれだけ遠くまで飛んでいっても必ず水辺に帰る渡り鳥にたとえたことわざがあり、『離れていても必ず戻る』という誓いの言葉に転用できそうだという噂。",
+      "intrigue_tags": [
+        "migration",
+        "homecoming",
+        "bird",
+        "proverb"
+      ],
+      "date": "2026-09-30"
     }
   ],
   "leadsOpen": [],
@@ -1718,6 +1755,16 @@ window.PISTACHIO_MAP_DATA = {
       "lat": 19.4,
       "lng": -99.1,
       "isNew": false
+    },
+    {
+      "id": "ess-ghazal-gazelle-cry",
+      "name_ja": "ガゼルの鳴き声と恋歌（ガザル）",
+      "category": "poetry",
+      "culture_ja": "古典アラビア詩（ガザル）の伝統",
+      "metaphor_potential_ja": "相手の瞳や身のこなしの美しさを「ガゼルのような」と讃える古典的な型として使える。単なる動物の比喩に留めず、「追い詰められた獣の断末魔の叫びがこの詩形の起源」という切迫感を重ねれば、狂おしいほどの恋慕や報われない想いを表す重厚な比喩にも展開できる。",
+      "lat": 26,
+      "lng": 30,
+      "isNew": true
     },
     {
       "id": "ess-haenim-byeolnim",
@@ -1807,7 +1854,7 @@ window.PISTACHIO_MAP_DATA = {
       "metaphor_potential_ja": "直接言葉にしにくい本心（恋心・皮肉・警告・和解の意志）を、身にまとう布の文言に託して間接的に伝えるという発想は、そのまま口説き文句の演出装置に転用できる。「この柄に込めた言葉の意味、わかる？」のように、贈り物や衣に忍ばせたメッセージとして愛の言葉を語らせる筋書きの土台になる。",
       "lat": -6.16,
       "lng": 39.2,
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ess-kaona-hidden-meaning",
@@ -2034,9 +2081,9 @@ window.PISTACHIO_MAP_DATA = {
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 92,
+    "leadsFresh": 95,
     "leadsOpen": 0,
-    "essences": 38,
+    "essences": 39,
     "essencesNew": 3
   }
 };

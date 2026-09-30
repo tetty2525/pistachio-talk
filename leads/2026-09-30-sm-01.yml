@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-09-30-sm-01
+date: "2026-09-30"
+scouted_by: claude-routine-hiroto
+language: sm
+country_region: [WS, AS]
+map_anchor: { lat: -13.8, lng: -171.8 }
+teaser_ja: "太平洋のある言語には、どれだけ遠くまで飛んでいっても必ず水辺に帰る渡り鳥にたとえたことわざがあり、『離れていても必ず戻る』という誓いの言葉に転用できそうだという噂。"
+intrigue_tags: [migration, homecoming, bird, proverb]
+candidate:
+  phrase_original: "E lele le toloa ae ma'au i le vai"
+  gloss_hint: "「トロア（灰色ガモの一種）はどこまでも飛んでいくが、必ず水辺に帰る」という意味のサモアのことわざ。もともとは人生でどれほど遠くへ旅しても最終的に故郷に帰るという教えだが、『どんなに離れていても、必ずあなたのもとへ帰る』という誓いの比喩に転用できそうな型として紹介されている。"
+  kiza_elements: [metaphor, poetic_image]
+  sources:
+    - url: https://www.lingalot.com/samoan-quotes/
+      note: "スカウトがfetch確認済み。サモア語原文「E lele le toloa ae ma'au i le auvai」、直訳「トロアは遠くまで飛ぶが、必ず水辺に帰る」を確認。『人生がどこへ連れて行っても、最終的に故郷に帰るという意味を示す』という使用文脈の説明を確認した。"
+status: fresh
+picked_for: "2026-09-30"
+resolution: null
