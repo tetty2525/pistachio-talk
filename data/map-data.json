@@ -1681,6 +1681,42 @@
         "proverb"
       ],
       "date": "2026-09-30"
+    },
+    {
+      "id": "lead-2026-10-01-ha-01",
+      "lat": 11,
+      "lng": 8,
+      "teaser_ja": "西アフリカの乾いた大地に根を張る言語の恋愛詩には、恋人の存在を胸の上に広がる甘さそのものとして語る一節があるという噂。",
+      "intrigue_tags": [
+        "food",
+        "sweetness",
+        "intimacy"
+      ],
+      "date": "2026-10-01"
+    },
+    {
+      "id": "lead-2026-10-01-ku-01",
+      "lat": 36,
+      "lng": 43,
+      "teaser_ja": "中東・コーカサスの山々に広がる言語のひとつには、相手を一輪の花そのものに置き換えてしまう、まっすぐで詩的な呼びかけがあるという噂。",
+      "intrigue_tags": [
+        "flower",
+        "directness",
+        "poetic_image"
+      ],
+      "date": "2026-10-01"
+    },
+    {
+      "id": "lead-2026-10-01-ta-01",
+      "lat": 11,
+      "lng": 78.7,
+      "teaser_ja": "南インドの古い恋愛詩の伝統には、互いの血縁を一切問わず、心が交わってしまえばもう離れられないと言い切る一節があるらしい。土と雨にまつわる例えが使われているとの噂。",
+      "intrigue_tags": [
+        "classical_poetry",
+        "inseparability",
+        "nature_metaphor"
+      ],
+      "date": "2026-10-01"
     }
   ],
   "leadsOpen": [],
@@ -1703,7 +1739,7 @@
       "metaphor_potential_ja": "「あなたへの想いに焼き尽くされている」という情熱の告白を、山さえ灰に変える炎という壮大なスケールの比喩で語れる。単に「熱い想い」と言うのではなく、理性や自制心を焼き尽くしてしまうほどの圧倒的で制御不能な恋心を表現したい場面、またはスーフィー詩特有の「愛による自己の消尽・変容」という神秘的なニュアンスを添えたい口説き文句に使える。",
       "lat": 39,
       "lng": 35,
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ess-badr-full-moon",
@@ -1824,6 +1860,16 @@
       "lat": 6,
       "lng": 7.4,
       "isNew": false
+    },
+    {
+      "id": "ess-in-xochitl-in-cuicatl-flower-and-song",
+      "name_ja": "花と歌（イン・ショチトル・イン・クイカトル）",
+      "category": "poetry",
+      "culture_ja": "古代ナワトル（アステカ）の詩の伝統",
+      "metaphor_potential_ja": "「花」と「歌」という具体物の対句で、詩・芸術・美という抽象概念そのものを指し示す構造を担える。相手の言葉や存在そのものを「花と歌」と呼ぶことで、口説き文句自体を詩として扱う自己言及的な比喩に使える。また花は儚さ・敬愛・喜びなど多層的な意味を同時に帯びる象徴として応用できる。",
+      "lat": 19.4,
+      "lng": -99.1,
+      "isNew": true
     },
     {
       "id": "ess-jasy-jatere",
@@ -2080,9 +2126,9 @@
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 95,
+    "leadsFresh": 98,
     "leadsOpen": 0,
-    "essences": 39,
+    "essences": 40,
     "essencesNew": 3
   }
 }

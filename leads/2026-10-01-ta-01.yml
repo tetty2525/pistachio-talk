@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-10-01-ta-01
+date: "2026-10-01"
+scouted_by: claude-routine-hiroto
+language: ta
+country_region: [IN, LK]
+map_anchor: { lat: 11.0, lng: 78.7 }
+teaser_ja: "南インドの古い恋愛詩の伝統には、互いの血縁を一切問わず、心が交わってしまえばもう離れられないと言い切る一節があるらしい。土と雨にまつわる例えが使われているとの噂。"
+intrigue_tags: [classical_poetry, inseparability, nature_metaphor]
+candidate:
+  phrase_original: "யாயும் ஞாயும் யார் ஆகியரோ... அன்பின் ஒன்றிய நெஞ்சத்து எம்மேம் புணர்ந்தனர் செம்புலப் பெயல்நீர் போல"
+  gloss_hint: "サンガム文学クルンドーハイ40番の詩。「あなたの母と私の母は互いに何なのか」と血縁の無関係さを問いかけつつ、「結ばれた私たちの心は、赤い土に降る雨水のように混じり合い、もう分かれることはない」と結ぶ。男性から女性への、別れ際の不安を払拭するための言葉として知られる。"
+  kiza_elements: [metaphor, poetic_image, cultural_allusion]
+  sources:
+    - url: https://oldtamilpoetry.com/2017/01/04/kurunthokai-40/
+      note: "スカウトがfetch確認済み。タミル語原文（冒頭『யாயும் ஞாயும்...』）と英訳『My mom and yours, what are they to each other?...』を確認。異なる氏族出身の二人が恋に落ち、男性が去り際に女性の不安を払うために述べた詩であるという使用場面の説明も確認した。"
+status: fresh
+picked_for: "2026-10-01"
+resolution: null

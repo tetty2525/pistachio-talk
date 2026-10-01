@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-10-01-ku-01
+date: "2026-10-01"
+scouted_by: claude-routine-hiroto
+language: ku
+country_region: [TR, IQ, IR, SY]
+map_anchor: { lat: 36.0, lng: 43.0 }
+teaser_ja: "中東・コーカサスの山々に広がる言語のひとつには、相手を一輪の花そのものに置き換えてしまう、まっすぐで詩的な呼びかけがあるという噂。"
+intrigue_tags: [flower, directness, poetic_image]
+candidate:
+  phrase_original: "Tu gula min î!"
+  gloss_hint: "「あなたは私のバラです」という直訳。パートナーの美しさや特別さを讃える際に使われる、自然物（バラ）に相手を直接重ねる比喩表現として紹介されている。"
+  kiza_elements: [metaphor, poetic_image]
+  sources:
+    - url: https://kurdishlessons.com/saying-i-love-you-in-kurdish-and-romantic-phrases/
+      note: "スカウトがfetch確認済み。クルド語（クルマンジー方言）原文「Tu gula min î!」の表記と「You are my rose!」という英訳を確認。深い愛情やパートナーの美しさを讃える場面で使われる表現として他の恋愛フレーズと並べて紹介されていることを確認した。"
+status: fresh
+picked_for: "2026-10-01"
+resolution: null

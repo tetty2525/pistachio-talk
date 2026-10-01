@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-10-01-ha-01
+date: "2026-10-01"
+scouted_by: claude-routine-hiroto
+language: ha
+country_region: [NG, NE]
+map_anchor: { lat: 11.0, lng: 8.0 }
+teaser_ja: "西アフリカの乾いた大地に根を張る言語の恋愛詩には、恋人の存在を胸の上に広がる甘さそのものとして語る一節があるという噂。"
+intrigue_tags: [food, sweetness, intimacy]
+candidate:
+  phrase_original: "Sukari a shafin kirjina"
+  gloss_hint: "「私の胸の面に広がる砂糖」という趣旨。ハウサ語の恋愛詩『Barin Zuma（蜂蜜を離れて）』に登場する一節で、恋人の存在や愛情を、味覚的な甘さ（砂糖）に重ねて語る比喩として使われている。"
+  kiza_elements: [metaphor]
+  sources:
+    - url: https://www.africanwriter.com/hausa-love-poems-written-translated-by-ismail-bala/
+      note: "スカウトがfetch確認済み。ハウサ語原文『Sukari a shafin kirjina』の表記と、詩『BARIN ZUMA』中で心・愛情を砂糖や蜂蜜などの味覚的比喩で表現している文脈を確認した。原文と英訳が対になった恋愛詩集として掲載されている。"
+status: fresh
+picked_for: "2026-10-01"
+resolution: null
