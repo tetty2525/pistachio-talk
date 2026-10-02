@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-10-02-lo-01
+date: "2026-10-02"
+scouted_by: claude-routine-hiroto
+language: lo
+country_region: [LA]
+map_anchor: { lat: 17.9, lng: 102.6 }
+teaser_ja: "ラオスの求婚の掛け合い歌では、男性がある神聖な木に例えて女性を褒め、その木陰を借りたいと頼む一節があるという。女性側は謙遜して返歌するのが作法らしい。"
+intrigue_tags: [courtship_exchange, sacred_tree, call_and_response]
+candidate:
+  phrase_original: "ເຈ້າຜູ້ໂພສີສ້ອຍ ໃບດົກຮ່ມໃຫຽ່"
+  gloss_hint: "「あなたは葉の茂った大きな菩提樹（ボーディーの木）」という意味。ラオスの求婚の掛け合い詩『パヤー・トー・イェー・ラー・ワーン・バオ・サオ』の一節で、男性がこの比喩で女性の美しさと木陰（庇護）を称え、その葉陰に隠れさせてほしいと頼む。女性側は『私の葉はそれほど茂っておらず、木陰も十分に涼しくないかもしれない』と謙遜して返す、という伝統的な掛け合いの作法が伴う。"
+  kiza_elements: [metaphor, poetic_image, cultural_allusion]
+  sources:
+    - url: https://seasite.niu.edu/lao/LaoFolkLiterature/Chapter11/chapter_11_text.htm
+      note: "スカウトがfetch確認済み。ラオ語原文『ເຈ້າຜູ້ໂພສີສ້ອຍ ໃບດົກຮ່ມໃຫຽ່』と英訳『Oh, my dear precious Bodhi tree with dense leaves and large shade』を確認。男性が女性を菩提樹に例えて木陰を借りたいと頼み、女性が自分の葉陰は十分でないかもしれないと謙遜して返すという、掛け合い形式の求婚詩『phayaa to yae la waang bao sao』の使用場面の記述も確認した。"
+status: fresh
+picked_for: "2026-10-02"
+resolution: null

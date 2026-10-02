@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-10-02-si-01
+date: "2026-10-02"
+scouted_by: claude-routine-hiroto
+language: si
+country_region: [LK]
+map_anchor: { lat: 7.9, lng: 80.7 }
+teaser_ja: "スリランカの近代詩人が1960年代に放った、月そのものに呼びかける大胆な比喩表現があるらしい。当時の文学の教室で『こんなに率直な言い回しがあったのか』と語り継がれているという噂。"
+intrigue_tags: [modern_poetry, moon, audacious_metaphor]
+candidate:
+  phrase_original: "සඳවතියේ මම ආවා සඳ පානේ සඳ උලන්ට"
+  gloss_hint: "「月の女神よ、私はやって来た、月光の中で月に触れるために」という訳。スリランカの現代詩人シリ・グナシンハの作品の一節で、1964年頃リッチモンド・カレッジの文学の授業で『当時の社会には珍しいほど率直な性的親密さの比喩』として教えられ、語り継がれてきたという。"
+  kiza_elements: [metaphor, poetic_image]
+  sources:
+    - url: https://www.colombotelegraph.com/index.php/where-the-moon-curved-her-silver-lips-reflections-on-the-poetry-of-swarnakanthi-rajapaksa/
+      note: "スカウトがfetch確認済み。シンハラ語原文『සඳවතියේ මම ආවා සඳ පානේ සඳ උලන්ට』と英訳『I have come, Moon Goddess, to caress the moon in the moonlight』を確認。1964年頃のリッチモンド・カレッジの文学の授業で、当時の社会には珍しく率直な性的親密さの比喩として教えられたという使用場面の記述も確認した。"
+status: fresh
+picked_for: "2026-10-02"
+resolution: null

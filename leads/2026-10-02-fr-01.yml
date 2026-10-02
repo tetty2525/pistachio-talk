@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-10-02-fr-01
+date: "2026-10-02"
+scouted_by: claude-routine-hiroto
+language: fr
+country_region: [FR]
+map_anchor: { lat: 46.6, lng: 2.2 }
+teaser_ja: "フランス語の甘い呼びかけの一つは、家庭の台所にある野菜とお菓子、両方を思わせる響きを持つらしい。恋人同士だけでなく親子の間でも使われる、懐の広い愛称だという噂。"
+intrigue_tags: [food_metaphor, endearment, everyday_affection]
+candidate:
+  phrase_original: "Mon petit chou"
+  gloss_hint: "直訳は「私の小さなキャベツ」。フランス語の代表的な愛称表現で、キャベツの頭の丸い形に由来する説と、キャベツ型のクリームパフ菓子『シュー・ア・ラ・クレーム』からの連想とする説の両方があるとされる。恋人同士の間だけでなく、親子・近しい家族の間でも日常的に使われる、親密さの幅広い呼びかけ。"
+  kiza_elements: [metaphor]
+  sources:
+    - url: https://www.aureusboutique.com/blogs/articles/the-meaning-of-mon-petit-chou-in-french-and-why-it-s-so-sweet
+      note: "スカウトがfetch確認済み。フランス語原文『mon petit chou』の直訳（私の小さなキャベツ）、クリームパフ菓子『chou à la crème』との連想、そして『深く愛し合う恋人同士の間でも、親子の間でも聞かれる』という使用場面の記述を確認した。"
+status: fresh
+picked_for: "2026-10-02"
+resolution: null

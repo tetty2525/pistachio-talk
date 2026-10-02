@@ -1717,6 +1717,42 @@
         "nature_metaphor"
       ],
       "date": "2026-10-01"
+    },
+    {
+      "id": "lead-2026-10-02-fr-01",
+      "lat": 46.6,
+      "lng": 2.2,
+      "teaser_ja": "フランス語の甘い呼びかけの一つは、家庭の台所にある野菜とお菓子、両方を思わせる響きを持つらしい。恋人同士だけでなく親子の間でも使われる、懐の広い愛称だという噂。",
+      "intrigue_tags": [
+        "food_metaphor",
+        "endearment",
+        "everyday_affection"
+      ],
+      "date": "2026-10-02"
+    },
+    {
+      "id": "lead-2026-10-02-lo-01",
+      "lat": 17.9,
+      "lng": 102.6,
+      "teaser_ja": "ラオスの求婚の掛け合い歌では、男性がある神聖な木に例えて女性を褒め、その木陰を借りたいと頼む一節があるという。女性側は謙遜して返歌するのが作法らしい。",
+      "intrigue_tags": [
+        "courtship_exchange",
+        "sacred_tree",
+        "call_and_response"
+      ],
+      "date": "2026-10-02"
+    },
+    {
+      "id": "lead-2026-10-02-si-01",
+      "lat": 7.9,
+      "lng": 80.7,
+      "teaser_ja": "スリランカの近代詩人が1960年代に放った、月そのものに呼びかける大胆な比喩表現があるらしい。当時の文学の教室で『こんなに率直な言い回しがあったのか』と語り継がれているという噂。",
+      "intrigue_tags": [
+        "modern_poetry",
+        "moon",
+        "audacious_metaphor"
+      ],
+      "date": "2026-10-02"
     }
   ],
   "leadsOpen": [],
@@ -1839,7 +1875,7 @@
       "metaphor_potential_ja": "頬や肌の艶やかさ・張りを、割れ目からルビー色の粒がこぼれるザクロの実の姿に重ねて語れる比喩。単なる「頬が赤い」ではなく、内側に無数の粒（情熱・生命力）を秘めた果実として相手を讃える、格式高く叙事詩的なトーンの口説き文句に仕立てられる。",
       "lat": 36,
       "lng": 43,
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ess-hinemoa-and-tutanekai",
@@ -1980,6 +2016,16 @@
       "lat": 11,
       "lng": 78.7,
       "isNew": false
+    },
+    {
+      "id": "ess-parevi-sandeshaya-dove-messenger",
+      "name_ja": "鳩の使者詩（パレヴィ・サンデーシャヤ）",
+      "category": "poetry",
+      "culture_ja": "スリランカ・サンハラ文学の「サンデーシャ（使者の詩）」の伝統",
+      "metaphor_potential_ja": "鳥に言葉を託して遠く離れた相手にまで届けてもらう、という体裁そのものが、距離や時間を越えて想いを運ぶ比喩として創作に使える。起源のサンスクリット版が離れ離れの恋人の思いを運ぶ役だった点を踏まえ、「この鳩に、あなたへの言葉を託そう」「海を越えてでも、この想いは届く」といった、遠距離の恋や再会を待つ場面の口説き文句・比喩に応用できる。",
+      "lat": 7.9,
+      "lng": 80.7,
+      "isNew": true
     },
     {
       "id": "ess-rose-and-nightingale",
@@ -2126,9 +2172,9 @@
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 98,
+    "leadsFresh": 101,
     "leadsOpen": 0,
-    "essences": 40,
+    "essences": 41,
     "essencesNew": 3
   }
 }
