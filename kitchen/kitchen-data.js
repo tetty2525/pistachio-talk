@@ -557,6 +557,27 @@ window.PISTACHIO_KITCHEN_DATA = {
       "created": "2026-09-15"
     },
     {
+      "id": "ess-padauk-flower-myanmar",
+      "name_ja": "パダウクの花",
+      "name_original": "ပိတောက်ပွင့် (padauk)",
+      "category": "flora",
+      "culture_ja": "ミャンマー（ビルマ）文化、ティンジャン（新年水祭り）の伝統",
+      "summary_ja": "ミャンマーの国花の一つであるパダウク（ビルマ花梨）は、新年のティンジャン水祭りの時期に一斉に黄金色の花を咲かせる。若者たちがバラの代わりにこの花を交換して愛や好意を伝える習慣があり、伝統的な歌や文学では永続する愛と結びつきの比喩として長く歌われてきた。",
+      "metaphor_potential_ja": "「年に一度、祭りの時期にだけ一斉に咲く」という限定性を、ここでしか出会えない特別な縁や、巡ってくる機会のたとえとして使える。西洋の薔薇に対する「黄金色の花を贈る」という対の習慣そのものも、口説き文句の導入部として応用できる。",
+      "tags": [
+        "flower",
+        "festival",
+        "new_year",
+        "enduring_love",
+        "gift_giving"
+      ],
+      "usage_hint": "「一年に一度、祭りの時期にしか咲かない」という限定性を使い、「今この瞬間にしか贈れない花」という口説きの導入に使える。また「あなたにこの黄金の花を贈りたい」という一文で、ミャンマー文化圏の新年の贈り物の習慣を匂わせつつ、永続する愛を暗示する比喩として展開できる。",
+      "source_urls": [
+        "https://www.gomyanmartours.com/national-flowers-of-myanmar-padauk-thazin/"
+      ],
+      "created": "2026-10-03"
+    },
+    {
       "id": "ess-parevi-sandeshaya-dove-messenger",
       "name_ja": "鳩の使者詩（パレヴィ・サンデーシャヤ）",
       "name_original": "Sandēśaya",

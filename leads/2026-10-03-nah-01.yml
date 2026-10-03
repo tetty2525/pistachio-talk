@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-10-03-nah-01
+date: "2026-10-03"
+scouted_by: claude-routine-hiroto
+language: nah
+country_region: [MX]
+map_anchor: { lat: 19.4, lng: -99.1 }
+teaser_ja: "ある言語圏の婚礼の場では、喜びを感じると心の色が変わるという古い身体観から生まれた言い回しが新郎新婦の間で交わされていたらしい。渇きが満たされる感覚にたとえる発想もあるとか。"
+intrigue_tags: [wedding, body_metaphor, happiness]
+candidate:
+  phrase_original: "Noyollo iiztaia, moyollo iiztaia"
+  gloss_hint: "直訳は「私の心は白くなる、あなたの心は白くなる」。古代アステカの身体観では、心（yollotl）は喜びを感じると渇きや飢えのように何かを求め、望むものを目にすると『白くなる』とされた。この対句はその高揚・幸福の感覚を表す言い回しで、新婚の男女が互いに交わす言葉として想定されていたという。現代のナワ族の末裔は、親しい人への挨拶で『pialli（あなたを心に抱いている）』という言葉も使うという。"
+  kiza_elements: [metaphor, poetic_image, cultural_allusion]
+  sources:
+    - url: https://www.mexicolore.co.uk/aztecs/language/sayings
+      note: "スカウトがfetch確認済み。原語表現『Noyollo iiztaia, moyollo iiztaia』（私の心は白くなる、あなたの心は白くなる）の記載、『the heart whitened on becoming happy. At first it yearned for it, as if it were thirsty or ravenous, and on seeing the object of its desire, it whitened』という身体観の説明、新婚の男女がこの言葉を交わす場面として提示されている使用例、および現代のナワ族末裔が挨拶で使う『pialli』（あなたを心に抱いている）という関連表現の記述を確認した。"
+status: fresh
+picked_for: "2026-10-03"
+resolution: null

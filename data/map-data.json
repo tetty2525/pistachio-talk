@@ -1753,6 +1753,30 @@
         "audacious_metaphor"
       ],
       "date": "2026-10-02"
+    },
+    {
+      "id": "lead-2026-10-03-hi-01",
+      "lat": 28.6,
+      "lng": 77.2,
+      "teaser_ja": "ある言語圏では、昔から月は涼やかで純粋な美の象徴とされ、特別に美しい人や子を『天体の欠片』と呼ぶ言い回しが詩にも日常にも根付いているという噂。湖がその欠片を洗おうとする、という詩的な一節も見つかったとか。",
+      "intrigue_tags": [
+        "moon",
+        "beauty",
+        "poetic_image"
+      ],
+      "date": "2026-10-03"
+    },
+    {
+      "id": "lead-2026-10-03-nah-01",
+      "lat": 19.4,
+      "lng": -99.1,
+      "teaser_ja": "ある言語圏の婚礼の場では、喜びを感じると心の色が変わるという古い身体観から生まれた言い回しが新郎新婦の間で交わされていたらしい。渇きが満たされる感覚にたとえる発想もあるとか。",
+      "intrigue_tags": [
+        "wedding",
+        "body_metaphor",
+        "happiness"
+      ],
+      "date": "2026-10-03"
     }
   ],
   "leadsOpen": [],
@@ -1835,7 +1859,7 @@
       "metaphor_potential_ja": "相手の瞳や身のこなしの美しさを「ガゼルのような」と讃える古典的な型として使える。単なる動物の比喩に留めず、「追い詰められた獣の断末魔の叫びがこの詩形の起源」という切迫感を重ねれば、狂おしいほどの恋慕や報われない想いを表す重厚な比喩にも展開できる。",
       "lat": 26,
       "lng": 30,
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ess-haenim-byeolnim",
@@ -2018,6 +2042,16 @@
       "isNew": false
     },
     {
+      "id": "ess-padauk-flower-myanmar",
+      "name_ja": "パダウクの花",
+      "category": "flora",
+      "culture_ja": "ミャンマー（ビルマ）文化、ティンジャン（新年水祭り）の伝統",
+      "metaphor_potential_ja": "「年に一度、祭りの時期にだけ一斉に咲く」という限定性を、ここでしか出会えない特別な縁や、巡ってくる機会のたとえとして使える。西洋の薔薇に対する「黄金色の花を贈る」という対の習慣そのものも、口説き文句の導入部として応用できる。",
+      "lat": 16.8,
+      "lng": 96.1,
+      "isNew": true
+    },
+    {
       "id": "ess-parevi-sandeshaya-dove-messenger",
       "name_ja": "鳩の使者詩（パレヴィ・サンデーシャヤ）",
       "category": "poetry",
@@ -2172,9 +2206,9 @@
     "languagesCovered": 2,
     "languagesTotal": 49,
     "phrases": 2,
-    "leadsFresh": 101,
+    "leadsFresh": 103,
     "leadsOpen": 0,
-    "essences": 41,
+    "essences": 42,
     "essencesNew": 3
   }
 }

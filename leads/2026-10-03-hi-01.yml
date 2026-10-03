@@ -1,0 +1,19 @@
+schema_version: 1
+id: lead-2026-10-03-hi-01
+date: "2026-10-03"
+scouted_by: claude-routine-hiroto
+language: hi
+country_region: [IN]
+map_anchor: { lat: 28.6, lng: 77.2 }
+teaser_ja: "ある言語圏では、昔から月は涼やかで純粋な美の象徴とされ、特別に美しい人や子を『天体の欠片』と呼ぶ言い回しが詩にも日常にも根付いているという噂。湖がその欠片を洗おうとする、という詩的な一節も見つかったとか。"
+intrigue_tags: [moon, beauty, poetic_image]
+candidate:
+  phrase_original: "चाँद का टुकड़ा (chāñd kā ṭukḍā)"
+  gloss_hint: "直訳は「月の欠片」。ヒンディー語・ウルドゥー語圏で、非常に美しく愛らしい人（恋人や我が子など）を形容する慣用句。月は古来、美しさと涼やかさの象徴とされ、『月のように純粋で優しく魅力的』という含みで使われる。詩人Mustafa Shahabの一節『ye aab-dida Thahar jae jhil ki surat / ki ek chand ka TukDa nahana chahta hai』（この澄んだ湖は静まる、月の欠片が一つ、水浴びをしたがっているから）のように、詩の中で美の対象を形容する比喩としても用いられる。"
+  kiza_elements: [metaphor, poetic_image]
+  sources:
+    - url: https://www.rekhtadictionary.com/meaning-of-chaand-kaa-tukdaa
+      note: "スカウトがfetch確認済み。原語表記『चाँद का टुकड़ा』（ヒンディー）・『چاند کا ٹُکْڑا』（ウルドゥー）、英語での意味説明『a very beautiful and handsome person (mostly a beloved or son)』、および詩人Mustafa Shahabによる使用例の couplet『ye aab-dida Thahar jae jhil ki surat / ki ek chand ka TukDa nahana chahta hai』を確認した。"
+status: fresh
+picked_for: "2026-10-03"
+resolution: null
